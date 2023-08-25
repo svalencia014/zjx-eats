@@ -1,0 +1,1081 @@
+;  FAC-ZBW-DATA.TXT   27 JUN 23
+
+ *METER_APT  KBOS  250  60  AUTUM LOBBY PROVI OOSHN CON ENE
+
+; 34 per hour didn't produce any significant delays
+;*METER_RWY  KBOS 04R   26
+
+;*METER_FIX  ZBW02  OOSHN
+;*METER_FIX  ZBW16  OOSHN
+; can't have 3 sectors using one fix yet *METER_FIX  ZBW18  OOSHN
+;*METER_FIX  ZBW19  PROVI 
+;*METER_FIX  ZBW34  PROVI
+;*METER_FIX  ZBW36  JFUND
+;*METER_FIX  ZBW36  BRONC
+;*METER_FIX  ZBW37  CON
+;*METER_FIX  ZBW38  JFUND
+;*METER_FIX  ZBW38  BRONC
+
+
+; Test - spread out traffic approaching ZBW 21 from the north.
+; Items have no effect if player is working 22.
+
+;         ISSUED                     MIN MAX  MIN  MAX    WITHIN
+;           BY   ORIG DEST CAT PROB   FL  FL TURN TURN MILES  OF FIX   REROUTE (from present position to) Comments
+;         ------ ---- ---- --- ----  --- --- ---- ---- ----- --------- ---------------------------------- -------------
+*REROUTE     22    *  KBDR  J   100   *   *     0   90     * *         ALB110007..ATHOS
+*REROUTE     22    *  KHPN  J   100   *   *     0   90    35 CAM       ALB110007..WIGAN
+*REROUTE     22    *  KHPN  J   100   *   *     0   90    15 ALB270022 ATHOS                              If initializes too close to ALB, will use ..ALB110007
+*REROUTE     22    *  KLGA  J   100   *   *     0   90     * *         ALB110007..STOTT                   Affects 21 for cruise altitudes AOB 230
+*REROUTE     22    *  KMMU  A   100   *   *     0   90     * *         ALB290007..AGNEZ
+*REROUTE     22    *  KMMU  J   100   *   *     0   90    15 PAYGE     AGNEZ
+*REROUTE     22    *  KSWF  A   100   *   *     0   90     * *         ALB110007..GROUP
+*REROUTE     22    *  KTEB  A   100   *   *     0   90     * *         ALB290007..AGNEZ
+
+; REROUTE with a single fix should produce the same result as AUTO_DRCT.
+
+
+;         ACTIVE
+;         SECTOR   FIX   FIX    CAT  MIT  COMMENTS
+;         ------  ----- ----- -----  ---  --------
+
+*ARR_MIT    05    FLOSI CRANK     A   17  EWR
+*ARR_MIT    05    CAMMO HUO       A   25  TEB MMU CDW N07
+*ARR_MIT    05    PETER CYPER     J   12  LGA
+*ARR_MIT    05    WEETS IGN       A   20  HPN
+*ARR_MIT    06    IGN   FLOSI     A   15  EWR
+*ARR_MIT    06    VALRE BASYE     A   12  LGA HPN
+*ARR_MIT    07    NELIE VALRE     J   12  LGA
+*ARR_MIT    07    IGN   FLOSI     J   15  EWR
+*ARR_MIT    07    SHIGY STELA     J   15  BDL
+*ARR_MIT    10    PONCT STOLI     J   10  BOS
+*ARR_MIT    10    QUINZ LUCIC     J   10  MHT
+*ARR_MIT    16    CDOGG KAYCC     J   20  PWM
+*ARR_MIT    16    SCOGS SAACO     J   20  PWM
+*ARR_MIT    16    OOSHN TTERI     J   16  BOS
+*ARR_MIT    19    FEXXX RUIZE     J   15  BOS
+*ARR_MIT    19    BELTT MAD       J   12  BDL
+*ARR_MIT    21    ALB   ACOVE     J   15  EWR
+*ARR_MIT    21    SHIGY STELA     J   15  BDL
+*ARR_MIT    21    WEARD CAMMO     J   18  TEB MMU
+*ARR_MIT    22    ALB   ACOVE     J   13  EWR
+*ARR_MIT    22    AGNEZ CYPER     A   18  TEB MMU CDW N07
+*ARR_MIT    22    PONEE WIPOR     J   15  PVD
+*ARR_MIT    22    QUINZ LUCIC     J   10  MHT
+*ARR_MIT    22    SHIGY STELA     J   15  BDL
+*ARR_MIT    22    STOTT PWL       J   20  LGA
+*ARR_MIT    24    RKA   SWEDE     J   25  BDL
+*ARR_MIT    24    PONCT STOLI     J   10  BOS
+*ARR_MIT    24    HNK   HELON     J   18  EWR
+*ARR_MIT    24    DNY   WEETS     J   30  HPN
+*ARR_MIT    24    PETER CYPER     J   20  LGA
+*ARR_MIT    24    QUINZ LUCIC     J   10  MHT
+*ARR_MIT    24    HARVA CORLE     J   30  PHL
+*ARR_MIT    31    TRAIT PARCH     J   15  JFK
+*ARR_MIT    31    SEY   PARCH     J   15  JFK
+*ARR_MIT    32    DPK   SOUND     J   20  HPN
+*ARR_MIT    32    DUNEE SARDI     A   15  ISP OXC
+*ARR_MIT    32    CCC   ROBER     J   20  JFK
+*ARR_MIT    34    ROBUC PROVI     J   15  BOS
+*ARR_MIT    36    JFUND AUTUM     J   16  BOS
+*ARR_MIT    36    ROZZE NUUKM     J   15  MHT
+*ARR_MIT    38    MNSTA SEETS     J   10  BOS
+*ARR_MIT    38    PONEE NELIE     J   15  PVD
+*ARR_MIT    39    ALB   ACOVE     J   15  EWR
+*ARR_MIT    46    TRAIT PARCH     J    7  JFK
+*ARR_MIT    47    IGN   FLOSI     J   10  EWR
+*ARR_MIT    47    WIPOR ORW       J   15  PVD
+
+;                       from
+;          REF         FacSec             COMMENTS
+;          ---          -----             --------
+*DEP_MIT    05    NEELY N905H     A   25   SWF
+*DEP_MIT    07    VEERS Y901A     J   15   BDL
+*DEP_MIT    07    CTR   Y901A     J   15   BDL
+*DEP_MIT    18    SSOXS A901A     J   12   BOS
+*DEP_MIT    19    BAYYS N905E     T   25   TEB MMU
+*DEP_MIT    19    GREKI N905E     J   12   NY 
+*DEP_MIT    19    MERIT N905E     J   12   NY 
+*DEP_MIT    19    BAYYS N905E     J   12   NY 
+*DEP_MIT    32    BETTE N902J     J   12   JFK
+*DEP_MIT    32    HAPIE N902J     J   12   JFK
+*DEP_MIT    34    HFD   Y901A     J   25   BDL
+*DEP_MIT    37    HYLND A901A     J   12   BOS
+*DEP_MIT    47    PATSS A901A     J   12   BOS
+*DEP_MIT    47    BLZZR A901A     J   12   BOS GHG
+*DEP_MIT    47    REVSS A901A     J   12   BOS BED
+
+
+;              REF  DEST   CAT     FIX      FL
+;              ---  ---- -----  ---------  -----
+*ARR_FL         05  KHPN     J  HELON      *130
+*ARR_FL         05  KPOU     J  FILPS      *70
+*ARR_FL         05  KSWF     J  FILPS      *70
+*ARR_FL         05  KSWF     P  FILPS      *70
+*ARR_FL         05  44N      J  FILPS      *70
+*ARR_FL         06  KALB     A  BOWAN      *110
+*ARR_FL         06  KBDL     A  MOONI      *90
+*ARR_FL         06  KSWF     A  TRESA      *60
+*ARR_FL         06  KBDR     A  LOVES      *60
+*ARR_FL         06  KFRG     P  LOVES      *60
+*ARR_FL         06  KJFK     P  LOVES      *60
+*ARR_FL         06  KJPX     A  LOVES      *60
+*ARR_FL   Y901A-06  7B6      A  VEERS      *90
+*ARR_FL         07  KORH     A  STELA      *110
+*ARR_FL         07  KTEB     J  MOBBS      *140
+*ARR_FL         09  CYYZ     J  GONZZ      *320
+*ARR_FL         09  KIAD     J  SYR        *300
+*ARR_FL         10  CYYZ     J  AUDIL      *320
+*ARR_FL         10  KBTP     J  HNK        *280
+*ARR_FL         10  KLBE     J  HNK        *280
+*ARR_FL_EXT     16  KACK     J  LFV        *110
+*ARR_FL_EXT     16  KMVY     J  LFV        *110
+*ARR_FL         16  KPSM     J  WEEZE      *110
+*ARR_FL_EXT     17  KEWR     J  COPLY      *280
+*ARR_FL         18  KHYA     A  FLAPE      *110
+*ARR_INFO       19  KBED     J  HFD        *130
+*ARR_FL         19  5B2      A  BRISS      *150
+*ARR_FL         20  KBWI     A  FARLE      *340
+*ARR_FL         21  KBDR     T  ATHOS      *110
+*ARR_FL         21  KBDR     P  ATHOS      *110
+; 110?
+*ARR_FL         21  KHPN     J  WIGAN      *120
+*ARR_FL         21  KJPX     A  AGNEZ      *150
+*ARR_FL         21  KMMU     J  AGNEZ      *140
+*ARR_FL         21  KSWF     T  ATHOS      *110
+*ARR_FL         21  KTEB     J  AGNEZ      *140
+*ARR_FL         21  KTEB     J  WIGAN      *140
+*ARR_FL         21  KMMU     J  WIGAN      *140
+*ARR_FL         22  KMMU     J  ALB290007  *140
+*ARR_FL         22  KTEB     J  ALB290007  *140
+*ARR_FL         22  KGON     A  PONEE      *190
+*ARR_FL         22  KMMU     J  ALB        *160
+*ARR_FL_EXT     22  KJPX     A  TOMES      *190
+*ARR_FL         22  KSWF     J  ALB        *180
+*ARR_FL         22  KSWF     T  GROUP      *140
+*ARR_FL         22  KTEB     J  ALB        *160
+*ARR_FL         23  KBDL     T  SWEDE      *170
+*ARR_FL         23  KPOU     A  DNY        *110
+*ARR_FL         23  KSWF     A  DNY        *110
+*ARR_FL         23  44N      A  DNY        *110
+*ARR_FL         23  KTEB     J  HNK        *170
+*ARR_FL         24  KABE     J  HNK        *190
+*ARR_INFO       24  KBDL     T  SWEDE      *170
+*ARR_FL         24  KGAI     T  HARVA      *190
+*ARR_FL         24  KORH     A  SWEDE      *230
+*ARR_INFO       24  KTEB     J  HNK        *170
+*ARR_FL         31  KACY     J  DUNEE      *200
+*ARR_FL_EXT     31  KIAD     J  CREEL      *300
+*ARR_FL         31  KORH     J  HEADI      *370
+*ARR_FL         31  KORH     J  CCC        *200
+*ARR_FL         31  KPHL     J  DUNEE      *200
+*ARR_FL         32  KJPX     A  SARDI      *70
+*ARR_FL         32  KHVN     J  RICED      *70
+*ARR_FL         32  KMQS     T  DUNEE      *160
+*ARR_FL         32  KOXC     J  RICED      *70
+*ARR_FL         32  KPYM     J  JORDN      *110
+*ARR_FL         34  KOWD     T  JEWIT      *110
+*ARR_FL_EXT     34  KBED     A  BLATT      *110
+*ARR_FL_EXT     34  KBED     A  PAISN      *110
+*ARR_FL_EXT     34  KBVY     A  BLATT      *110
+*ARR_FL_EXT     34  KBVY     A  PAISN      *110
+*ARR_FL         36  KBED     A  BRONC      *60
+*ARR_FL         36  KOWD     P  BRONC      *70
+*ARR_FL         37  KBVY     J  CON        *110
+*ARR_FL         37  KPSM     J  CON        *110
+*ARR_INFO       37  KPWM     A  CDOGG      *110
+*ARR_FL         46  KEWR     J  BOS        *240
+*ARR_FL         46  KHPN     J  BOS        *240
+*ARR_FL         47  KHPN     J  NELIE      *140
+*ARR_FL         47  KLGA     J  NELIE      *160
+*ARR_FL_EXT     47  KJPX     A  WIPOR      *110
+*ARR_FL_EXT     47  KOQU     J  WIPOR      *110
+; 150 into 16
+*ARR_FL         47  KPSM     J  BOS        *150
+*ARR_FL      ZNY34  KGFL     J  CFB        *240
+*ARR_FL      ZNY34  KJPX     J  CFB        *370
+*ARR_FL_EXT  ZNY51  KVGC     J  HNK        *150
+*ARR_FL      ZNY56  KALB     A  LLUND      *240
+*ARR_FL      ZNY56  KBED     J  DPK        *230
+*ARR_FL      ZNY56  KPVD     J  CREEL      *270
+*ARR_FL      ZNY66  KACY     J  HARBO      *80
+*ARR_FL_EXT  ZNY66  KHPN     A  DUNEE      *110
+*ARR_FL_EXT  ZNY66  KHVN     J  DUNEE      *110
+*ARR_FL_EXT  ZNY66  KFOK     J  DUNEE      *90
+*ARR_FL_EXT  ZNY66  KFRG     J  DUNEE      *90
+*ARR_FL_EXT  ZNY66  KJPX     A  DUNEE      *90
+*ARR_FL_EXT  ZNY66  KISP     J  DUNEE      *90
+*ARR_FL_EXT  ZNY66  KOXC     J  DUNEE      *110
+*ARR_FL      ZNY66  KTTN     J  MANTA      *100
+*ARR_FL_EXT  ZNY66  KWST     J  DUNEE      *110
+*ARR_FL      ZDC59  KFOK     J  BRIGS      *210
+*ARR_FL      ZDC59  KISP     J  BRIGS      *210
+*ARR_FL      ZDC59  KJPX     J  BRIGS      *210
+*ARR_FL      ZDC59  KPVD     J  TOPRR      *370
+*ARR_FL      ALB1A  KSCH     A  CANAN      *100
+*ARR_FL      AVP1A  KABE     J  LAAYK      *100
+*ARR_FL      A901M  KBOS     T  PSM        *90
+*ARR_FL      A901M  KBED     T  PSM        *70
+*ARR_FL      A901M  KGHG     J  BASUU      *50
+*ARR_FL      N903B  KJPX     A  BEADS      *40
+*ARR_FL      N903B  KWST     J  HTO        *50
+*ARR_FL      PVD1A  KFOK     A  SEY        *100
+*ARR_FL      PVD1A  KMVY     A  MINNK      *90
+*ARR_FL      PVD1A  KOWD     T  WOONS      *50
+*ARR_FL      PVD1A  KSFZ     J  WACKY      *70
+
+
+;        ISSUED
+;          BY[-INFO]   DEST  CAT    RESTRICTION      COMMENTS
+;        -----------   ---- -----  -------------     --------
+*ARR_FL           05   KBDR     T  X15NW.IGN@110
+*ARR_FL           05   KBDR     T  X35NW.LOVES@110
+*ARR_FL           05   KEWR     J  X15NE.SHAFF@70
+*ARR_FL           05   KTEB     J  X15NE.LEMOR@70
+*ARR_FL           06   KHPN     J  X7N.VALRE@70
+*ARR_FL           06   KSCH     A  X5S.BOWAN@110
+*ARR_FL           07   KLGA     J  X35E.VALRE@140
+*ARR_FL           07   KHPN     J  X35E.VALRE@120
+*ARR_FL           07   5B2      A  X70S.5B2@110
+*ARR_FL           08   KALB     T  X40N.KALB@110
+*ARR_FL           08   KBDL     J  X80NW.STELA@230
+*ARR_FL           08   KBDL     J  X40NW.ALB@230
+*ARR_FL           08   KBTV     J  X20W.LAGGS@190
+*ARR_FL           08   KBTV     J  X70SW.KBTV@190
+*ARR_FL           08   KBTV     J  X65SW.BTV@190
+*ARR_FL           08   KBUF     A  X60E.ROC@240
+*ARR_FL           08   KPBG     J  X70SW.KPBG@190
+; above 23
+*ARR_FL           08   KROC     A  X55E.KROC@180
+*ARR_FL           08   CYOW     J  X30S.CYRIL@190
+*ARR_FL           09   CYUL     J  X15SW.DAVDA@280
+*ARR_FL           09   CYYZ     J  X90E.WOZEE@320
+*ARR_FL           09   KBED     J  X75NW.EEGUL@310
+*ARR_INFO         09   KBTV     J  X65W.BTV@190
+*ARR_INFO         09   KBUF     A  X60E.ROC@240
+*ARR_FL           10   KALB     J  X90W.KALB@280
+*ARR_FL           10   KBED     J  X65W.EEGUL@310
+*ARR_FL           10   KBED     J  X130W.LOBBY@290
+*ARR_FL           10   KFOK     A  X70W.PONEE@290
+*ARR_FL           10   KHPN     J  X40NW.DNY@280
+*ARR_FL           10   KJPX     J  X50W.PONEE@290
+*ARR_FL           10   KJFK     J  X40NW.IGN@280
+*ARR_FL           10   KJFK     J  X30NW.YODAA@280
+*ARR_FL           10   KLCI     J  X150W.KLCI@290
+*ARR_FL           10   KLEB     J  X125W.KLEB@290
+*ARR_FL           10   KMHT     J  X40W.PONCT@290
+*ARR_FL           10   KPVD     J  X55W.PONEE@290
+*ARR_FL           16   KACK     J  X15NE.LFV@110
+*ARR_FL           16   KBOS     T  X15NE.PSM@110
+*ARR_FL           16   KHYA     J  X50N.LFV@210
+*ARR_FL           16   KHYA     J  X10N.LFV@110
+*ARR_FL           16   KPWM     A  X35SW.SCOGS@200
+*ARR_FL           17   KEWR     J  X25E.BOS@280
+*ARR_FL           17   KHPN     J  X25E.BOS@280
+*ARR_FL           18   KFOK     A  X10E.SEY@110
+*ARR_FL           18   KPHL     A  X110E.MANTA@300   some 280
+*ARR_FL           18   KPHL     A  X60E.SARDI@280
+*ARR_FL           18   KPHL     A  X40E.HTO@280
+*ARR_FL           19   KALB     A  X30SW.TRUDE@230
+; for ..BOWAN
+*ARR_FL           19   KALB     J  X35S.BOWAN@180
+*ARR_FL           19   KBOS     J  X35W.RUIZE@230
+*ARR_FL     N905E-19   KPOU     A  X25S.PWL@110
+*ARR_FL     N905E-19   KSWF     A  X25S.PWL@110
+*ARR_FL           20   KIAD     J  X15NE.KEAVR@360
+*ARR_FL           20   KIAD     J  X45NE.BOTLS@360
+*ARR_FL           20   KMHT     J  X35S.SMYTH@290
+*ARR_FL           21   KBDR     J  X20N.PWL@120
+*ARR_FL           21   KHPN     J  X25N.IGN@120
+*ARR_FL           21   KJFK     P  X20N.PWL@120
+*ARR_FL           21   KSWF     J  X5N.WIGAN@110
+*ARR_FL           22   KEWR     J  X15N.ALB@200
+*ARR_FL           22   KEWR     J  X15NE.ALB@200
+*ARR_FL           22   KFIT     A  X45W.GDM@190
+*ARR_FL           22   KHPN     T  X30N.WIGAN@140
+*ARR_FL           22   KLCI     J  X85W.KLCI@190
+*ARR_FL           22   KLGA     J  X20N.PWL@180
+*ARR_FL           22   KMHT     A  X30NW.FLYZZ@190
+*ARR_FL           22   KMMU     J  X15N.ALB@180
+*ARR_FL           22   KMMU     J  X15NE.ALB@180
+*ARR_FL           22   KMMU     J  X30NE.AGNEZ@140
+*ARR_FL           22   KPSM     A  X75SW.CON@190
+*ARR_FL           22   KSYR     J  X75E.KSYR@180
+*ARR_FL           22   KSYR     J  X30E.UCA@180
+*ARR_FL           22   KTEB     J  X15N.ALB@180
+*ARR_FL           22   KTEB     J  X15NE.ALB@180
+*ARR_FL           22   KTEB     J  X30NE.AGNEZ@140
+*ARR_FL           23   KALB     J  X35W.KALB@110
+*ARR_FL           23   KALB     J  X40SW.KALB@110
+*ARR_FL           23   KALB     T  X40SW.KALB@90
+*ARR_FL           23   KAVP     A  X35NE.LAAYK@140
+*ARR_FL           23   KPHL     T  X35NE.LAAYK@160
+*ARR_FL           23   KPHL     P  X35NE.LAAYK@160
+*ARR_FL           24   KABE     J  X35NE.LAAYK@190
+*ARR_FL           24   KALB     J  X60W.KALB@180
+*ARR_FL           24   KGAI     T  X35NE.LAAYK@190
+*ARR_FL           24   KILG     J  X35NE.LAAYK@190
+*ARR_FL           24   KLNS     J  X35NE.LAAYK@190
+*ARR_FL           24   KMDT     J  X35NE.LAAYK@190
+*ARR_FL           24   KMQS     J  X35NE.LAAYK@190
+*ARR_FL           24   KPHL     J  X20N.CFB@190
+*ARR_FL           24   KPNE     J  X35NE.LAAYK@190
+*ARR_FL           24   KTTN     J  X35NE.LAAYK@190
+*ARR_FL           31   KACY     J  X35NE.MANTA@200
+*ARR_FL           31   KBED     J  X30SW.ORW@200
+*ARR_FL           31   KIAD     J  X50E.RBV@300
+*ARR_FL           31   KORH     J  X50SW.ORW@200
+*ARR_FL           31   KPHL     J  X10NE.SHERL@200
+*ARR_FL           31   KPHL     J  X40NE.MANTA@200
+*ARR_FL           31   KPHL     J  X40E.MANTA@200
+*ARR_FL           31   KPHL     J  X75NE.BRIGS@200
+*ARR_FL           31   KPSM     J  X50SW.FOXWD@290
+*ARR_FL           32   KBDL     J  X10S.MAD@120
+*ARR_FL           32   KJFK     J  X12NE.ROBER@120
+*ARR_FL           32   KLGA     J  X35S.HOFFI@150
+*ARR_FL           32   KMQS     T  X40NE.MANTA@160
+*ARR_FL           32   KORH     J  X30SW.ORW@170
+*ARR_FL           32   KORH     J  X20S.ORW@170
+*ARR_FL           32   KOWD     T  X25S.ORW@170
+*ARR_FL           32   KTTN     J  X35NE.MANTA@160
+*ARR_FL           32   KTTN     J  X10NE.SHERL@160
+*ARR_FL           34   KACK     J  X40NW.DEEPO@170
+*ARR_FL           34   KORH     J  X25S.GRAYM@110
+*ARR_FL           36   KASH     A  X20W.KASH@50
+*ARR_FL           36   KBDL     J  X35NE.KBDL@100
+*ARR_FL           36   KBDL     T  X35NE.KBDL@100
+*ARR_FL           36   KBOS     J  X45W.LOBBY@190
+*ARR_FL           36   KBED     A  X10W.LOBBY@60
+*ARR_FL           36   KCEF     J  X15N.KCEF@50
+*ARR_FL           37   KBDL     J  X25NE.EEN@180
+*ARR_FL           38   KITH     J  X90E.KITH@240
+*ARR_FL           38   KJFK     J  X25N.IGN@280
+*ARR_FL           38   KJFK     J  X25NE.IGN@280
+*ARR_FL           38   KLNS     J  X30E.DNY@260
+*ARR_FL           38   KMDT     J  X30E.DNY@260
+*ARR_FL           38   KMHT     J  X20SW.QUINZ@240
+*ARR_FL           38   KMQS     J  X30NE.DNY@260
+*ARR_FL           38   KPVD     J  X15W.PONEE@240
+*ARR_FL           38   KPHL     J  X30NE.DNY@260
+*ARR_FL           38   KPNE     J  X30NE.DNY@260
+*ARR_FL           39   KACK     J  X25W.ENE@310
+*ARR_FL           39   KEWR     J  X30N.ALB@240
+*ARR_FL           39   KEWR     J  X30NE.ALB@240
+*ARR_FL           39   KHPN     J  X30N.ALB@240
+*ARR_FL           39   KHYA     J  X25W.ENE@310
+*ARR_FL           39   KMMU     J  X75NE.AGNEZ@240
+*ARR_FL           39   KMMU     J  X35N.ALB@240
+*ARR_FL           39   KMMU     J  X35NE.ALB@240
+*ARR_FL           39   KMVY     J  X25W.ENE@310
+*ARR_FL           39   KSWF     J  X30N.ALB@240
+*ARR_FL           39   KSWF     J  X80N.TRESA@240
+*ARR_FL           39   KTEB     J  X75NE.AGNEZ@240
+*ARR_FL           39   KTEB     J  X35N.ALB@240
+*ARR_FL           39   KTEB     J  X35NE.ALB@240
+*ARR_FL           46   KPHL     A  X100NE.MANTA@300   some 320
+*ARR_FL           46   KPHL     A  X35NE.RIFLE@300
+*ARR_FL           46   KPWM     A  X15SW.SHAUN@240
+*ARR_FL           47   KEWR     J  X60E.NELIE@200
+*ARR_FL           47   KEWR     J  X15E.BAF@160
+*ARR_FL           47   KGON     A  X45NW.KGON@180
+*ARR_FL           47   KGON     A  X30NW.KGON@110
+*ARR_FL           47   KHPN     J  X60E.NELIE@200
+*ARR_FL           47   KHPN     J  X15E.BAF@160
+*ARR_FL           47   KISP     J  X15N.ORW@110
+*ARR_FL           47   KTEB     J  X15E.BAF@160
+*ARR_FL           47   KTEB     J  X30E.MOBBS@160
+*ARR_FL           52   KBTV     J  X60S.KBTV@230
+*ARR_FL           53   KEWR     J  X60N.ALB@320
+*ARR_FL           53   KEWR     J  X60NE.ALB@320
+*ARR_FL           53   KEWR     J  X30N.HANAA@320
+*ARR_FL           53   KEWR     J  X30NE.HANAA@320
+*ARR_FL           53   KHPN     J  X60N.ALB@280
+*ARR_FL           53   KMMU     J  X60N.ALB@280
+*ARR_FL           53   KMMU     J  X60NE.ALB@280
+*ARR_FL           53   KMMU     J  X30N.HANAA@280
+*ARR_FL           53   KMMU     J  X30NE.HANAA@280
+*ARR_FL           53   KTEB     J  X60N.ALB@280
+*ARR_FL           53   KTEB     J  X60NE.ALB@280
+*ARR_FL           53   KTEB     J  X30N.HANAA@280
+*ARR_FL           53   KTEB     J  X30NE.HANAA@280
+*ARR_FL        A901M   KSFM     J  X40W.KSFM@100
+*ARR_FL        ALB1A   KSCH     A  X20S.VEYCU@100
+*ARR_FL        ALB1A   5B2      A  X30S.5B2@60
+*ARR_FL        Y901A   KORE     A  X15S.KORE@50
+*ARR_FL        Y901A   0B5      A  X15S.0B5@50
+*ARR_FL        N905H   KPOU     A  X20NW.IGN@50
+*ARR_FL        N905H   KPOU     A  X20NW.KPOU@50
+*ARR_FL        N905H   KSWF     A  X20N.KSWF@50
+*ARR_FL        N905H   KSWF     A  X20NE.KSWF@50
+*ARR_FL        N905H   KSWF     A  X20NW.MOLNE@50
+*ARR_FL        N905H   KSWF     A  X15NW.GOKRE@50
+*ARR_FL        N905H   44N      A  X20NW.44N@50
+*ARR_FL        PVD1A   KJPX     A  X15N.JORDN@60
+*ARR_FL        PVD1A   KPYM     A  X5NW.MINNK@90
+*ARR_FL        PVD1A   KPYM     A  X20SW.MINNK@90
+*ARR_FL        ZDC59   KBED     J  X130SW.ORW@370
+*ARR_FL        ZDC59   KPVD     J  X90SW.HTO@370
+*ARR_FL        ZOB31   KEWR     J  X80NW.HNK@270
+*ARR_FL        ZOB31   KEWR     J  X10NW.EXTOL@270
+*ARR_FL        ZOB31   KSWF     J  X15W.ITH@270
+*ARR_FL        ZOB37   KALB     J  X135W.KALB@290
+*ARR_FL        ZOB37   KPOU     J  X15W.ITH@290
+*ARR_FL        ZOB37   KOGS     J  X40W.BRUIN@290
+*ARR_FL        ZOB37   KOGS     J  X10SW.EXTOL@310
+*ARR_FL        ZOB39   CYUL     J  X90S.ART@370
+*ARR_FL        ZOB39   KHPN     J  X15W.ITH@330
+*ARR_FL        ZNY34   CYYZ     J  X100SE.WOZEE@340
+*ARR_FL        ZNY34   CYYZ     J  X25SE.VIEEW@340
+*ARR_FL        ZNY34   KBDL     J  X10SW.HNK@270
+*ARR_FL        ZNY34   KHPN     J  X35W.DNY@240
+*ARR_FL        ZNY34   KOGS     J  X100S.ART@270
+*ARR_FL        ZNY34   KPSF     A  X120W.KPSF@240
+*ARR_FL        ZNY34   KPSF     A  X20W.HNK@240
+*ARR_FL        ZNY51   N66      A  X40SW.N66@150
+*ARR_FL        ZNY56   KALB     A  X40SW.TRUDE@240
+*ARR_FL        ZNY56   KPVD     J  X60W.HTO@270
+*ARR_FL        ZNY65   KBOS     J  X80SW.FERNZ@280
+*ARR_FL        ZNY65   KBOS     J  X65S.FERNZ@280
+*ARR_FL        ZNY65   KBOS     J  X130SE.OOSHN@280
+*ARR_FL        ZNY65   KBOS     J  X110S.OOSHN@280
+*ARR_FL        ZNY65   KBOS     J  X40S.ACK@280
+*ARR_FL        ZNY65   KBOS     J  X40SE.ACK@280
+*ARR_FL        ZNY65   KBOS     J  X60S.FERNZ@280
+*ARR_FL        ZNY65   KBOS     J  X10SE.BOATE@280
+*ARR_FL        ZNY65   KBOS     J  X100SE.FERNZ@280
+*ARR_FL        ZNY66   KGON     A  X25SW.RICED@110
+*ARR_FL        ZNY66   KFOK     A  X20SW.SARDI@90
+*ARR_FL        ZNY66   KHPN     A  X25SW.RICED@110
+*ARR_FL        ZNY66   KHVN     A  X25SW.RICED@110
+*ARR_FL        ZNY66   KISP     J  X20S.SARDI@90
+*ARR_FL        ZNY86   KBDL     J  X75S.MAD@240
+*ARR_FL        ZNY86   KBOS     J  X45S.HTO@280
+*ARR_FL     32-ZNY86   KFRG     J  X50S.CCC@110
+*ARR_FL        ZNY86   KHPN     J  X50S.HOFFI@150
+*ARR_FL        ZNY86   KIAD     J  X75E.RBV@300
+*ARR_FL        ZNY86   KISP     J  X60S.CCC@110
+*ARR_FL        ZNY86   KORH     J  X100S.PUT@280
+*ARR_FL        ZNY86   KPVD     J  X45S.HTO@280
+*ARR_FL        ZYZBA   KSWF     J  X20NW.ART@270
+
+;          ISSUED   TO
+;            BY   SECTOR  DEST  CAT     PD
+;          ------ ------  ---- -----   -----
+*ARR_PD    ZBW17  ZBW16   KBOS     J   *200
+*ARR_PD    ZBW18  ZBW16   KBOS     J   *170
+*ARR_PD    ZNY65  ZBW17   KBOS     J   *280
+*ARR_PD    ZQMFC  ZBW15   KBGR     J   *200
+*ARR_PD    ZQMFY  ZBW15   KBGR     J   *200
+
+;                           vvv use J/T/P/A
+;          ISSUED                               MIN MAX  MIN  MAX WITHIN
+;            BY   ORIG DEST CAT  DRCT TO  PROB   FL  FL TURN TURN MILES  OF
+;          ------ ---- ---- --- --------- ----  --- --- ---- ---- ----- ----
+*AUTO_DRCT    02    *  KJFK  J    ASPEN     90   *   *     5   90     * *
+*AUTO_DRCT    10    *  KPVD  J    PONEE     50   *   *     0   90    25 MEMMS
+*AUTO_DRCT    10    *  KPVD  J    HINGZ     95   *   *     0   90    25 MEMMS
+*AUTO_DRCT    18    *    *   J    BRADD     90   *   *     5   90     * *
+*AUTO_DRCT    18    *    *   J    KANNI     90   *   *     5   90     * *
+*AUTO_DRCT    18    *    *   J    WHALE     90   *   *     5   90     * *
+*AUTO_DRCT    24    *  KACK  J    PONEE    100   *   *     0   90    25 DNY
+*AUTO_DRCT    31    *  KBGR  J    KBGR     100   *   *     0   90    50 ENE
+*AUTO_DRCT    31    *  KBGR  J    KBGR     100   *   *     0   90    25 WAVEY
+*AUTO_DRCT    31    *  KBGR  J    KBGR     100   *   *     0   90    25 ORW
+*AUTO_DRCT    36  KEEN   *   A    ALB      100   50  *     0  180     * *  
+*AUTO_DRCT    36    *  KLNS  P    LAAYK    100   *  100    0   90     * *  
+*AUTO_DRCT    37    *  KLEB  A    JAMMA    100   *   *     0   90     * *  
+*AUTO_DRCT    38    *  KBGR  J    KBGR      50  290  *     0   90    20 MARTN
+*AUTO_DRCT    39    *  KJFK  J    IGN       80   *   *     0   90    50 ALB
+*AUTO_DRCT    46    *    *   J    ALLEX     90   *   *     5   90     * *
+*AUTO_DRCT    46    *  KIAD  J    BIGGO     90   *   *     5   90     * *
+*AUTO_DRCT    46  KEWR   *   J    BRADD     90  290  *     5   90    30 PUT
+*AUTO_DRCT    46    *    *   J    BRADD     90   *   *     5   90    30 PUT
+*AUTO_DRCT    46  KBOS   *   J    CMK       90  280  *     5   90    40 NELIE
+*AUTO_DRCT    46    *    *   J    CMK       90   *   *     5   90    40 NELIE
+*AUTO_DRCT    46    *    *   J    EBONY     90   *   *     5   90     * *
+*AUTO_DRCT    46  KEWR   *   J    KANNI     90  290  *     5   90    30 PUT
+*AUTO_DRCT    46    *    *   J    MIILS     90   *   *     5   90     * *
+*AUTO_DRCT    46    *  KJFK  J    TRAIT     90   *   *     5   90    75 TRAIT
+*AUTO_DRCT    46  KBOS   *   J    TRIBS     90  280  *     5   90     * *
+*AUTO_DRCT    46    *    *   J    QUBIS     90   *   *     5   90     * *
+*AUTO_DRCT    46    *    *   J    TAFFY     90   *   *     5   90     * *
+*AUTO_DRCT    46    *    *   J    TOPPS     90   *   *     5   90     * *
+*AUTO_DRCT    46    *    *   J    TUSKY     90   *   *     5   90     * *
+*AUTO_DRCT    46  KEWR   *   J    VITOL     95  290  *     5   90    45 PUT
+*AUTO_DRCT    46  KEWR   *   J    WHALE     90  290  *     5   90    30 PUT
+*AUTO_DRCT    46  KTEB   *   J    VITOL     95  290  *     5   90    45 PUT
+*AUTO_DRCT    52  KPQI KEWR  J    HANAA     50   *   *     0   90     * *
+*AUTO_DRCT    02    *  KMPV  A    VUYUD    100   *   *     0   90     * *
+*AUTO_DRCT    53    *  KJFK  J    IGN       70   *   *     0   90    50 BTV
+*AUTO_DRCT BTV1A    *  KMVL  A    MEQDI    100   *   *     0   90     * *
+*AUTO_DRCT Y901A    *  KLNS  P    LAAYK    100   *  100    0   90     * *  
+
+;         ISSUED                     MIN MAX  MIN  MAX    WITHIN
+;           BY   ORIG DEST CAT PROB   FL  FL TURN TURN MILES  OF FIX   REROUTE (from present position to) Comments
+;         ------ ---- ---- --- ----  --- --- ---- ---- ----- --------- ---------------------------------- -------------
+*REROUTE     18    *  KPHL  J    90  240  *     0   90    65 LIBBE     MANTA                              not from area below FL230
+*REROUTE     19    *  KPOU  J   100   *   *     0   90     5 BELTT     PWL
+*REROUTE     19    *  KSWF  J   100   *   *     0   90     5 BELTT     PWL
+*REROUTE     46    *  KPHL  J    90   *   *     0   90    57 HFD       MANTA
+
+
+;          ISSUED             WITHIN      FINAL  (from present position to) 
+;            BY    DEST  CAT  MILES  OF   COURSE     FIX.APCH.DEST        allows multiple
+;          ------  ----  ---  ----- ----  -------------------------------------------------------------
+*WIND_ARR   A901M  KMHT   A      *   *    172 ORDIE..KMHT          352 MNTIN..KMHT
+*WIND_ARR   BGR1A  KBGR   A      *   *    150 UMAIN.ILSY15.KBGR    330 CUVOT.ILS33.KBGR
+*WIND_ARR   BTV1A  KBTV   A      *   *    146 FOVES.ILS15.KBTV     326 EHIKO.ILS33.KBTV
+*WIND_ARR   ELM1A  KITH   A      *   *    145 STATN.RNAVZ14.KITH   325 VRNAH.ILS32.KITH
+*WIND_ARR   PWM1A  KPWM   A      *   *    110 BUXTO.ILS11.KPWM     290 SAPPE.ILS29.KPWM
+*WIND_ARR   SYR1S  KSYR   A      *   *    100 SOLVA.ILS10.KSYR     280 ZIMBI.ILS28.KSYR
+
+*TOWER   KLEB/60
+
+;                                      Antenna     show rings
+;            ID        Position          Base      from -- to
+*RADAR_SITE  QHB   N4446.90/W07303.94    1311      3000  5000   RMK: ST. ALBANS, VT
+*RADAR_SITE  TPH   N4320.73/W07514.94    1793      3000  5000   RMK: REMSEN, NY
+
+;                           Top  Bottom         Active        Within
+;              Position     Alt   Alt   Radius  Sectors    @  Sectors
+*RADAR_HOLE  N4438/W07435   4000  3000    40    08 52      @  08 52          RMK: MSS
+*RADAR_HOLE  N4421/W07135   5000  3000    38    08 52      @  08 52          RMK: HIE
+
+
+; SEC 18
+*SEC_LOW_LINES
+N4205.00/W06930.00  N4146.50/W06930.00  N4139.00/W06930.00
+*END
+
+*SEC_LOW_LINES
+N4111.75/W07329.50  N4128.25/W07309.67  N4133.67/W07257.00
+*END
+
+; 05 ~CRANK
+*SEC_LOW_LINES
+N4127.60/W07431.50  N4124.50/W07429.20  N4122.50/W07425.90
+N4117.90/W07417.20
+*END
+
+; BRONC
+*APCH_LINES
+N4227.00/W07150.00  N4232.75/W07152.10  N4241.00/W07115.00
+*END
+
+; BRONC
+*APCH_LINES
+N4244.00/W07153.50  N4238.00/W07154.00  N4232.75/W07152.10
+N4242.90/W07136.60
+*END
+
+; GFL
+*APCH_LINES
+N4322.00/W07350.00  N4332.00/W07346.00  N4331.00/W07329.00
+N4320.00/W07325.00
+*END
+
+; BELTT
+*APCH_LINES
+N4057.90/W07304.80  N4059.66/W07300.76  N4106.40/W07245.20
+*END
+
+; BDR
+*SEC_LOW_LINES
+N4104.70/W07308.70  N4111.00/W07259.75  N4117.45/W07250.50
+*END
+
+; JOODY
+*APCH_LINES
+N4142.50/W07109.50  N4145.75/W07127.00  N4150.00/W07123.50
+*END
+
+
+*MAP 01
+*MAP_XN
+DANOL KJOHN MIILS QUBIS TAFFY
+*END
+*MAP_AW
+J49
+Q29 Q97 Q439 Q806 Q907 Q913 Q951
+*END
+*ZOOM  PQI PQI240020 80
+*SHOW_NDB
+;----------------------------------------------------------
+
+*MAP 02
+*MAP_XN
+ASPEN EURRO LBSTA NIKKO OOSHN SUFFI
+*END
+*MAP_AW
+J49
+Q29 Q97 Q439 Q475 Q480 Q806 Q822 Q913 Q951
+*END
+*ZOOM  BGR BGR200020 80
+*SHOW_PROC  KBOS-OOSHN0
+;----------------------------------------------------------
+
+*MAP 05
+*MAP_XN
+CORDS ETUGE GOKRE MOLNE STOMP
+*END
+*MAP_AW
+T212 T216 T218 T291 T295
+V34 V36 V123 V157 V167 V213 V249 V252 V270 V273 V292
+V433 V483 V374 V433 V489
+*END
+*RINGS SAX 010 030  20 40 10
+*RINGS SAX 011 025  50 70 10
+*ZOOM  CRANK CRANK 25  WEETS WEETS 25
+*LIBRARY KCDW-RV1 KHPN-VALRE0 KHPN-NOBBI0 KLGA-HAARP0 KMMU-RV1 KTEB-RV1 N07-RV1
+*SHOW_PROC  KEWR-FLOSI0
+*WX KSWF KMSV
+*NOTES Often with 06
+;----------------------------------------------------------
+
+*MAP 06
+*MAP_XN
+ETUGE GOKRE MOLNE STOTT
+*END
+*MAP_AW
+T212 T216 T295
+V34 V39 V44 V91 V93 V123 V157 V167 V188 V213 V249 V270 V374
+V433 V487 V489 V292 V405 V483
+*END
+*ZOOM  IGN IGN 20
+*LIBRARY KDXR-VALRE0 KHPN-VALRE0 KHPN-NOBBI0 KISP-LOVES0 KPOU-HUD0 KSWF-HUD0
+*SHOW_PROC  KEWR-FLOSI0 KLGA-HAARP0
+*WX KSWF KPOU KDXR
+*NOTES Often with 05
+;----------------------------------------------------------
+
+*MAP 07
+*MAP_XN
+CRIBB MUCOW
+*END
+*MAP_AW
+T212 T216 T295 T300 T315 T608
+V1 V34 V39 V91 V93 V106 V146 V167
+V270 V292 V405 V419 V487
+*END
+*ZOOM  CTR CTR190010 25
+*LIBRARY KBDL-STELA0 KHPN-VALRE0 KHPN-NOBBI0 KLGA-HAARP0 KORH-RV1 KTEB-RV1
+*SHOW_PROC  KEWR-FLOSI0
+*WX KBDL KPSF
+;----------------------------------------------------------
+
+*MAP 08
+*MAP_XN
+ALONI APKAF AWIPI BUGSY CHANY CIPNA CURDS CYRIL DAVDA DORIE
+HABBS HINED ISICA JNFER JORAR JURGO KOCET LAIVS LIKME MITAH
+MREEE MUNZA NIPHI OGIVE PAYGE PUGRE RNNDY SALAS SAVAL SETBE
+TAPVO VIBRU WERKI WURIP WUVES YUDUK YUSUB
+*END
+*MAP_AW
+T300 T608 T725
+V29 V483
+*END
+*SHOW_NDB
+*SHOW_PROC CYOW-DEANS0 KMAL-RNAV5 KMAL-RNAV23
+*SHOW_PROC KMSS-ILS5 KMSS-RNAV5 KMSS-RNAV9 KMSS-RNAV23 KMSS-RNAV27
+*SHOW_PROC KOGS-RNAV9 KOGS-RNAV27 KPTD-RNAV24
+*SHOW_PROC KSLK-RNAV5 KSLK-RNAV9 KSLK-ILS23 KSLK-RNAV23 KLKP-RNAV14
+*SHOW_PROC CYUL-IMPAC0
+*ZOOM   MSS KPTD 40
+*WX KGTB KSYR KOGS KMSS KSLK KPTD KRME
+;----------------------------------------------------------
+
+*MAP 09
+*MAP_XN
+ALVID BUGSY CURDS CYRIL DAVDA EPMOK NOVON
+*END
+*MAP_AW
+J59
+Q29 Q84 Q140 Q812 Q816 Q822 Q844 Q913 Q935 Q937
+*END
+*SHOW_PROC CYOW-DEANS0 CYUL-IMPAC0
+*ZOOM   WAYGO WAYGO090020 60
+;----------------------------------------------------------
+
+*MAP 10
+*MAP_XN
+CANAN CYPER EEGUL FLOSI HARVA HELON HINGZ PETER STOLI SWEDE WILET
+*END
+*MAP_AW
+J6 J49 J59 J190 J217
+Q29 Q82 Q84 Q140 Q812 Q818 Q822 Q935
+*END
+*RINGS  PONCT 256 279  30 80 10
+*ZOOM  RKA RKA 35
+*LIBRARY  KPVD-WIPOR0
+*SHOW_PROC  KBDL-STELA0 KEWR-FLOSI0 KLGA-HAARP0
+;----------------------------------------------------------
+
+*MAP 15
+*MAP_XN
+AHIZI AJJAY AKYAK ALLEX BIROW CESGE CESUG CIYEP CORAC DAXUG
+DEJZU DERDO DUSIN EBONY EDMOS FOMEP HOXEB IPESE JEBIV JUNCA
+LADNE LELSE LUBCI MOWND MOZMO OCESA PEENK PIERR RAWNE REVEN
+VEGGS VOLAV WELUG WIXIV ZANAK
+*END
+*MAP_AW
+T295
+V39 V93 V268 V471
+*END
+*ZOOM  AUG AUG080020 80  MLT MLT020035 80
+*SHOW_PROC KCAR-RNAV1 KCAR-RNAV19 KEPM-RNAV15 KEPM-RNAV33 KFVE-RNAV14 KFVE-RNAV32 KHUL-RNAV5 KHUL-RNAVA
+*SHOW_PROC KLRG-RNAV17 KLRG-RNAV35 KMLT-RNAV11 KMLT-RNAV29 KPNN-RNAV15 KPQI-RNAV1 KPQI-RNAV19 3B1-RNAV14
+*LIBRARY  KPNN-VA33
+*WX KPQI KFVE KMLT KBGR KAUG KBML CYFC CYSJ
+;----------------------------------------------------------
+
+*MAP 16
+*MAP_XN
+AJJAY ALIEH ALLEX BAUER BRADD BUOYY CDOGG CEKAY CELTK COTEE
+EBONY EURRO FERNZ FOSCO FRILL GORHM HANAA HSKEL JJIMY KANNI
+KAYCC LONEY LWRNC MRKEE NIKKO NUBLE OOSHN PPORT RBELA RODEE
+SCOGS SHAUN SHOEL SUFFI TOPPS TTERI TUSKY TYLIR VITOL WEEZE
+WHALE
+*END
+*MAP_AW
+T295
+V39 V93 V106 V139 V167 V268
+*END
+*ZOOM  NUBLE NUBLE 40
+*SHOW_PROC KBOS-OOSHN0 KPWM-CDOGG0 KPWM-HSKEL0 KPWM-NUBLE0 KPWM-SCOGS0
+*SHOW_PROC KMHT-PPORT0
+*WX KBOS KPWM KPSM
+*NOTES  PWM SCOGS abbreviation XSC@110
+;----------------------------------------------------------
+
+*MAP 17
+*MAP_XN
+BOATE BRADD CELTK DOVEY EURRO FERNZ FRILL KANNI LONEY
+OOSHN PLYMM RODEE SAILE VITOL WHALE
+*END
+*MAP_AW
+Q75 Q220 Q430 Q475
+Y578
+*END
+*ZOOM  17 N4215/W06840 70
+*LIBRARY KBOS-OOSHN0
+*WX KBOS KPVC KACK
+;----------------------------------------------------------
+
+*MAP 18
+*MAP_XN
+BRUWN BUZRD CELTS CONDN DEEPO EURRO FERNZ FLAPE JSTER JUMPR
+MINNK PEAKE SAILE SALDY SSOXS YAHOO
+*END
+*MAP_AW
+Q167 Q220 Q430
+Y578
+*END
+*ZOOM  MVY MVY 45
+*LIBRARY KACK-DEEPO0
+*WX KBOS KPVC KACK KMVY KGON
+;----------------------------------------------------------
+
+*MAP 19
+*MAP_XN
+AWLIN BANKI BAYYS BELTT BOWAN BRISS FEXXX JUDDS KURTY MERIT
+MOONI NEWES PROVI ROBUC RUIZE SEALL SOARS STUBY TRUDE TUGME
+*END
+*MAP_AW
+Q75 Q406 Q419 Q448 Q450 Q481
+*END
+*ZOOM   BDR BDR 25
+*LIBRARY KALB-RV1 KBAF-DPK0 KORH-RV1 KPOU-HUD0
+*SHOW_PROC  KBOS-ROBUC0 KBDL-DPK0 KSWF-HUD0
+*WX KBDR KDXR KHFD
+;----------------------------------------------------------
+
+*MAP 20
+*MAP_XN
+ATWAN BOTLS DOORE FILGA GANDE JUDDS KEAVR LENDY LOLLY MERIT
+SMYTH TRUDE YORKE
+*END
+*MAP_AW
+J6 J95
+Q75 Q133 Q140 Q406 Q419 Q448 Q480
+*END
+*ZOOM  IGN IGN230005 30
+*LIBRARY  KFRG-IGN0
+*SHOW_PROC KIAD-HYPER0 KJFK-IGN0
+*NOTES TEST - 38 WILL LEAVE UNMODIFIED CTR/JUDDS/MARTN/CAM AT FL260
+;----------------------------------------------------------
+
+*MAP 21
+*MAP_XN
+SWEDE
+*END
+*MAP_AW
+T212 T216 T295 T300 T608
+V34 V39 V44 V91 V93 V123 V146 V157 V213 V270 V292
+V405 V433 V483 V487 V489
+*END
+*ZOOM  ATHOS ATHOS 20
+*LIBRARY KBDR-BDR0 KBDR-DENNA0 KEWR-FLOSI0
+*WX KALB KPSF
+;----------------------------------------------------------
+
+*MAP 22
+*MAP_XN
+ALB13 ALB16 EEGUL FLYZZ HANAA JFUND LUCIC MNSTA PONCT PONEE
+QUINZ ROZZE SMYTH STOLI STOTT SWEDE TERIA WIKID WOBLY
+*END
+*MAP_AW
+T291 T295 T300 T608
+V39 V44 V91 V93 V123 V146 V157 V213 V270 V292
+V405 V431 V433 V487 V489 V490
+*END
+*ZOOM  ALB ALB 40
+*LIBRARY KBDL-STELA0 KFOK-NELIE0 KHPN-VALRE0 KPVD-WIPOR0
+*SHOW_PROC  KEWR-FLOSI0 KMHT-ROZZE0 KLGA-HAARP0
+*NOTES ALB "RADAR VECTOR ONE" DEPARTURES HEADING 310 OR 340
+*NOTES TEST - UNMODIFIED BDL DEPARTURES STAY BELOW SECTOR 38
+*WX KALB KGFL KBDL
+;----------------------------------------------------------
+
+*MAP 23
+*MAP_XN
+CANAN CITET CIYAY GINNS GROCK GROWS HESOD INADY JUDOV JUVAM
+KREMM ODEBY OSIYE OTHID SWEDE TRINT UZUBO WEGIR WODIT ZAYAZ
+*END
+*MAP_AW
+T291 T391 T608 T705
+V29 V35 V167 V213 V270 V273 V292
+V433 V483 V489 V490
+*END
+*LIBRARY    KBDL-STELA1T KHPN-NOBBI0 KHPN-VALRE0 KLGA-HAARP0
+*SHOW_PROC  KOIC-RNAV1 KOIC-RNAV19 N23-RNAV7 N23-RNAV25 N66-RNAV6 N66-RNAV24
+*SHOW_PROC  KVGC-RNAV17 KVGC-RNAV35
+*ZOOM  RKA RKA 35
+*WX KSYR KOIC KALB KBGM
+;----------------------------------------------------------
+
+*MAP 24
+*MAP_XN
+CORLE CYPER HARVA HELON HINGZ PETER PRNCE STOLI SWEDE WILET
+*END
+*MAP_AW
+J6 J49 J59 J190 J217
+Q29 Q82 Q84 Q140 Q812 Q818 Q822 Q935
+*END
+*ZOOM  RKA RKA 35
+*LIBRARY KBDL-STELA0 KDXR-VALRE0
+*SHOW_PROC  KEWR-FLOSI0 KHPN-VALRE0 KLGA-HAARP0 KPHL-SPUDS0
+*WX KOIC
+;----------------------------------------------------------
+
+*MAP 31
+*MAP_XN
+BETTE DEEPO HAPIE JORDN JUMPR YAHOO YODER
+*END
+*MAP_AW
+J95
+Q22 Q75 Q97 Q167 Q419 Q220 Q430 Q439 Q445 Q450 Q481
+Y481 Y483 Y484 Y487 Y488 Y495 Y497
+*END
+*ZOOM  SARDI SARDI 40
+*SHOW_PROC KBDL-CSTL0
+;----------------------------------------------------------
+
+*MAP 32
+*MAP_XN
+BETTE BOUNO GWENY HAPIE HOFFI MINNK ORCHA ROBER SOUND ZAHNN
+*END
+*MAP_AW
+T216
+V16 V34 V44 V46 V139 V268 V308 V374
+*END
+*ZOOM  BEADS BEADS 30
+*LIBRARY KJFK-ROBER0 KLGA-RV1 KLGA-RV2 KPVD-JORDN0 KFRG-PARCH0
+*SHOW_PROC   KHPN-BOUNO0 KJFK-PARCH0
+*WX KJFK KISP KFOK KPVD
+;----------------------------------------------------------
+
+*MAP 34
+*MAP_XN
+AWLIN BANKI FEXXX JOODY MERIT PAISN PROVI ROBUC RUIZE
+*END
+*MAP_AW
+T212 T216 T300 T608
+V1 V16 V34 V46 V130 V139 V146 V167 V188 V268 V308 V374 V405 V475
+*END
+*ZOOM  ORW ORW 25
+*LIBRARY KORH-RV1 KFOK-NELIE0 KISP-NELIE0 KPVD-WIPOR0
+*SHOW_PROC KBOS-ROBUC0
+*WX KBOS KPVD KGON KHFD
+;----------------------------------------------------------
+
+*MAP 36
+*MAP_XN
+ARIME AUTUM BASEZ BCATS CAHOW CDOGG CLOWW CRIBB DUBLE EEGUL
+FFATY FLYZZ FYSHR GOLEE HAUKS HUTIN JFUND JUNPU LISBE LUCIC
+MNSTA MNTIN MONRC MUCOW NUUKM OGIPE ONDEC ORDIE QUINZ PETAE
+RIKAH ROZZE SAFAD SCROB SEETS STOLI TERIA TESCO VISLY WALAL
+WETMU WIKID WINTA WORIA WUMOG YIDPU ZELKA ZORFO
+*END
+*MAP_AW
+V1 V39 V93 V106 V146 V270 V405 V431 V487 V490
+T295 T315 T393 T608
+*END
+*ZOOM  EEN JURGI 20
+*SHOW_PROC KAFN-RNAVB KAFN-RNAVC KEEN-RNAV2 KGDM-RNAVB
+*SHOW_PROC KORE-RNAV32 KORE-VORA KVSF-RNAV5 0B5-RNAVB 2B3-RNAVA
+*SHOW_PROC  KBED-ZELKA0 KBOS-JFUND0 KMHT-ROZZE0
+*LIBRARY KBVY-ZELKA0 KBOS-GDM4T KGDM-VORA
+*SHOW_APCH_FINAL  KEEN-ILS2
+*WX KBOS KEEN KMHT KORE
+;----------------------------------------------------------
+
+*MAP 37
+*MAP_XN
+ARIME BURGR CABIP CDOGG EJOCA ELHOY HAIZO HAMMM HANAA HIRER
+HYLND JIKOR JJIMY JUVIM KEYEK KEZUP LAYIR LISBE MANCH OGIPE
+PAKTE PETAE RBELA ROMRE SAFAD SHOEL ULAKY UTADE WONGI XIMKY
+ZAMIM
+*END
+*MAP_AW
+T295 T315 T393
+V39 V93 V106 V139 V431 V487 V490
+*END
+*ZOOM  LEB MCADM 40
+*SHOW_NDB
+*SHOW_PROC KBOS-RV1 KCNH-RNAV29 KCNH-NDBA KLEB-RNAV7
+*SHOW_PROC KLEB-ILS18 KLEB-RNAV18 KLEB-RNAV25 KLEB-RNAV36 KVSF-RNAV5 2B3-RNAVA
+*SHOW_PROC KAFN-RNAVC KMPV-RNAV35 KRUT-RNAV1 KRUT-ILSZ19
+*SHOW_PROC KPWM-CDOGG0 KMHT-PPORT0
+*NOTES KLEB DP  7 to 1900, 18 to 3100, 25 to 3100, 36 to 1800
+*WX KBOS KMHT KLEB KVSF
+;----------------------------------------------------------
+
+*MAP 38
+*MAP_XN
+ATWAN BRONC EEGUL FILGA HANAA HAUKS HINGZ JFUND JUDDS KEAVR
+MARTN MNSTA MUCOW QUINZ REVSS ROZZE SEETS SHIGY SMYTH STOLI
+STOTT SWEDE TERIA WHATE WIPOR WOBLY
+*END
+*MAP_AW
+J6 J49 J190
+Q75 Q82 Q133 Q406 Q419 Q448 Q480 Q822 Q935
+*END
+*ZOOM   MARTN MARTN 40
+*RINGS GDM 265 293  20  40 20
+*RINGS GDM 265 288  60 120 20
+*LIBRARY KBVY-ZELKA0 KBOS-GDM4T KFOK-NELIE0
+*SHOW_PROC   KBED-ZELKA0 KBOS-JFUND0 KLGA-HAARP0 KMHT-ROZZE0 KPVD-WIPOR0
+*NOTES TEST - 39 WILL LEAVE UNMODIFIED CTR/MARTN/CAM AT FL260
+;----------------------------------------------------------
+
+*MAP 39
+*MAP_XN
+AGNEZ BAUER CDOGG HYLND JASDU MARTN
+*END
+*MAP_AW
+J6 J49 J190
+Q29 Q82 Q406 Q419 Q439 Q448 Q480 Q816 Q822 Q935 Q937
+*END
+*ZOOM   HANAA HANAA 35
+*SHOW_PROC KEWR-FLOSI0
+*NOTES TEST - CTR/MARTN/CAM WILL BE CLIMBING TO FL230 OR FL260
+;----------------------------------------------------------
+
+*MAP 46
+*MAP_XN
+ASPEN BILJE BLZZR BUOYY CEKAY COTEE DEDHM FOSTY GANDE JJIMY
+JUDDS MERIT PATSS PLYMM REVSS SHAUN WEEZE WITCH YORKE
+*END
+*MAP_AW
+Q22 Q75 Q97 Q406 Q419 Q439 Q448 Q450 Q475 Q480 Q935
+*END
+*ZOOM   PUT PUT 50
+*RINGS  TRAIT 020 065  10 70 10
+*LIBRARY KJFK-PARCH0
+*SHOW_PROC KPWM-SCOGS0
+;----------------------------------------------------------
+
+*MAP 47
+*MAP_XN
+BIGGO BLZZR DEDHM PATSS PONEE REVSS TRIBS WEEZE YORKE
+*END
+*MAP_AW
+T212 T216 T295 T300 T315 T393 T608
+V1 V3 V16 V34 V39 V93 V106 V130 V139 V141 V146 V167 V188
+V268 V270 V292 V308 V374 V405 V431 V475
+*END
+; for combo 34/47
+*ZOOM  PUT PUT 40
+*LIBRARY KBED-DREEM0 KBVY-DREEM0 KFOK-NELIE0 KORH-RV1 KPVD-WIPOR0
+*SHOW_PROC KEWR-FLOSI0
+*WX KBOS KBDL KPVD KORH KHFD
+;----------------------------------------------------------
+
+*MAP 52
+*MAP_XN
+AFRED BIBBA BUGSY BURGR CABIP CEKRA CHANY EBDOT EHIKO ELSEQ
+FAWNS FIKAT FOVES GITKE GNVEV HAMMM HANAA HINED HUSAV ISICA
+JASDU JIKOR JNFER JONNN JORAR JUVIM KIMIE KOPVE KUKVE LAGGS
+LATTS LAIVS LIDOW LIQED LIZZZ LUNFI MEQDI MREEE MUNZA MVL43
+PAKTE PBERG PLOTT POESY PUGRE REGGI RIFTS RNNDY SAVAL TJAYS
+TRIKY UTADE VIRKA VUYUD WUVES XIMKY ZAMIM
+*END
+*MAP_AW
+T300 T315 T393
+V29 V39 V487 V490
+*END
+*SHOW_NDB
+*SHOW_PROC KHIE-RNAVY10 KMAL-RNAV23 KMPV-RNAV35 KMPV-RNAV17
+*SHOW_PROC KRUT-RNAV1 KRUT-ILSZ19 KRUT-RNAVZ19 KSLK-RNAV5 KSLK-RNAV9 KSLK-ILS23 KSLK-RNAV23
+*SHOW_PROC KEFK-RNAV36 KGFL-RNAV19 KLEB-ILS18 KLEB-RNAV18 KMVL-RNAVY19 KMVL-RNAVA
+*SHOW_PROC KPTD-RNAV24 KBML-RNAV18 4B6-RNAV2 4B6-RNAV20 KLKP-RNAV14 CYUL-CARTR0
+*ZOOM  SLK SLK 40  RUT KRUT310010 40  MPV MPV050010 45
+*SHOW_APCH_FINAL KMPV-ILS17
+*WX KBTV KSLK KGFL KRUT KMPV KEFK KHIE KBML KLEB
+;----------------------------------------------------------
+
+*MAP 53
+*MAP_XN
+BUGSY EBDOT FAWNS KJOHN LATTS PBERG VIRKA
+*END
+*MAP_AW
+J49
+Q29 Q816 Q913 Q937
+*END
+*ZOOM  BTV BTV110015 55
+;----------------------------------------------------------
+
+
+*DEST_L  A  ALB
+*DEST_L  B  BOS
+*DEST_L  C  BED
+*DEST_L  D  DTW
+*DEST_L  E  EWR
+*DEST_L  F  PHL
+*DEST_L  G  PVD
+*DEST_L  H  HPN
+*DEST_L  I  IAD
+*DEST_L  J  JFK
+*DEST_L  K  BWI
+*DEST_L  L  LGA
+*DEST_L  M  MHT
+*DEST_L  N  DCA
+*DEST_L  O  ORD
+*DEST_L  P  PIT
+*DEST_L  Q  ACK
+*DEST_L  R  CLE
+*DEST_L  S  CVG
+*DEST_L  T  ATL
+*DEST_L  U  MDW
+*DEST_L  V  MVY
+*DEST_L  W  BDL
+*DEST_L  X  ISP
+*DEST_L  Y  YUL
+*DEST_L  Z  CLT
+
+
+*MID A   08 09 10 22 23 24
+*MID B   36 37 38 39 52 53
+*MID C   31 32 34 46 47
+*MID D   01 02 15 16 17 18
+*MID E   05 06 07 19 20 21

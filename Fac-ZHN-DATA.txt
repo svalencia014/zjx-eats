@@ -1,0 +1,266 @@
+;  FAC-ZHN-DATA.TXT   18 AUG 22
+
+;            NAME               AIRPORTS
+;            --------------     -----------------------------------------
+*DEST_GROUP  HNL-TERM           PHNL PHJR
+
+;         ACTIVE
+;         SECTOR   FIX   FIX    CAT  MIT  COMMENTS
+;         ------  ----- ----- -----  ---  --------
+*ARR_MIT    02    BOOKE MAKOA     J   12  HNL
+*ARR_MIT    02    OPACA SELIC     J   15  HNL
+*ARR_MIT    02    PHLI  PHLI      J   10  LIH
+*ARR_MIT    03    BAMBO OOKAH     J   16  HNL
+*ARR_MIT    03    HAUNA ALANA     A   15  MKK.V8.ALANA
+*ARR_MIT    04    SAKKI JULLE     J   12  HNL
+*ARR_MIT    03    LNDHY HOMAI     J   15  OGG
+*ARR_MIT    05    PHKO  PHKO      J   20  KOA
+*ARR_MIT    05    PHKO  PHKO      T   25  KOA
+*ARR_MIT    05    PHKO  PHKO      P   30  KOA
+
+;                           from
+;          REF             FacSec   CAT  MIT  COMMENTS
+;          ---              ----- -----  ---  --------
+*DEP_MIT   ALL    SECIL     HNL1D     J   10
+*DEP_MIT   ALL    HNL10     HNL1D     A   25  non-jet SIDs
+*DEP_MIT   ALL    HNL11     HNL1A     A   10  jets west
+*DEP_MIT   ALL    HNL242012 HNL1A     A   20
+*DEP_MIT    02    LIH80     ZHN02     A   10
+*DEP_MIT    02    LIH15     ZHN02     A   10
+*DEP_MIT    03    OGG345008 HNL1G     A   10
+*DEP_MIT    04    OGG360010 HNL1G     J   10
+*DEP_MIT    04    OGG360018 HNL1G     J   10
+*DEP_MIT    04    ROXZZ     HNL1G     A   10
+*DEP_MIT    05    OGG010006 HNL1G     A   10
+
+;          REF DEST   CAT     FIX      FL
+;          --- ---- -----  ---------  -----
+*ARR_FL     03 PHNY     J  MKK        *100
+*ARR_FL  HNL1D PHNL     T  PALAY      *30
+*ARR_FL  HNL1D PHNL     P  PALAY      *20
+
+;          ISSUED 
+;            BY   DEST     CAT    RESTRICTION
+;          ------ ----    -----  -------------
+*ARR_FL      03   HNL-TERM    T  X7E.PALAY@40
+*ARR_FL      03   HNL-TERM    P  X7E.PALAY@40
+*ARR_FL      07   PHLI        J  X60NE.PHLI@200
+*ARR_FL      07   PHLI        J  X70NE.NAPUA@200
+
+;          ISSUED   TO
+;            BY   SECTOR  DEST  CAT     PD
+;          ------ ------  ---- -----   -----
+*ARR_PD    ZHN03   ZHN02  PHLI     A   *200
+*ARR_PD    ZHN04   ZHN05  PHKO     J   *130
+*ARR_PD    ZHN05   ZHN04  PHNL     J   *280
+*ARR_PD    ZHN07   ZHN02  PHLI     A   *200
+*ARR_PD    ZHN07   ZHN03  PHNG     A   *80
+*ARR_PD    ZHN07   ZHN05  PHKO     A   *200
+*ARR_PD    ZHN07   ZHN05  PHOG     A   *200
+
+
+;       OWNED             MIN MAX
+;         BY    TO   CAT   FL  FL  O/E  COMMENTS 
+;       ----- ----- ----- --- --- ----  --------
+;  may not handle it  landers do what? 
+*DOF_S  ZHN02 ZHN06    J  240  *  EVEN
+*DOF_S  ZHN05 ZHN04    J  240  *  EVEN
+*DOF_S  ZHN07 ZHN02    J  240  *  EVEN
+*DOF_S  ZHN07 ZHN03    J  240  *  EVEN
+*DOF_S  ZHN07 ZHN05    J  240  *  EVEN
+*DOF_S  ZHN07 ZHN06    J  240  *  EVEN
+
+
+;          ISSUED                               MIN MAX  MIN  MAX WITHIN
+;            BY   ORIG DEST CAT  DRCT TO  PROB   FL  FL TURN TURN MILES  OF
+;          ------ ---- ---- --- --------- ----  --- --- ---- ---- ----- ----
+*AUTO_DRCT    02  PHLI  *    A    LNY      100   40  *     0   90    *   *
+*AUTO_DRCT    02  PHLI  *    A    ZIGIE    100   40  *     0   90    *   *
+*AUTO_DRCT    02  PHLI  *    A    APACK    100   40  *     0   90    *   *
+*AUTO_DRCT    02  PHLI  *    A    CLUTS    100   40  *     0   90    *   *
+*AUTO_DRCT    02  PHLI  *    A    EBBER    100   40  *     0   90    *   *
+*AUTO_DRCT    03  PHNL  *    J    ZOULU    100  180  *     0   90    *   *
+*AUTO_DRCT    03  PHNL  *    J    AUNTI    100  220  *     0   90    *   *
+*AUTO_DRCT    03  PHNL  *    J    CEBEN    100  180  *     0   90    *   *
+*AUTO_DRCT    03  PHNL  *    J    ELOYI    100  180  *     0   90    *   *
+*AUTO_DRCT    03  PHNL  *    J    FAPIS    100  180  *     0   90    *   *
+*AUTO_DRCT    03    *  RPLL  J    BRIUN    100  240  *     0   90    *   *
+*AUTO_DRCT    04  PHKO  *    J    CRESP    100  220  *     0   90    *   *
+*AUTO_DRCT    04  PHKO  *    J    DOGIF    100  230  *     0   90    *   *
+*AUTO_DRCT    04  PHKO  *    J    BRIUN    100  240  *     0   90    *   *
+*AUTO_DRCT    04    *  RPLL  J    BRIUN    100  240  *     0   90    *   *
+*AUTO_DRCT    05  PHKO  *    J    BRIUN    100   60  *     0   90    *   *
+*AUTO_DRCT    05  PHKO  *    J    CRESP    100   60  *     0   90    *   *
+*AUTO_DRCT    05  PHNL  *    J    SAYTO    100   *   *     0   90    *   *
+*AUTO_DRCT    05    *  RPLL  J    BRIUN    100  240  *     0   90    *   *
+*AUTO_DRCT    07  PHLI  *    J    CEBEN    100   *   *     0   90    *   *
+*AUTO_DRCT    07  PHOG  *    J    ZOULU    100   *   *     0   90    *   *
+*AUTO_DRCT    07  PHOG  *    J    AUNTI    100   *   *     0   90    *   *
+*AUTO_DRCT    07  PHOG  *    J    CEBEN    100  110  *     0   90    *   *
+*AUTO_DRCT    07  PHOG  *    J    ELOYI    100  110  *     0   90    *   *
+*AUTO_DRCT    07  PHOG  *    J    FAPIS    100  110  *     0   90    *   *
+*AUTO_DRCT    07  PHKO  *    J    ZOULU    100   *   *     0   90    *   *
+*AUTO_DRCT    07  PHKO  *    J    AUNTI    100   *   *     0   90    *   *
+*AUTO_DRCT    07  PHKO  *    J    CEBEN    100   *   *     0   90    *   *
+*AUTO_DRCT    07  PHKO  *    J    ELOYI    100   *   *     0   90    *   *
+*AUTO_DRCT    07  PHKO  *    J    FAPIS    100   *   *     0   90    *   *
+*AUTO_DRCT    07    *  RPLL  J    BRIUN    100   *   *     0   90    70 DENNS
+*AUTO_DRCT    07    *  RPLL  J    HNL      100   *   *     0   90   100 OGG
+*AUTO_DRCT    07    *  PHKO  J    UPP      100   *   *     0   90    50 ZIGIE
+*AUTO_DRCT    07    *  PHKO  J    UPP      100   *   *     0   90    50 APACK 
+*AUTO_DRCT    07    *  PHKO  J    UPP      100   *   *     0   90    50 BITTA
+*AUTO_DRCT    07    *  PHKO  J    UPP      100   *   *     0   90    50 DENNS
+*AUTO_DRCT    07    *  PHKO  J    UPP      100   *   *     0   90    80 FITES
+*AUTO_DRCT    07    *  PHLI  J    NAPUA    100   *   *     0   90    50 ZIGIE
+*AUTO_DRCT    07    *  PHLI  J    NAPUA    100   *   *     0   90    50 DENNS
+*AUTO_DRCT    07    *  PHLI  J    NAPUA    100   *   *     0   90    50 FITES
+*AUTO_DRCT    07    *  PHNL  J    BAMBO    100   *   *     0   90    50 ZIGIE
+*AUTO_DRCT    07    *  PHNL  J    BAMBO    100   *   *     0   90    40 APACK
+*AUTO_DRCT    07    *  PHNL  J    BAMBO    100   *   *     0   90    55 BITTA
+*AUTO_DRCT    07    *  PHNL  J    BAMBO    100   *   *     0   90    50 DENNS
+*AUTO_DRCT    07    *  PHNL  J    LNY      100   *   *     0   90    70 FITES
+*AUTO_DRCT    07    *  PHOG  J    LNDHY    100   *   *     0   90    40 APACK
+*AUTO_DRCT    07    *  PHOG  J    LNDHY    100   *   *     0   90    55 BITTA
+*AUTO_DRCT    07    *  PHOG  J    LNDHY    100   *   *     0   90    50 DENNS
+*AUTO_DRCT    07    *  PHOG  J    LAVAS     90   *   *     0   90    75 FITES
+;   some HNL/LIH/KOA won't work due repo to 100 NM from active sector, add more points
+*AUTO_DRCT    03    *  PHLI  J    NAPUA    100   *   *     0   90   100 HNL
+*AUTO_DRCT    04    *  PHLI  J    NAPUA    100   *   *     0   90   100 HNL
+*AUTO_DRCT    05    *  PHLI  J    NAPUA    100   *   *     0   90   100 LNY
+*AUTO_DRCT    07    *  PHLI  J    NAPUA    100   *   *     0   90   120 MAGGI
+*AUTO_DRCT    07    *  PHNL  J    BAMBO    100   *   *     0   90   120 MAGGI
+*AUTO_DRCT HNL1A    *  PHNL  A    OOKAH    100   *   *     0   90    10 CKH
+
+;         ISSUED                     MIN MAX  MIN  MAX    WITHIN
+;           BY   ORIG DEST CAT PROB   FL  FL TURN TURN MILES  OF FIX   REROUTE (from present position to) Comments
+;         ------ ---- ---- --- ----  --- --- ---- ---- ----- --------- ---------------------------------- -------------
+*REROUTE     07    *  PHOG  A   100   *   *     0   90    50 SCOON     LAVAS.LAVAS0.PHOG
+
+;          ISSUED             WITHIN              FINAL  (from present position to) 
+;            BY    DEST  CAT  MILES  OF           COURSE     FIX.APCH.DEST        allows multiple
+;          ------  ----  ---  ----- ----          -------------------------------------------------------------
+*WIND_ARR     02   PHLI   A     35  N2158/W15842  214 COBIK.RNAVY21.PHLI   349 NAPUA.ILS35.PHLI
+*WIND_ARR   HNL1G  PHHN   P      7  OPANA         079 OPANA.RNAV8.PHHN     259 OPANA.RNAV26.PHHN
+*WIND_ARR   HNL1G  PHHN   T      7  OPANA         079 OPANA.RNAV8.PHHN     259 OPANA.RNAV26.PHHN
+
+;		          TO         DEP
+;          ORIG   FIX   CAT   MC ORIG<route>FIX            allows multiple
+;          ----  -----  ---  --------------------------------------------------------------
+*WIND_DEP  PHLI  LIH80   A   034 PHLI.LIHUE0.LIH80
+*WIND_DEP  PHLI  LIH15   A   169 PHLI.RICHE0.LIH15
+*WIND_DEP  PHMK  LNY     A   049 PHMK.MAULA0.LNY           229 PHMK.KALAE0.LNY
+*WIND_DEP  PHMK  BAMBO   A   049 PHMK.HAPAI0.BAMBO         229 PHMK.KALAE0.LOKIE..BAMBO
+*WIND_DEP  PHMK  LOKIE   A   049 PHMK.HAPAI0.LOKIE         229 PHMK.KALAE0.LOKIE
+
+
+*TOWER            PHKO/50 PHLI/50 PHMK/50
+
+
+*MAP 02
+*MAP_XN
+ALOCA CHOKL COBIK DANNO DEEKE DENKL FRAKR FUZZE IVATE JIMMA
+JLAKE KAENA KLANI MAKOA NEEEL OPACA OUCHI RABBS SEBYI SECJI
+SELYY SYIKL THOMA TORKL
+*END
+*MAP_AW
+A450 A579 B326 R584
+V2 V4 V8 V12 V15 V16 V20 V21
+*END
+*SHOW_PROC  PHLI-RNAVY21
+*SHOW_APCH_FINAL  PHLI-ILS35
+*LIBRARY  PHNL-BOOKE0 PHNL-KAENA0 PHNL-OPACA0
+*LIBRARY  PHLI-LIHUE0 PHLI-RICHE0
+*RINGS BOOKE110020  290 313  30  70 10
+*RINGS BOOKE110020  290 313  80 140 20
+*ZOOM   NAPUA NAPUA 50  KEOLA KEOLA 50
+*WX  PHNL PHLI
+*NOTES LIH SIDs - headings flown as charted, or as assigned by Player.
+*NOTES Often 02+06
+;----------------------------------------------------------
+
+*MAP 03
+*MAP_XN
+ALOCA ATOSE BOGEE CHARS CLYYD CODDY DAKKL FUZZE HAPAI HELUX
+HLONO KALAE KOLEA LNDHY MAULA NUDSE PETTN SEPGE SERYU WEKLO
+*END
+*MAP_AW
+A331 A332 R463 R464 R465 R576 R577 R578
+V2 V6 V7 V8 V12 V15 V16 V21 V22 V24
+*END
+*RINGS BAMBO 025 077  20 80 20
+*SHOW_PROC  PHMK-RNAVB PHLU-RNAVB PHMK-VORA
+*LIBRARY  PHJH-VA1 PHNL-MAGGI0
+*ZOOM   MKK HAPAI 30  OCEAN_EAST MAGGI 200
+*WX  PHNL PHMK
+;----------------------------------------------------------
+
+*MAP 04
+*MAP_XN
+AARES ALANA ATOSE BAMBO BOGEE CHAIN CHARS HLONO ISSNO JASON
+KALAE MAULA OJOVU PALAY PETTN ROXZZ SOBOW TAMMI TEBBS VECKI
+ZILNA
+*END
+*MAP_AW
+R576 R577
+V1 V2 V5 V6 V7 V8 V11 V15 V16 V20 V21 V22 V23 V24
+*END
+*ZOOM  LNY PHNY 30
+*SHOW_PROC PHNY-ILS3 PHNY-RNAV3 PHMK-RNAVB PHOG-ILSY2
+*LIBRARY PHNL-JULLE0 PHOG-CAMPS0 PHNY-VORA
+*WX  PHNL PHNY PHOG PHMK
+;----------------------------------------------------------
+
+*MAP 05
+*MAP_XN
+BAYCA CABIX CEKOB CNALI CORGA GEYEN GPYLE GREHG HASOG JOLIU
+KAGGA POKAI SAPDE SEYOL SIPAE TAMMI UJGEM VECKI WANSI ZAPSO
+ZILNA
+*END
+*MAP_AW
+B595
+R576 R577 R578
+V1 V2 V3 V5 V7 V11 V15 V16 V20 V21 V22 V23 V24 V25
+*END
+*RINGS  EGIPT  330 004  5 25 5
+*ZOOM   UPP UPP 45
+*SHOW_PROC PHKO-ILS17 PHKO-RNAV35 PHMU-RNAV22 PHHN-RNAV8 PHHN-RNAV26 PHTO-RNAV26
+*LIBRARY  PHKO-VECKI0 PHOG-CAMPS0 PHOG-LAVAS0 PHMU-RNAV4 PHMU-VOR4
+*WX  PHOG PHKO PHTO
+*NOTES PHOG jets usually ..LAVAS PD/DM80
+*NOTES PHTO jets usually ..PARIS PD90
+*NOTES PHKO unlike most of ZHN, surface winds are often southwest
+;----------------------------------------------------------
+
+*MAP 06
+*MAP_XN
+AJINK CHOKL CRESP DANNO DENKL DOGIF ECEDO FLYHM HABIG KLANI
+OPACA SECJI SELYY SYIKL THOMA TORKL
+*END
+*MAP_AW
+A450 A579 B326 B474 B580 B595 B596 G347 G457 R584
+V4 V12 V15 V16
+*END
+*ZOOM  LILIA LILIA 120  CARRP CARRP 120
+*WX  PHLI PHNL PHKO
+*NOTES Often 02+06
+;----------------------------------------------------------
+
+*MAP 07
+*MAP_XN
+ALOCA BAMBO BECAN BIKUZ CNALI CODDY DEKUM FAMOP FEKIK JOLIU
+LNDHY KAENA KAGGA KOLEA MAITI NEEEL REXIE SAYTO SEPGE SERYU
+SOLCE SOPIW UNADY WILYE ZILAN
+*END
+*MAP_AW
+A331 A332 R463 R464 R465 R576 R577 R578
+V21 V22
+*END
+*NOTES Tracks C and E eastbound only, all altitudes available
+*RINGS BAMBO 025 077  40 160 20
+*ZOOM  DENNS N2200/W15440 140  07_ALL N2155/W15545 275
+*SHOW_PROC  PHNL-KAENA0 PHNL-MAGGI0 PHOG-LNDHY0 PHOG-LAVAS0
+*WX  PHNL PHOG PHTO
+;----------------------------------------------------------
+
+
+*MID  M   02 03 04 05 06 07

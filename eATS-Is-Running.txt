@@ -1,0 +1,2 @@
+This file will be deleted when eATS completes a normal shutdown.  If this file exists
+when program starts (i.e. crash), previous log file contents are NOT erased.

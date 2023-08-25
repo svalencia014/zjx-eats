@@ -1,0 +1,842 @@
+;  FAC-ZOA-DATA.TXT   17 JUL 23
+
+; OAK VFR AAR = 30
+; SFO VFR AAR = 60
+; SJC VFR AAR = 26
+
+ *METER_APT  KOAK  200  30  PIRAT BOYYS SKIZM GRUDG
+ *METER_APT  KSFO  200  60  ALWYS LOZIT PIRAT NRRLI
+ *METER_APT  KSJC  200  26  RAZRR ZINNN STINS SILCN TPCAT
+
+;*METER_RWY  KOAK 30    30
+;*METER_RWY  KSFO 28L   20
+;*METER_RWY  KSFO 28R   20
+;*METER_RWY  KSJC 30L   26
+
+;*METER_FIX  ZOA11  MYJAW
+;*METER_FIX  ZOA13  EMZOH
+;*METER_FIX  ZOA14  SERFR TROXX
+;*METER_FIX  ZOA15  STUBL
+;*METER_FIX  ZOA22  RAZRR
+;*METER_FIX  ZOA34  ALWYS OAKES
+;*METER_FIX  ZOA35  PIRAT TPCAT
+;*METER_FIX  ZOA36  BGGLO CHBLI WNDSR
+;*METER_FIX  ZOA41  LOZIT GRIJO WEBRR
+
+
+;           Miles In Trail - arrivals
+;
+;         ACTIVE
+;         SECTOR   FIX   FIX    CAT  MIT  COMMENTS
+;         ------  ----- ----- -----  ---  --------
+*ARR_MIT    11    BURGL DOUIT     J   18  LAX
+*ARR_MIT    11    EMZOH MYJAW     J   15  OAK
+*ARR_MIT    13    BURGL DOUIT     J   18  LAX
+*ARR_MIT    13    EMZOH MYJAW     J   10  OAK
+*ARR_MIT    14    NRRLI WWAVS     J   10  SFO
+*ARR_MIT    14    SILCN VLLEY     J   10  SJC
+*ARR_MIT    15    RAZRR OUCHH     J   10  SJC
+*ARR_MIT    15    TRLOC SUUTR     J    7  SMF
+*ARR_MIT    16    TTE   ALTTA     J   12  FAT
+*ARR_MIT    22    RAZRR OUCHH     J   12  SJC
+*ARR_MIT    29    SLMMR POZUR     J    7  SMF
+*ARR_MIT    30    CARVV SLMMR     J    7  SMF
+*ARR_MIT    31    BGGLO LOZIT     J   15  SFO
+*ARR_MIT    33    OAKES GRUDG     J    7  OAK
+*ARR_MIT    33    RAZRR OUCHH     J    7  SJC
+*ARR_MIT    33    DYAMD LAANE     J   11  SFO
+*ARR_MIT    34    OAKES GRUDG     J   10  OAK
+*ARR_MIT    34    DYAMD LAANE     J   16  SFO
+*ARR_MIT    34    PNNEN MYNRR     J   15  SMF
+*ARR_MIT    36    BGGLO LOZIT     J   18  SFO
+*ARR_MIT    36    BRIXX LUYTA     J   10  SJC
+*ARR_MIT    36    BOYYS HOPTA     J   10  OAK
+*ARR_MIT    40    BOYYS HOPTA     J   50  OAK
+*ARR_MIT    41    BGGLO LOZIT     J   15  SFO
+*ARR_MIT    41    BRIXX LUYTA     J   15  SJC
+*ARR_MIT    41    BOYYS HOPTA     J   20  OAK
+*ARR_MIT    43    SLMMR POZUR     J    7  SMF
+*ARR_MIT    43    WINRZ WALAR     J    7  RNO
+; not busy
+*ARR_MIT    44    CAMRR GADBE     A   30  MHR
+*ARR_MIT    44    SLMMR POZUR     J   15  SMF
+*ARR_MIT    44    AWEGA LUMMO     J   20  TRK
+*ARR_MIT    45    WEBGO SLMMR     J   10  SMF
+*ARR_MIT    45    WINRZ WALAR     J   10  RNO
+; low volume
+*ARR_MIT    46    TEXSS HLDMM     J   25  RNO
+
+
+;           Miles In Trail - departures
+;
+;                       from
+;          REF         FacSec   CAT  MIT  COMMENTS
+;          ---          ----- -----  ---  --------
+*DEP_MIT    10    MQ050 SBA1B     A   20
+*DEP_MIT    11    PORTE NCT4Q     J   17  SFO OAK
+*DEP_MIT    11    TECKY NCT1T     J   15  SJC
+*DEP_MIT    14    SFO05 NCT4Q     J   10  SFO OAK  FFOIL/SEGUL
+*DEP_MIT    29    SJC   NCT4Q     J   13  SJC
+*DEP_MIT    29    ORRCA NCT4F     J   14  doesn't handle SFO/OAK very well
+*DEP_MIT    29    MOGEE NCT4F     J   12
+*DEP_MIT    29    TIPRE NCT4F     J   12
+*DEP_MIT    29    SYRAH NCT4F     J   14  doesn't handle SFO/OAK very well
+*DEP_MIT    29    DNGER NCT5P     J   10  SMF
+*DEP_MIT    29    DOSCO NCT5P     J   10  SMF
+*DEP_MIT    29    FTHIL NCT5W     J   10  SMF
+; only need one GNNRR for 35 and 41
+*DEP_MIT    35    GNNRR NCT4U     J   17  SFO
+*DEP_MIT    35    SFO326011 NCT4R J   25  OAK  low volume
+*DEP_MIT    35    BRINY NCT1T     J   25  SJC  low volume
+*DEP_MIT    41    TRUK0 NCT4R     J   10  DEDHD GRTFL  doesn't consider SNTNA
+*DEP_MIT    42    SAC350020 NCT5P J   15
+*DEP_MIT    44    ZEFFR NCT6A     J   15
+
+;         REF[-INFO]   DEST   CAT     FIX      FL    COMMENTS
+;         ----------   ---- -----  ---------  -----  --------
+*ARR_INFO        10    KMRY     A  WIGGL      *100
+*ARR_FL          10    KSBP     J  PRB        *80
+*ARR_FL_EXT      14    KBUR     J  RDHOT      *310
+*ARR_FL_EXT      14    KSMO     J  RDHOT      *310
+*ARR_FL_EXT      14    KVNY     J  RDHOT      *310
+*ARR_FL_EXT      15    KMHR     J  TURLO      *240
+*ARR_INFO        15    KMMH     A  CANDA      *170
+*ARR_FL_EXT      16    KMMH     A  CANDA      *170
+*ARR_FL          22    KSAC     T  TURLO      *200
+*ARR_INFO        29    KSTS     J  OAK        *140
+*ARR_INFO        30    KMHR     J  ELIDE      *240
+*ARR_INFO        31    KSJC     J  BRIXX      *280+
+*ARR_FL_EXT      33    KVGT     J  FUULL      *310
+*ARR_FL          36    KSTS     A  ENI        *240
+*ARR_FL          40    KSTS     A  STS        *60
+*ARR_FL          40    KSTS     A  KSTS       *60
+*ARR_FL          40    KUKI     A  LAPED      *80
+*ARR_FL          41    KHWD     J  STIKM      *200
+*ARR_INFO        41    KHWD     J  REBAS      *90
+; SAC north boundary T ~150  J ~190
+*ARR_FL          42    KSAC     P  TALUM      *70
+*ARR_FL_EXT      42    KFOT     J  PLYAT      *80
+*ARR_FL_EXT      42    KUKI     A  MERRI      *70
+*ARR_FL_EXT      46    KMAE     A  CABAB      *220
+*ARR_FL          46    KSCK     A  BIH        *220
+*ARR_FL       ZLA25    KSJC     J  SCTRR      *360
+*ARR_FL       ZLA26    KMRY     J  MAKRS      *320
+*ARR_FL       NCT1M    KMRY     A  PXN        *140
+*ARR_FL       NCT2Z    KCCR     J  MOD        *160
+*ARR_FL       NCT4R    KAPC     A  SAU        *80
+*ARR_FL       NCT4R    KAPC     A  OAK        *140
+*ARR_FL       NCT4R    KDVO     A  OAK        *120
+*ARR_FL       NCT4R    KDVO     A  COMMO      *80
+*ARR_FL       NCT4R    KSTS     A  SAU        *80
+*ARR_FL       NCT4R    KSTS     A  OAK        *140
+
+;        ISSUED 
+;          BY[-INFO]   DEST  CAT    RESTRICTION      COMMENTS
+;        -----------   ---- -----  -------------     --------
+*ARR_FL           10   KMRY     A  X15E.WIGGL@100
+*ARR_FL           10   KSBP     J  X20NW.MQO@70
+*ARR_FL           10   KSBP     J  X30NE.KSBP@80
+*ARR_FL           10   KSNS     A  X30SE.SNS@70
+*ARR_FL           10   KSMX     A  X85N.KSMX@180
+*ARR_FL           10   KSMX     A  X45N.KSMX@130
+*ARR_FL           10   KSMX     A  X45NW.KSMX@130
+*ARR_FL           10   KSMX     P  X35N.KSMX@70
+*ARR_FL           10   KWVI     T  X50SE.KWVI@120
+*ARR_FL           13   KSBA     J  X85N.GVO@310
+*ARR_FL           13   KSBA     J  X90N.HABUT@310
+*ARR_FL           14   KSBA     J  X20NW.MQO@290
+*ARR_FL           14   KSBA     J  X75N.GVO@310
+*ARR_FL           14   KSBA     J  X80N.HABUT@310
+*ARR_FL           15   KCXP     A  X85S.MARRI@300
+*ARR_FL           15   KMEV     A  X80S.IRPOH@300
+*ARR_FL           15   KMRY     J  X55NE.PXN@240
+*ARR_FL           15   KRNO     J  X130S.FMG@300
+*ARR_FL           15   KSBP     J  X75NE.PRB@240
+*ARR_FL           16   KBFL     A  X35N.EHF@110
+*ARR_FL           16   KBFL     A  X30NW.EHF@110
+*ARR_FL           16   KPRB     J  X55NE.PRB@160
+*ARR_FL           16   KSBP     J  X55NE.PRB@160
+*ARR_FL           16   KVNY     T  X40N.EHF@230
+*ARR_FL        29-34   KAPC     A  X30E.OAK@200
+*ARR_FL           22   KCCR     A  X20E.WRAPS@160
+*ARR_FL           22   KCVH     T  X65NE.IGRUC@160
+*ARR_FL           22   KCXP     A  X40S.MARRI@220
+*ARR_FL           22   KLVK     A  X60E.UHHUT@160
+*ARR_FL           22   KLVK     A  X30E.MOD@160
+*ARR_FL           22   KMHR     T  X80E.STNGR@180
+*ARR_FL           22   KMHR     T  X80E.CAMRR@180
+*ARR_FL           22   KMEV     A  X40S.IRPOH@220
+*ARR_FL           22   KMRY     J  X30NE.PXN@180
+*ARR_FL           22   KMRY     T  X70NE.PXN@200
+*ARR_FL           22   KMRY     T  X30NE.PXN@160
+*ARR_FL           22   KRHV     J  X70NE.ZUXOX@200
+*ARR_FL           22   KSCK     J  X30NE.DIJER@120
+*ARR_FL           22   KSCK     J  X30NE.MOD@120
+*ARR_FL           22   KSCK     J  X40E.MOD@120
+*ARR_FL           22   KSQL     A  X40E.MOD@160
+*ARR_FL           29   KRNO     J  X75S.FMG@240
+*ARR_FL           30   KSMF     J  X60E.CARVV@300
+*ARR_FL           30   KSMF     J  X60SE.CARVV@300
+*ARR_FL           30   KSMF     J  X80E.SLMMR@300
+*ARR_FL           33   KLAS     J  X40NW.BTY@330
+*ARR_FL           33   KLAS     J  X20NW.FLCHR@330
+*ARR_FL           33   KLAS     J  X20NW.ESSAA@330
+*ARR_FL           33   KMRY     J  X100NE.PXN@340
+*ARR_FL           33   KPRB     J  X135NE.KPRB@320
+*ARR_FL           33   KSCK     J  X90NE.DIJER@300
+*ARR_FL           33   KSCK     J  X50NE.DUCKE@300
+*ARR_FL           33   KSJC     J  X60NE.STUBL@300
+*ARR_FL           33   KSJC     J  X10NE.GYLET@300
+*ARR_INFO         33   KSMF     J  X60E.CARVV@300
+*ARR_FL           33   KVGT     J  X20NW.FLCHR@310
+*ARR_FL           34   KCCR     A  X20E.MOD@200
+*ARR_FL           34   KSJC     J  X25NE.STUBL@260
+*ARR_FL           34   KSTS     A  X50E.OAK@240
+*ARR_FL           35   KSJC     J  X50W.HEPAP@100
+*ARR_FL           35   KSMF     J  X25SW.PYE@230
+*ARR_FL           36   KMRY     A  X20N.HADLY@280
+*ARR_FL           36   KMRY     A  X10N.SEEMS@280
+*ARR_FL           40   KSTS     A  X25NW.SGD@80
+*ARR_FL           42   KACV     J  X20E.YAGER@140
+*ARR_FL           42   KACV     J  X20SE.YAGER@140
+*ARR_FL           42   KACV     T  X20SE.YAGER@140
+*ARR_FL           42   KMFR     J  X80S.SAMIE@200
+*ARR_FL           42   KUKI     A  X20NW.KUKI@70
+; still goes to 41 (MIA)
+*ARR_FL           42   1O2      A  X20N.1O2@100
+*ARR_FL           44   KMHR     J  X50N.KMHR@140
+*ARR_FL           44   KMHR     J  X20NE.CAMRR@140
+*ARR_FL           44   KMHR     A  X30NE.STNGR@140
+*ARR_FL           44   KMHR     A  X25NE.CAMRR@140
+*ARR_FL           44   KMHR     A  X35E.STNGR@140
+*ARR_FL           44   KMHR     A  X35E.CAMRR@140
+*ARR_FL           44   KRNO     A  X40S.FMG@160
+*ARR_FL           45   KMHR     J  X20NE.SWR@240
+*ARR_FL           46   KCVH     T  X125NE.IGRUC@220
+*ARR_FL           46   KFAT     A  X60NE.NTELL@200
+*ARR_FL           46   KFAT     A  X40NE.FRA@200
+*ARR_FL           46   KFAT     A  X60NE.SANGO@200
+*ARR_FL           46   KFAT     A  X45NE.FRA@200
+*ARR_FL           46   KLVK     T  X130E.UHHUT@220
+*ARR_FL           46   KMAE     A  X70NE.KMAE@220
+*ARR_FL           46   KMHR     A  X110E.STNGR@220
+*ARR_FL           46   KMHR     A  X110E.CAMRR@220
+*ARR_FL           46   KNLC     A  X60NE.CZQ@200
+*ARR_FL           46   KRNO     T  X30SE.FMG@160
+*ARR_FL           46   KSCK     J  X100E.MOD@220
+*ARR_FL        NCT1M   KMCC     A  X50S.LIN@180
+*ARR_FL        NCT1Q   KSCK     A  X25SE.MOD@100
+*ARR_FL        NCT2Z   KCCR     T  X45SE.CCR@170
+*ARR_FL        NCT3S   KSAC     T  X35S.LIN@120
+*ARR_FL        NCT4Q   KAPC     A  X15E.OAK@160
+*ARR_FL        NCT4R   KSTS     A  X15SE.BURDE@80
+*ARR_FL        NCT5P   KCCR     A  X30N.SAC@180
+*ARR_FL        NCT5P   KDVO     T  X60NE.RACFE@120
+*ARR_FL        NCT5P   KMOD     A  X75NW.KMOD@130
+*ARR_FL        NCT5P   KSCK     A  X60N.KSCK@150
+*ARR_FL        NCT5W   KAUN     A  X20S.CITXU@100
+*ARR_FL        NCT5W   KDVO     T  X60NE.KDVO@120
+*ARR_FL        NCT5W   KOAK     T  X20N.MOD@160
+*ARR_FL        ZLA16   KRNO     J  X10SE.KENNO@340
+*ARR_FL        ZLA16   KSMF     J  X10SE.KENNO@360
+*ARR_FL        ZLA16   KSMF     J  X55SE.DONNR@360
+*ARR_FL        ZLC43   KRNO     J  X10NE.MYBAD@320   Varies 300 and up
+*ARR_FL        ZLC47   KNLC     A  X30E.OAL@260
+*ARR_FL        ZLC47   KRNO     J  X50E.MVA@340
+*ARR_FL        ZZZ1A   KAPC     J  X15E.KAPC@60
+*ARR_FL        ZZZ1A   KSMF     A  X15SW.KSMF@50
+*ARR_FL        ZZZ1A   2O3      A  X20SE.2O3@80
+
+
+;     A.I. direction of flight altitude assignment, sector to sector.
+;     Westbound/Eastbound would be more correct, to be consistent above FL410.
+;
+;       OWNED             MIN MAX
+;         BY    TO   CAT   FL  FL  O/E  COMMENTS 
+;       ----- ----- ----- --- --- ----  --------
+*DOF_S  ZOA31 ZSE14    J  240  *  EVEN
+*DOF_S  ZOA31 ZSE13    J  240  *  EVEN
+*DOF_S  ZSE14 ZOA31    J  240  *  ODD
+*DOF_S  ZSE13 ZOA31    J  240  *  ODD
+
+
+;     A.I. direction of flight altitude assignment, by Airway/Star.
+;
+;       OWNED          AIRWAY          MIN MAX
+;         BY   TO      /STAR      CAT   FL  FL  O/E  COMMENTS
+;       ----- -----  ----------- ----- --- --- ----  --------
+*DOF_A  ZOA15 ZLA26  KBUR-ROKKR0    A   *   *  ODD   All for REBRG traffic
+*DOF_A  ZOA15 ZLA26  KLAX-IRNMN0    A   *   *  ODD
+*DOF_A  ZOA15 ZLA26  KLGB-PCIFC0    A   *   *  ODD
+*DOF_A  ZOA15 ZLA26  KSMO-BONJO0    A   *   *  ODD
+*DOF_A  ZOA15 ZLA26  KSNA-OHSEA0    A   *   *  ODD
+*DOF_A  ZOA15 ZLA26  KVNY-IVINS0    A   *   *  ODD
+*DOF_A  ZOA15 ZLA27  KBUR-ROKKR0    A   *   *  ODD
+*DOF_A  ZOA15 ZLA27  KLAX-IRNMN0    A   *   *  ODD
+*DOF_A  ZOA15 ZLA27  KLGB-PCIFC0    A   *   *  ODD
+*DOF_A  ZOA15 ZLA27  KSMO-BONJO0    A   *   *  ODD
+*DOF_A  ZOA15 ZLA27  KSNA-OHSEA0    A   *   *  ODD
+*DOF_A  ZOA15 ZLA27  KVNY-IVINS0    A   *   *  ODD
+
+
+;             A.I. direct to fix
+;
+; Program does not check for duplicate entries.
+; * in Orig/Dest means any
+; * Min Turn = 0
+; * Max Turn = 180
+; A non-zero min turn may prevent nuisance reroutes with no significant change.
+;
+; If trigger is after player's sector, player gets airplane on flight plan data base route.
+; If before player's sector (or not plugged in), airplane may be direct.  May miss player's sector.
+; Some entries only apply to one flight plan.  May be a better method.
+; Flights that are initialized close to the active sector boundary may never be
+; in the AUTO_DRCT sector.  The logic could be improved to handle that case.
+;
+;          ISSUED                               MIN MAX  MIN  MAX WITHIN
+;            BY   ORIG DEST CAT  DRCT TO  PROB   FL  FL TURN TURN MILES  OF
+;          ------ ---- ---- --- --------- ----  --- --- ---- ---- ----- ----
+*AUTO_DRCT    11    *    *   J    CABAB     95   *   *     2   90    20 OUCHH
+*AUTO_DRCT    11    *    *   J    NTELL     95   *   *     2   90    15 EMZOH
+*AUTO_DRCT    13    *    *   J    CABAB     95   *   *     2   90    20 OUCHH
+*AUTO_DRCT    13    *    *   J    NTELL     95   *   *     2   90    15 PXN  
+*AUTO_DRCT    14    *    *   J    ALLBE     90   *   *     5   90    *   *
+*AUTO_DRCT    14    *    *   J    CEPAS     90   *   *     5   90    *   *
+*AUTO_DRCT    14    *    *   J    LINUZ     50   *   *     5   90    *   *
+*AUTO_DRCT    14    *    *   J    REDWD     90   *   *     5   90    *   *
+*AUTO_DRCT    14    *  PHNL  J    BEBOP     90   *   *     5   90    60 SNS
+*AUTO_DRCT    15    *    *   J    CABAB     95   *   *     2   90    20 NTELL 
+*AUTO_DRCT    31    *    *   J    REDWD     90   *   *     5   90    *   *
+*AUTO_DRCT    33  KFAT KLAS  J    KENNO     90  310  *    40  120    *   *
+*AUTO_DRCT    33    *  KSFO  J    DYAMD     90   *   *    40   90    30 OAL
+*AUTO_DRCT    33    *  PHNL  J    ALANN     90   *   *     0   90    20 OAL
+*AUTO_DRCT    34    *  KORD  J    KU51O    100   *   *     1   90    *   *
+*AUTO_DRCT    35    *  KLAS  J    LIDAT     95   *   *     5   90    25 ALLBE
+*AUTO_DRCT    35    *  KLAX  J    BURGL     90   *   *     5   90    *   *
+*AUTO_DRCT    35    *  KSUU  J    HANAI     90   *   *     5   90    *   *
+*AUTO_DRCT    35    *  KOAK  J    PIRAT     90   *   *     5   90   175 PIRAT
+*AUTO_DRCT    35    *  KORD  J    KO48G    100   *   *     1   90    *   *
+*AUTO_DRCT    35    *  KSFO  J    PIRAT     90   *   *     5   90   175 PIRAT
+*AUTO_DRCT    35    *  KSMF  J    PYE       90   *   *     5   90    *   *
+*AUTO_DRCT    35    *  KSJC  J    TPCAT     90   *   *     5   90   175 TPCAT
+*AUTO_DRCT    36    *  KLAX  J    BURGL     90   *   *     5   90    25 REDWD
+*AUTO_DRCT    36    *  KLAX  J    BURGL     90   *   *     5   90    40 ENI
+*AUTO_DRCT    36    *  KLAX  J    OAK       90   *   *     5   90    25 N4020/W12610
+*AUTO_DRCT    40    *  O28   A    HERMT    100   *   *     1   90    30 ENI
+*AUTO_DRCT    41    *  KAPC  A    MICRA    100   *   *     1   90    *   *
+*AUTO_DRCT    41    *  KDVO  T    RACFE    100   *  120    1   90    20 SAC
+*AUTO_DRCT    41    *  KDVO  A    STS      100   *   *     1   90    *   *
+*AUTO_DRCT    41    *  O28   A    HERMT    100   *   *     1   90    30 ENI
+*AUTO_DRCT    41  KSTS KPDX  J    BTG      100  120  *     1   90    *   *
+*AUTO_DRCT    41  KSTS KSEA  J    BTG      100  120  *     1   90    *   *
+*AUTO_DRCT    42    *  KSVE  A    KSVE     100   *   *     1   90    40 KSVE
+*AUTO_DRCT    44    *  KMEV  A    IRPOH    100   *   *     *   90    25 IRPOH
+*AUTO_DRCT    46    *  KFAT  A    SANGO    100   *   *     *   90    50 MVA
+
+
+;         ISSUED                     MIN MAX  MIN  MAX    WITHIN
+;           BY   ORIG DEST CAT PROB   FL  FL TURN TURN MILES  OF FIX   REROUTE (from present position to) Comments
+;         ------ ---- ---- --- ----  --- --- ---- ---- ----- --------- ---------------------------------- -------------
+*REROUTE     41  KSUU   *   A   100  145  *     0   90    *    *       BAART
+*REROUTE     41  KSUU   *   A   100  145  *     0   90    *    *       BOXER
+*REROUTE     41    *  1O2   A   100   *   *     0   90    40 1O2       WEPLO.RNAVA.1O2
+*REROUTE     42    *  1O2   A   100   *   *     0   90    65 WEPLO     WEPLO.RNAVA.1O2
+*REROUTE   NCT6A   *  KTRK  A   100   *   *     0   90    20 HALLE     ALANT.RNAV11.KTRK
+
+;          ISSUED             WITHIN      FINAL  (from present position to) 
+;            BY    DEST  CAT  MILES  OF   COURSE     FIX.APCH.DEST        allows multiple
+;          ------  ----  ---  ----- ----  -------------------------------------------------------------
+*WIND_ARR     41   O28    A      *   *    159 XUGME.RNAV16.O28    339 HERMT.RNAV34.O28
+*WIND_ARR   FAT1A  KFAT   A      *   *    112 MORLA.RNAV11L.KFAT  292 IPUJE.RNAV29L.KFAT
+
+
+; Tower issues flight plan route, squawk, and climb to altitude shown.
+; Player may change/add any element with same syntax as non-Tower airports.
+; Minimum clearance: <Call Sign> RLSD
+
+*TOWER   KAPC/50 KCIC/50 KRDD/50 KSTS/50 KTRK/120
+
+
+;                                      Antenna     show rings
+;            ID        Position          Base      from -- to
+*RADAR_SITE  FLX   N3924.19/W11843.19    3933      5000  9000   RMK: FALLON, NV
+*RADAR_SITE  TPH   N3808.27/W11712.02    7107      8000  9000   RMK: TONOPAH, NV
+
+;                           Top  Bottom         Active        Within
+;              Position     Alt   Alt   Radius  Sectors    @  Sectors
+*RADAR_HOLE  N3734/W11830  17000 14000    30    46         @  46             RMK: MMH BIH
+
+
+;		Sector Maps
+
+; Some items shown by default based on stratum, e.g. airports on Low and Both.
+; Can hide some (default) items, e.g. may not want airports on an "intermediate low" sector.
+; Do not need to list intersections if the airway is shown.
+; Display menu switches can show all items in various categories in another color.
+; Can define range rings and zoom buttons.
+
+; LIBRARY entries show procedure altitudes within sector limits (and within a few miles outside)
+; in pop up Library window.  Out of sector altitudes can be shown with ARR_INFO entry above.
+; SHOW_PROC displays procedure lines (not intersections) on map and shows in Library.
+; SHOW_PROC_SEC adds SHOW_PROC items defined in another sector, e.g. show High restrictions in Super High.
+
+
+*MAP 10
+*MAP_XN
+APURE CHRLE CREPE DOBRA EMZOH EXUPY HOVLI LIBBO MCKEY MEETL
+NACIN NRRLI ROBIE SERFR SILCN SUSEY TOKIO VLLEY ZUGPO
+*END
+*MAP_AW
+T257 T259 T261 T263 T329 T333
+V25 V27 V107 V113 V137 V248
+*END
+*SHOW_NDB
+*ZOOM  LKHRN LKHRN180005 35  OCEAN N3535/W12200 85
+*SHOW_PROC KPRB-RNAV19 KPRB-RNAV31 KPRB-VORB KMRY-LOC28L
+*LIBRARY  KMRY-LOC28L KSNS-ILS31 KSNS-RNAVY31
+*NOTES  MRY EAST ..PEBBS..MRY
+*NOTES  Often 10+16+22
+*WX  KMRY KPRB KSBP KNLC KCVH
+;----------------------------------------------------------
+
+*MAP 11
+*MAP_XN
+BURGL CISKO EBAYE EMZOH JFREE KAYEX KTINA LOSHN MAKRS MYJAW
+PORTE RDHOT RGOOD SKIZM SUSEY TECKY UTOOB
+VLREE
+*END
+*MAP_AW
+A220
+J1 J5 J6 J7 J32 J65 J84 J88 J126 J189 J501
+Q7 Q9 Q11 Q158 Q160 Q164
+R463 R464 R465 R585
+*END
+*ZOOM  EBAYE EBAYE310015 40
+*SHOW_BDRY_A
+*SHOW_PROC KSJC-SPTNS0 KOAK-EMZOH0 KSFO-SSTIK0
+;----------------------------------------------------------
+
+*MAP 13
+*MAP_XN
+BURGL CISKO DOUIT EBAYE EMZOH JFREE KAYEX KTINA LOSHN MAKRS
+MYJAW RDHOT RGOOD SKIZM SUSEY TECKY
+VLREE
+*END
+*MAP_AW
+A220
+J1 J5 J6 J7 J32 J65 J84 J88 J126 J189 J501
+Q7 Q9 Q11 Q158 Q160 Q164
+R463 R464 R465 R585
+*END
+*RINGS  BURGL 295 303  20 120 20
+*RINGS  BURGL 313 323  20 120 20
+*RINGS  BURGL 337 347  20 120 20
+*ZOOM  EBAYE EBAYE310015 40
+*SHOW_PROC KSJC-SPTNS0 KOAK-EMZOH0 KSFO-SSTIK0
+;----------------------------------------------------------
+
+*MAP 14
+*MAP_XN
+BOARS BRINY BURGL CISKO CYPRS EPICK EUGEN FFOIL KTINA LIBBO
+MAKRS MANZZ MCKEY NRRLI SERFR SCTRR SEGUL SILCN STOKD TILLT
+TOKIO TROXX VLLEY WIGGL WWAVS YYUNG ZIPRR
+*END
+*MAP_AW
+A220
+J1 J5 J6 J7 J32 J65 J84 J88 J126 J189 J501
+Q7 Q9 Q11 Q158 Q160 Q164
+R463 R464 R465 R585
+*END
+*SHOW_PROC KSFO-SERFR0 KSFO-SSTIK0 KSJC-SILCN0 KSFO-OFFSH0
+*RINGS NRRLI  137 152  10 70 10
+*RINGS SILCN  130 148  10 50 10
+*ZOOM  SERFR SERFR 45
+*NOTES  MRY EAST ..PEBBS..MRY
+*WX  KSFO KMRY KPRB
+;----------------------------------------------------------
+
+*MAP 15
+*MAP_XN
+CANDA DUCKE GYLET KAELA MMTLY NIKKT NURAY OTTEE OUCHH RAZRR
+STADD STUBL SUUTR TRLOC OYVEY
+*END
+*MAP_AW
+J1 J5 J6 J7 J32 J65 J84 J88 J126 J189 J501
+Q7 Q9 Q11 Q158 Q160 Q164 Q174
+*END
+*ZOOM  PINNI PINNI 40
+*SHOW_PROC KCCR-BMBER0 KSJC-RAZRR0 KSMF-SUUTR0
+*NOTES  REBRG if not in trail: SNA/LGB above LAX above BUR/VNY/SMO
+*NOTES  New - BUR/VNY/SMO REBRG max FL310 always
+*NOTES  Real world SUUTR Star is usually not worked by 34.
+;----------------------------------------------------------
+
+*MAP 16
+*MAP_XN
+CANDA SANGO
+*END
+*MAP_AW
+V23 V107 V165 V230 V332 V459
+*END
+;SHOW_MIA
+*ZOOM  ALTTA ALTTA 35
+*NOTES  Usually 16+22, sometimes 10+16+22
+*WX  KFAT KNLC KVIS
+;----------------------------------------------------------
+
+*MAP 22
+*MAP_XN
+ALWYS BIFFY CANDA CABAB COCPE CROLI DUCKE DYAMD FOMES GRDOE
+GRUDG HOFED JOFAY LAANE MATEE MOLLA MONOH NTELL NIKKT OAKES
+OUCHH POYSN RAZRR RICOD RPARK SANGO SHAVY STUBL UHHUT UPCIM
+WOSMA WALLE WRAPS ZNAME
+*END
+*MAP_AW
+T298 T329
+V23 V107 V113 V165 V230 V244 V332 V381 V459
+*END
+*ZOOM  MPI KMPI 35
+*LIBRARY KHWD-SHARR0 KHWD-SHARR1T
+*SHOW_PROC KMPI-RNAVA KMPI-RNAVB KSJC-RAZRR0 E45-RNAV9 E45-RNAV27
+;SHOW_MIA
+*NOTES  Usually 16+22, sometimes 10+16+22
+*WX  KFAT KMMH O22 KMCE
+;----------------------------------------------------------
+
+*MAP 29
+*MAP_XN
+AMRVR BMRNG CARVV CRASY DARBI DNGER DOSCO DRAGN DUNGN ELIDE
+FTHIL GRRIF GRDOE HRNER KOLGE OAKES PNNEN RALEY SHIMR SLMMR
+UNTLY
+*END
+*MAP_AW
+J1 J3 J5 J7 J32 J56 J58 J65 J67 J80 J84 J92 J126 J148 J158 J189 J198
+Q7 Q9 Q11 Q13 Q15 Q120 Q122 Q124 Q126 Q128 Q130 Q132 Q134 Q136 Q138
+Q164
+*END
+*SHOW_BDRY_A
+*ZOOM  MOGEE MOGEE 40
+*SHOW_PROC  KRNO-ZEFFR0 KSMF-SCTWN0 KSMF-FTHIL0 KMHR-AMRVR0 KSMF-SLMMR0
+*NOTES  Often with 32
+;----------------------------------------------------------
+
+*MAP 30
+*MAP_XN
+ADWAT AMRVR ASTNN CARVV CLOTS CRASY DONNR DRAGN DUNGN ELIDE
+FIORE GRAFT NUWXO PESKE RALEY SCOLA UNTLY
+*END
+*MAP_AW
+J1 J3 J5 J7 J32 J56 J58 J65 J67 J80 J84 J92 J126 J148 J158 J189 J198
+Q7 Q9 Q11 Q13 Q15 Q120 Q122 Q124 Q126 Q128 Q130 Q132 Q134 Q136 Q138
+Q164
+*END
+*ZOOM  MVA MVA 40
+*SHOW_PROC  KRNO-KENNO0 KRNO-ZEFFR0 KSMF-SLMMR0 KSMF-SCTWN0
+;----------------------------------------------------------
+
+*MAP 31
+*MAP_XN
+BGGLO BMBOO BORDY BOWLS CHBLI DALON DEDHD DRAXE EWOKS GRTFL
+HRNER KNZIE LEGGS LOMBO MRRLO OWLEK PYYLE RBUCL WNDSR
+*END
+*MAP_AW
+J1 J3 J5 J7 J32 J65 J67 J88 J92 J94 J126 J143 J189 J501
+Q1 Q3 Q5 Q7 Q9 Q11 Q13 Q15 Q120 Q122 Q124 Q132 Q138
+*END
+*RINGS BGGLO 305 052  20 80 20
+*ZOOM   RBL N4030/W12145 60  ILA ILA 50
+*SHOW_PROC KSMF-TUDOR0 KSFO-TRUKN0 KSFO-BDEGA0 KOAK-WNDSR0 KSJC-BRIXX0
+;----------------------------------------------------------
+
+*MAP 32
+*MAP_XN
+BMRNG CARVV CRASY DARBI DNGER DOSCO DRAGN DUNGN FTHIL GRDOE
+HRNER OAKES PNNEN RALEY SHIMR SLMMR
+*END
+*MAP_AW
+J1 J3 J5 J7 J32 J56 J58 J65 J67 J80 J84 J92 J126 J148 J158 J189 J198
+Q7 Q9 Q11 Q13 Q15 Q120 Q122 Q124 Q126 Q128 Q130 Q132 Q134 Q136 Q138
+Q164
+*END
+*ZOOM  DOSCO DOSCO 40
+*SHOW_PROC KRNO-ZEFFR0 KSMF-SCTWN0 KSMF-SLMMR0
+*NOTES  Often with 29
+;----------------------------------------------------------
+
+*MAP 33
+*MAP_XN
+BASIC CAGEE CANDA DONNR DRAGN DUNGN DYAMD ESSAA GRAFT GYLET
+INYOE KENNO KNGRY MOLLA MONOH OAKES PEGYS PEMKE RAZRR RPARK
+RUSME STUBL TQILA
+*END
+*MAP_AW
+J1 J3 J5 J7 J32 J56 J58 J65 J67 J80 J84 J92 J126 J148 J158 J189 J198
+Q7 Q9 Q11 Q13 Q15 Q120 Q122 Q124 Q126 Q128 Q130 Q132 Q134 Q136 Q138
+Q164 Q174
+*END
+*RINGS N3743/W11943  075 100  20 80 10
+*RINGS MOLLA	  076 085  20 90 10
+*SHOW_PROC  KHND-GAMES0 KLAS-COKTL0 KSJC-RAZRR0 KSMF-SCTWN0 KSMF-SLMMR0
+*SHOW_PROC  KOAK-OAKES0 KRNO-KENNO0 KSFO-DYAMD0 KCCR-BMBER0
+*ZOOM  INYOE INYOE 40
+;----------------------------------------------------------
+
+*MAP 34
+*MAP_XN
+ALWYS BANND BIFFY BMBER CEDES DARBI DOSCO DUCKE DYAMD FOOLZ
+FLOWZ FTHIL GLDDD GRDOE GRUDG GYLET INYOE JOFAY KAELA LAANE
+MOLLA MONOH MATEE OAKES OTTEE PEGYS PEMKE PNNEN POYSN RPARK
+RUSME SHIZM STUBL SUUTR TRLOC ZOKMM
+*END
+*MAP_AW
+J1 J3 J5 J7 J32 J56 J58 J65 J67 J80 J84 J92 J126 J148 J158 J189 J198
+Q7 Q9 Q11 Q13 Q15 Q120 Q122 Q124 Q126 Q128 Q130 Q132 Q134 Q136 Q138
+Q164
+*END
+*RINGS ALWYS  079 092  10 100 10
+*RINGS GRUDG  075 085  10  80 10
+*ZOOM  DYAMD DYAMD 25
+*SHOW_PROC  KCCR-BMBER0 KOAK-OAKES0 KSFO-DYAMD0 KSMF-SUUTR0
+*SHOW_PROC  KSMF-SCTWN0 KSMF-FTHIL0
+*NOTES Real world SUUTR Star is usually not worked by 34.
+;----------------------------------------------------------
+
+*MAP 35
+*MAP_XN
+ALANN BUTEN CEPAS DACEM FATMO GNNRR HANAI HUNTS LIBBO MCKEY
+MOLEN PAINT PASIF PIRAT RAINS REDWD ROVUE SUPER TPCAT
+*END
+*MAP_AW
+A220
+J1 J5 J6 J7 J32 J65 J84 J88 J126 J189 J501
+Q7 Q9 Q11 Q158 Q160 Q164
+R463 R464 R465 R585
+*END
+*RINGS PIRAT  230 290  20  80 20
+*RINGS N3617/W12731  065 075  60 120 30
+*ZOOM  BEBOP BEBOP 80
+*LIBRARY  KOAK-PIRAT0 KSJC-RV1
+*SHOW_PROC  KSFO-PIRAT0 KSUU-OSVEE0
+*NOTES Same altitude 30 MIT to Ocean, no overtakes
+*NOTES Track B westbound only, all altitudes available
+*WX  KSTS KSFO KMRY KUKI
+;----------------------------------------------------------
+
+*MAP 36
+*MAP_XN
+AMAKR BGGLO BOXER BUTEN CEPAS CHBLI CORKK DACEM DEEAN FATMO
+GRIJO HANAI HUBRT JONNE LATNE LINUZ LOZIT MLBEC MOLEN MRRLO
+MSCAT NATTE OSVEE PEENO PXTON PYYLE QUINN REDWD SHENU SPAMY
+TRYSH UNVER WNDSR
+*END
+*MAP_AW
+C1415 C1486
+J1 J3 J5 J7 J32 J65 J67 J88 J92 J94 J126 J143 J189 J501
+Q1 Q3 Q5 Q7 Q9 Q11 Q13 Q15 Q120 Q122 Q124 Q132 Q138
+R463 R464 R465
+*END
+*RINGS BGGLO 305 052  20 100 20
+*RINGS REDWD 095 155  30  60 30
+*ZOOM  QUINN QUINN 60
+*SHOW_PROC KSFO-BDEGA0 KOAK-WNDSR0 KSJC-BRIXX0 KSUU-OSVEE0
+*NOTES Same altitude 30 MIT to Ocean, no overtakes
+;----------------------------------------------------------
+
+*MAP 40
+*MAP_AW
+T257 T261 T263 T329
+V23 V25 V27 V87 V107 V108 V195 V199
+V200 V301 V494 V607
+*END
+*MAP_XN
+ADUWY AMAKR BDEGA BOYYS BURDE CEVLA CIKPI CIVDA CORKK DEDHD
+EGHIB EHETY FESAV FIPUM FIRTO GRTFL HEBLU HERMT HOPLA IMRIY
+IVUPE JIVLI KEARN LOZIT LOZWU LUSEE OA300 ORIBY PIGPN RACFE
+RONHU ROZZA RYPAX SAVJO SAVPE STS14 TAPNE VECEM WDSTC WEBRR
+WHTLE WIMUK WNDSR YAPUB ZIRUP
+*END
+*LIBRARY  KAPC-VA19R KAPC-VA24 KOAK-WNDSR0 CA35-VFR1
+*SHOW_PROC  KDVO-GPS13 O60-RNAV32 O69-RNAV29 KAPC-RNAVZ1L KAPC-ILS1L KAPC-RNAV6 KSQL-PYE3P
+*SHOW_PROC  KSTS-FREES0 KSTS-CHRLY0 KSTS-STS0 KSTS-RNAV2 KSTS-RNAV14 KSTS-ILS32 KSTS-RNAV32
+*SHOW_PROC  KLLR-RNAV29 KUKI-RNAVB KUKI-LOC15 KUKI-VORA 1O2-LAKPT0 1O2-RNAVA O28-RNAV34 CL69-RNAVA 39CN-RNAVA
+*ZOOM   ENI ENI125010 35  WDSTC WDSTC 30
+*RINGS  KSTS32  152 162  12 21 3
+*WX  KUKI KSTS O69 KDVO KAPC KSUU
+;----------------------------------------------------------
+
+*MAP 41
+*MAP_AW
+T257 T261 T263 T329
+V23 V25 V27 V87 V107 V108 V195 V199
+V200 V301 V494 V607
+*END
+*MAP_XN
+AMAKR BDEGA BGGLO BMBOO BRIXX BOYYS CHBLI CORKK DEDHD DEEAN
+DRAXE GRIJO GRTFL HOPTA HUBRT JONNE LOZIT LUSEE MLBEC MRRLO
+MSCAT OSVEE PEENO PXTON PYYLE QUINN RBUCL SIMGY SPAMY WEBRR
+WNDSR ZINNN
+*END
+*RINGS N3745/W12235 317 353  10 100 10
+*RINGS CORKK 350 005  0 80 20
+*RINGS BOYYS 348 358  0 60 10
+*HIDE_APTV
+*ZOOM  BGGLO BGGLO 35
+*SHOW_PROC KSFO-BDEGA0 KSFO-GNNRR0 KSFO-TRUKN0 KSJC-BRIXX0 KOAK-WNDSR0
+*LIBRARY KHWD-RV1 KRHV-PYE0 KSJC-PYE0
+*NOTES STS CHRLY departures heading 320
+*WX  KUKI KSTS O69 KDVO KAPC KSUU KSFO
+;----------------------------------------------------------
+
+*MAP 42
+*MAP_XN
+AMAKR ASAYE AXHEC BOWLS HERMT IMYIB JEVLA JUGTU KEARN KLEMM
+KREST KYILE LOMBO NEAPO PAPGE SAVJO TOWAN UKDOW UNJED VACIA
+VECEM WIMUL WYSKI XUGME ZOTWY
+*END
+*MAP_AW
+T257 T261 T263 T329
+V23 V25 V27 V87 V107 V108 V165 V195 V199
+V200 V301 V332 V392 V452 V494 V607
+*END
+*ZOOM   LLR FLUEN 40  RBL DIBLE 45  ILA O08 40
+*SHOW_PROC  KSMF-TUDOR0 KCIC-RNAV31R KLLR-RNAV29
+*SHOW_PROC  KRBL-RNAV15 KRBL-RNAV33 KRBL-VOR33 KRDD-LOC16 KRDD-ILS34 KRDD-RNAV34
+*SHOW_PROC  KSVE-RNAVA KUKI-LOC15 KWLW-RNAV34 O08-RNAV31 O08-RNAVB O28-RNAV16 O28-RNAV34 O37-RNAVA
+*SHOW_APCH_FINAL KCIC-ILS13L
+*LIBRARY  O08-VORA 2O1-VA25
+*WX  KRDD KRBL KCIC KSMF KSIY KSVE KACV KFOT KOVE O05 KAAT
+;----------------------------------------------------------
+
+*MAP 43
+*MAP_XN
+BLKJK EELZA JAGOM LEGGS LOKEY NUWXO PYYLE SLMMR UUPPP WADOL
+WHATZ WINRZ
+*END
+*MAP_AW
+J1 J3 J5 J7 J32 J65 J67 J88 J92 J94 J126 J143 J189 J501
+Q1 Q3 Q5 Q7 Q9 Q11 Q13 Q15 Q120 Q122 Q124 Q132 Q138
+*END
+*ZOOM  FMG FMG 40
+*SHOW_PROC KRNO-MYBAD0 KRNO-HARTT0
+;----------------------------------------------------------
+
+*MAP 44
+*MAP_XN
+ALANT ALVVA AMRVR AWEGA CAMRR CARVV DARBI DOSCO DNGER ELIDE
+GEGVY GEKNE HALLE HETRY HOBOA HUYJO IRPOH JACII JUDPU KOLGE
+LEKYI MACUS NAPBI OAKES OBAVE POYSN POZUR PWWDR RONND SAKOC
+SCTWN SHELD SLMMR TAHOE TENCO UNTLY WEBGO ZEFFR
+*END
+*MAP_AW
+T298 T331
+V6 V28 V105 V113 V165 V200 V332 V338 V392 V452 V494
+*END
+*NOTES DNGER shelf makes handoffs more predictable from SMF
+*LIBRARY  KRNO-RV1
+*SHOW_PROC KRNO-SIER0 KSMF-SLMMR0 KRNO-ZEFFR0 KSMF-SCTWN0 KMHR-AMRVR0
+*SHOW_PROC KTRK-RNAV11 KTRK-RNAVA KTRK-RNAV20 KTRK-VA29 KTVL-GPS18 KCXP-RNAVA KMEV-RNAVB
+*SHOW_PROC O02-RNAVZ26
+;SHOW_MIA
+*ZOOM  SWR SWR 30
+*WX  KTVL KRNO KTRK KAUN KPVF O22
+;----------------------------------------------------------
+
+*MAP 45
+*MAP_XN
+ANAHO AWEGA BLKJK DATTT DNGER EELZA FESKO HARTT HIXUP HOSME
+JAGOM JIVGI JUDMI LEKYI MACUS MYBAD PAPGE PEVIC PYGOW SLMMR
+URCIV WADOL WARTI WEBGO WHATZ WINRZ UUPPP
+*END
+*MAP_AW
+T331
+V6 V32 V113 V165 V200 V338 V392 V452 V494
+*END
+;SHOW_MIA
+*SHOW_PROC  KLOL-RNAV2 KLOL-RNAV20 KRNO-HARTT0 KRNO-MYBAD0 KSVE-RNAV29 KSVE-RNAVA
+*SHOW_PROC  KSMF-SLMMR0 KRNO-ZEFFR0
+*ZOOM  ANAHO ANAHO 50
+*WX  KRNO KLOL KSVE KNFL KBAM KWMC
+;----------------------------------------------------------
+
+*MAP 46
+*MAP_XN
+AMRVR BABIT BEAVE CABAB CANDA CHIME CROLI DUVBE ELIDE FEBAT
+FEDGO FOMES GILVE GRAFT HATAG HEGIT HLDMM JASAT JEBAD KENNO
+KICHI LOMIA OAKES ODLEE OENNS PEMKE PESKE RUSME SCOLA TEPME
+TEXSS UNING UNTLY WALLE WUDIN YIYUR ZICYO ZNAME
+*END
+*MAP_AW
+T298
+V105 V113 V135 V165 V230 V244 V381 V494
+*END
+;SHOW_MIA
+*SHOW_PROC  KRNO-ZEFFR0 KRNO-KENNO0 KRNO-RYANN0
+*SHOW_PROC  KBIH-RNAVZ12 KBIH-LDA17 KBIH-RNAV30 KHTH-RNAV28 KMMH-RNAV27 KTPH-RNAV15
+*ZOOM  SCOLA SCOLA 50  MMH N3743/W11827 35
+*WX  KRNO KHTH KMMH KBIH KTPH
+;----------------------------------------------------------
+
+
+
+; Data block line 3 single letter destination codes.
+; Airport ID in this table may be 3 or 4 letter.
+
+*DEST_L  A  OAK
+*DEST_L  B  BUR VNY
+*DEST_L  C  ORD
+*DEST_L  D  DEN
+*DEST_L  E  SEA
+*DEST_L  F  FAT
+*DEST_L  G  LGB SNA
+*DEST_L  J  SJC
+*DEST_L  L  LAX
+*DEST_L  M  MFR
+*DEST_L  N  SAN
+*DEST_L  P  PDX
+*DEST_L  Q  YVR
+*DEST_L  R  RNO
+*DEST_L  S  SFO
+*DEST_L  T  ONT
+*DEST_L  U  SLC
+*DEST_L  V  LAS
+*DEST_L  X  SMF
+*DEST_L  Y  MRY
+*DEST_L  Z  PHX
+
+
+;    MOA/ATCAA/RESTRICTED/PROHIBITED
+
+; All show on map as dotted red lines.
+; Need to develop format for showing typical hours of use, etc. in Library
+
+; R4813-A/B  TO FL 350
+*MOA  000 359
+N3945.88/W11837.93  N3951.00/W11838.07  N4001.00/W11815.07
+N4001.00/W11801.05  N3958.00/W11801.05  N3937.83/W11817.02
+N3938.00/W11824.25  N3939.00/W11828.50  N3941.00/W11832.50
+N3943.00/W11835.25  N3944.50/W11836.75  N3945.88/W11837.93
+*END
+
+; R4804B TO FL 350
+*MOA  000 359
+N3911.50/W11818.75  N3912.50/W11820.75  N3913.50/W11821.25
+N3914.50/W11821.50  N3915.50/W11821.00  N3916.50/W11820.25
+N3917.25/W11817.50  N3917.25/W11816.50  N3918.00/W11813.50
+N3918.00/W11811.50  N3917.00/W11809.00  N3916.00/W11807.50
+N3914.75/W11806.75  N3913.00/W11806.25  N3911.00/W11806.75
+N3910.00/W11807.50  N3908.50/W11810.00  N3908.00/W11812.00
+N3908.25/W11814.50  N3909.00/W11816.75  N3910.00/W11818.00
+N3911.50/W11818.75
+*END
+
+
+; Midnight shift configuration.
+; Select with XX MID command followed by Area or any sector number.
+; Only selects active sectors.  All non-active sectors remain open, no frequency combining.
+; Use XX LOCAL to change clock for time-of-day flight plans if desired.
+
+*MID  N   29 32 40 41 42 43
+*MID  E   30 33 34 44 45 46
+*MID  S   10 11 13 15 16 22
+*MID  PN  31 36
+*MID  PS  14 35

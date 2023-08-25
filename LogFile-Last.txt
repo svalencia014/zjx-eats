@@ -1,0 +1,544 @@
+Nav folder: C:\Users\broth\AppData\Local\ATSim2020\eATS\
+LoadFrame
+Main window create
+ChildView Create
+MainFrame 00FE0780  ChildView 00FE1318
+Fix font is Arial, requested Arial.
+Data Block font is Consolas, requested Consolas.
+On-screen List font is Consolas, requested Consolas.
+Clock font is Arial, requested Arial.
+QNH (if no *WX defined) 30.05
+Surface wind 278.088T 260M at 15
+Upper Winds:   500-299/40   450-286/45   400-276/50   350-266/55   300-256/60 
+               250-254/51   200-252/37   150-250/26   100-248/18    50-246/13     0-244/11 
+Airplanes turned off by file menu item.
+Main window create complete
+LoadFrame complete
+Time is 0016
+Registry ActiveTimeBias (seconds) = 14400
+Start read 00:16:39
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** Unknown fix in airway/procedure: KJAX BRSTL1, Fix:  TERRE
+----  SID KJAX BRSTL1 transition fixes KJAX and TERRE are 4174.61 miles apart
+----  SID KJAX BRSTL1 transition fixes TERRE and BRSTL are 4154.22 miles apart
+Stats - FPAs 0  boundary segments 0
+0 flight plans (FPX) now available.
+00 Map set center N4500.00/W12100.00 range 200
+End read   00:16:54
+
+Time is 0017 AC 0
+CRD: XX FAC ZJX SEC 10 COMB 11 WORK BLUE 0
+	ACCEPT - LOADING FACILITY DATA ...
+
+
+    -------- LOAD FACILITY --------
+Upper Winds:   500-281/43   450-269/48   400-257/51   350-245/54   300-233/57 
+               250-232/49   200-234/35   150-236/24   100-238/16    50-240/11     0-242/9  
+Start read 00:17:05
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** Unknown fix in airway/procedure: KJAX BRSTL1, Fix:  TERRE
+----  SID KJAX BRSTL1 transition fixes KJAX and TERRE are 4174.61 miles apart
+----  SID KJAX BRSTL1 transition fixes TERRE and BRSTL are 4154.22 miles apart
+(3) Opening C:\Users\broth\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
+Pending active facility ID: ZJX
+(4) Opening FAC-ZJX-BDRY.TXT
+(4) Opening FAC-ZJX-DATA.TXT
+**** FAC-ZJX-DATA.TXT, line 43, Fix not in database: GRRAS
+**** FAC-ZJX-DATA.TXT, line 48, Fix not in database: CORRY
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** FAC-ZJX-DATA.TXT, line 95, Undefined XN in *MAP_XN AMG
+**** FAC-ZJX-DATA.TXT, line 95, Undefined XN in *MAP_XN SAV
+**** FAC-ZJX-DATA.TXT, line 95, Undefined XN in *MAP_XN TLH
+**** FAC-ZJX-DATA.TXT, line 95, Undefined XN in *MAP_XN VLD
+**** FAC-ZJX-DATA.TXT, line 95, Undefined XN in *MAP_XN LCQ
+**** FAC-ZJX-DATA.TXT, line 95, Undefined XN in *MAP_XN CTY
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** FAC-ZJX-DATA.TXT, line 105, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 108, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 108, Undefined airway in MAP_AW V537
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** FAC-ZJX-DATA.TXT, line 110, Unknown airport ID or procedure ID: KSFB SHEK0
+**** FAC-ZJX-DATA.TXT, line 110, Unknown airport ID or procedure ID: KMCO LEESE0
+**** FAC-ZJX-DATA.TXT, line 110, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 110, Unknown airport ID or procedure ID: KSFB SHEK0
+**** FAC-ZJX-DATA.TXT, line 110, Unknown airport ID or procedure ID: KMCO LEESE0
+**** FAC-ZJX-DATA.TXT, line 110, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 116, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 116, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 116, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 116, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 121, Unknown airport ID or procedure ID: KFLL FORTL0
+**** FAC-ZJX-DATA.TXT, line 121, Unknown airport ID or procedure ID: KFLL FORTL0
+**** FAC-ZJX-DATA.TXT, line 133, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 133, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 133, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 133, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 133, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 133, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 133, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 133, Undefined XN in *MAP_XN MCN
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** FAC-ZJX-DATA.TXT, line 152, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 152, Undefined airway in MAP_AW V51
+**** FAC-ZJX-DATA.TXT, line 154, Unknown airport ID or procedure ID: KMCO BITHO0
+**** FAC-ZJX-DATA.TXT, line 154, Unknown airport ID or procedure ID: KMCO BITHO0
+(4) Opening FAC-ZTL-MIA.TXT
+(4) Opening FAC-ZDC-MIA.TXT
+(4) Opening FAC-ZHU-MIA.TXT
+(4) Opening FAC-ZTL-BDRY.TXT
+(4) Opening FAC-ZDC-BDRY.TXT
+(4) Opening FAC-ZHU-BDRY.TXT
+(4) Opening FAC-ZMA-BDRY.TXT
+(4) Opening FAC-CAE-BDRY.TXT
+(4) Opening FAC-SSC-BDRY.TXT
+(4) Opening FAC-CHS-BDRY.TXT
+(4) Opening FAC-DAB-BDRY.TXT
+(4) Opening FAC-FLO-BDRY.TXT
+(4) Opening FAC-JAX-BDRY.TXT
+(4) Opening FAC-MCO-BDRY.TXT
+(4) Opening FAC-TPA-BDRY.TXT
+(4) Opening FAC-MYR-BDRY.TXT
+(4) Opening FAC-NBC-BDRY.TXT
+(4) Opening FAC-OZR-BDRY.TXT
+(4) Opening FAC-PAM-BDRY.TXT
+(4) Opening FAC-PNS-BDRY.TXT
+(4) Opening FAC-SAV-BDRY.TXT
+(4) Opening FAC-TLH-BDRY.TXT
+(4) Opening FAC-VLD-BDRY.TXT
+(4) Opening FAC-VPS-BDRY.TXT
+(4) Opening FAC-CLT-BDRY.TXT
+Stats - FPAs 131  boundary segments 1866
+Active facility set to ZJX, no active sectors.
+0 flight plans (FPX) now available.
+00 Map set center N3116.00/W08149.00 range 250
+End read   00:17:16
+Active facility set to ZJX, no active sectors.
+02 Map set center N3116.00/W08149.00 range 250
+QNH (if no *WX defined) 30.30
+Surface wind 235.596T 240M at 7
+PFinit Orig N3116.00/W08149.00 Range 250 Dir 99 Altim 3003 Grad 16
+Software unplug, now NOT PLUGGED IN
+Active facility/sector(s) now ZJX 10
+03 Map set center N3045.00/W08629.00 range 75
+Software unplug, now NOT PLUGGED IN
+Active facility/sector(s) now ZJX 10 11
+00 Map set center N3045.00/W08629.00 range 75
+Combine 10 Stratum L
+Combine 11 Stratum H
+04 Map set center N3045.00/W08629.00 range 75
+Software plug in, now PLUGGED IN
+Software D-SIDE, now D-SIDE
+	AIRPLANES ON - RELOAD FILES/RESTARTING ...
+Try open C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 80, Expecting at least 8 fields in flight plan.
+**** Fix not defined (8), unrecognized format, or can't calculate offset: DEFNC index 12
+     coord KMCO flags 0100 start KMCO fixes = KMCO LAANA DEFNC
+ KMCO *DOT1 FATHE3 *DOT1 VIYAP *DOT1 Q87 *DOT1 JROSS *DOT2 LAANA *DOT2 DEFNC *DOT2 SAWED *DOT2 ISO *CLIPTAIL KISP
+**** Fix List/Mod Legs init failed, FFT0
+**** FPX MCO-ISP invalid flight plan elements: KMCO.FATHE0.VIYAP.Q87.JROSS..LAANA..DEFNC..SAWED..ISO./.KISP
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 229, FP format:  FPX ZJX MCO ISP 01 0001 0100 1.0 1234567 FFT 0 A21N 519 370 KMCO.FATHE0.VIYAP.Q87.JROSS..LAANA..DEFNC..SAWED..ISO./.KISP 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: DEFNC index 12
+     coord KMCO flags 0100 start KMCO fixes = KMCO LAANA DEFNC
+ KMCO *DOT1 FATHE3 *DOT1 VIYAP *DOT1 Q87 *DOT1 JROSS *DOT2 LAANA *DOT2 DEFNC *DOT2 SAWED *DOT2 ISO *CLIPTAIL KISP
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX MCO-ISP invalid flight plan elements: KMCO.FATHE0.VIYAP.Q87.JROSS..LAANA..DEFNC..SAWED..ISO./.KISP
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 230, FP format:  FPX ZJX MCO ISP 01 0001 0100 1.0 1234567 SWA 0 B737 519 370 KMCO.FATHE0.VIYAP.Q87.JROSS..LAANA..DEFNC..SAWED..ISO./.KISP 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: DEFNC index 12
+     coord KMCO flags 0100 start KMCO fixes = KMCO LAANA DEFNC
+ KMCO *DOT1 FATHE3 *DOT1 VIYAP *DOT1 Q87 *DOT1 JROSS *DOT2 LAANA *DOT2 DEFNC *DOT2 SAWED *DOT2 ISO *CLIPTAIL KISP
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX MCO-ISP invalid flight plan elements: KMCO.FATHE0.VIYAP.Q87.JROSS..LAANA..DEFNC..SAWED..ISO./.KISP
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 231, FP format:  FPX ZJX MCO ISP 01 0001 0100 1.0 1234567 SWA 0 B738 519 370 KMCO.FATHE0.VIYAP.Q87.JROSS..LAANA..DEFNC..SAWED..ISO./.KISP 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: DEFNC index 12
+     coord KMCO flags 0100 start KMCO fixes = KMCO LAANA DEFNC
+ KMCO *DOT1 FATHE3 *DOT1 VIYAP *DOT1 Q87 *DOT1 JROSS *DOT2 LAANA *DOT2 DEFNC *DOT2 SAWED *DOT2 ISO *CLIPTAIL KISP
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX MCO-ISP invalid flight plan elements: KMCO.FATHE0.VIYAP.Q87.JROSS..LAANA..DEFNC..SAWED..ISO./.KISP
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 232, FP format:  FPX ZJX MCO ISP 01 0001 0100 1.0 1234567 SWA 0 B38M 519 370 KMCO.FATHE0.VIYAP.Q87.JROSS..LAANA..DEFNC..SAWED..ISO./.KISP 
+**** Fix not defined (3), unrecognized format, or can't calculate offset: TERRE
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX JAX-ATL invalid flight plan elements: KJAX.BRSTL0.BAXLY..LAIRI..LARZZ./.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 237, FP format:  FPX ZJX JAX ATL 01 0001 0100 1.0 1234567 DAL 0 B752 532 310 KJAX.BRSTL0.BAXLY..LAIRI..LARZZ./.KATL 
+**** Fix not defined (3), unrecognized format, or can't calculate offset: TERRE
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX JAX-ATL invalid flight plan elements: KJAX.BRSTL0.BAXLY..LAIRI..LARZZ./.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 238, FP format:  FPX ZJX JAX ATL 01 0001 0100 1.0 1234567 SWA 0 B737 532 310 KJAX.BRSTL0.BAXLY..LAIRI..LARZZ./.KATL 
+**** Fix not defined (3), unrecognized format, or can't calculate offset: TERRE
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX JAX-ATL invalid flight plan elements: KJAX.BRSTL0.BAXLY..LAIRI..LARZZ./.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 239, FP format:  FPX ZJX JAX ATL 01 0001 0100 1.0 1234567 DAL 0 B738 532 310 KJAX.BRSTL0.BAXLY..LAIRI..LARZZ./.KATL 
+**** Fix not defined (3), unrecognized format, or can't calculate offset: TERRE
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX JAX-ATL invalid flight plan elements: KJAX.BRSTL0.BAXLY..LAIRI..LARZZ./.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 240, FP format:  FPX ZJX JAX ATL 01 0001 0100 1.0 1234567 SWA 0 B38M 532 310 KJAX.BRSTL0.BAXLY..LAIRI..LARZZ./.KATL 
+**** Fix not defined (3), unrecognized format, or can't calculate offset: TERRE
+**** Fix List/Mod Legs init failed, AAL0
+**** FPX JAX-CLT invalid flight plan elements: KJAX.BRSTL0.BAXLY..PONZE.BANKR0./.KCLT
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 246, FP format:  FPX ZJX JAX CLT 01 0001 0100 1.0 1234567 AAL 0 A321 541 290 KJAX.BRSTL0.BAXLY..PONZE.BANKR0./.KCLT 
+**** Fix not defined (3), unrecognized format, or can't calculate offset: TERRE
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX JAX-MSP invalid flight plan elements: KJAX.BRSTL0.BAXLY..KERLY./.KMSP
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 318, FP format:  FPX ZJX JAX MSP 01 0011 1001 1.0 1234567 DAL 0 A319 537 340 KJAX.BRSTL0.BAXLY..KERLY./.KMSP 
+**** Fix not defined (3), unrecognized format, or can't calculate offset: TERRE
+**** Fix List/Mod Legs init failed, SCX0
+**** FPX JAX-MSP invalid flight plan elements: KJAX.BRSTL0.BAXLY..KERLY./.KMSP
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 319, FP format:  FPX ZJX JAX MSP 01 0011 1001 1.0 1234567 SCX 0 B738 537 340 KJAX.BRSTL0.BAXLY..KERLY./.KMSP 
+**** Airway/Procedure substitution failed: KCLT ICONS4 NOOOKS
+**** Fix List/Mod Legs init failed, JIA0
+**** FPX CLT-DAB invalid flight plan elements: KCLT.ICONS0.NOOOKS..WURFL.Q83.JEVED..LPERD.TTHOR0.KDAB
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 472, FP format:  FPX ZJX CLT DAB 01 0001 0001 1.0 1234567 JIA 0 CRJ9 535 340 KCLT.ICONS0.NOOOKS..WURFL.Q83.JEVED..LPERD.TTHOR0.KDAB 
+**** Airway/Procedure substitution failed: KCLT ICONS4 NOOOKS
+**** Fix List/Mod Legs init failed, AAL0
+**** FPX CLT-DAB invalid flight plan elements: KCLT.ICONS0.NOOOKS..WURFL.Q83.JEVED..LPERD.TTHOR0.KDAB
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 473, FP format:  FPX ZJX CLT DAB 01 0001 0001 1.0 1234567 AAL 0 A319 535 340 KCLT.ICONS0.NOOOKS..WURFL.Q83.JEVED..LPERD.TTHOR0.KDAB 
+**** Airway/Procedure substitution failed: KCLT ICONS4 NOOOKS
+**** Fix List/Mod Legs init failed, JIA0
+**** FPX CLT-DAB invalid flight plan elements: KCLT.ICONS0.NOOOKS..WURFL.Q83.JEVED..LPERD.TTHOR0.KDAB
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 474, FP format:  FPX ZJX CLT DAB 01 0001 1111 1.0 1234567 JIA 0 CRJ7 535 340 KCLT.ICONS0.NOOOKS..WURFL.Q83.JEVED..LPERD.TTHOR0.KDAB 
+**** FPX type not defined: A329
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 506, FP format:  FPX ZJX LGA FLL 01 0111 1111 1.0 1234567 DAL 0 A329 531 340 KLGA./.PAACK.Q97.PRMUS.CUUDA0.KFLL 
+---- FPX CLT FLL unknown fix, alias not defined, or doesn't match flight plan text. KJFK./.KFLL
+---- FPX CLT FLL unknown fix, alias not defined, or doesn't match flight plan text. KJFK./.KFLL
+---- FPX DFW FLL unknown fix, alias not defined, or doesn't match flight plan text. KDFW./.TEEKY0
+**** Can't find airway definition (or bad fixes/dot separators): TEEKY0
+**** Fix List/Mod Legs init failed, AAL0
+**** FPX DFW-FLL invalid flight plan elements: KDFW./.HRV.Q105.BLVNS.Y290.BACCA..VNECK.TEEKY0
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 517, FP format:  FPX ZJX DFW FLL 01 0001 1111 1.0 1234567 AAL 0 A321 544 330 KDFW./.HRV.Q105.BLVNS.Y290.BACCA..VNECK.TEEKY0 
+---- FPX DFW FLL unknown fix, alias not defined, or doesn't match flight plan text. KDFW./.TEEKY0
+**** Can't find airway definition (or bad fixes/dot separators): TEEKY0
+**** Fix List/Mod Legs init failed, AAL0
+**** FPX DFW-FLL invalid flight plan elements: KDFW./.HRV.Q105.BLVNS.Y290.BACCA..VNECK.TEEKY0
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 518, FP format:  FPX ZJX DFW FLL 01 0011 1111 1.0 1234567 AAL 0 B738 544 330 KDFW./.HRV.Q105.BLVNS.Y290.BACCA..VNECK.TEEKY0 
+---- FPX DFW FLL unknown fix, alias not defined, or doesn't match flight plan text. KDFW./.TEEKY0
+**** Can't find airway definition (or bad fixes/dot separators): TEEKY0
+**** Fix List/Mod Legs init failed, NKS0
+**** FPX DFW-FLL invalid flight plan elements: KDFW./.HRV.Q105.BLVNS.Y290.BACCA..VNECK.TEEKY0
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 519, FP format:  FPX ZJX DFW FLL 01 0111 1111 1.0 1234567 NKS 0 A320 544 330 KDFW./.HRV.Q105.BLVNS.Y290.BACCA..VNECK.TEEKY0 
+**** Can't find airway definition (or bad fixes/dot separators): VNECK
+**** Fix List/Mod Legs init failed, UAL0
+**** FPX IAH-FLL invalid flight plan elements: KIAH./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 542, FP format:  FPX ZJX IAH FLL 01 0001 1111 1.0 1234567 UAL 0 B738 543 350 KIAH./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): VNECK
+**** Fix List/Mod Legs init failed, NKS0
+**** FPX IAH-FLL invalid flight plan elements: KIAH./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 543, FP format:  FPX ZJX IAH FLL 01 0011 1111 1.0 1234567 NKS 0 A321 543 350 KIAH./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): VNECK
+**** Fix List/Mod Legs init failed, UAL0
+**** FPX IAH-FLL invalid flight plan elements: KIAH./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 544, FP format:  FPX ZJX IAH FLL 01 0111 1111 1.0 1234567 UAL 0 B38M 543 350 KIAH./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): VNECK
+**** Fix List/Mod Legs init failed, NKS0
+**** FPX IAH-FLL invalid flight plan elements: KIAH./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 545, FP format:  FPX ZJX IAH FLL 01 1101 1111 1.0 1234567 NKS 0 A320 543 350 KIAH./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): GARIC
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX RDU-FLL invalid flight plan elements: KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 551, FP format:  FPX ZJX RDU FLL 01 0001 1111 1.0 1234567 SWA 0 B737 535 340 KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): GARIC
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX RDU-FLL invalid flight plan elements: KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 552, FP format:  FPX ZJX RDU FLL 01 0011 1111 1.0 1234567 SWA 0 B738 535 340 KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): GARIC
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX RDU-FLL invalid flight plan elements: KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 553, FP format:  FPX ZJX RDU FLL 01 0111 1111 1.0 1234567 SWA 0 B38M 535 340 KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): GARIC
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX RDU-FLL invalid flight plan elements: KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 554, FP format:  FPX ZJX RDU FLL 01 0101 1111 1.0 1234567 DAL 0 A319 535 340 KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): GARIC
+**** Fix List/Mod Legs init failed, JBU0
+**** FPX RDU-FLL invalid flight plan elements: KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 555, FP format:  FPX ZJX RDU FLL 01 0010 1111 1.0 1234567 JBU 0 A320 535 340 KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): GARIC
+**** Fix List/Mod Legs init failed, NKS0
+**** FPX RDU-FLL invalid flight plan elements: KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 556, FP format:  FPX ZJX RDU FLL 01 0110 1111 1.0 1234567 NKS 0 A20N 535 340 KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): GARIC
+**** Fix List/Mod Legs init failed, HPJ0
+**** FPX RDU-FLL invalid flight plan elements: KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 557, FP format:  FPX ZJX RDU FLL 01 1111 1111 1.0 .....67 HPJ 0 LJ60 535 340 KRDU.ROZBO0.ROZBO.GARIC..JRDAN.Y291.MAJIK.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): VNECK
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX AUS-FLL invalid flight plan elements: KAUS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 563, FP format:  FPX ZJX AUS FLL 01 0001 1111 1.0 1234567 SWA 0 B737 510 310 KAUS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): VNECK
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX AUS-FLL invalid flight plan elements: KAUS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 564, FP format:  FPX ZJX AUS FLL 01 0101 1111 1.0 1234567 SWA 0 B738 510 310 KAUS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): VNECK
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX AUS-FLL invalid flight plan elements: KAUS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 565, FP format:  FPX ZJX AUS FLL 01 0111 1011 1.0 1234567 SWA 0 B38M 510 310 KAUS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): VNECK
+**** Fix List/Mod Legs init failed, NKS0
+**** FPX AUS-FLL invalid flight plan elements: KAUS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 566, FP format:  FPX ZJX AUS FLL 01 0011 1111 1.0 1234567 NKS 0 A20N 510 310 KAUS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): VNECK
+**** Fix List/Mod Legs init failed, JBU0
+**** FPX AUS-FLL invalid flight plan elements: KAUS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 567, FP format:  FPX ZJX AUS FLL 01 0111 1111 1.0 1234567 JBU 0 A320 510 310 KAUS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): VNECK
+**** Fix List/Mod Legs init failed, NKS0
+**** FPX LAS-FLL invalid flight plan elements: KLAS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 568, FP format:  FPX ZJX LAS FLL 01 0001 1111 1.0 1234567 NKS 0 A20N 531 370 KLAS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): VNECK
+**** Fix List/Mod Legs init failed, JBU0
+**** FPX LAS-FLL invalid flight plan elements: KLAS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 569, FP format:  FPX ZJX LAS FLL 01 0011 1111 1.0 1234567 JBU 0 A320 531 370 KLAS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): VNECK
+**** Fix List/Mod Legs init failed, NKS0
+**** FPX LAS-FLL invalid flight plan elements: KLAS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 570, FP format:  FPX ZJX LAS FLL 01 0111 1111 1.0 1234567 NKS 0 A321 531 370 KLAS./.LEV.Y290.BACCA.VNECK.TEEKY0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): LGHRD0
+**** Fix List/Mod Legs init failed, SIL0
+**** FPX CHS-FLL invalid flight plan elements: KCHS.LGHRD0.GIPPL..ROTOW..EBAYY..BLUFI.BLUFI0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 573, FP format:  FPX ZJX CHS FLL 01 0101 1111 1.0 1234567 SIL 0 AT76 308 160 KCHS.LGHRD0.GIPPL..ROTOW..EBAYY..BLUFI.BLUFI0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): LGHRD0
+**** Fix List/Mod Legs init failed, N0
+**** FPX CHS-FLL invalid flight plan elements: KCHS.LGHRD0.GIPPL..ROTOW..EBAYY..BLUFI.BLUFI0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 574, FP format:  FPX ZJX CHS FLL 01 0101 1111 1.0 1234567 N 0 SR22 178 100 KCHS.LGHRD0.GIPPL..ROTOW..EBAYY..BLUFI.BLUFI0.KFLL 
+**** FPX type not defined: B83M
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 575, FP format:  FPX ZJX CYYZ FLL 01 0001 1111 1.O 1234567 FLE 0 B83M 525 360 CYYZ./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): PRMUS
+**** Fix List/Mod Legs init failed, TSC0
+**** FPX CYYZ-FLL invalid flight plan elements: CYYZ./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 576, FP format:  FPX ZJX CYYZ FLL 01 0011 1111 1.0 1234567 TSC 0 A21N 525 360 CYYZ./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): PRMUS
+**** Fix List/Mod Legs init failed, ROU0
+**** FPX CYYZ-FLL invalid flight plan elements: CYYZ./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 577, FP format:  FPX ZJX CYYZ FLL 01 0111 1111 1.0 1234567 ROU 0 A321 525 360 CYYZ./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): PRMUS
+**** Fix List/Mod Legs init failed, WJA0
+**** FPX CYYZ-FLL invalid flight plan elements: CYYZ./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 578, FP format:  FPX ZJX CYYZ FLL 01 0101 1111 1.0 1234567 WJA 0 B738 525 360 CYYZ./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): PRMUS
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX PIT-FLL invalid flight plan elements: KPIT./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 579, FP format:  FPX ZJX PIT FLL 01 0001 1111 1.0 1234567 SWA 0 B738 502 340 KPIT./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): PRMUS
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX PIT-FLL invalid flight plan elements: KPIT./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 580, FP format:  FPX ZJX PIT FLL 01 0011 1111 1.0 1234567 SWA 0 B38M 502 340 KPIT./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): PRMUS
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX PIT-FLL invalid flight plan elements: KPIT./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 581, FP format:  FPX ZJX PIT FLL 01 0111 1111 1.0 1234567 SWA 0 B737 502 340 KPIT./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL 
+**** Can't find airway definition (or bad fixes/dot separators): PRMUS
+**** Fix List/Mod Legs init failed, NKS0
+**** FPX PIT-FLL invalid flight plan elements: KPIT./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 582, FP format:  FPX ZJX PIT FLL 01 0101 1111 1.0 1234567 NKS 0 A20N 502 340 KPIT./.GSO..SLOJO.Q83.JEVED.PRMUS.CUUDA0.KFLL 
+**** Airway/Procedure substitution failed: LEV Y280 BACCA
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX HOU-FLL invalid flight plan elements: KHOU./.LEV.Y280.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 583, FP format:  FPX ZJX HOU FLL 01 0001 1111 1.0 1234567 SWA 0 B737 542 330 KHOU./.LEV.Y280.BACCA.VNECK.TEEKY0.KFLL 
+**** Airway/Procedure substitution failed: LEV Y280 BACCA
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX HOU-FLL invalid flight plan elements: KHOU./.LEV.Y280.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 584, FP format:  FPX ZJX HOU FLL 01 0011 1111 1.0 1234567 SWA 0 B738 542 330 KHOU./.LEV.Y280.BACCA.VNECK.TEEKY0.KFLL 
+**** Airway/Procedure substitution failed: LEV Y280 BACCA
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX HOU-FLL invalid flight plan elements: KHOU./.LEV.Y280.BACCA.VNECK.TEEKY0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 585, FP format:  FPX ZJX HOU FLL 01 0111 1111 1.0 1234567 SWA 0 B38M 542 330 KHOU./.LEV.Y280.BACCA.VNECK.TEEKY0.KFLL 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: ENTT index 4
+     coord KPNS flags 0100 start KPNS fixes = KPNS CEW ENTT
+ KPNS *DOT2 CEW *DOT2 ENTT *DOT1 GNDLF0 *DOT1 KATL
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX PNS-ATL invalid flight plan elements: KPNS..CEW..ENTT.GNDLF0.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 630, FP format:  FPX ZJX PNS ATL 01 0011 1111 1.0 1234567 DAL 0 B739 540 270 KPNS..CEW..ENTT.GNDLF0.KATL 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: ENTT index 4
+     coord KPNS flags 0100 start KPNS fixes = KPNS CEW ENTT
+ KPNS *DOT2 CEW *DOT2 ENTT *DOT1 GNDLF0 *DOT1 KATL
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX PNS-ATL invalid flight plan elements: KPNS..CEW..ENTT.GNDLF0.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 631, FP format:  FPX ZJX PNS ATL 01 0010 1111 1.0 1234567 DAL 0 B737 540 270 KPNS..CEW..ENTT.GNDLF0.KATL 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: ENTT index 4
+     coord KPNS flags 0100 start KPNS fixes = KPNS CEW ENTT
+ KPNS *DOT2 CEW *DOT2 ENTT *DOT1 GNDLF0 *DOT1 KATL
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX PNS-ATL invalid flight plan elements: KPNS..CEW..ENTT.GNDLF0.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 632, FP format:  FPX ZJX PNS ATL 01 0111 1111 1.0 1234567 DAL 0 B752 540 270 KPNS..CEW..ENTT.GNDLF0.KATL 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: AEW index 2
+     coord KPNS flags 0100 start KPNS fixes = KPNS AEW
+ KPNS *DOT2 AEW *DOT2 PNUTS *CLIPTAIL KDFW
+**** Fix List/Mod Legs init failed, AAL0
+**** FPX PNS-DFW invalid flight plan elements: KPNS..AEW..PNUTS./.KDFW
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 634, FP format:  FPX ZJX PNS DFW 01 1011 1111 1.0 1234567 AAL 0 B738 502 360 KPNS..AEW..PNUTS./.KDFW 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: AEW index 2
+     coord KPNS flags 0100 start KPNS fixes = KPNS AEW
+ KPNS *DOT2 AEW *DOT2 PNUTS *CLIPTAIL KDFW
+**** Fix List/Mod Legs init failed, AAL0
+**** FPX PNS-DFW invalid flight plan elements: KPNS..AEW..PNUTS./.KDFW
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 635, FP format:  FPX ZJX PNS DFW 01 0011 1111 1.0 1234567 AAL 0 A319 502 360 KPNS..AEW..PNUTS./.KDFW 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: AEW index 2
+     coord KPNS flags 0100 start KPNS fixes = KPNS AEW
+ KPNS *DOT2 AEW *DOT2 PNUTS *CLIPTAIL KDFW
+**** Fix List/Mod Legs init failed, ENY0
+**** FPX PNS-DFW invalid flight plan elements: KPNS..AEW..PNUTS./.KDFW
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 636, FP format:  FPX ZJX PNS DFW 01 0010 1111 1.0 1234567 ENY 0 E170 502 360 KPNS..AEW..PNUTS./.KDFW 
+**** Can't find airway definition (or bad fixes/dot separators): SHREK0
+**** Fix List/Mod Legs init failed, SIL0
+**** FPX PNS-MCO invalid flight plan elements: KPNS..CEW..DRABK..BITTE.SHREK0.KMCO
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 638, FP format:  FPX ZJX PNS MCO 01 1101 1111 1.0 1234567 SIL 0 AT76 281 170 KPNS..CEW..DRABK..BITTE.SHREK0.KMCO 
+**** Can't find airway definition (or bad fixes/dot separators): SHREK0
+**** Fix List/Mod Legs init failed, SIL0
+**** FPX PNS-MCO invalid flight plan elements: KPNS..CEW..DRABK..BITTE.SHREK0.KMCO
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 639, FP format:  FPX ZJX PNS MCO 01 1011 1111 1.0 1234567 SIL 0 AT72 281 170 KPNS..CEW..DRABK..BITTE.SHREK0.KMCO 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: PIGMON index 4
+     coord KPNS flags 0100 start KPNS fixes = KPNS CEW PIGMON
+ KPNS *DOT2 CEW *DOT2 PIGMON *DOT2 MGM *CLIPTAIL KPHL
+**** Fix List/Mod Legs init failed, JIA0
+**** FPX PNS-PHL invalid flight plan elements: KPNS..CEW..PIGMON..MGM./.KPHL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 648, FP format:  FPX ZJX PNS PHL 01 0001 1111 1.0 1234567 JIA 0 CRJ9 527 370 KPNS..CEW..PIGMON..MGM./.KPHL 
+**** Can't find airway definition (or bad fixes/dot separators): FORTL0
+**** Fix List/Mod Legs init failed, NKS0
+**** FPX PNS-FLL invalid flight plan elements: KPNS..VARRE..HEVVN..SRQ.FORTL0.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 654, FP format:  FPX ZJX PNS FLL 01 0111 1111 1.0 1234567 NKS 0 A20N 521 370 KPNS..VARRE..HEVVN..SRQ.FORTL0.KFLL 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: DTRSE index 8
+     coord CHRGE flags 1110 start CHRGE fixes = CHRGE DTRSE
+ KMIA *CLIPHEAD CHRGE *DOT1 Y280 *DOT1 REMIS *DOT2 DTRSE *DOT2 PNSRB *DOT2 CEW *DOT1 RV1 *DOT1 KPNS
+**** Fix List/Mod Legs init failed, ENY0
+**** FPX MIA-PNS invalid flight plan elements: KMIA./.CHRGE.Y280.REMIS..DTRSE..PNSRB..CEW.RV1.KPNS
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 689, FP format:  FPX ZJX MIA PNS 01 0001 1111 1.0 1234567 ENY 0 E170 544 260 KMIA./.CHRGE.Y280.REMIS..DTRSE..PNSRB..CEW.RV1.KPNS 
+---- JIA0 altitude 52800 above defined CRJ9 ceiling 39000 KDCA./.MGM..CEW.RV1.KPNS
+---- AAL0 altitude 52800 above defined A319 ceiling 39000 KDCA./.MGM..CEW.RV1.KPNS
+---- UCA0 altitude 52800 above defined E145 ceiling 39000 KIAH./.HRV..LOXLY.RV2.KPNS
+---- UAL0 altitude 52800 above defined A320 ceiling 39000 KIAH./.HRV..LOXLY.RV2.KPNS
+---- UAL0 altitude 52800 above defined A319 ceiling 39000 KIAH./.HRV..LOXLY.RV2.KPNS
+---- FPX PHL PNS unknown fix, alias not defined, or doesn't match flight plan text. KDCA./.KPNS
+---- SWA0 altitude 52100 above defined B737 ceiling 41000 KDAL./.MCB..SJI..LOXLY.RV2.KPNS
+---- SWA0 altitude 52100 above defined B738 ceiling 41000 KDAL./.MCB..SJI..LOXLY.RV2.KPNS
+---- SWA0 altitude 52100 above defined B38M ceiling 43000 KDAL./.MCB..SJI..LOXLY.RV2.KPNS
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 768, Expecting at least 8 fields in flight plan.
+**** Process FP unrecognized line: 23-01 02-04 05-06 07-10 11-13 14-16 17-19 20-22
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 769, FP format:  23-01 02-04 05-06 07-10 11-13 14-16 17-19 20-22 
+**** Process FP unrecognized line: 46 58 87 1019 980 969 965 505
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 770, FP format:  46 58 87 1019 980 969 965 505 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 771, Expecting at least 8 fields in flight plan.
+**** Process FP unrecognized line: L 10 43 L 14 115 H 35 185 H 49 150 H 34 174 H 58 176
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 772, FP format:  L 10 43 L 14 115 H 35 185 H 49 150 H 34 174 H 58 176 
+**** Process FP unrecognized line: L 13 34 L 15 177 H 52 185 H 76 112 H 33 165 H 68 187
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 773, FP format:  L 13 34 L 15 177 H 52 185 H 76 112 H 33 165 H 68 187 
+**** Process FP unrecognized line: L 29 34 L 57 189 L 74 101 H 67 175 H 17 115 H 66 172
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 774, FP format:  L 29 34 L 57 189 L 74 101 H 67 175 H 17 115 H 66 172 
+**** Process FP unrecognized line: L 79 34 H 58 177 L 71 187 H 48 148 H 78 125 H 47 201
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 775, FP format:  L 79 34 H 58 177 L 71 187 H 48 148 H 78 125 H 47 201 
+**** Process FP unrecognized line: L 77 53 L 53 85 H 85 175 H 65 185 H 16 201 L 11 47
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 776, FP format:  L 77 53 L 53 85 H 85 175 H 65 185 H 16 201 L 11 47 
+**** Process FP unrecognized line: L 28 34 L 54 76 H 86 143 H 11 164 H 50 215
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 777, FP format:  L 28 34 L 54 76 H 86 143 H 11 164 H 50 215 
+**** Process FP unrecognized line: L 88 102 H 73 45 H 87 102 H 30 200 H 75 201
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 778, FP format:  L 88 102 H 73 45 H 87 102 H 30 200 H 75 201 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 780, Expecting at least 8 fields in flight plan.
+**** Process FP unrecognized line: L 13 34 L 14 115 H 35 185 H 49 150 H 34 174 H 58 176
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 781, FP format:  L 13 34 L 14 115 H 35 185 H 49 150 H 34 174 H 58 176 
+**** Process FP unrecognized line: L 10 43 L 15 177 H 52 185 H 76 112 H 33 165 H 68 187
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 782, FP format:  L 10 43 L 15 177 H 52 185 H 76 112 H 33 165 H 68 187 
+**** Process FP unrecognized line: L 29 34 L 57 189 L 74 101 H 67 175 H 17 115 H 66 172
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 783, FP format:  L 29 34 L 57 189 L 74 101 H 67 175 H 17 115 H 66 172 
+**** Process FP unrecognized line: L 79 34 H 58 177 L 71 187 H 48 148 H 78 125 H 47 201
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 784, FP format:  L 79 34 H 58 177 L 71 187 H 48 148 H 78 125 H 47 201 
+**** Process FP unrecognized line: L 77 53 L 53 85 H 85 175 H 65 185 H 16 201
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 785, FP format:  L 77 53 L 53 85 H 85 175 H 65 185 H 16 201 
+**** Process FP unrecognized line: L 28 34 L 54 76 H 86 143 H 11 164 H 50 215
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 786, FP format:  L 28 34 L 54 76 H 86 143 H 11 164 H 50 215 
+**** Process FP unrecognized line: L 88 102 H 73 45 H 87 102 H 30 200 H 75 201
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 787, FP format:  L 88 102 H 73 45 H 87 102 H 30 200 H 75 201 
+618 flight plans (FPX) now available.
+Software plug in, now PLUGGED IN
+User click PLUG IN, now PLUGGED IN
+	RELOAD COMPLETE (PLUGGED IN)
+	ACCEPT - SET BLUE BACKGROUND VALUE TO 1
+---- non-EXT route never in defined ZJX airspace 807 SWA1134 400 KSTL./.HRV..LOXLY.RV2.KPNS
+Move0 time max 0.002
+CRD: QU 874
+	FLID NOT ACTIVE 874
+---- non-EXT route never in defined ZJX airspace 636 SWA766 370 KAUS./.MCB..SJI..LOXLY.RV2.KPNS
+---- SWA1410 KBWI-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- SWA1410 KBWI-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- SWA1410 KBWI-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- SWA1410 KBWI-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- SWA1251 KBWI-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- SWA1251 KBWI-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- SWA1251 KBWI-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- SWA1251 KBWI-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+Move0 time max 0.004
+CRD: QU 0501
+	ACCEPT ROUTE DISPLAY FFT1151
+CRD: QU 0501
+	ACCEPT ROUTE DISPLAY FFT1151
+CRD: QU 1302
+	ACCEPT ROUTE DISPLAY ENY3863
+CRD: QU 1302
+	ACCEPT ROUTE DISPLAY ENY3863
+CRD: QU 1103
+	ACCEPT ROUTE DISPLAY SWA1189
+CRD: QU 11302
+	REJECT UNKNOWN AID 11302
+Move0 time max 0.016
+CRD: 232
+	ACCEPT HANDOFF ENY3863 232
+ENY3863 E170 1302 533 ANY110664 0021 340
+KORD ./. MGM206018 PIGON CEW RV1 KPNS
+---- JIA5031 altitude 52800 above defined CRJ9 ceiling 39000 KDCA./.MGM..CEW.RV1.KPNS
+---- JIA5031 altitude 52800 above defined CRJ9 ceiling 39000 KDCA./.MGM..CEW.RV1.KPNS
+---- JIA5031 altitude 52800 above defined CRJ9 ceiling 39000 MGM CEW
+---- JIA5031 altitude 52800 above defined CRJ9 ceiling 39000 KDCA./.MGM..CEW.RV1.KPNS
+---- JIA5031 altitude 52800 above defined CRJ9 ceiling 39000 KDCA./.MGM..CEW.RV1.KPNS
+CRD: 318
+	ACCEPT HANDOFF FFT1151 318
+FFT1151 A320 0501 532 CEW 0024 330
+KDFW ./. SJI045032 CEW J2 DEFUN MAATY4 KTPA
+---- JBU12 KDCA-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU12 KDCA-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU12 KDCA-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+---- JBU12 KDCA-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU12 KDCA-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU12 KDCA-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+CRD: QU 0503
+	ACCEPT ROUTE DISPLAY SWA254
+---- SWA1787 altitude 52100 above defined B38M ceiling 43000 KDAL./.MCB..SJI..LOXLY.RV2.KPNS
+---- SWA1787 altitude 52100 above defined B38M ceiling 43000 KDAL./.MCB..SJI..LOXLY.RV2.KPNS
+---- non-EXT route never in defined ZJX airspace 410 SWA1787 521 KDAL./.MCB..SJI..LOXLY.RV2.KPNS
+---- SWA1787 altitude 52100 above defined B38M ceiling 43000 KDAL./.MCB..SJI..LOXLY.RV2.KPNS
+CRD: QU 0503
+	ACCEPT ROUTE DISPLAY SWA254
+CRD: QU 0723
+	ACCEPT ROUTE DISPLAY AAL846
+---- non-EXT departure never enters defined ZJX airspace 170 SWA946 360 KPNS..KPNS17..AEX..MEI./.KSTL
+CRD: QU 0723
+	ACCEPT ROUTE DISPLAY AAL846
+
+Time is 0018 AC 3
+---- non-EXT departure never enters defined ZJX airspace 386 SWA387 380 KPNS..KPNS17..SJI..AEX./.KAUS
+CRD: 081
+	ACCEPT HANDOFF SWA254 081
+SWA254 B738 0503 531 DEFUN 0029 330
+KDAL ./. LYNRD DEFUN CABLO CAPPS MARQO2 KJAX
+---- non-EXT route never in defined ZJX airspace 380 FFT1266 390 KDEN./.MCB..SJI..LOXLY.RV2.KPNS
+---- NKS1981 KFLL-KPNS 28.2879 32.142 3.85412  exit from sector ZJX16 calculation problem.
+TB: 8 SWA254
+	ACCEPT DB DIRECTION
+TB: MXY41
+	(QN) full data block MXY41 now visible
+TB: MXY41
+	(QN) full data block MXY41 now hidden
+Move0 time max 0.018
+(1)RECV: JACKSONVILLE CENTER, FRONTIER FLIGHT 1151 MAINTAINING FL330
+Exit check result = 1047
+Aircraft worked 0, time 0018-0017 = 0000
+Exit program
+ExitInstance Sec1970 = 1692749895
+ExitInstance SecUTC  = 1692836295
+Removed run file

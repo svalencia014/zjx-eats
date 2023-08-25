@@ -1,0 +1,52 @@
+;  FAC-FSD-DATA.TXT   27 MAR 23
+
+;          ISSUED   TO
+;            BY   SECTOR  DEST  CAT     PD
+;          ------ ------  ---- -----   -----
+*ARR_PD    ZMP33   FSD1A  KFSD     A   *80
+*ARR_PD    ZMP37   FSD1A  KFSD     A   *80
+
+
+;          ISSUED             WITHIN      FINAL  (from present position to) 
+;            BY    DEST  CAT  MILES  OF   COURSE     FIX.APCH.DEST        allows multiple
+;          ------  ----  ---  ----- ----  -------------------------------------------------------------
+*WIND_ARR   FSD1A  KFSD   A      *   *    030 ROKKY.ILS3.KFSD   150 CEPOL.RNAV15.KFSD   210 JOESY.ILS21.KFSD   330 FEZNT.RNAV33.KFSD
+
+*TOWER            KFSD/40
+
+;                            from fix
+; Tracon Final      Dash  before airport
+;          Proc      Len   Start   End
+;       -----------  ---   ----- -----
+*TFINAL KFSD-ILS3    1.0     5.8  20.0
+*TFINAL KFSD-RNAV9   1.0     5.0  20.0
+*TFINAL KFSD-RNAV15  1.0     4.5  20.0
+*TFINAL KFSD-ILS21   1.0     4.9  20.0
+; 27 approach is offset
+*TFINAL KFSD-RNAV33  1.0     5.2  20.0
+
+*OBS_T FSDOBS01T FSDOBS02T FSDOBS03T
+
+;
+*MAP 1A
+*MAP_XN
+BILOO CATID CEPKA CEPOL CIDAM DOLTS DURWN FABUK FENKI FEZNT
+FIITS GANAC GIKNE HADKU HALGA HEPIL HEVBA HEXAM GIZBU JAKDI
+JEYZO JILRO JOESY JUTUB KASME LEYIN NEYIL NIKKE OKPOE PUKIC
+RANOE RAYOV RINOC ROKKY SAKNE SECTO SKYLE TECUD TEGKU TYIBR
+WAGNO WAKON WOREB YISRU YUCNU YUGUL YUVED Y14NW ZEBLI Y14SE
+*END
+*MAP_AW
+*END
+*HIDE_BDRY_B
+*ZOOM  FSD KFSD 25
+*SHOW_PROC  KLYV-RNAV18 KLYV-RNAV36 Y14-VA16 Y14-VA34
+*SHOW_PROC  KMDS-RNAV15 KMDS-RNAV33 KPQN-RNAV18 KPQN-RNAV36
+*SHOW_TFINAL KFSD-ILS3 KFSD-RNAV9 KFSD-RNAV15 KFSD-ILS21 KFSD-RNAV33
+*SHOW_PROC  KFSD-RNAV27
+*LIBRARY  KFSD-RNAV3
+*RINGS KFSD    0 360  5 30 5
+*WX KFSD KLYV KMDS KSUX KYKN KOTG KPQN
+;----------------------------------------------------------
+
+*MID  A   1A

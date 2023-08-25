@@ -1,0 +1,33 @@
+;  FAC-ZSE.TXT   22 APR 21
+
+*FACILITY  ZSE
+*FAC_CR  N4450/W12145  275
+*FAC_TZ  -8 D
+*FAC_CS  SEATTLE_CENTER
+*SFCWIND 210 12 8 5
+*Include FAC-ZSE-BDRY.TXT
+*Include FAC-ZSE-DATA.TXT
+*Include FAC-ZSE-COAST.TXT
+*Include FAC-ZSE-MIA.TXT
+*Include FAC-ZLC-MIA.TXT
+*Include FAC-ZOA-MIA.TXT
+
+; non-U.S. facility data gives something to
+; hand off to, but is incomplete/inaccurate
+
+*EXT_FAC ZEG T
+*EXT_FAC ZOA O
+*EXT_FAC ZLC U
+*EXT_FAC ZVR V
+
+; IDs unknown/made up
+
+*EXT_FAC PSC C
+*EXT_FAC MFR D
+*EXT_FAC EUG E
+*EXT_FAC GEG G
+*EXT_FAC LMT K
+*EXT_FAC MWH M
+*EXT_FAC P80 P
+*EXT_FAC S46 S
+*EXT_FAC NUW W

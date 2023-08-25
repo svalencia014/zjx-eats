@@ -1,0 +1,32 @@
+Nav folder: C:\Users\broth\AppData\Local\ATSim2020\eATS\
+LoadFrame
+Main window create
+ChildView Create
+MainFrame 01160168  ChildView 01160D00
+Fix font is Arial, requested Arial.
+Data Block font is Consolas, requested Consolas.
+On-screen List font is Consolas, requested Consolas.
+Clock font is Arial, requested Arial.
+QNH (if no *WX defined) 30.09
+Surface wind 288.088T 270M at 15
+Upper Winds:   500-285/37   450-282/57   400-282/77   350-282/97   300-282/117
+               250-277/95   200-272/70   150-267/48   100-262/29    50-257/13     0-252/0  
+Airplanes turned off by file menu item.
+Main window create complete
+LoadFrame complete
+Time is 0053
+Registry ActiveTimeBias (seconds) = 14400
+Start read 00:53:05
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** Unknown fix in airway/procedure: KJAX BRSTL1, Fix:  TERRE
+----  SID KJAX BRSTL1 transition fixes KJAX and TERRE are 4174.61 miles apart
+----  SID KJAX BRSTL1 transition fixes TERRE and BRSTL are 4154.22 miles apart
+Stats - FPAs 0  boundary segments 0
+0 flight plans (FPX) now available.
+00 Map set center N4500.00/W12100.00 range 200
+End read   00:53:22
