@@ -1,10 +1,8 @@
-eATS-Is-Running.txt
-LogDetail.txt
-LogFile-Last.txt
-LogFile.txt
-SnapshotAuto.txt
 Aircraft.txt
 Airlines.txt
+eATS-Is-Running.txt
+Log*.txt
+SnapshotAuto.txt
 AirportAlias.txt
 C90-FlightPlans.txt
 FAC-ZAB-MIA.txt
