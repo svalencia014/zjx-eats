@@ -53,6 +53,9 @@
 *ARR_MIT    11    DESTN PENSI     J   100 PNS 
 *ARR_MIT    11    CANUE PENSI     J   100 KPNS
 *ARR_MIT    52    CHIEZ SAGGY     J   35 FLL STACK OVER ATLANTIC
+*ARR_MIT    30    CHRGE PRICY     J   35  PRICY STRATUM
+*ARR_MIT    30    BLVNS BUNNZ     J   35 GULF
+*ARR_MIT    30    NAITE ROZZI     J   35 GULF 
 
 
 ;                       from
