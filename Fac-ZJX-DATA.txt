@@ -61,14 +61,14 @@
 ;                       from
 ;          REF         FacSec             COMMENTS
 ;          ---          -----             --------
-*DEP_MIT    57    JEEMY MCO4E     J   75  MCO 
-*DEP_MIT    57    FATHE MCO4E     J   75  MCO
+*DEP_MIT    57    JEEMY MCO4B     J   75  MCO 
+*DEP_MIT    57    FATHE MCO4B     J   75  MCO
 *DEP_MIT    57    ROYES DAB5H     J   150  DAB
 *DEP_MIT    15    BAYPO TPA2E     J   75  TPA
-*DEP_MIT    15    OSPRY MCO4E     J   100  MCO
-*DEP_MIT    15    RDSOX MCO4E     J   100  MCO 
-*DEP_MIT    15    WORMS MCO4E     J   100  MCO
-*DEP_MIT    15    VIZTA MCO4E     J   100  MCO
+*DEP_MIT    14    OSPRY MCO4L     J   100  MCO
+*DEP_MIT    14    RDSOX MCO4L     J   100  MCO 
+*DEP_MIT    14    WORMS MCO4L     J   100  MCO
+*DEP_MIT    14    VIZTA MCO4L     J   100  MCO
 *DEP_MIT    13    ARNEY JAX3N     J   100 JAX 
 *DEP_MIT    53    CROSB JAX3N     J   100 JAX 
 *DEP_MIT    57    EXBOX JAX3N     J   100 JAX 
