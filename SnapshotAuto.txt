@@ -1,6 +1,6 @@
 
-	 SNAPSHOT at 01:02:01  1693011721 sec  paint 12  move 0
- Range 90 Sec1970 (w/bug) 1692925321 SecUTC 1693011721  display H 1916 V 966 DC 1920 1080
+	 SNAPSHOT at 01:31:01  1693099861 sec  paint 12  move 0
+ Range 90 Sec1970 (w/bug) 1693013461 SecUTC 1693099861  display H 1916 V 966 DC 1920 1080
 
 
 	0 CIDs
