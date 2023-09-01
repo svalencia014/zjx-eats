@@ -45,7 +45,7 @@
 *ARR_MIT    50    PONZE NTRST     J   35 CLT 
 *ARR_MIT    74    FLLGG FFNSH     J   50 CLT 
 *ARR_MIT    74    YELLS MLLET     J   100 CLT 
-*ARR_MIT    49    BAAMF CORYY    J   75 TPA 
+*ARR_MIT    49    BAAMF CORYY     J   75 TPA 
 *ARR_MIT    16    CLEOO FEDRR     J   50  FLL 
 *ARR_MIT    58    COLAT HIKTO     J   50  FLL
 *ARR_MIT    11    CEW   PENSI     J   100 PNS 
@@ -56,6 +56,13 @@
 *ARR_MIT    30    CHRGE PRICY     J   35  PRICY STRATUM
 *ARR_MIT    30    BLVNS BUNNZ     J   35 GULF
 *ARR_MIT    30    NAITE ROZZI     J   35 GULF 
+*ARR_MIT    11    CEW   PENSI     J   100 KPNS       
+*ARR_MIT    11    CANUE PENSI     J   100 KPNS 
+*ARR_MIT    11    DESTN PENSI     J   100 KPNS 
+*ARR_MIT    13    SZW036050 MOGPE J   200 KTLH 
+*ARR_MIT    13    SZW005035 SZW   J   200 KTLH 
+*ARR_MIT    13    SZW064025 SZW   J   200 KTLH 
+*ARR_MIT    11    MAI    RAGKO    J   200 KTLH 
 
 
 ;                       from
