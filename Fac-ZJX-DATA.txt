@@ -18,6 +18,8 @@
 *DEST_GROUP  CHSAA         KCHS KJZI
 *DEST_GROUP  MYRAA         KMYR KCRE
 *DEST_GROUP  DABAA         KDAB KOMN KEVB
+*DEST_GROUP  ATLAA         KATL 
+*DEST_GROUP  ZMARR         KMIA KTPA KPIE KLAL KRSQ KRSW KFLL KPBI 
 
 
 ;         ACTIVE
@@ -63,6 +65,8 @@
 *ARR_MIT    13    SZW005035 SZW   J   200 KTLH 
 *ARR_MIT    13    SZW064025 SZW   J   200 KTLH 
 *ARR_MIT    11    MAI    RAGKO    J   200 KTLH 
+*ARR_MIT    57    OMN   LAMMA     J   150 KMLB 
+*ARR_MIT    57    WEEEK TTHOR     J   100 KSFB,KDAB,KORL
 
 
 ;                       from
@@ -85,7 +89,8 @@
 *DEP_MIT    66    ICONS CLTCW     J   50  CLT 
 *DEP_MIT    66    KWEEN CLTCW     J   100 CLT 
 *DEP_MIT    11    CEW   PNS1E     J   100 PNS 
-*DEP_MIT    11    AEX   PNS1E     J   100 PNS 
+*DEP_MIT    11    AEX   PNS1E     J   100 PNS '
+*DEP_MIT    57    WORMS MCO4B     J   100 MLB 
 
 *MAP 10 
  *MAP_AW 

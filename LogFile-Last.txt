@@ -2,93 +2,199 @@ Nav folder: C:\Users\broth\AppData\Local\ATSim2020\eATS\
 LoadFrame
 Main window create
 ChildView Create
-MainFrame 009EBDE8  ChildView 009EC980
+MainFrame 00CAE1D0  ChildView 00CAED68
 Fix font is Arial, requested Arial.
 Data Block font is Consolas, requested Consolas.
 On-screen List font is Consolas, requested Consolas.
 Clock font is Arial, requested Arial.
-QNH (if no *WX defined) 30.02
-Surface wind 78.0884T 60M at 13
-Upper Winds:   500-303/50   450-306/58   400-307/65   350-308/72   300-309/79 
-               250-290/68   200-274/51   150-258/37   100-242/26    50-226/18     0-210/13 
+QNH (if no *WX defined) 30.04
+Surface wind 188.088T 170M at 10
+Upper Winds:   500-273/41   450-277/62   400-280/80   350-283/98   300-286/116
+               250-286/96   200-290/71   150-294/49   100-298/30    50-302/14     0-306/1  
 Airplanes turned off by file menu item.
 Main window create complete
 LoadFrame complete
-Time is 2106
+Time is 0021
 Registry ActiveTimeBias (seconds) = 14400
-Start read 21:06:58
+Start read 00:21:04
 Software unplug, now NOT PLUGGED IN
 DB Font Small request ERAMv110 ... OK
 DB Font Large request ERAMv110 ... OK
 On-screen List Font Small request ERAMv110 ... OK
 On-screen List Font Large request ERAMv110 ... OK
 StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24982, Runway number not digits: 7L
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24985, Runway number not digits: 7L
 **** Unknown fix in airway/procedure: KCHS MLTRE2, Fix:  VANNC
 ----  SID KCHS MLTRE2 transition fixes MLTRE and VANNC are 4209.63 miles apart
 **** Unknown fix in airway/procedure: KCHS MLTRE2, Fix:  VANNC
 ----  SID KCHS MLTRE2 transition fixes MLTRE and VANNC are 4209.63 miles apart
+**** Unknown fix in airway/procedure: KCHS SWPFX2, Fix:  FILL
+----  SID KCHS SWPFX2 transition fixes SWPFX and FILL are 4226.62 miles apart
+**** Unknown fix in airway/procedure: KSFB SFB1, Fix:  CAMDT
+----  SID KSFB SFB1 transition fixes CROPY and CAMDT are 4214.1 miles apart
+**** Unknown fix in airway/procedure: KTPA DORMR3, Fix:  FROOT
+----  SID KTPA DORMR3 transition fixes PSTOL and FROOT are 4085.69 miles apart
+C:\Users\broth\AppData\Local\ATSim2020\eATS\Airways.txt, line 10961, ---- STAR AT KCHS RV2, FATHE TO CHS234030 IS 217.841 MILES
+---- STAR KCHS RV2 transition fixes FATHE and CHS234030 are 217.841 miles apart
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\Airways.txt, line 11844, Unknown command after '*' *WHDRW
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\Airways.txt, line 11845, Unknown command after '*' *WHDRW
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  ZELLE
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  JOOLS
+---- STAR KJQF JOOLS1 transition fixes HRTWL and ZELLE are 4105.61 miles apart
+---- STAR KJQF JOOLS1 transition fixes JOOLS and CHPTR are 4136.22 miles apart
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  ZELLE
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  JOOLS
+---- STAR KJQF JOOLS1 transition fixes HRTWL and ZELLE are 4105.61 miles apart
+---- STAR KJQF JOOLS1 transition fixes JOOLS and CHPTR are 4136.22 miles apart
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  ZELLE
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  JOOLS
+---- STAR KJQF JOOLS1 transition fixes HRTWL and ZELLE are 4105.61 miles apart
+---- STAR KJQF JOOLS1 transition fixes JOOLS and CHPTR are 4136.22 miles apart
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  JOOLS
+---- STAR KJQF JOOLS1 transition fixes JOOLS and CHPTR are 4136.22 miles apart
+**** Unknown fix in airway/procedure: KJQF KABEE3, Fix:  KABEE
+**** Unknown fix in airway/procedure: KJQF KABEE3, Fix:  BIFFL
+**** Unknown fix in airway/procedure: KJQF KABEE3, Fix:  NASCR
+---- STAR KJQF KABEE3 transition fixes COPEL and KABEE are 4215.97 miles apart
+---- STAR KJQF KABEE3 transition fixes NASCR and CLT150023 are 4170.1 miles apart
+**** Unknown fix in airway/procedure: KJQF KABEE3, Fix:  KABEE
+**** Unknown fix in airway/procedure: KJQF KABEE3, Fix:  BIFFL
+**** Unknown fix in airway/procedure: KJQF KABEE3, Fix:  NASCR
+---- STAR KJQF KABEE3 transition fixes NASCR and CLT150023 are 4170.1 miles apart
+**** Unknown fix in airway/procedure: KJQF NASCR4, Fix:  PONTI
+**** Unknown fix in airway/procedure: KJQF NASCR4, Fix:  NASCR
+---- STAR KJQF NASCR4 transition fixes GSO and PONTI are 4190 miles apart
+---- STAR KJQF NASCR4 transition fixes NASCR and CLT150023 are 4170.1 miles apart
+**** Unknown fix in airway/procedure: KJQF NASCR4, Fix:  ROUSH
+**** Unknown fix in airway/procedure: KJQF NASCR4, Fix:  NASCR
+---- STAR KJQF NASCR4 transition fixes LIB and ROUSH are 4210.16 miles apart
+---- STAR KJQF NASCR4 transition fixes NASCR and CLT150023 are 4170.1 miles apart
+**** Unknown fix in airway/procedure: KJQF NASCR4, Fix:  PONTI
+**** Unknown fix in airway/procedure: KJQF NASCR4, Fix:  NASCR
+---- STAR KJQF NASCR4 transition fixes GSO and PONTI are 4190 miles apart
+---- STAR KJQF NASCR4 transition fixes NASCR and CLT150023 are 4170.1 miles apart
 **** Unknown fix in airway/procedure: KVLD RV1, Fix:  CUVGA
 ---- STAR KVLD RV1 transition fixes IFM and CUVGA are 4072.11 miles apart
 ---- STAR KVLD RV1 transition fixes CUVGA and KVLD are 4090.57 miles apart
+**** Unknown fix in airway/procedure: KVLD RV2, Fix:  CRG11260
+**** Unknown fix in airway/procedure: KVLD RV2, Fix:  CUVGA
+---- STAR KVLD RV2 transition fixes CRG and CRG11260 are 4185.64 miles apart
+---- STAR KVLD RV2 transition fixes CUVGA and KVLD are 4090.57 miles apart
+**** Unknown fix in airway/procedure: KLCQ RV1, Fix:  TAY04140
+---- STAR KLCQ RV1 transition fixes GNV and TAY04140 are 4155.32 miles apart
+---- STAR KLCQ RV1 transition fixes TAY04140 and KLCQ are 4133.54 miles apart
 Stats - FPAs 0  boundary segments 0
 0 flight plans (FPX) now available.
 00 Map set center N4500.00/W12100.00 range 200
-End read   21:07:09
-CRD: XX FAC ZJX SEC 30 WORK BLUE 0
+End read   00:21:22
+CRD: XX FAC ZJX SEC 49 COMB 50 WORK BLUE 0
 	ACCEPT - LOADING FACILITY DATA ...
 
 
     -------- LOAD FACILITY --------
-Upper Winds:   500-219/41   450-236/62   400-251/81   350-266/100  300-281/119
-               250-277/97   200-278/73   150-279/52   100-280/34    50-281/19     0-282/7  
-Start read 21:07:22
+Upper Winds:   500-283/33   450-266/46   400-250/58   350-234/70   300-218/82 
+               250-224/69   200-231/50   150-238/34   100-245/21    50-252/11     0-259/4  
+Start read 00:21:59
 Software unplug, now NOT PLUGGED IN
 DB Font Small request ERAMv110 ... OK
 DB Font Large request ERAMv110 ... OK
 On-screen List Font Small request ERAMv110 ... OK
 On-screen List Font Large request ERAMv110 ... OK
 StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24982, Runway number not digits: 7L
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24985, Runway number not digits: 7L
 **** Unknown fix in airway/procedure: KCHS MLTRE2, Fix:  VANNC
 ----  SID KCHS MLTRE2 transition fixes MLTRE and VANNC are 4209.63 miles apart
 **** Unknown fix in airway/procedure: KCHS MLTRE2, Fix:  VANNC
 ----  SID KCHS MLTRE2 transition fixes MLTRE and VANNC are 4209.63 miles apart
+**** Unknown fix in airway/procedure: KCHS SWPFX2, Fix:  FILL
+----  SID KCHS SWPFX2 transition fixes SWPFX and FILL are 4226.62 miles apart
+**** Unknown fix in airway/procedure: KSFB SFB1, Fix:  CAMDT
+----  SID KSFB SFB1 transition fixes CROPY and CAMDT are 4214.1 miles apart
+**** Unknown fix in airway/procedure: KTPA DORMR3, Fix:  FROOT
+----  SID KTPA DORMR3 transition fixes PSTOL and FROOT are 4085.69 miles apart
+C:\Users\broth\AppData\Local\ATSim2020\eATS\Airways.txt, line 10961, ---- STAR AT KCHS RV2, FATHE TO CHS234030 IS 217.841 MILES
+---- STAR KCHS RV2 transition fixes FATHE and CHS234030 are 217.841 miles apart
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\Airways.txt, line 11844, Unknown command after '*' *WHDRW
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\Airways.txt, line 11845, Unknown command after '*' *WHDRW
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  ZELLE
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  JOOLS
+---- STAR KJQF JOOLS1 transition fixes HRTWL and ZELLE are 4105.61 miles apart
+---- STAR KJQF JOOLS1 transition fixes JOOLS and CHPTR are 4136.22 miles apart
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  ZELLE
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  JOOLS
+---- STAR KJQF JOOLS1 transition fixes HRTWL and ZELLE are 4105.61 miles apart
+---- STAR KJQF JOOLS1 transition fixes JOOLS and CHPTR are 4136.22 miles apart
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  ZELLE
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  JOOLS
+---- STAR KJQF JOOLS1 transition fixes HRTWL and ZELLE are 4105.61 miles apart
+---- STAR KJQF JOOLS1 transition fixes JOOLS and CHPTR are 4136.22 miles apart
+**** Unknown fix in airway/procedure: KJQF JOOLS1, Fix:  JOOLS
+---- STAR KJQF JOOLS1 transition fixes JOOLS and CHPTR are 4136.22 miles apart
+**** Unknown fix in airway/procedure: KJQF KABEE3, Fix:  KABEE
+**** Unknown fix in airway/procedure: KJQF KABEE3, Fix:  BIFFL
+**** Unknown fix in airway/procedure: KJQF KABEE3, Fix:  NASCR
+---- STAR KJQF KABEE3 transition fixes COPEL and KABEE are 4215.97 miles apart
+---- STAR KJQF KABEE3 transition fixes NASCR and CLT150023 are 4170.1 miles apart
+**** Unknown fix in airway/procedure: KJQF KABEE3, Fix:  KABEE
+**** Unknown fix in airway/procedure: KJQF KABEE3, Fix:  BIFFL
+**** Unknown fix in airway/procedure: KJQF KABEE3, Fix:  NASCR
+---- STAR KJQF KABEE3 transition fixes NASCR and CLT150023 are 4170.1 miles apart
+**** Unknown fix in airway/procedure: KJQF NASCR4, Fix:  PONTI
+**** Unknown fix in airway/procedure: KJQF NASCR4, Fix:  NASCR
+---- STAR KJQF NASCR4 transition fixes GSO and PONTI are 4190 miles apart
+---- STAR KJQF NASCR4 transition fixes NASCR and CLT150023 are 4170.1 miles apart
+**** Unknown fix in airway/procedure: KJQF NASCR4, Fix:  ROUSH
+**** Unknown fix in airway/procedure: KJQF NASCR4, Fix:  NASCR
+---- STAR KJQF NASCR4 transition fixes LIB and ROUSH are 4210.16 miles apart
+---- STAR KJQF NASCR4 transition fixes NASCR and CLT150023 are 4170.1 miles apart
+**** Unknown fix in airway/procedure: KJQF NASCR4, Fix:  PONTI
+**** Unknown fix in airway/procedure: KJQF NASCR4, Fix:  NASCR
+---- STAR KJQF NASCR4 transition fixes GSO and PONTI are 4190 miles apart
+---- STAR KJQF NASCR4 transition fixes NASCR and CLT150023 are 4170.1 miles apart
 **** Unknown fix in airway/procedure: KVLD RV1, Fix:  CUVGA
 ---- STAR KVLD RV1 transition fixes IFM and CUVGA are 4072.11 miles apart
 ---- STAR KVLD RV1 transition fixes CUVGA and KVLD are 4090.57 miles apart
+**** Unknown fix in airway/procedure: KVLD RV2, Fix:  CRG11260
+**** Unknown fix in airway/procedure: KVLD RV2, Fix:  CUVGA
+---- STAR KVLD RV2 transition fixes CRG and CRG11260 are 4185.64 miles apart
+---- STAR KVLD RV2 transition fixes CUVGA and KVLD are 4090.57 miles apart
+**** Unknown fix in airway/procedure: KLCQ RV1, Fix:  TAY04140
+---- STAR KLCQ RV1 transition fixes GNV and TAY04140 are 4155.32 miles apart
+---- STAR KLCQ RV1 transition fixes TAY04140 and KLCQ are 4133.54 miles apart
 (3) Opening C:\Users\broth\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
 Pending active facility ID: ZJX
 (4) Opening FAC-ZJX-BDRY.TXT
 (4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** FAC-ZJX-DATA.TXT, line 59, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** FAC-ZJX-DATA.TXT, line 60, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** FAC-ZJX-DATA.TXT, line 22, Unknown *DEST_GROUP airport (does not alias) KRSQ
+**** FAC-ZJX-DATA.TXT, line 51, *DEP_MIT/*ARR_MIT ignoring equivalent entry
 **** FAC-ZJX-DATA.TXT, line 61, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** FAC-ZJX-DATA.TXT, line 62, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** FAC-ZJX-DATA.TXT, line 63, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** FAC-ZJX-DATA.TXT, line 93, *DEP_MIT/*ARR_MIT ignoring equivalent entry
 **** Undefined DV BY sector in Star MARQO2 ZJX77
 **** Undefined DV BY sector in Star OHDEA1 ZJX79
 **** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 116, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 119, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 119, Undefined airway in MAP_AW V537
+**** FAC-ZJX-DATA.TXT, line 121, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 124, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 124, Undefined airway in MAP_AW V537
 **** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 121, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 121, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 127, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 127, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 127, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 127, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MCN
+**** FAC-ZJX-DATA.TXT, line 126, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 126, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 132, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 132, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 132, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 132, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 149, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 149, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 149, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 149, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 149, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 149, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 149, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 149, Undefined XN in *MAP_XN MCN
 **** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 163, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 163, Undefined airway in MAP_AW V51
+**** FAC-ZJX-DATA.TXT, line 168, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 168, Undefined airway in MAP_AW V51
 (4) Opening FAC-ZTL-MIA.TXT
 (4) Opening FAC-ZDC-MIA.TXT
 (4) Opening FAC-ZHU-MIA.TXT
@@ -102,6 +208,8 @@ Pending active facility ID: ZJX
 (4) Opening FAC-SSC-BDRY.TXT
 (4) Opening FAC-CHS-BDRY.TXT
 (4) Opening FAC-DAB-BDRY.TXT
+**** FAC-DAB-BDRY.TXT, line 40, FPA altitude limits exceed Sector altitude limits
+****     DAB 5H  80 110  FPA 0 50
 (4) Opening FAC-FLO-BDRY.TXT
 (4) Opening FAC-JAX-BDRY.TXT
 (4) Opening FAC-MCO-BDRY.TXT
@@ -116,7 +224,7 @@ Pending active facility ID: ZJX
 (4) Opening FAC-VLD-BDRY.TXT
 (4) Opening FAC-VPS-BDRY.TXT
 (4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 169  boundary segments 2239
+Stats - FPAs 170  boundary segments 2253
 Active facility set to ZJX, no active sectors.
 0 flight plans (FPX) now available.
 ---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
@@ -124,87 +232,370 @@ Active facility set to ZJX, no active sectors.
 ---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
 ---- ARR_MIT fixes SZW036050 and MOGPE are 69.6279 miles apart
 00 Map set center N3116.00/W08149.00 range 250
-End read   21:07:33
+End read   00:22:17
 Active facility set to ZJX, no active sectors.
 02 Map set center N3116.00/W08149.00 range 250
-QNH (if no *WX defined) 29.48
-Surface wind 285.596T 290M at 16
-PFinit Orig N3116.00/W08149.00 Range 250 Dir 335 Altim 2983 Grad 12
+QNH (if no *WX defined) 29.86
+Surface wind 285.596T 290M at 8
+PFinit Orig N3116.00/W08149.00 Range 250 Dir 199 Altim 2991 Grad 11
 Software unplug, now NOT PLUGGED IN
-Active facility/sector(s) now ZJX 30
-03 Map set center N2838.00/W08618.00 range 100
+Active facility/sector(s) now ZJX 49
+03 Map set center N3138.00/W08159.00 range 105
 Software unplug, now NOT PLUGGED IN
+Active facility/sector(s) now ZJX 49 50
+00 Map set center N3126.29/W08215.47 range 105
+Combine 49 Stratum H
+Combine 50 Stratum H
+04 Map set center N3126.29/W08215.47 range 105
 Software plug in, now PLUGGED IN
 Software D-SIDE, now D-SIDE
 	AIRPLANES ON - RELOAD FILES/RESTARTING ...
 Try open C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt
-**** FPX BWI-TPA need 4 chars in second hours field: 0001
-**** FPX BWI-TPA need 7 chars in Day Of Week field: 0.7
-**** FPX BWI-TPA company name too long: 1234567
-**** FPX type not defined: 0
-**** FPX BWI-TPA TAS negative, zero, or out of range: A320
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 263, FP format:  FPX ZJX BWI TPA 01 0001 1 1111 0.7 1234567 NKS 0 A320 532 380 KBWI./.GSO.Q75.TEUFL..BAAMF.DADES0.KTPA 
 **** Fix not defined (8), unrecognized format, or can't calculate offset: MATTY0 index 6
      coord CSG flags 1110 start CSG fixes = CSG ACORI MATTY0
  KMSP *CLIPHEAD CSG *DOT2 ACORI *DOT2 MATTY0 *DOT1 KTPA
 **** Fix List/Mod Legs init failed, SCX0
 **** FPX MSP-TPA invalid flight plan elements: KMSP./.CSG..ACORI..MATTY0.KTPA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 314, FP format:  FPX ZJX MSP TPA 01 0101 1111 0.7 1234567 SCX 0 B738 536 330 KMSP./.CSG..ACORI..MATTY0.KTPA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 314, FP format:  FPX ZJX MSP TPA 01 0101 1111 1.0 1234567 SCX 0 B738 536 330 KMSP./.CSG..ACORI..MATTY0.KTPA 
 **** Fix not defined (8), unrecognized format, or can't calculate offset: MATTY0 index 6
      coord CSG flags 1110 start CSG fixes = CSG ACORI MATTY0
  KMSP *CLIPHEAD CSG *DOT2 ACORI *DOT2 MATTY0 *DOT1 KTPA
 **** Fix List/Mod Legs init failed, DAL0
 **** FPX MSP-TPA invalid flight plan elements: KMSP./.CSG..ACORI..MATTY0.KTPA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 315, FP format:  FPX ZJX MSP TPA 01 0001 1111 0.7 1234567 DAL 0 B739 536 330 KMSP./.CSG..ACORI..MATTY0.KTPA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 315, FP format:  FPX ZJX MSP TPA 01 0101 1111 1.0 1234567 DAL 0 B739 536 330 KMSP./.CSG..ACORI..MATTY0.KTPA 
 **** Can't find airway definition (or bad fixes/dot separators): BAAMF
 **** Fix List/Mod Legs init failed, JBU0
 **** FPX BDL-TPA invalid flight plan elements: KBDL./.FAY..PUPYY.BAAMF.DADES0.KTPA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 331, FP format:  FPX ZJX BDL TPA 01 0001 1111 0.7 1234567 JBU 0 A320 513 360 KBDL./.FAY..PUPYY.BAAMF.DADES0.KTPA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 331, FP format:  FPX ZJX BDL TPA 01 0101 1111 1.0 1234567 JBU 0 A320 513 360 KBDL./.FAY..PUPYY.BAAMF.DADES0.KTPA 
 **** Can't find airway definition (or bad fixes/dot separators): BAAMF
 **** Fix List/Mod Legs init failed, SWA0
 **** FPX BDL-TPA invalid flight plan elements: KBDL./.FAY..PUPYY.BAAMF.DADES0.KTPA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 332, FP format:  FPX ZJX BDL TPA 01 0011 1111 0.7 1234567 SWA 0 B38M 513 360 KBDL./.FAY..PUPYY.BAAMF.DADES0.KTPA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 332, FP format:  FPX ZJX BDL TPA 01 0010 1111 1.0 1234567 SWA 0 B38M 513 360 KBDL./.FAY..PUPYY.BAAMF.DADES0.KTPA 
 **** Can't find airway definition (or bad fixes/dot separators): BAAMF
 **** Fix List/Mod Legs init failed, MXY0
 **** FPX BDL-TPA invalid flight plan elements: KBDL./.FAY..PUPYY.BAAMF.DADES0.KTPA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 333, FP format:  FPX ZJX BDL TPA 01 0111 1111 0.7 1234567 MXY 0 BCS3 513 360 KBDL./.FAY..PUPYY.BAAMF.DADES0.KTPA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 333, FP format:  FPX ZJX BDL TPA 01 0100 1111 1.0 1234567 MXY 0 BCS3 513 360 KBDL./.FAY..PUPYY.BAAMF.DADES0.KTPA 
 **** Can't find airway definition (or bad fixes/dot separators): BAAMF
 **** Fix List/Mod Legs init failed, FFT0
 **** FPX CVG-TPA invalid flight plan elements: KCVG./.IRQ..TEEEM.BAAMF.DADES0.KTPA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 334, FP format:  FPX ZJX CVG TPA 01 0001 1111 0.7 1234567 FFT 0 A21N 537 350 KCVG./.IRQ..TEEEM.BAAMF.DADES0.KTPA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 334, FP format:  FPX ZJX CVG TPA 01 0101 1111 1.0 1234567 FFT 0 A21N 537 350 KCVG./.IRQ..TEEEM.BAAMF.DADES0.KTPA 
 **** Can't find airway definition (or bad fixes/dot separators): BAAMF
 **** Fix List/Mod Legs init failed, DAL0
 **** FPX CVG-TPA invalid flight plan elements: KCVG./.IRQ..TEEEM.BAAMF.DADES0.KTPA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 335, FP format:  FPX ZJX CVG TPA 01 0011 1111 0.7 1234567 DAL 0 B738 537 350 KCVG./.IRQ..TEEEM.BAAMF.DADES0.KTPA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 335, FP format:  FPX ZJX CVG TPA 01 0010 1111 1.0 1234567 DAL 0 B738 537 350 KCVG./.IRQ..TEEEM.BAAMF.DADES0.KTPA 
 **** Can't find airway definition (or bad fixes/dot separators): BAAMF
 **** Fix List/Mod Legs init failed, GTI0
 **** FPX CVG-TPA invalid flight plan elements: KCVG./.IRQ..TEEEM.BAAMF.DADES0.KTPA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 336, FP format:  FPX ZJX CVG TPA 01 1111 1111 0.7 1234567 GTI 0 B763 537 350 KCVG./.IRQ..TEEEM.BAAMF.DADES0.KTPA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 336, FP format:  FPX ZJX CVG TPA 01 1111 1111 1.0 1234567 GTI 0 B763 537 350 KCVG./.IRQ..TEEEM.BAAMF.DADES0.KTPA 
 **** Fix not defined (8), unrecognized format, or can't calculate offset: MATTY0 index 6
      coord MGMRY flags 1110 start MGMRY fixes = MGMRY ACORI MATTY0
  KSTL *CLIPHEAD MGMRY *DOT2 ACORI *DOT2 MATTY0 *DOT1 KTPA
 **** Fix List/Mod Legs init failed, SWA0
 **** FPX STL-TPA invalid flight plan elements: KSTL./.MGMRY..ACORI..MATTY0.KTPA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 346, FP format:  FPX ZJX STL TPA 01 0001 1111 0.7 1234567 SWA 0 B38M 522 410 KSTL./.MGMRY..ACORI..MATTY0.KTPA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 346, FP format:  FPX ZJX STL TPA 01 0101 1111 1.0 1234567 SWA 0 B38M 522 410 KSTL./.MGMRY..ACORI..MATTY0.KTPA 
 **** FPX type not defined: B777
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 356, FP format:  FPX ZJX EGKK TPA 01 0001 1111 0.7 1234567 BAW 0 B777 563 340 EGKK./.GSO.Q75.TEUFL..BAAMF.DADES0.KTPA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 356, FP format:  FPX ZJX EGKK TPA 01 0101 1111 1.0 1234567 BAW 0 B777 563 340 EGKK./.GSO.Q75.TEUFL..BAAMF.DADES0.KTPA 
 **** Can't find airway definition (or bad fixes/dot separators): MATTY0
 **** Fix List/Mod Legs init failed, SWA0
 **** FPX MCI-TPA invalid flight plan elements: KMCI./.MGMRY..ACORI.MATTY0.KTPA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 357, FP format:  FPX ZJX MCI TPA 01 0001 1111 0.7 1234567 SWA 0 B738 527 410 KMCI./.MGMRY..ACORI.MATTY0.KTPA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 357, FP format:  FPX ZJX MCI TPA 01 0101 1111 1.0 1234567 SWA 0 B738 527 410 KMCI./.MGMRY..ACORI.MATTY0.KTPA 
 **** Can't find airway definition (or bad fixes/dot separators): MATTY0
 **** Fix List/Mod Legs init failed, SWA0
 **** FPX MKE-TPA invalid flight plan elements: KMKE./.MGMRY..ACORI.MATTY0.KTPA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 358, FP format:  FPX ZJX MKE TPA 01 0010 1111 0.7 1234567 SWA 0 B737 527 380 KMKE./.MGMRY..ACORI.MATTY0.KTPA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 358, FP format:  FPX ZJX MKE TPA 01 0010 1111 1.0 1234567 SWA 0 B737 527 380 KMKE./.MGMRY..ACORI.MATTY0.KTPA 
 **** Can't find airway definition (or bad fixes/dot separators): MATTY0
 **** Fix List/Mod Legs init failed, SWA0
 **** FPX BHM-TPA invalid flight plan elements: KBHM./.MGMRY..ACORI.MATTY0.KTPA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 362, FP format:  FPX ZJX BHM TPA 01 0011 1111 0.7 1234567 SWA 0 B738 527 370 KBHM./.MGMRY..ACORI.MATTY0.KTPA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 362, FP format:  FPX ZJX BHM TPA 01 0010 1111 1.0 1234567 SWA 0 B738 527 370 KBHM./.MGMRY..ACORI.MATTY0.KTPA 
 **** Can't find airway definition (or bad fixes/dot separators): MATTY0
 **** Fix List/Mod Legs init failed, DAL0
 **** FPX SLC-TPA invalid flight plan elements: KSLC./.MGMRY..ACORI.MATTY0.KTPA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 366, FP format:  FPX ZJX SLC TPA 01 0111 1111 0.7 1234567 DAL 0 A321 536 390 KSLC./.MGMRY..ACORI.MATTY0.KTPA 
-**** JBU0 can't make top of climb 21900 Start 1 nLegs 5  KJAX.EXBOX2.EXBOX..PRMUS.CUUDA2./.KFLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 366, FP format:  FPX ZJX SLC TPA 01 0100 1111 1.0 1234567 DAL 0 A321 536 390 KSLC./.MGMRY..ACORI.MATTY0.KTPA 
+**** Can't find airway definition (or bad fixes/dot separators): MATTY0
+**** Fix List/Mod Legs init failed, MXY0
+**** FPX CAK-TPA invalid flight plan elements: KCAK./.MGMRY..ACORI.MATTY0.KTPA
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 372, FP format:  FPX ZJX CAK TPA 01 0010 1111 1.0 1234567 MXY 0 E190 510 320 KCAK./.MGMRY..ACORI.MATTY0.KTPA 
+---- FPX GSP TPA unknown fix, alias not defined, or doesn't match flight plan text. KGSP./.KTOA
+**** Can't find airway definition (or bad fixes/dot separators): DADES0
+**** Fix List/Mod Legs init failed, SIL0
+**** FPX GSP-TPA invalid flight plan elements: KGSP./.SPA..TEUFL..BAAMF.DADES0.KTOA
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 373, FP format:  FPX ZJX GSP TPA 01 0100 1111 1.0 .2.4..7 SIL 0 AT76 218 180 KGSP./.SPA..TEUFL..BAAMF.DADES0.KTOA 
+**** Can't find airway definition (or bad fixes/dot separators): KAATT
+**** Fix List/Mod Legs init failed, VXP0
+**** FPX ILM-TPA invalid flight plan elements: KILM.KAATT.Q85.BEEGE..BAAMF.DADES0.KTPA
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 376, FP format:  FPX ZJX ILM TPA 01 0010 1111 1.0 1..45.7 VXP 0 B737 522 380 KILM.KAATT.Q85.BEEGE..BAAMF.DADES0.KTPA 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-DEN invalid flight plan elements: KTPA.DORMR0.FROOT..BUNNZ.Y290.BLVNS.Q105.REDFN..HRV./.KDEN
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 408, FP format:  FPX ZJX TPA DEN 01 0101 1111 1.0 1234567 SWA 0 B737 534 360 KTPA.DORMR0.FROOT..BUNNZ.Y290.BLVNS.Q105.REDFN..HRV./.KDEN 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-DEN invalid flight plan elements: KTPA.DORMR0.FROOT..BUNNZ.Y290.BLVNS.Q105.REDFN..HRV./.KDEN
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 409, FP format:  FPX ZJX TPA DEN 01 0010 1111 1.0 1234567 SWA 0 B738 534 340 KTPA.DORMR0.FROOT..BUNNZ.Y290.BLVNS.Q105.REDFN..HRV./.KDEN 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-DEN invalid flight plan elements: KTPA.DORMR0.FROOT..BUNNZ.Y290.BLVNS.Q105.REDFN..HRV./.KDEN
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 410, FP format:  FPX ZJX TPA DEN 01 0100 1111 1.0 1234567 SWA 0 B38M 534 320 KTPA.DORMR0.FROOT..BUNNZ.Y290.BLVNS.Q105.REDFN..HRV./.KDEN 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, UAL0
+**** FPX TPA-DEN invalid flight plan elements: KTPA.DORMR0.FROOT..BUNNZ.Y290.BLVNS.Q105.REDFN..HRV./.KDEN
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 411, FP format:  FPX ZJX TPA DEN 01 0101 1111 1.0 1234567 UAL 0 B39M 534 380 KTPA.DORMR0.FROOT..BUNNZ.Y290.BLVNS.Q105.REDFN..HRV./.KDEN 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, UAL0
+**** FPX TPA-DEN invalid flight plan elements: KTPA.DORMR0.FROOT..BUNNZ.Y290.BLVNS.Q105.REDFN..HRV./.KDEN
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 412, FP format:  FPX ZJX TPA DEN 01 1011 1111 1.0 1234567 UAL 0 A320 534 360 KTPA.DORMR0.FROOT..BUNNZ.Y290.BLVNS.Q105.REDFN..HRV./.KDEN 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, FFT0
+**** FPX TPA-DEN invalid flight plan elements: KTPA.DORMR0.FROOT..BUNNZ.Y290.BLVNS.Q105.REDFN..HRV./.KDEN
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 413, FP format:  FPX ZJX TPA DEN 01 1101 1111 1.0 1234567 FFT 0 A321 534 360 KTPA.DORMR0.FROOT..BUNNZ.Y290.BLVNS.Q105.REDFN..HRV./.KDEN 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, JBU0
+**** FPX TPA-EWR invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KEWR
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 418, FP format:  FPX ZJX TPA EWR 01 0101 1111 1.0 1234567 JBU 0 A320 528 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KEWR 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, UAL0
+**** FPX TPA-EWR invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KEWR
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 419, FP format:  FPX ZJX TPA EWR 01 0010 1111 1.0 1234567 UAL 0 A320 528 310 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KEWR 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, UAL0
+**** FPX TPA-EWR invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KEWR
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 420, FP format:  FPX ZJX TPA EWR 01 0100 1111 1.0 1234567 UAL 0 B38M 528 330 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KEWR 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, AAL0
+**** FPX TPA-PHL invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPHL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 421, FP format:  FPX ZJX TPA PHL 01 0101 1111 1.0 1234567 AAL 0 B738 528 350 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPHL 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, FFT0
+**** FPX TPA-PHL invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPHL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 422, FP format:  FPX ZJX TPA PHL 01 0010 1111 1.0 1234567 FFT 0 A20N 528 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPHL 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, UPS0
+**** FPX TPA-PHL invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPHL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 423, FP format:  FPX ZJX TPA PHL 01 0100 1111 1.0 1234567 UPS 0 B752 528 310 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPHL 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, AAL0
+**** FPX TPA-PHL invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPHL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 424, FP format:  FPX ZJX TPA PHL 01 0101 1111 1.0 1234567 AAL 0 A321 528 390 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPHL 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX TPA-JFK invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KJFK
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 428, FP format:  FPX ZJX TPA JFK 01 0101 1111 1.0 1234567 DAL 0 B739 517 310 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KJFK 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, JBU0
+**** FPX TPA-JFK invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KJFK
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 429, FP format:  FPX ZJX TPA JFK 01 0010 1111 1.0 1234567 JBU 0 A320 529 330 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KJFK 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX TPA-JFK invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KJFK
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 430, FP format:  FPX ZJX TPA JFK 01 0100 1111 1.0 1234567 DAL 0 B738 528 350 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KJFK 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-MSY invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KMSY
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 437, FP format:  FPX ZJX TPA MSY 01 0101 1111 1.0 1234567 SWA 0 B38M 520 320 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KMSY 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-MSY invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KMSY
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 438, FP format:  FPX ZJX TPA MSY 01 0010 1111 1.0 1234567 SWA 0 B738 520 320 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KMSY 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, NKS0
+**** FPX TPA-MSY invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KMSY
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 439, FP format:  FPX ZJX TPA MSY 01 0100 1111 1.0 1234567 NKS 0 A20N 520 320 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KMSY 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-DAL invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KDAL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 440, FP format:  FPX ZJX TPA DAL 01 0101 1111 1.0 1234567 SWA 0 B738 519 400 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KDAL 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-AUS invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KAUS
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 445, FP format:  FPX ZJX TPA AUS 01 0101 1111 1.0 1234567 SWA 0 B737 528 340 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KAUS 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, AAL0
+**** FPX TPA-AUS invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KAUS
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 446, FP format:  FPX ZJX TPA AUS 01 0010 1111 1.0 1234567 AAL 0 A319 528 360 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KAUS 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-AUS invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KAUS
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 447, FP format:  FPX ZJX TPA AUS 01 0100 1111 1.0 1234567 SWA 0 B738 528 320 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KAUS 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, UAL0
+**** FPX TPA-IAD invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KIAD
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 448, FP format:  FPX ZJX TPA IAD 01 0101 1111 1.0 1234567 UAL 0 B38M 528 390 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KIAD 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, UAL0
+**** FPX TPA-IAD invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KIAD
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 449, FP format:  FPX ZJX TPA IAD 01 0010 1111 1.0 1234567 UAL 0 A320 528 390 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KIAD 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, UAL0
+**** FPX TPA-IAH invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KIAH
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 450, FP format:  FPX ZJX TPA IAH 01 0101 1111 1.0 1234567 UAL 0 B739 536 380 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KIAH 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, UAL0
+**** FPX TPA-IAH invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KIAH
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 451, FP format:  FPX ZJX TPA IAH 01 0010 1111 1.0 1234567 UAL 0 A319 536 360 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KIAH 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX TPA-LAX invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KLAX
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 452, FP format:  FPX ZJX TPA LAX 01 0101 1111 1.0 1234567 DAL 0 B739 536 320 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KLAX 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, UAL0
+**** FPX TPA-LAX invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KLAX
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 453, FP format:  FPX ZJX TPA LAX 01 0010 1111 1.0 1234567 UAL 0 B738 536 340 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KLAX 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, AAL0
+**** FPX TPA-PHX invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KPHX
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 454, FP format:  FPX ZJX TPA PHX 01 0101 1111 1.0 1234567 AAL 0 A21N 536 320 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KPHX 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-PHX invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KPHX
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 455, FP format:  FPX ZJX TPA PHX 01 0010 1111 1.0 1234567 SWA 0 B738 536 380 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KPHX 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, FFT0
+**** FPX TPA-PHX invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KPHX
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 456, FP format:  FPX ZJX TPA PHX 01 0100 1111 1.0 1234567 FFT 0 A21N 536 360 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KPHX 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, ASA0
+**** FPX TPA-SEA invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KSEA
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 457, FP format:  FPX ZJX TPA SEA 01 0101 1111 1.0 1234567 ASA 0 B739 536 340 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KSEA 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX TPA-SEA invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KSEA
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 458, FP format:  FPX ZJX TPA SEA 01 0010 1111 1.0 1234567 DAL 0 B739 536 320 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KSEA 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, ASA0
+**** FPX TPA-SEA invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KSEA
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 459, FP format:  FPX ZJX TPA SEA 01 0101 1111 1.0 1234567 ASA 0 B39M 536 300 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KSEA 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, JBU0
+**** FPX TPA-BDL invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KBDL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 460, FP format:  FPX ZJX TPA BDL 01 0101 1111 1.0 1234567 JBU 0 A320 536 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KBDL 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-BDL invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KBDL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 461, FP format:  FPX ZJX TPA BDL 01 0010 1111 1.0 1234567 SWA 0 B38M 536 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KBDL 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, MXY0
+**** FPX TPA-BDL invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KBDL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 462, FP format:  FPX ZJX TPA BDL 01 0100 1111 1.0 1234567 MXY 0 BCS3 536 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KBDL 
+---- FPX TPA CVG unknown fix, alias not defined, or doesn't match flight plan text. KTPA./.KCLE
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, FFT0
+**** FPX TPA-LAS invalid flight plan elements: KTPA.DORMR0.FROOT.ROZZI.Y280.REDFN.Q105.HRV./.KLAS
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 469, FP format:  FPX ZJX TPA LAS 01 0101 1111 1.0 1234567 FFT 0 A20N 518 360 KTPA.DORMR0.FROOT.ROZZI.Y280.REDFN.Q105.HRV./.KLAS 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, NKS0
+**** FPX TPA-LAS invalid flight plan elements: KTPA.DORMR0.FROOT.ROZZI.Y280.REDFN.Q105.HRV./.KLAS
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 470, FP format:  FPX ZJX TPA LAS 01 0010 1111 1.0 1234567 NKS 0 A20N 518 360 KTPA.DORMR0.FROOT.ROZZI.Y280.REDFN.Q105.HRV./.KLAS 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-PIT invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPIT
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 471, FP format:  FPX ZJX TPA PIT 01 0101 1111 1.0 1234567 SWA 0 B738 536 350 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPIT 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-HOU invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KHOU
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 472, FP format:  FPX ZJX TPA HOU 01 0101 1111 1.0 1234567 SWA 0 B738 527 340 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KHOU 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, FFT0
+**** FPX TPA-ISP invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KISP
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 476, FP format:  FPX ZJX TPA ISP 01 0101 1111 1.0 1234567 FFT 0 A20N 537 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KISP 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, MXY0
+**** FPX TPA-PVD invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPVD
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 477, FP format:  FPX ZJX TPA PVD 01 0101 1111 1.0 1234567 MXY 0 A320 537 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPVD 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-PVD invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPVD
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 478, FP format:  FPX ZJX TPA PVD 01 0101 1111 1.0 1234567 SWA 0 B738 537 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KPVD 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-BUF invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KBUF
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 479, FP format:  FPX ZJX TPA BUF 01 0101 1111 1.0 1234567 SWA 0 B738 537 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KBUF 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, FFT0
+**** FPX TPA-BUF invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KBUF
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 480, FP format:  FPX ZJX TPA BUF 01 0010 1111 1.0 1234567 FFT 0 A20N 537 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KBUF 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-SDF invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KSDF
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 481, FP format:  FPX ZJX TPA SDF 01 0101 1111 1.0 1234567 SWA 0 B737 537 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KSDF 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, UPS0
+**** FPX TPA-SDF invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KSDF
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 482, FP format:  FPX ZJX TPA SDF 01 1111 1111 1.0 1234567 UPS 0 MD11 537 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KSDF 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, MXY0
+**** FPX TPA-SDF invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KSDF
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 483, FP format:  FPX ZJX TPA SDF 01 0100 1111 1.0 1234567 MXY 0 BCS3 537 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KSDF 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, FFT0
+**** FPX TPA-TTN invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KTTN
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 484, FP format:  FPX ZJX TPA TTN 01 0101 1111 1.0 1234567 FFT 0 A20N 537 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KTTN 
+**** FPX type not defined: B777
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 485, FP format:  FPX ZJX TPA EGKK 01 0101 1111 1.0 1234567 BAW 0 B777 537 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.EGKK 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, VIR0
+**** FPX TPA-EGLL invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.EGLL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 488, FP format:  FPX ZJX TPA EGLL 01 0101 1111 1.0 1234567 VIR 0 A35K 543 390 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.EGLL 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, MXY0
+**** FPX TPA-RIC invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KRIC
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 489, FP format:  FPX ZJX TPA RIC 01 0101 1111 1.0 1234567 MXY 0 BCS3 543 390 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KRIC 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, NKS0
+**** FPX TPA-ACY invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KACY
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 490, FP format:  FPX ZJX TPA ACY 01 1001 1111 1.0 1234567 NKS 0 A20N 543 390 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KACY 
+**** Can't find airway definition (or bad fixes/dot separators): BAYPO
+**** Fix List/Mod Legs init failed, JBU0
+**** FPX TPA-HPN invalid flight plan elements: KTPA.BAYPO.CAMJO.Q99.POLLY..DADDS./.KHPN
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 492, FP format:  FPX ZJX TPA HPN 01 0101 1111 1.0 1234567 JBU 0 A320 528 370 KTPA.BAYPO.CAMJO.Q99.POLLY..DADDS./.KHPN 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-SAT invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KSAT
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 493, FP format:  FPX ZJX TPA SAT 01 0010 1111 1.0 1234567 SWA 0 B737 528 360 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KSAT 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, UAL0
+**** FPX TPA-SFO invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KSFO
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 494, FP format:  FPX ZJX TPA SFO 01 0101 1111 1.0 1234567 UAL 0 B738 536 320 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KSFO 
+**** Fix not defined (2), unrecognized format, or can't calculate offset: FROOT
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX TPA-SLC invalid flight plan elements: KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KSLC
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 495, FP format:  FPX ZJX TPA SLC 01 0100 1111 1.0 1234567 DAL 0 A321 536 340 KTPA.DORMR0.FROOT..ROZZI.Y280.REDFN.Q105.HRV./.KSLC 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, ROU0
+**** FPX TPA-CYYZ invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.CYYZ
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 496, FP format:  FPX ZJX TPA CYYZ 01 0101 1111 1.0 1234567 ROU 0 A321 537 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.CYYZ 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, MXY0
+**** FPX TPA-ORF invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KORF
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 497, FP format:  FPX ZJX TPA ORF 01 0100 1111 1.0 1234567 MXY 0 BCS3 537 310 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KORF 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, VXP0
+**** FPX TPA-HVN invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KHVN
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 498, FP format:  FPX ZJX TPA HVN 01 0010 1111 1.0 1..4... VXP 0 B737 537 350 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KHVN 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, VXP0
+**** FPX TPA-HVN invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KHVN
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 499, FP format:  FPX ZJX TPA HVN 01 0100 1111 1.0 .23.567 VXP 0 B738 537 330 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KHVN 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, OCN0
+**** FPX TPA-EDDF invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.EDDF
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 500, FP format:  FPX ZJX TPA EDDF 01 0010 1111 1.0 1234567 OCN 0 A333 537 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.EDDF 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, MXY0
+**** FPX TPA-CAK invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KCAK
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 501, FP format:  FPX ZJX TPA CAK 01 0010 1111 1.0 1234567 MXY 0 E190 537 330 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KCAK 
+---- SIL0 altitude 31000 above defined AT76 ceiling 22000 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KGSP
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, SIL0
+**** FPX TPA-GSP invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KGSP
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 502, FP format:  FPX ZJX TPA GSP 01 0100 1111 1.0 .2.4..7 SIL 0 AT76 537 310 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KGSP 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, SWA0
+**** FPX TPA-SYR invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KSYR
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 503, FP format:  FPX ZJX TPA SYR 01 0010 1111 1.0 .....6. SWA 0 B737 537 330 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KSYR 
+**** Airway/Procedure substitution failed: CAMJO Q99 POLLY
+**** Fix List/Mod Legs init failed, VXP0
+**** FPX TPA-ILG invalid flight plan elements: KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KILG
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 504, FP format:  FPX ZJX TPA ILG 01 0100 1111 1.0 .2.4..7 VXP 0 B738 537 370 KTPA.BAYPO0.CAMJO.Q99.POLLY..DADDS./.KILG 
 ---- FPX ATL TLH unknown fix, alias not defined, or doesn't match flight plan text. KTLH./.KATL
 ---- FPX ATL TLH unknown fix, alias not defined, or doesn't match flight plan text. KTLH./.KATL
 ---- FPX ATL TLH unknown fix, alias not defined, or doesn't match flight plan text. KTLH./.KATL
@@ -214,30 +605,30 @@ Try open C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt
  KTLH *DOT2 HEVNN *DOT2 NICKI *DOT2 BROMO *DOT1 FROGZ0 *DOT1 KMIA
 **** Fix List/Mod Legs init failed, ENY0
 **** FPX TLH-MIA invalid flight plan elements: KTLH..HEVNN..NICKI..BROMO.FROGZ0.KMIA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 880, FP format:  FPX ZJX TLH MIA 01 0001 1111 0.7 1234567 ENY 0 E170 534 290 KTLH..HEVNN..NICKI..BROMO.FROGZ0.KMIA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1010, FP format:  FPX ZJX TLH MIA 01 0101 1111 1.0 1234567 ENY 0 E170 534 290 KTLH..HEVNN..NICKI..BROMO.FROGZ0.KMIA 
 **** Fix not defined (8), unrecognized format, or can't calculate offset: HEVNN index 2
      coord KTLH flags 0100 start KTLH fixes = KTLH HEVNN
  KTLH *DOT2 HEVNN *DOT2 NICKI *DOT2 BROMO *DOT1 FROGZ0 *DOT1 KMIA
 **** Fix List/Mod Legs init failed, ENY0
 **** FPX TLH-MIA invalid flight plan elements: KTLH..HEVNN..NICKI..BROMO.FROGZ0.KMIA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 881, FP format:  FPX ZJX TLH MIA 01 0011 1111 0.7 1234567 ENY 0 E170 534 290 KTLH..HEVNN..NICKI..BROMO.FROGZ0.KMIA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1011, FP format:  FPX ZJX TLH MIA 01 0010 1111 1.0 1234567 ENY 0 E170 534 290 KTLH..HEVNN..NICKI..BROMO.FROGZ0.KMIA 
 ---- FPX TLH CLT unknown fix, alias not defined, or doesn't match flight plan text. KCLT./.KTLH
 ---- FPX TLH CLT unknown fix, alias not defined, or doesn't match flight plan text. KCLT./.KTLH
 ---- FPX TLH DFW unknown fix, alias not defined, or doesn't match flight plan text. KDFW./.KTLH
 **** Airway..(airway) not supported after J50
 **** Fix List/Mod Legs init failed, ENY0
 **** FPX TLH-DFW invalid flight plan elements: KDFW./.MCB.J50..CEW..MAI.RV3.KTLH
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 894, FP format:  FPX ZJX TLH DFW 01 0001 1111 0.7 1234567 ENY 0 E170 540 370 KDFW./.MCB.J50..CEW..MAI.RV3.KTLH 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1024, FP format:  FPX ZJX TLH DFW 01 0101 1111 1.0 1234567 ENY 0 E170 540 370 KDFW./.MCB.J50..CEW..MAI.RV3.KTLH 
 ---- FPX TLH DFW unknown fix, alias not defined, or doesn't match flight plan text. KDFW./.KTLH
 **** Airway..(airway) not supported after J50
 **** Fix List/Mod Legs init failed, SKW0
 **** FPX TLH-DFW invalid flight plan elements: KDFW./.MCB.J50..CEW..MAI.RV3.KTLH
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 895, FP format:  FPX ZJX TLH DFW 01 0011 1111 0.7 1234567 SKW 0 CRJ7 540 370 KDFW./.MCB.J50..CEW..MAI.RV3.KTLH 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1025, FP format:  FPX ZJX TLH DFW 01 0010 1111 1.0 1234567 SKW 0 CRJ7 540 370 KDFW./.MCB.J50..CEW..MAI.RV3.KTLH 
 ---- FPX TLH DFW unknown fix, alias not defined, or doesn't match flight plan text. KDFW./.KTLH
 **** Airway..(airway) not supported after J50
 **** Fix List/Mod Legs init failed, JIA0
 **** FPX TLH-DFW invalid flight plan elements: KDFW./.MCB.J50..CEW..MAI.RV3.KTLH
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 896, FP format:  FPX ZJX TLH DFW 01 0111 1111 0.7 1234567 JIA 0 CRJ9 540 370 KDFW./.MCB.J50..CEW..MAI.RV3.KTLH 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1026, FP format:  FPX ZJX TLH DFW 01 0100 1111 1.0 1234567 JIA 0 CRJ9 540 370 KDFW./.MCB.J50..CEW..MAI.RV3.KTLH 
 ---- FPX TLH MIA unknown fix, alias not defined, or doesn't match flight plan text. KMIA./.KTLH
 ---- FPX TLH MIA unknown fix, alias not defined, or doesn't match flight plan text. KMIA./.KTLH
 ---- FPX TLH DCA unknown fix, alias not defined, or doesn't match flight plan text. KDCA./.KTLH
@@ -245,15 +636,134 @@ Try open C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt
 ---- SIL0 altitude 37000 above defined AT76 ceiling 22000 KFLL./.FAZES..SMELZ..JAWJA..SZW036050.RV4.KTLH
 ---- FPX TLH TPA unknown fix, alias not defined, or doesn't match flight plan text. KTPA./.KTLH
 ---- SIL0 altitude 37000 above defined AT46 ceiling 23000 KTPA./.MOMIE..SZW036050.RV4.KTLH
-**** RPA0 can't make top of climb 39000 Start 1 nLegs 7  KCHS.SWPFX2.FILLI..SARKY..FAY./.KIAD
+**** Fix not defined (4), unrecognized format, or can't calculate offset: TAY04140
+**** Fix List/Mod Legs init failed, N0
+**** FPX MLB-LCQ invalid flight plan elements: KMLB..DEARY.T336.OMMNI..GNV.RV1.KLCQ
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1038, FP format:  FPX ZJX MLB LCQ 01 0110 1111 1.0 1234567 N 0 PA44 120 060 KMLB..DEARY.T336.OMMNI..GNV.RV1.KLCQ 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: CILLA index 10
+     coord KMLB flags 0100 start KMLB fixes = KMLB DEARY CTY CILLA
+ KMLB *DOT2 DEARY *DOT1 T336 *DOT1 OMMNI *DOT2 CTY *DOT2 CILLA *DOT2 DESTN *DOT1 RV4 *DOT1 KPNS
+**** Fix List/Mod Legs init failed, N0
+**** FPX MLB-PNS invalid flight plan elements: KMLB..DEARY.T336.OMMNI..CTY..CILLA..DESTN.RV4.KPNS
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1039, FP format:  FPX ZJX MLB PNS 01 0110 1111 1.0 1234567 N 0 PA44 120 060 KMLB..DEARY.T336.OMMNI..CTY..CILLA..DESTN.RV4.KPNS 
+**** Airway/Procedure substitution failed: VIYAP RV2 KCHS
+**** Fix List/Mod Legs init failed, N0
+**** FPX MLB-CHS invalid flight plan elements: KMLB..WORMS..GUANO..BKENI..VIYAP.RV2.KCHS
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1040, FP format:  FPX ZJX MLB CHS 01 0110 1111 1.0 1234567 N 0 PA44 120 060 KMLB..WORMS..GUANO..BKENI..VIYAP.RV2.KCHS 
+**** Fix not defined (4), unrecognized format, or can't calculate offset: CRG11260
+**** Fix List/Mod Legs init failed, N0
+**** FPX MLB-VLD invalid flight plan elements: KMLB..MALET.T208.SMYRA..CRG.RV2.KVLD
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1041, FP format:  FPX ZJX MLB VLD 01 0110 1111 1.0 1234567 N 0 PA44 120 060 KMLB..MALET.T208.SMYRA..CRG.RV2.KVLD 
+---- FPX MLB HVN unknown fix, alias not defined, or doesn't match flight plan text. KMLB./.KPIT
+**** Airway/Procedure substitution failed: KSFB SFB1 OSPRY
+**** Fix List/Mod Legs init failed, AAY0
+**** FPX SFB-MFE invalid flight plan elements: KSFB.SFB1.OSPRY..GDUNN..KNOT..REMIS..ROZZI.Y280.LEV./.KMFE
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1107, FP format:  FPX ZJX SFB MFE 01 0010 1111 1.0 1234567 AAY 0 A319 529 320 KSFB.SFB1.OSPRY..GDUNN..KNOT..REMIS..ROZZI.Y280.LEV./.KMFE 
+**** Airway/Procedure substitution failed: KSFB SFB1 MZULO
+**** Fix List/Mod Legs init failed, AAY0
+**** FPX SFB-ORF invalid flight plan elements: KSFB.SFB1.MZULO..HESTA..LENDS..GRUBR.Y299.SEELO..GARIC./.KORF
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1109, FP format:  FPX ZJX SFB ORF 01 0010 1111 1.0 1234567 AAY 0 A319 526 330 KSFB.SFB1.MZULO..HESTA..LENDS..GRUBR.Y299.SEELO..GARIC./.KORF 
+---- FPX SFB PBG unknown fix, alias not defined, or doesn't match flight plan text. KSFB./.KPBD
+**** Fix not defined (8), unrecognized format, or can't calculate offset: FAYGO index 18
+     coord KSFB flags 0100 start KSFB fixes = KSFB GUANO BKENI VIYAP ELLDE FAYGO
+ KSFB *DOT1 SFB1 *DOT1 WORMS *DOT2 GUANO *DOT2 BKENI *DOT2 VIYAP *DOT1 Q87 *DOT1 JROSS *DOT2 ELLDE *DOT2 FAYGO *CLIPTAIL KPBD
+**** Fix List/Mod Legs init failed, AAY0
+**** FPX SFB-PBG invalid flight plan elements: KSFB.SFB1.WORMS..GUANO..BKENI..VIYAP.Q87.JROSS..ELLDE..FAYGO./.KPBD
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1110, FP format:  FPX ZJX SFB PBG 01 0100 1111 1.0 1234567 AAY 0 A319 527 370 KSFB.SFB1.WORMS..GUANO..BKENI..VIYAP.Q87.JROSS..ELLDE..FAYGO./.KPBD 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: FAYGO index 18
+     coord KSFB flags 0100 start KSFB fixes = KSFB GUANO BKENI VIYAP ELLDE FAYGO
+ KSFB *DOT1 SFB1 *DOT1 WORMS *DOT2 GUANO *DOT2 BKENI *DOT2 VIYAP *DOT1 Q87 *DOT1 JROSS *DOT2 ELLDE *DOT2 FAYGO *CLIPTAIL KPIT
+**** Fix List/Mod Legs init failed, AAY0
+**** FPX SFB-PIT invalid flight plan elements: KSFB.SFB1.WORMS..GUANO..BKENI..VIYAP.Q87.JROSS..ELLDE..FAYGO./.KPIT
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1112, FP format:  FPX ZJX SFB PIT 01 0100 1111 1.0 1234567 AAY 0 A320 527 390 KSFB.SFB1.WORMS..GUANO..BKENI..VIYAP.Q87.JROSS..ELLDE..FAYGO./.KPIT 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: FAYGO index 18
+     coord KSFB flags 0100 start KSFB fixes = KSFB GUANO BKENI VIYAP ELLDE FAYGO
+ KSFB *DOT1 SFB1 *DOT1 WORMS *DOT2 GUANO *DOT2 BKENI *DOT2 VIYAP *DOT1 Q87 *DOT1 JROSS *DOT2 ELLDE *DOT2 FAYGO *CLIPTAIL KPSM
+**** Fix List/Mod Legs init failed, AAY0
+**** FPX SFB-PSM invalid flight plan elements: KSFB.SFB1.WORMS..GUANO..BKENI..VIYAP.Q87.JROSS..ELLDE..FAYGO./.KPSM
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1113, FP format:  FPX ZJX SFB PSM 01 0100 1111 1.0 1234.67 AAY 0 A320 527 370 KSFB.SFB1.WORMS..GUANO..BKENI..VIYAP.Q87.JROSS..ELLDE..FAYGO./.KPSM 
+**** Fix not defined (8), unrecognized format, or can't calculate offset: FAYGO index 18
+     coord KSFB flags 0100 start KSFB fixes = KSFB GUANO BKENI VIYAP ELLDE FAYGO
+ KSFB *DOT1 SFB1 *DOT1 WORMS *DOT2 GUANO *DOT2 BKENI *DOT2 VIYAP *DOT1 Q87 *DOT1 JROSS *DOT2 ELLDE *DOT2 FAYGO *CLIPTAIL KROA
+**** Fix List/Mod Legs init failed, AAY0
+**** FPX SFB-ROA invalid flight plan elements: KSFB.SFB1.WORMS..GUANO..BKENI..VIYAP.Q87.JROSS..ELLDE..FAYGO./.KROA
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1115, FP format:  FPX ZJX SFB ROA 01 0100 1111 1.0 1234567 AAY 0 A319 522 330 KSFB.SFB1.WORMS..GUANO..BKENI..VIYAP.Q87.JROSS..ELLDE..FAYGO./.KROA 
+**** RPA0 can't make top of climb 39000 Start 1 nLegs 8  KCHS.SWPFX2.FILLI..SARKY..FAY./.KIAD
 **** Fix not defined (2), unrecognized format, or can't calculate offset: VANNC
 **** Fix List/Mod Legs init failed, SWA0
 **** FPX CHS-MDW invalid flight plan elements: KCHS.MLTRE0.VANNC..BURGG./.KMDW
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1091, FP format:  FPX ZJX CHS MDW 01 0001 1111 0.7 1234567 SWA 0 B737 526 400 KCHS.MLTRE0.VANNC..BURGG./.KMDW 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1357, FP format:  FPX ZJX CHS MDW 01 0101 1111 1.0 1234567 SWA 0 B737 526 400 KCHS.MLTRE0.VANNC..BURGG./.KMDW 
 **** Airway..(airway) not supported after MLTRE2
 **** Fix List/Mod Legs init failed, MXY0
 **** FPX CHS-CAK invalid flight plan elements: KCHS.MLTRE0..JYMSE..SPA./.KCAK
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1100, FP format:  FPX ZJX CHS CAK 01 0100 1111 0.7 1234567 MXY 0 E190 522 300 KCHS.MLTRE0..JYMSE..SPA./.KCAK 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1366, FP format:  FPX ZJX CHS CAK 01 0100 1111 1.0 1234567 MXY 0 E190 522 300 KCHS.MLTRE0..JYMSE..SPA./.KCAK 
+**** FPX type not defined: CJR7
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1397, FP format:  FPX ZJX EYW ATL 01 0100 1111 1.0 1234567 EDV 0 CJR7 521 340 KEYW./.SRQ..CAMJO..LAIRI..LARZZ.JJEDI0.KATL 
+**** FPX TJSJ-ATL start position not defined: TEDAE
+**** Fix not defined (8), unrecognized format, or can't calculate offset: TEDAE index 2
+     coord TEDAE flags 1110 start TEDAE fixes = TEDAE
+ TJSJ *CLIPHEAD TEDAE *DOT2 MANLE *DOT1 Q89 *DOT1 SHRKS *DOT2 LAIRI *DOT2 LARZZ *DOT1 JJEDI0 *DOT1 KATL
+**** Fix List/Mod Legs init failed, FFT0
+**** FPX TJSJ-ATL invalid flight plan elements: TJSJ./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1401, FP format:  FPX ZJX TJSJ ATL 01 0100 1111 1.0 1234567 FFT 0 A21N 534 360 TJSJ./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL 
+**** FPX TJSJ-ATL start position not defined: TEDAE
+**** Fix not defined (8), unrecognized format, or can't calculate offset: TEDAE index 2
+     coord TEDAE flags 1110 start TEDAE fixes = TEDAE
+ TJSJ *CLIPHEAD TEDAE *DOT2 MANLE *DOT1 Q89 *DOT1 SHRKS *DOT2 LAIRI *DOT2 LARZZ *DOT1 JJEDI0 *DOT1 KATL
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX TJSJ-ATL invalid flight plan elements: TJSJ./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1402, FP format:  FPX ZJX TJSJ ATL 01 0100 1111 1.0 1234567 DAL 0 B752 534 360 TJSJ./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL 
+**** FPX TJSJ-ATL start position not defined: TEDAE
+**** Fix not defined (8), unrecognized format, or can't calculate offset: TEDAE index 2
+     coord TEDAE flags 1110 start TEDAE fixes = TEDAE
+ TJSJ *CLIPHEAD TEDAE *DOT2 MANLE *DOT1 Q89 *DOT1 SHRKS *DOT2 LAIRI *DOT2 LARZZ *DOT1 JJEDI0 *DOT1 KATL
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX TJSJ-ATL invalid flight plan elements: TJSJ./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1403, FP format:  FPX ZJX TJSJ ATL 01 0010 1111 1.0 1234567 DAL 0 A321 534 360 TJSJ./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL 
+**** FPX TJSJ-ATL start position not defined: TEDAE
+**** Fix not defined (8), unrecognized format, or can't calculate offset: TEDAE index 2
+     coord TEDAE flags 1110 start TEDAE fixes = TEDAE
+ TJSJ *CLIPHEAD TEDAE *DOT2 MANLE *DOT1 Q89 *DOT1 SHRKS *DOT2 LAIRI *DOT2 LARZZ *DOT1 JJEDI0 *DOT1 KATL
+**** Fix List/Mod Legs init failed, NKS0
+**** FPX TJSJ-ATL invalid flight plan elements: TJSJ./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1404, FP format:  FPX ZJX TJSJ ATL 01 0010 1111 1.0 1234567 NKS 0 A320 534 360 TJSJ./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL 
+**** FPX TJSJ-ATL start position not defined: TEDAE
+**** Fix not defined (8), unrecognized format, or can't calculate offset: TEDAE index 2
+     coord TEDAE flags 1110 start TEDAE fixes = TEDAE
+ TJSJ *CLIPHEAD TEDAE *DOT2 MANLE *DOT1 Q89 *DOT1 SHRKS *DOT2 LAIRI *DOT2 LARZZ *DOT1 JJEDI0 *DOT1 KATL
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX TJSJ-ATL invalid flight plan elements: TJSJ./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1405, FP format:  FPX ZJX TJSJ ATL 01 0010 1111 1.0 1234567 DAL 0 A321 534 360 TJSJ./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL 
+**** FPX SBGR-ATL start position not defined: TEDAE
+**** Fix not defined (8), unrecognized format, or can't calculate offset: TEDAE index 2
+     coord TEDAE flags 1110 start TEDAE fixes = TEDAE
+ SBGR *CLIPHEAD TEDAE *DOT2 MANLE *DOT1 Q89 *DOT1 SHRKS *DOT2 LAIRI *DOT2 LARZZ *DOT1 JJEDI0 *DOT1 KATL
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX SBGR-ATL invalid flight plan elements: SBGR./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1414, FP format:  FPX ZJX SBGR ATL 01 0100 1111 1.0 1234567 DAL 0 B763 544 370 SBGR./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL 
+**** FPX SBGR-ATL start position not defined: TEDAE
+**** Fix not defined (8), unrecognized format, or can't calculate offset: TEDAE index 2
+     coord TEDAE flags 1110 start TEDAE fixes = TEDAE
+ SBGR *CLIPHEAD TEDAE *DOT2 MANLE *DOT1 Q89 *DOT1 SHRKS *DOT2 LAIRI *DOT2 LARZZ *DOT1 JJEDI0 *DOT1 KATL
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX SBGR-ATL invalid flight plan elements: SBGR./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1415, FP format:  FPX ZJX SBGR ATL 01 0010 1111 1.0 1234567 DAL 0 A333 544 370 SBGR./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL 
+**** FPX TIST-ATL start position not defined: TEDAE
+**** Fix not defined (8), unrecognized format, or can't calculate offset: TEDAE index 2
+     coord TEDAE flags 1110 start TEDAE fixes = TEDAE
+ TIST *CLIPHEAD TEDAE *DOT2 MANLE *DOT1 Q89 *DOT1 SHRKS *DOT2 LAIRI *DOT2 LARZZ *DOT1 JJEDI0 *DOT1 KATL
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX TIST-ATL invalid flight plan elements: TIST./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1419, FP format:  FPX ZJX TIST ATL 01 0010 1111 1.0 1234567 DAL 0 B752 525 370 TIST./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL 
+**** FPX TIST-ATL start position not defined: TEDAE
+**** Fix not defined (8), unrecognized format, or can't calculate offset: TEDAE index 2
+     coord TEDAE flags 1110 start TEDAE fixes = TEDAE
+ TIST *CLIPHEAD TEDAE *DOT2 MANLE *DOT1 Q89 *DOT1 SHRKS *DOT2 LAIRI *DOT2 LARZZ *DOT1 JJEDI0 *DOT1 KATL
+**** Fix List/Mod Legs init failed, DAL0
+**** FPX TIST-ATL invalid flight plan elements: TIST./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1420, FP format:  FPX ZJX TIST ATL 01 0010 1111 1.0 .....67 DAL 0 B752 532 390 TIST./.TEDAE..MANLE.Q89.SHRKS..LAIRI..LARZZ.JJEDI0.KATL 
+**** FPX MWCR-ATL need 4 chars in second hours field: 0010
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1431, FP format:  FPX ZJX MWCR ATL 01 0010 11111 1.0 1234567 DAL 0 B738 537 350 MWCR./.STYMY.Q77.SHRKS..LAIRI..LARZZ.JJEDI0.KATL 
 **** JIA0 can't make top of climb 37000 Start 1 nLegs 4  KPNS..CEW..PIGON..MGM./.KPHL
 ---- FPX EXT PNS unknown fix, alias not defined, or doesn't match flight plan text. KIAH./.KPNS
 ---- FPX EXT PNS unknown fix, alias not defined, or doesn't match flight plan text. KIAH./.KPNS
@@ -261,404 +771,801 @@ Try open C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt
 **** Can't find airway definition (or bad fixes/dot separators): GOLLM
 **** Fix List/Mod Legs init failed, DAL0
 **** FPX ECP-ATL invalid flight plan elements: KECP./.RRS.GOLLM./.KATL
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1250, FP format:  FPX ZJX ECP ATL 01 0001 1111 0.7 1234567 DAL 0 B739 533 230 KECP./.RRS.GOLLM./.KATL 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1573, FP format:  FPX ZJX ECP ATL 01 0101 1111 1.0 1234567 DAL 0 B739 533 230 KECP./.RRS.GOLLM./.KATL 
 **** Can't find airway definition (or bad fixes/dot separators): GOLLM
 **** Fix List/Mod Legs init failed, DAL0
 **** FPX ECP-ATL invalid flight plan elements: KECP./.RRS.GOLLM./.KATL
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1251, FP format:  FPX ZJX ECP ATL 01 0011 1111 0.7 1234567 DAL 0 B739 533 250 KECP./.RRS.GOLLM./.KATL 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1574, FP format:  FPX ZJX ECP ATL 01 0010 1111 1.0 1234567 DAL 0 B739 533 250 KECP./.RRS.GOLLM./.KATL 
 **** Can't find airway definition (or bad fixes/dot separators): GOLLM
 **** Fix List/Mod Legs init failed, DAL0
 **** FPX ECP-ATL invalid flight plan elements: KECP./.RRS.GOLLM./.KATL
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1252, FP format:  FPX ZJX ECP ATL 01 0111 1111 0.7 1234567 DAL 0 B739 533 270 KECP./.RRS.GOLLM./.KATL 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1575, FP format:  FPX ZJX ECP ATL 01 0100 1111 1.0 1234567 DAL 0 B739 533 270 KECP./.RRS.GOLLM./.KATL 
 **** Can't find airway definition (or bad fixes/dot separators): GOLLM
 **** Fix List/Mod Legs init failed, DAL0
 **** FPX ECP-ATL invalid flight plan elements: KECP./.RRS.GOLLM./.KATL
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1253, FP format:  FPX ZJX ECP ATL 01 1111 1111 0.7 1234567 DAL 0 B739 533 250 KECP./.RRS.GOLLM./.KATL 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1576, FP format:  FPX ZJX ECP ATL 01 1111 1111 1.0 1234567 DAL 0 B739 533 250 KECP./.RRS.GOLLM./.KATL 
 ---- FPX ECP-IAH unknown data ignored starting with .MCB./.KIAH
 ---- FPX ECP IAH unknown fix, alias not defined, or doesn't match flight plan text. KECP./.J50
 **** Asking for coordinates of non-airport/non-alias item: J50
 **** Destination not defined/aliased as airport J50
 **** FPX ECP-IAH invalid flight plan elements: KECP./.DEFUN..CEW.J50
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1255, FP format:  FPX ZJX ECP IAH 01 0011 1111 0.7 1234567 UCA 0 E45X 529 360 KECP./.DEFUN..CEW.J50 .MCB./.KIAH 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1578, FP format:  FPX ZJX ECP IAH 01 0010 1111 1.0 1234567 UCA 0 E45X 529 360 KECP./.DEFUN..CEW.J50 .MCB./.KIAH 
 **** FPX ECP-BNA invalid flight plan elements: KECP./.MGMRY./.KBNA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1257, FP format:  FPX ZJX ECP BNA 01 0001 1111 0.7 1234567 SWA 0 B737 501 280 KECP./.MGMRY./.KBNA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1580, FP format:  FPX ZJX ECP BNA 01 0101 1111 1.0 1234567 SWA 0 B737 501 280 KECP./.MGMRY./.KBNA 
 **** FPX ECP-BNA invalid flight plan elements: KECP./.MGMRY./.KBNA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1258, FP format:  FPX ZJX ECP BNA 01 0011 1111 0.7 1234567 SWA 0 B738 501 300 KECP./.MGMRY./.KBNA 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1581, FP format:  FPX ZJX ECP BNA 01 0010 1111 1.0 1234567 SWA 0 B738 501 300 KECP./.MGMRY./.KBNA 
 **** FPX ECP-STL invalid flight plan elements: KECP./.MGMRY./.KSTL
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1266, FP format:  FPX ZJX ECP STL 01 0001 1111 0.7 1234567 SWA 0 B737 527 400 KECP./.MGMRY./.KSTL 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1589, FP format:  FPX ZJX ECP STL 01 0101 1111 1.0 1234567 SWA 0 B737 527 400 KECP./.MGMRY./.KSTL 
 **** FPX ECP-DCA invalid flight plan elements: KECP./.MCN./.KDCA
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1267, FP format:  FPX ZJX ECP DCA 01 0001 1111 0.7 1234567 ENY 0 E170 521 330 KECP./.MCN./.KDCA 
----- FPX ECP AUS unknown fix, alias not defined, or doesn't match flight plan text. KECP./.KDEN
-**** FPX ECP-AUS invalid flight plan elements: KECP./.MGMRY./.KDEN
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1270, FP format:  FPX ZJX ECP AUS 01 0001 1111 0.7 .....6. SWA 0 B738 519 340 KECP./.MGMRY./.KDEN 
----- FPX ECP AUS unknown fix, alias not defined, or doesn't match flight plan text. KECP./.KDEN
-**** FPX ECP-AUS invalid flight plan elements: KECP./.MGMRY./.KDEN
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1271, FP format:  FPX ZJX ECP AUS 01 0011 1111 0.7 .....6. UAL 0 B738 527 380 KECP./.MGMRY./.KDEN 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1590, FP format:  FPX ZJX ECP DCA 01 0101 1111 1.0 1234567 ENY 0 E170 521 330 KECP./.MCN./.KDCA 
+**** FPX ECP-DEN invalid flight plan elements: KECP./.MGMRY./.KDEN
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1593, FP format:  FPX ZJX ECP DEN 01 0101 1111 1.0 .....6. SWA 0 B738 519 340 KECP./.MGMRY./.KDEN 
+**** FPX ECP-DEN invalid flight plan elements: KECP./.MGMRY./.KDEN
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1594, FP format:  FPX ZJX ECP DEN 01 0010 1111 1.0 .....6. UAL 0 B738 527 380 KECP./.MGMRY./.KDEN 
 **** FPX ECP-MDW invalid flight plan elements: KECP./.MGMRY./.KMDW
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1272, FP format:  FPX ZJX ECP MDW 01 0001 1111 0.7 .....6. SWA 0 B737 527 300 KECP./.MGMRY./.KMDW 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1595, FP format:  FPX ZJX ECP MDW 01 0101 1111 1.0 .....6. SWA 0 B737 527 300 KECP./.MGMRY./.KMDW 
 **** FPX ECP-MDW invalid flight plan elements: KECP./.MGMRY./.KMDW
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1273, FP format:  FPX ZJX ECP MDW 01 0111 1111 0.7 .....6. SWA 0 B738 519 400 KECP./.MGMRY./.KMDW 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1596, FP format:  FPX ZJX ECP MDW 01 0100 1111 1.0 .....6. SWA 0 B738 519 400 KECP./.MGMRY./.KMDW 
 **** FPX ECP-ORD invalid flight plan elements: KECP./.MGMRY./.KORD
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1274, FP format:  FPX ZJX ECP ORD 01 0001 1111 0.7 .....67 SKW 0 CRJ9 527 340 KECP./.MGMRY./.KORD 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1597, FP format:  FPX ZJX ECP ORD 01 0101 1111 1.0 .....67 SKW 0 CRJ9 527 340 KECP./.MGMRY./.KORD 
 **** FPX ECP-IND invalid flight plan elements: KECP./.MGMRY./.KIND
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1275, FP format:  FPX ZJX ECP IND 01 0001 1111 0.7 .....6. SWA 0 B738 519 330 KECP./.MGMRY./.KIND 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1598, FP format:  FPX ZJX ECP IND 01 0101 1111 1.0 .....6. SWA 0 B738 519 330 KECP./.MGMRY./.KIND 
 **** FPX ECP-BWI invalid flight plan elements: KECP./.MCN./.KBWI
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1276, FP format:  FPX ZJX ECP BWI 01 0001 1111 0.7 .....6. SWA 0 B738 527 370 KECP./.MCN./.KBWI 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1599, FP format:  FPX ZJX ECP BWI 01 0101 1111 1.0 .....6. SWA 0 B738 527 370 KECP./.MCN./.KBWI 
 **** FPX ECP-MCI invalid flight plan elements: KECP./.MGMRY./.KMCI
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1277, FP format:  FPX ZJX ECP MCI 01 0001 1111 0.7 .....6. SWA 0 B737 519 320 KECP./.MGMRY./.KMCI 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1600, FP format:  FPX ZJX ECP MCI 01 0101 1111 1.0 .....6. SWA 0 B737 519 320 KECP./.MGMRY./.KMCI 
 **** FPX ECP-PHL invalid flight plan elements: KECP./.MCN./.KPHL
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1278, FP format:  FPX ZJX ECP PHL 01 0001 1111 0.7 .....6. AAL 0 A319 533 390 KECP./.MCN./.KPHL 
-**** Invalid FPX: FPX ZJX ATL  ECP 01 0001 1111 0.7 1234567 DAL 0    B739
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1601, FP format:  FPX ZJX ECP PHL 01 0101 1111 1.0 .....6. AAL 0 A319 533 390 KECP./.MCN./.KPHL 
+**** Invalid FPX: FPX ZJX ATL  ECP 01 0101 1111 1.0 1234567 DAL 0    B739
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1281, FP format:  FPX ZJX ATL ECP 01 0001 1111 0.7 1234567 DAL 0 B739 
-**** Invalid FPX: FPX ZJX ATL  ECP 01 0011 1111 0.7 1234567 DAL 0    B739
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1604, FP format:  FPX ZJX ATL ECP 01 0101 1111 1.0 1234567 DAL 0 B739 
+**** Invalid FPX: FPX ZJX ATL  ECP 01 0010 1111 1.0 1234567 DAL 0    B739
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1282, FP format:  FPX ZJX ATL ECP 01 0011 1111 0.7 1234567 DAL 0 B739 
-**** Invalid FPX: FPX ZJX ATL  ECP 01 0111 1111 0.7 1234567 DAL 0    B739
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1605, FP format:  FPX ZJX ATL ECP 01 0010 1111 1.0 1234567 DAL 0 B739 
+**** Invalid FPX: FPX ZJX ATL  ECP 01 0100 1111 1.0 1234567 DAL 0    B739
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1283, FP format:  FPX ZJX ATL ECP 01 0111 1111 0.7 1234567 DAL 0 B739 
-**** Invalid FPX: FPX ZJX ATL  ECP 01 1111 1111 0.7 1234567 DAL 0    B739
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1606, FP format:  FPX ZJX ATL ECP 01 0100 1111 1.0 1234567 DAL 0 B739 
+**** Invalid FPX: FPX ZJX ATL  ECP 01 1111 1111 1.0 1234567 DAL 0    B739
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1284, FP format:  FPX ZJX ATL ECP 01 1111 1111 0.7 1234567 DAL 0 B739 
-**** Invalid FPX: FPX ZJX IAH  ECP 01 0001 1111 0.7 1234567 UCA 0    E45X
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1607, FP format:  FPX ZJX ATL ECP 01 1111 1111 1.0 1234567 DAL 0 B739 
+**** Invalid FPX: FPX ZJX IAH  ECP 01 0101 1111 1.0 1234567 UCA 0    E45X
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1285, FP format:  FPX ZJX IAH ECP 01 0001 1111 0.7 1234567 UCA 0 E45X 
-**** Invalid FPX: FPX ZJX IAH  ECP 01 0011 1111 0.7 1234567 UCA 0    E45X
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1608, FP format:  FPX ZJX IAH ECP 01 0101 1111 1.0 1234567 UCA 0 E45X 
+**** Invalid FPX: FPX ZJX IAH  ECP 01 0010 1111 1.0 1234567 UCA 0    E45X
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1286, FP format:  FPX ZJX IAH ECP 01 0011 1111 0.7 1234567 UCA 0 E45X 
-**** Invalid FPX: FPX ZJX IAH  ECP 01 0111 1111 0.7 1234567 UCA 0    E45X
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1609, FP format:  FPX ZJX IAH ECP 01 0010 1111 1.0 1234567 UCA 0 E45X 
+**** Invalid FPX: FPX ZJX IAH  ECP 01 0100 1111 1.0 1234567 UCA 0    E45X
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1287, FP format:  FPX ZJX IAH ECP 01 0111 1111 0.7 1234567 UCA 0 E45X 
-**** Invalid FPX: FPX ZJX BNA  ECP 01 0001 1111 0.7 1234567 SWA 0    B737
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1610, FP format:  FPX ZJX IAH ECP 01 0100 1111 1.0 1234567 UCA 0 E45X 
+**** Invalid FPX: FPX ZJX BNA  ECP 01 0101 1111 1.0 1234567 SWA 0    B737
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1288, FP format:  FPX ZJX BNA ECP 01 0001 1111 0.7 1234567 SWA 0 B737 
-**** Invalid FPX: FPX ZJX BNA  ECP 01 0011 1111 0.7 1234567 SWA 0    B738
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1611, FP format:  FPX ZJX BNA ECP 01 0101 1111 1.0 1234567 SWA 0 B737 
+**** Invalid FPX: FPX ZJX BNA  ECP 01 0010 1111 1.0 1234567 SWA 0    B738
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1289, FP format:  FPX ZJX BNA ECP 01 0011 1111 0.7 1234567 SWA 0 B738 
-**** Invalid FPX: FPX ZJX DAL  ECP 01 0001 1111 0.7 1234567 SWA 0    B737
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1612, FP format:  FPX ZJX BNA ECP 01 0010 1111 1.0 1234567 SWA 0 B738 
+**** Invalid FPX: FPX ZJX DAL  ECP 01 0101 1111 1.0 1234567 SWA 0    B737
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1290, FP format:  FPX ZJX DAL ECP 01 0001 1111 0.7 1234567 SWA 0 B737 
-**** Invalid FPX: FPX ZJX DAL  ECP 01 0011 1111 0.7 1234567 SWA 0    B738
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1613, FP format:  FPX ZJX DAL ECP 01 0101 1111 1.0 1234567 SWA 0 B737 
+**** Invalid FPX: FPX ZJX DAL  ECP 01 0010 1111 1.0 1234567 SWA 0    B738
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1291, FP format:  FPX ZJX DAL ECP 01 0011 1111 0.7 1234567 SWA 0 B738 
-**** Invalid FPX: FPX ZJX CLT  ECP 01 0001 1111 0.7 1234567 AAL 0    A319
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1614, FP format:  FPX ZJX DAL ECP 01 0010 1111 1.0 1234567 SWA 0 B738 
+**** Invalid FPX: FPX ZJX CLT  ECP 01 0101 1111 1.0 1234567 AAL 0    A319
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1292, FP format:  FPX ZJX CLT ECP 01 0001 1111 0.7 1234567 AAL 0 A319 
-**** Invalid FPX: FPX ZJX CLT  ECP 01 0111 1111 0.7 1234567 ENY 0    E170
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1615, FP format:  FPX ZJX CLT ECP 01 0101 1111 1.0 1234567 AAL 0 A319 
+**** Invalid FPX: FPX ZJX CLT  ECP 01 0100 1111 1.0 1234567 ENY 0    E170
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1293, FP format:  FPX ZJX CLT ECP 01 0111 1111 0.7 1234567 ENY 0 E170 
-**** Invalid FPX: FPX ZJX DFW  ECP 01 0001 1111 0.7 1234567 ENY 0    E170
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1616, FP format:  FPX ZJX CLT ECP 01 0100 1111 1.0 1234567 ENY 0 E170 
+**** Invalid FPX: FPX ZJX DFW  ECP 01 0101 1111 1.0 1234567 ENY 0    E170
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1294, FP format:  FPX ZJX DFW ECP 01 0001 1111 0.7 1234567 ENY 0 E170 
-**** Invalid FPX: FPX ZJX HOU  ECP 01 0001 1111 0.7 1234567 SWA 0    B737
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1617, FP format:  FPX ZJX DFW ECP 01 0101 1111 1.0 1234567 ENY 0 E170 
+**** Invalid FPX: FPX ZJX HOU  ECP 01 0101 1111 1.0 1234567 SWA 0    B737
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1295, FP format:  FPX ZJX HOU ECP 01 0001 1111 0.7 1234567 SWA 0 B737 
-**** Invalid FPX: FPX ZJX HOU  ECP 01 0111 1111 0.7 1234567 SWA 0    B737
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1618, FP format:  FPX ZJX HOU ECP 01 0101 1111 1.0 1234567 SWA 0 B737 
+**** Invalid FPX: FPX ZJX HOU  ECP 01 0100 1111 1.0 1234567 SWA 0    B737
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1296, FP format:  FPX ZJX HOU ECP 01 0111 1111 0.7 1234567 SWA 0 B737 
-**** Invalid FPX: FPX ZJX STL  ECP 01 0001 1111 0.7 1234567 SWA 0    B737
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1619, FP format:  FPX ZJX HOU ECP 01 0100 1111 1.0 1234567 SWA 0 B737 
+**** Invalid FPX: FPX ZJX STL  ECP 01 0101 1111 1.0 1234567 SWA 0    B737
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1297, FP format:  FPX ZJX STL ECP 01 0001 1111 0.7 1234567 SWA 0 B737 
-**** Invalid FPX: FPX ZJX DCA  ECP 01 0001 1111 0.7 1234567 ENY 0    E170
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1620, FP format:  FPX ZJX STL ECP 01 0101 1111 1.0 1234567 SWA 0 B737 
+**** Invalid FPX: FPX ZJX DCA  ECP 01 0101 1111 1.0 1234567 ENY 0    E170
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1298, FP format:  FPX ZJX DCA ECP 01 0001 1111 0.7 1234567 ENY 0 E170 
-**** Invalid FPX: FPX ZJX AUS  ECP 01 0001 1111 0.7 .....6. SWA 0    B737
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1621, FP format:  FPX ZJX DCA ECP 01 0101 1111 1.0 1234567 ENY 0 E170 
+**** Invalid FPX: FPX ZJX AUS  ECP 01 0101 1111 1.0 .....6. SWA 0    B737
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1299, FP format:  FPX ZJX AUS ECP 01 0001 1111 0.7 .....6. SWA 0 B737 
-**** Invalid FPX: FPX ZJX AUS  ECP 01 0011 1111 0.7 .....6. AAL 0    A319
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1622, FP format:  FPX ZJX AUS ECP 01 0101 1111 1.0 .....6. SWA 0 B737 
+**** Invalid FPX: FPX ZJX AUS  ECP 01 0010 1111 1.0 .....6. AAL 0    A319
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1300, FP format:  FPX ZJX AUS ECP 01 0011 1111 0.7 .....6. AAL 0 A319 
-**** Invalid FPX: FPX ZJX AUS  ECP 01 0001 1111 0.7 .....6. SWA 0    B738
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1623, FP format:  FPX ZJX AUS ECP 01 0010 1111 1.0 .....6. AAL 0 A319 
+**** Invalid FPX: FPX ZJX AUS  ECP 01 0101 1111 1.0 .....6. SWA 0    B738
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1301, FP format:  FPX ZJX AUS ECP 01 0001 1111 0.7 .....6. SWA 0 B738 
-**** Invalid FPX: FPX ZJX AUS  ECP 01 0011 1111 0.7 .....6. UAL 0    B738
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1624, FP format:  FPX ZJX AUS ECP 01 0101 1111 1.0 .....6. SWA 0 B738 
+**** Invalid FPX: FPX ZJX AUS  ECP 01 0010 1111 1.0 .....6. UAL 0    B738
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1302, FP format:  FPX ZJX AUS ECP 01 0011 1111 0.7 .....6. UAL 0 B738 
-**** Invalid FPX: FPX ZJX MDW  ECP 01 0001 1111 0.7 .....6. SWA 0    B737
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1625, FP format:  FPX ZJX AUS ECP 01 0010 1111 1.0 .....6. UAL 0 B738 
+**** Invalid FPX: FPX ZJX MDW  ECP 01 0101 1111 1.0 .....6. SWA 0    B737
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1303, FP format:  FPX ZJX MDW ECP 01 0001 1111 0.7 .....6. SWA 0 B737 
-**** Invalid FPX: FPX ZJX MDW  ECP 01 0111 1111 0.7 .....6. SWA 0    B738
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1626, FP format:  FPX ZJX MDW ECP 01 0101 1111 1.0 .....6. SWA 0 B737 
+**** Invalid FPX: FPX ZJX MDW  ECP 01 0100 1111 1.0 .....6. SWA 0    B738
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1304, FP format:  FPX ZJX MDW ECP 01 0111 1111 0.7 .....6. SWA 0 B738 
-**** Invalid FPX: FPX ZJX ORD  ECP 01 0001 1111 0.7 .....67 SKW 0    CRJ9
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1627, FP format:  FPX ZJX MDW ECP 01 0100 1111 1.0 .....6. SWA 0 B738 
+**** Invalid FPX: FPX ZJX ORD  ECP 01 0101 1111 1.0 .....67 SKW 0    CRJ9
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1305, FP format:  FPX ZJX ORD ECP 01 0001 1111 0.7 .....67 SKW 0 CRJ9 
-**** Invalid FPX: FPX ZJX IND  ECP 01 0001 1111 0.7 .....6. SWA 0    B738
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1628, FP format:  FPX ZJX ORD ECP 01 0101 1111 1.0 .....67 SKW 0 CRJ9 
+**** Invalid FPX: FPX ZJX IND  ECP 01 0101 1111 1.0 .....6. SWA 0    B738
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1306, FP format:  FPX ZJX IND ECP 01 0001 1111 0.7 .....6. SWA 0 B738 
-**** Invalid FPX: FPX ZJX BWI  ECP 01 0001 1111 0.7 .....6. SWA 0    B738
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1629, FP format:  FPX ZJX IND ECP 01 0101 1111 1.0 .....6. SWA 0 B738 
+**** Invalid FPX: FPX ZJX BWI  ECP 01 0101 1111 1.0 .....6. SWA 0    B738
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1307, FP format:  FPX ZJX BWI ECP 01 0001 1111 0.7 .....6. SWA 0 B738 
-**** Invalid FPX: FPX ZJX MCI  ECP 01 0001 1111 0.7 .....6. SWA 0    B737
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1630, FP format:  FPX ZJX BWI ECP 01 0101 1111 1.0 .....6. SWA 0 B738 
+**** Invalid FPX: FPX ZJX MCI  ECP 01 0101 1111 1.0 .....6. SWA 0    B737
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1308, FP format:  FPX ZJX MCI ECP 01 0001 1111 0.7 .....6. SWA 0 B737 
-**** Invalid FPX: FPX ZJX PHL  ECP 01 0001 1111 0.7 .....6. AAL 0    A319
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1631, FP format:  FPX ZJX MCI ECP 01 0101 1111 1.0 .....6. SWA 0 B737 
+**** Invalid FPX: FPX ZJX PHL  ECP 01 0101 1111 1.0 .....6. AAL 0    A319
 **** Process FP/FPX error: NOT ENOUGH FIELDS
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1309, FP format:  FPX ZJX PHL ECP 01 0001 1111 0.7 .....6. AAL 0 A319 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1632, FP format:  FPX ZJX PHL ECP 01 0101 1111 1.0 .....6. AAL 0 A319 
 **** Fix not defined (4), unrecognized format, or can't calculate offset: CUVGA
 **** Fix List/Mod Legs init failed, EDV0
 **** FPX ATL-VLD invalid flight plan elements: KATL./.WALET..IFM.RV1.KVLD
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1318, FP format:  FPX ZJX ATL VLD 01 0001 1111 0.7 1234567 EDV 0 CRJ9 468 190 KATL./.WALET..IFM.RV1.KVLD 
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1641, FP format:  FPX ZJX ATL VLD 01 0101 1111 1.0 1234567 EDV 0 CRJ9 468 190 KATL./.WALET..IFM.RV1.KVLD 
 **** Fix not defined (4), unrecognized format, or can't calculate offset: CUVGA
 **** Fix List/Mod Legs init failed, EDV0
 **** FPX ATL-VLD invalid flight plan elements: KATL./.WALET..IFM.RV1.KVLD
-**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1319, FP format:  FPX ZJX ATL VLD 01 0011 1111 0.7 1234567 EDV 0 CRJ9 468 210 KATL./.WALET..IFM.RV1.KVLD 
-1167 flight plans (FPX) now available.
+**** C:\Users\broth\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 1642, FP format:  FPX ZJX ATL VLD 01 0010 1111 1.0 1234567 EDV 0 CRJ9 468 210 KATL./.WALET..IFM.RV1.KVLD 
+1385 flight plans (FPX) now available.
 Software plug in, now PLUGGED IN
 User click PLUG IN, now PLUGGED IN
 	RELOAD COMPLETE (PLUGGED IN)
 	ACCEPT - SET BLUE BACKGROUND VALUE TO 1
+Move0 time max 0.001
+---- SWA1380 KBUF-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWA1380 KBUF-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- SWA1380 KBUF-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
+---- SWA1380 KBUF-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWA1380 KBUF-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- SWA1380 KBUF-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
+---- SWG1635 CYYZ-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWG1635 CYYZ-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- SWG1635 CYYZ-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
+---- SWG1635 CYYZ-KMCO 78.9006 200.14 121.24  exit from sector ZJX66 calculation problem.
+---- SWG1635 CYYZ-KMCO 200.14 201.252 1.11189  exit from sector ZJX67 calculation problem.
+---- SWG1635 CYYZ-KMCO 201.252 309.063 107.811  exit from sector ZJX66 calculation problem.
+---- SWA671 KBUF-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWA671 KBUF-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- SWA671 KBUF-KMCO 211.146 319.796 108.65  exit from sector ZJX66 calculation problem.
+---- SWA671 KBUF-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWA671 KBUF-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- SWA671 KBUF-KMCO 211.146 319.796 108.65  exit from sector ZJX66 calculation problem.
+---- NKS306 KACY-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- NKS306 KACY-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- NKS306 KACY-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
+---- NKS306 KACY-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- NKS306 KACY-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- NKS306 KACY-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
+Move0 time max 0.009
+---- JBU1340 KBUF-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU1340 KBUF-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU1340 KBUF-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
+---- JBU1340 KBUF-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU1340 KBUF-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU1340 KBUF-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
 ---- Airline VXP not defined in Airlines file
----- SWA444 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- SWA444 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
----- SWA444 KPIT-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
----- SWA444 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- SWA444 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
----- SWA444 KPIT-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
----- non-EXT route never in defined ZJX airspace 930 UAL414 350 KIAH./.HRV..LOXLY.RV2.KPNS
-**** Departure MIT but no runway in route DAL444 KDAB ROYES
-**** Departure MIT but no runway in route DAL444 KDAB ROYES
-Move0 time max 0.013
----- SWA1718 KDCA-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- SWA1718 KDCA-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- SWA1718 KDCA-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
----- SWA1718 KDCA-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- SWA1718 KDCA-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- SWA1718 KDCA-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
-CRD: 522
-	ACCEPT HANDOFF AAL1730 522
-AAL1730 A321 0705 526 REMIS 2113 300
-KMCO ./. CIGAR028029 REMIS Y280 LEV ./. KPHX
----- N2560F KPNS-KTPA 210.33 275.093 64.7636  exit from sector ZJX13 calculation problem.
----- N2560F KPNS-KTPA 76.6922 141.456 64.7636  exit from sector ZJX13 calculation problem.
-CRD: QU 522
-	ACCEPT ROUTE DISPLAY AAL1730
+---- non-EXT route never in defined ZJX airspace 015 AAL971 290 KECP./.PZD..PONZE./.KCLT
+**** Departure MIT but no runway in route AAL601 KDAB ROYES
+**** Departure MIT but no runway in route AAL601 KDAB ROYES
+---- N1421C KTPA-KPNS 162.436 167.649 5.21327  exit from sector ZJX30 calculation problem.
+Move0 time max 0.015
+---- MXY540 KCRW-KMCO 155.009 178.312 23.3028  exit from sector ZJX50 calculation problem.
+---- MXY540 KCRW-KMCO 178.312 179.477 1.16455  exit from sector ZJX68 calculation problem.
+---- MXY540 KCRW-KMCO 179.477 256.629 77.1525  exit from sector ZJX50 calculation problem.
+---- MXY540 KCRW-KMCO 82.462 106.184 23.7221  exit from sector ZJX50 calculation problem.
+---- MXY540 KCRW-KMCO 106.184 107.344 1.15999  exit from sector ZJX68 calculation problem.
+---- MXY540 KCRW-KMCO 107.344 184.199 76.8549  exit from sector ZJX50 calculation problem.
+---- Airline VXP not defined in Airlines file
+CRD: 181
+	ACCEPT HANDOFF FFT175 181
+FFT175 A21N 6302 536 LAIRI 0035 330
+MDSD ./. N3004/W08143 SHRKS LAIRI LARZZ JJEDI3 KATL
+---- non-EXT route never in defined ZJX airspace 303 ENY3915 270 KECP./.PZD..PONZE./.KCLT
+**** Departure MIT but no runway in route UAL1624 KJAX JETIN
+**** Departure MIT but no runway in route UAL1624 KJAX JETIN
+**** Departure MIT but no runway in route SWA1335 KJAX JETIN
+**** Departure MIT but no runway in route SWA1335 KJAX JETIN
+Move0 time max 0.016
 
-Time is 2108 AC 1
----- NKS1976 KPHL-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS1976 KPHL-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- NKS1976 KPHL-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
----- NKS1976 KPHL-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS1976 KPHL-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- NKS1976 KPHL-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
+Time is 0023 AC 1
+**** JIA5235 can't make top of climb 37000 Start 2 nLegs 6  KPNS..KPNS35..CEW..PIGON..MGM./.KPHL
+**** JIA5235 can't make top of climb 37000 Start 2 nLegs 6  KPNS..KPNS35..CEW..PIGON..MGM./.KPHL
+CRD: 547
+	ACCEPT HANDOFF AAY1288 547
+AAY1288 A320 2001 519 YANTI 0026 320
+KCHA ./. ATL147099 YANTI KYLEG TTHOR3 KSFB
+CRD: 181
+	(QN) full data block FFT175 now visible
 ---- Airline VXP not defined in Airlines file
----- DAL1236 KRDU-KFLL 261.665 358.932 97.2671  exit from sector ZJX52 calculation problem.
----- DAL1236 KRDU-KFLL 358.932 361.556 2.62431  exit from sector ZJX35 calculation problem.
----- AAL432 KPHL-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- AAL432 KPHL-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- AAL432 KPHL-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
----- AAL432 KPHL-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- AAL432 KPHL-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- AAL432 KPHL-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
----- VIR1043 EGPH-KMCO 73.5567 198.23 124.673  exit from sector ZJX52 calculation problem.
----- VIR1043 EGPH-KMCO 198.493 298.205 99.7121  exit from sector ZJX52 calculation problem.
----- VIR1043 EGPH-KMCO 298.205 299.343 1.13756  exit from sector ZJX35 calculation problem.
----- VIR1043 EGPH-KMCO 73.5567 198.23 124.673  exit from sector ZJX52 calculation problem.
----- VIR1043 EGPH-KMCO 198.493 298.205 99.7121  exit from sector ZJX52 calculation problem.
----- VIR1043 EGPH-KMCO 298.205 299.343 1.13756  exit from sector ZJX35 calculation problem.
----- NKS1808 KBOS-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS1808 KBOS-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- NKS1808 KBOS-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
----- NKS1808 KBOS-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS1808 KBOS-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- NKS1808 KBOS-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
-(1)RECV: JACKSONVILLE CENTER, AMERICAN 1730 AT FL300
----- SWA855 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- SWA855 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
----- SWA855 KPIT-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
----- SWA855 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- SWA855 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
----- SWA855 KPIT-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
----- NKS497 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- NKS497 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- NKS497 KPIT-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
----- NKS497 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- NKS497 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- NKS497 KPIT-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
-XMIT: AAL1730 R
----- TSC924 CYYZ-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- TSC924 CYYZ-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- TSC924 CYYZ-KMCO 211.146 318.432 107.286  exit from sector ZJX66 calculation problem.
----- TSC924 CYYZ-KMCO 82.981 204.233 121.252  exit from sector ZJX66 calculation problem.
----- TSC924 CYYZ-KMCO 204.233 205.345 1.11189  exit from sector ZJX67 calculation problem.
----- TSC924 CYYZ-KMCO 205.345 312.631 107.286  exit from sector ZJX66 calculation problem.
-CRD: XX DAYTRFC
-	ACCEPT XX DAYTRFC
+---- N7364X KPNS-KTPA 210.33 275.093 64.7636  exit from sector ZJX13 calculation problem.
+---- N7364X KPNS-KTPA 76.6922 141.456 64.7636  exit from sector ZJX13 calculation problem.
 ---- Airline VXP not defined in Airlines file
-**** Departure MIT but no runway in route RPA4283 KJAX CROSB
-**** Departure MIT but no runway in route RPA4283 KJAX CROSB
----- SIL193 KMCO-KPNS 33.5624 37.8501 4.2877  exit from sector ZJX15 calculation problem.
----- SIL193 KMCO-KPNS 48.7439 57.9533 9.20937  exit from sector ZJX15 calculation problem.
----- SIL193 KMCO-KPNS 71.4664 74.7662 3.29983  exit from sector ZJX14 calculation problem.
----- SIL193 KMCO-KPNS 74.7662 101.179 26.4129  exit from sector ZJX15 calculation problem.
----- SIL193 KMCO-KPNS 101.179 105.966 4.78688  exit from sector ZJX14 calculation problem.
----- EXT departure enters active FAC ZJX airspace 082 SWA1813 400 KPNS..KPNS35..PENSI..AEX./.KHOU
-**** Departure MIT but no runway in route AAL711 KJAX CROSB
-**** Departure MIT but no runway in route AAL711 KJAX CROSB
-
-Time is 2109 AC 1
-**** Departure MIT but no runway in route MXY230 KJAX CROSB
----- UAL418 KIAD-KTPA 171.742 271.455 99.7134  exit from sector ZJX52 calculation problem.
----- UAL418 KIAD-KTPA 271.455 272.551 1.09613  exit from sector ZJX35 calculation problem.
----- UAL418 KIAD-KTPA 171.742 271.455 99.7134  exit from sector ZJX52 calculation problem.
----- UAL418 KIAD-KTPA 271.455 272.551 1.09613  exit from sector ZJX35 calculation problem.
----- ACA840 CYYZ-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- ACA840 CYYZ-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- ACA840 CYYZ-KMCO 211.146 318.474 107.328  exit from sector ZJX66 calculation problem.
----- ACA840 CYYZ-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- ACA840 CYYZ-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- ACA840 CYYZ-KMCO 211.146 318.474 107.328  exit from sector ZJX66 calculation problem.
----- NKS1300 KCMH-KFLL 48.5247 49.9764 1.45173  exit from sector ZJX66 calculation problem.
----- NKS1300 KCMH-KFLL 155.319 272.262 116.943  exit from sector ZJX66 calculation problem.
----- NKS1300 KCMH-KFLL 48.5124 49.9633 1.45088  exit from sector ZJX66 calculation problem.
----- NKS1300 KCMH-KFLL 155.307 272.25 116.943  exit from sector ZJX66 calculation problem.
----- SWA1601 KRDU-KFLL 261.665 358.932 97.2671  exit from sector ZJX52 calculation problem.
----- SWA1601 KRDU-KFLL 358.932 361.556 2.62431  exit from sector ZJX35 calculation problem.
----- DAL1530 KBOS-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- DAL1530 KBOS-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- DAL1530 KBOS-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
----- DAL1530 KBOS-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- DAL1530 KBOS-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- DAL1530 KBOS-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
-**** Departure MIT but no runway in route AAL1836 KJAX JETIN
-**** Departure MIT but no runway in route AAL1836 KJAX JETIN
----- Airline VXP not defined in Airlines file
+---- AAY1706 KROA-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1706 KROA-KSFB 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- AAY1706 KROA-KSFB 211.146 324.581 113.435  exit from sector ZJX66 calculation problem.
+---- AAY1706 KROA-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1706 KROA-KSFB 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- AAY1706 KROA-KSFB 211.146 324.581 113.435  exit from sector ZJX66 calculation problem.
+CRD: 463
+	ACCEPT HANDOFF SWA1976 463
+SWA1976 B737 0702 535 HEPAR 0027 310
+KTPA ./. N3012/W08241 CAMJO Q99 OGRAE ./. KBWI
+(1)RECV: JACKSONVILLE CENTER, FRONTIER FLIGHT 175 LEVEL AT FL330
+---- UAL628 KCLE-KMCO 48.5247 49.9764 1.45173  exit from sector ZJX66 calculation problem.
+---- UAL628 KCLE-KMCO 155.319 258.982 103.663  exit from sector ZJX66 calculation problem.
+---- UAL628 KCLE-KMCO 48.5124 49.9633 1.45088  exit from sector ZJX66 calculation problem.
+---- UAL628 KCLE-KMCO 155.307 258.97 103.663  exit from sector ZJX66 calculation problem.
+---- AAY1207 KPBG-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1207 KPBG-KSFB 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY1207 KPBG-KSFB 211.146 319.342 108.196  exit from sector ZJX66 calculation problem.
+---- AAY1207 KPBG-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1207 KPBG-KSFB 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY1207 KPBG-KSFB 211.146 319.342 108.196  exit from sector ZJX66 calculation problem.
+XMIT: FFT175 R
 Move0 time max 0.02
----- NKS1989 KACY-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS1989 KACY-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- NKS1989 KACY-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
----- NKS1989 KACY-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS1989 KACY-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- NKS1989 KACY-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
----- SWA677 KRDU-KFLL 261.665 358.932 97.2671  exit from sector ZJX52 calculation problem.
----- SWA677 KRDU-KFLL 358.932 361.556 2.62431  exit from sector ZJX35 calculation problem.
----- NKS458 KACY-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS458 KACY-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- NKS458 KACY-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
----- NKS458 KACY-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS458 KACY-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- NKS458 KACY-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
----- VIR1252 EGPH-KMCO 73.5567 198.23 124.673  exit from sector ZJX52 calculation problem.
----- VIR1252 EGPH-KMCO 198.493 298.205 99.7121  exit from sector ZJX52 calculation problem.
----- VIR1252 EGPH-KMCO 298.205 299.343 1.13756  exit from sector ZJX35 calculation problem.
----- VIR1252 EGPH-KMCO 73.5567 198.23 124.673  exit from sector ZJX52 calculation problem.
----- VIR1252 EGPH-KMCO 198.493 298.205 99.7121  exit from sector ZJX52 calculation problem.
----- VIR1252 EGPH-KMCO 298.205 299.343 1.13756  exit from sector ZJX35 calculation problem.
----- Airline VXP not defined in Airlines file
----- JBU1441 KBUF-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- JBU1441 KBUF-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
----- JBU1441 KBUF-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
----- JBU1441 KBUF-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- JBU1441 KBUF-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
----- JBU1441 KBUF-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
----- JBU33 KDCA-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- JBU33 KDCA-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- JBU33 KDCA-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
----- JBU33 KDCA-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- JBU33 KDCA-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- JBU33 KDCA-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
----- ROU533 CYYZ-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- ROU533 CYYZ-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- ROU533 CYYZ-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
----- ROU533 CYYZ-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- ROU533 CYYZ-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- ROU533 CYYZ-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
----- FFT820 KPHL-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- FFT820 KPHL-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- FFT820 KPHL-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
----- FFT820 KPHL-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- FFT820 KPHL-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- FFT820 KPHL-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
----- FFT1674 KCLE-KMCO 48.5247 49.9764 1.45173  exit from sector ZJX66 calculation problem.
----- FFT1674 KCLE-KMCO 155.319 258.27 102.951  exit from sector ZJX66 calculation problem.
----- FFT1674 KCLE-KMCO 48.5124 49.9633 1.45088  exit from sector ZJX66 calculation problem.
----- FFT1674 KCLE-KMCO 155.307 258.258 102.951  exit from sector ZJX66 calculation problem.
----- JBU1179 KALB-KMCO 171.742 271.455 99.7128  exit from sector ZJX52 calculation problem.
----- JBU1179 KALB-KMCO 271.455 272.592 1.13757  exit from sector ZJX35 calculation problem.
----- JBU1179 KALB-KMCO 171.742 271.455 99.7128  exit from sector ZJX52 calculation problem.
----- JBU1179 KALB-KMCO 271.455 272.592 1.13757  exit from sector ZJX35 calculation problem.
----- SIL1119 altitude 37000 above defined AT76 ceiling 22000 KFLL./.FAZES..SMELZ..JAWJA..SZW036050.RV4.KTLH
----- SIL1119 altitude 37000 above defined AT76 ceiling 22000 KFLL./.FAZES..SMELZ..JAWJA..SZW036050.RV4.KTLH
----- SIL1119 altitude 37000 above defined AT76 ceiling 22000 FAZES SMELZ
----- SIL1119 altitude 37000 above defined AT76 ceiling 22000 KFLL./.FAZES..SMELZ..JAWJA..SZW036050.RV4.KTLH
----- SIL1119 altitude 37000 above defined AT76 ceiling 22000 KFLL./.FAZES..SMELZ..JAWJA..SZW036050.RV4.KTLH
----- FFT1359 KBDL-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- FFT1359 KBDL-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- FFT1359 KBDL-KMCO 211.146 323.65 112.504  exit from sector ZJX66 calculation problem.
----- FFT1359 KBDL-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- FFT1359 KBDL-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- FFT1359 KBDL-KMCO 211.146 323.65 112.504  exit from sector ZJX66 calculation problem.
+CRD: QU 181]
+	REJECT UNKNOWN AID 181]
+CRD: QU 181
+	ACCEPT ROUTE DISPLAY FFT175
+---- FFT1569 KBDL-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- FFT1569 KBDL-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- FFT1569 KBDL-KMCO 211.146 324.239 113.093  exit from sector ZJX66 calculation problem.
+---- FFT1569 KBDL-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- FFT1569 KBDL-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- FFT1569 KBDL-KMCO 211.146 324.239 113.093  exit from sector ZJX66 calculation problem.
+CRD: QU 181
+	ACCEPT ROUTE DISPLAY FFT175
+---- AAY1907 KIAG-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1907 KIAG-KSFB 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY1907 KIAG-KSFB 211.146 319.114 107.968  exit from sector ZJX66 calculation problem.
+---- AAY1907 KIAG-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1907 KIAG-KSFB 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY1907 KIAG-KSFB 211.146 319.114 107.968  exit from sector ZJX66 calculation problem.
+---- ROU580 CYUL-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- ROU580 CYUL-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- ROU580 CYUL-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
+---- ROU580 CYUL-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- ROU580 CYUL-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- ROU580 CYUL-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
 ---- Airline UBT not defined in Airlines file
+(1)RECV: JACKSONVILLE CENTER, ALLEGIANT 1288 AT FL320
+---- AAY1358 KHGR-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1358 KHGR-KSFB 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- AAY1358 KHGR-KSFB 211.146 324.408 113.262  exit from sector ZJX66 calculation problem.
+---- AAY1358 KHGR-KSFB 85.2697 206.516 121.247  exit from sector ZJX66 calculation problem.
+---- AAY1358 KHGR-KSFB 206.516 207.628 1.11189  exit from sector ZJX68 calculation problem.
+---- AAY1358 KHGR-KSFB 207.628 320.89 113.262  exit from sector ZJX66 calculation problem.
+---- WJA174 CYYZ-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- WJA174 CYYZ-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- WJA174 CYYZ-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
+---- WJA174 CYYZ-KFLL 85.2697 206.516 121.247  exit from sector ZJX66 calculation problem.
+---- WJA174 CYYZ-KFLL 206.516 207.628 1.11189  exit from sector ZJX67 calculation problem.
+---- WJA174 CYYZ-KFLL 207.628 334.96 127.332  exit from sector ZJX66 calculation problem.
+XMIT: AAY1288 R
+(1)RECV: JACKSONVILLE CENTER, SOUTHWEST 1976 CHECKING ON AT FL310
+---- FFT268 KCLE-KMCO 48.5247 49.9764 1.45173  exit from sector ZJX66 calculation problem.
+---- FFT268 KCLE-KMCO 155.319 258.858 103.539  exit from sector ZJX66 calculation problem.
+---- FFT268 KCLE-KMCO 48.5124 49.9633 1.45088  exit from sector ZJX66 calculation problem.
+---- FFT268 KCLE-KMCO 155.307 258.846 103.539  exit from sector ZJX66 calculation problem.
+---- WSW1112 CYYZ-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- WSW1112 CYYZ-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- WSW1112 CYYZ-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
+---- WSW1112 CYYZ-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- WSW1112 CYYZ-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- WSW1112 CYYZ-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
+---- SWA73 KRDU-KFLL 261.665 358.932 97.2671  exit from sector ZJX52 calculation problem.
+---- SWA73 KRDU-KFLL 358.932 361.556 2.62431  exit from sector ZJX35 calculation problem.
+---- NKS766 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- NKS766 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- NKS766 KPIT-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+---- NKS766 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- NKS766 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- NKS766 KPIT-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+---- Airline VXP not defined in Airlines file
+CRD: QU 2404
+	ACCEPT ROUTE DISPLAY SCX1921
 
-Time is 2110 AC 1
----- NKS1403 KACY-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS1403 KACY-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- NKS1403 KACY-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
----- NKS1403 KACY-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS1403 KACY-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- NKS1403 KACY-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
----- JBU1116 KRDU-KFLL 261.665 358.932 97.2671  exit from sector ZJX52 calculation problem.
----- JBU1116 KRDU-KFLL 358.932 361.556 2.62431  exit from sector ZJX35 calculation problem.
----- SWA476 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- SWA476 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
----- SWA476 KPIT-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
----- SWA476 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- SWA476 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
----- SWA476 KPIT-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
+Time is 0024 AC 3
+CRD: QU 2404
+	ACCEPT ROUTE DISPLAY SCX1921
+---- Airline VXP not defined in Airlines file
+---- VXP348 KCHO-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- VXP348 KCHO-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- VXP348 KCHO-KMCO 211.146 313.709 102.563  exit from sector ZJX66 calculation problem.
+---- VXP348 KCHO-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- VXP348 KCHO-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- VXP348 KCHO-KMCO 211.146 313.709 102.563  exit from sector ZJX66 calculation problem.
+(1)RECV: JACKSONVILLE CENTER, SOUTHWEST 1976 CHECKING ON AT FL310
+**** Departure MIT but no runway in route JBU207 KJAX EXBOX
+XMIT: SWA1967 R
+(3)RECV: (UNKNOWN CALL SIGN)  
+---- SWG345 CYYZ-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWG345 CYYZ-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- SWG345 CYYZ-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
+---- SWG345 CYYZ-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWG345 CYYZ-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- SWG345 CYYZ-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
+**** Departure MIT but no runway in route SWA1248 KJAX JETIN
+---- Airline VXP not defined in Airlines file
+XMIT: SWA1976 R
+---- AAY184 KORF-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY184 KORF-KSFB 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- AAY184 KORF-KSFB 211.146 329.637 118.491  exit from sector ZJX66 calculation problem.
+---- AAY184 KORF-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY184 KORF-KSFB 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- AAY184 KORF-KSFB 211.146 329.637 118.491  exit from sector ZJX66 calculation problem.
+---- SIL1913 KHSV-KMCO 223.872 226.394 2.52175  exit from sector ZJX13 calculation problem.
+---- SIL1913 KHSV-KMCO 226.394 248.225 21.8311  exit from sector ZJX14 calculation problem.
+---- SIL1913 KHSV-KMCO 248.225 251.332 3.10693  exit from sector ZJX15 calculation problem.
+---- SIL1913 KHSV-KMCO 251.332 275.405 24.0735  exit from sector ZJX14 calculation problem.
+---- SIL1913 KHSV-KMCO 223.872 226.394 2.52175  exit from sector ZJX13 calculation problem.
+---- SIL1913 KHSV-KMCO 226.394 248.225 21.8311  exit from sector ZJX14 calculation problem.
+---- SIL1913 KHSV-KMCO 248.225 251.332 3.10693  exit from sector ZJX15 calculation problem.
+---- SIL1913 KHSV-KMCO 251.332 275.405 24.0735  exit from sector ZJX14 calculation problem.
+---- Airline VXP not defined in Airlines file
 Move0 time max 0.022
-TB: ENY3414
-	ACCEPT HANDOFF ENY3414 309
-ENY3414 E170 4503 544 REMIS 2113 260
-KMIA ./. CHRGE REMIS CEW RV1 KPNS
-TB: ENY3414
-	(QN) full data block ENY3414 now visible
-TB: 2 ENY3414
-	ACCEPT DB DIRECTION
-**** Departure MIT but no runway in route SWA1122 KJAX JETIN
-CRD: QU 309
-	ACCEPT ROUTE DISPLAY ENY3414
----- NKS1257 KACY-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS1257 KACY-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- NKS1257 KACY-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
----- NKS1257 KACY-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS1257 KACY-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- NKS1257 KACY-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
-CRD: QU 522
-	ACCEPT ROUTE DISPLAY AAL1730
----- VOI839 KMCO-MMGL 107.011 242.678 135.667  exit from sector ZJX30 calculation problem.
-CRD: QU 2404
-	ACCEPT ROUTE DISPLAY SWA1600
+---- SWA839 KDCA-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWA839 KDCA-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- SWA839 KDCA-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+---- SWA839 KDCA-KFLL 85.2697 206.516 121.247  exit from sector ZJX66 calculation problem.
+---- SWA839 KDCA-KFLL 206.516 207.628 1.11189  exit from sector ZJX67 calculation problem.
+---- SWA839 KDCA-KFLL 207.628 334.923 127.295  exit from sector ZJX66 calculation problem.
+---- FFT1476 KBDL-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- FFT1476 KBDL-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- FFT1476 KBDL-KMCO 211.146 324.239 113.093  exit from sector ZJX66 calculation problem.
+---- FFT1476 KBDL-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- FFT1476 KBDL-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- FFT1476 KBDL-KMCO 211.146 324.239 113.093  exit from sector ZJX66 calculation problem.
+---- AAY315 KPIT-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY315 KPIT-KSFB 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- AAY315 KPIT-KSFB 211.146 324.408 113.262  exit from sector ZJX66 calculation problem.
+---- AAY315 KPIT-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY315 KPIT-KSFB 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- AAY315 KPIT-KSFB 211.146 324.408 113.262  exit from sector ZJX66 calculation problem.
+Move0 time max 0.029
+---- AAY1795 KHGR-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1795 KHGR-KSFB 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- AAY1795 KHGR-KSFB 211.146 324.408 113.262  exit from sector ZJX66 calculation problem.
+---- AAY1795 KHGR-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1795 KHGR-KSFB 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- AAY1795 KHGR-KSFB 211.146 324.408 113.262  exit from sector ZJX66 calculation problem.
+---- NKS1635 KPHL-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- NKS1635 KPHL-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- NKS1635 KPHL-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
+---- NKS1635 KPHL-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- NKS1635 KPHL-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- NKS1635 KPHL-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
+---- NKS1861 KRIC-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- NKS1861 KRIC-KMCO 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- NKS1861 KRIC-KMCO 211.146 329.457 118.311  exit from sector ZJX66 calculation problem.
+---- NKS1861 KRIC-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- NKS1861 KRIC-KMCO 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- NKS1861 KRIC-KMCO 211.146 329.457 118.311  exit from sector ZJX66 calculation problem.
+---- AAY1010 KBNA-KMLB 156.28 159.087 2.80675  exit from sector ZJX75 calculation problem.
+---- AAY1010 KBNA-KMLB 159.087 160.898 1.81119  exit from sector ZJX68 calculation problem.
+---- AAY1010 KBNA-KMLB 156.413 159.22 2.80676  exit from sector ZJX75 calculation problem.
+---- AAY1010 KBNA-KMLB 159.22 161.031 1.81119  exit from sector ZJX68 calculation problem.
+---- EXT departure enters active FAC ZJX airspace 062 SWA538 400 KPNS..KPNS35..PENSI..AEX./.KHOU
 ---- Airline VXP not defined in Airlines file
-CRD: QU 2404
-	ACCEPT ROUTE DISPLAY SWA1600
----- DAL944 KRDU-KFLL 261.665 358.932 97.2671  exit from sector ZJX52 calculation problem.
----- DAL944 KRDU-KFLL 358.932 361.556 2.62431  exit from sector ZJX35 calculation problem.
-CRD: QU 3503
-	ACCEPT ROUTE DISPLAY ASA597
-**** Departure MIT but no runway in route MXY393 KJAX JETIN
-CRD: QU 0755
-	ACCEPT ROUTE DISPLAY SWA1932
----- SWA1386 KBDL-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- SWA1386 KBDL-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
----- SWA1386 KBDL-KMCO 211.146 313.457 102.311  exit from sector ZJX66 calculation problem.
----- SWA1386 KBDL-KMCO 81.1651 202.402 121.236  exit from sector ZJX66 calculation problem.
----- SWA1386 KBDL-KMCO 202.402 203.513 1.11189  exit from sector ZJX67 calculation problem.
----- SWA1386 KBDL-KMCO 203.513 305.824 102.311  exit from sector ZJX66 calculation problem.
-Move0 time max 0.032
-(1)RECV: JACKSONVILLE CENTER, ENVOY 3414 LEVEL AT FL260
-XMIT: ENY3414 R
+---- JBU876 KBUF-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU876 KBUF-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- JBU876 KBUF-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+---- JBU876 KBUF-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU876 KBUF-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- JBU876 KBUF-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
 
-Time is 2111 AC 2
-**** Departure MIT but no runway in route JIA5561 KDAB ROYES
-**** Departure MIT but no runway in route JIA5561 KDAB ROYES
+Time is 0025 AC 3
 ---- Airline VXP not defined in Airlines file
-TB: UAL863
-	(QN) full data block UAL863 now visible
-TB: UAL863
-	(QN) full data block UAL863 now hidden
+---- VXP880 KHVN-KTPA 198.101 268.685 70.5842  exit from sector ZJX67 calculation problem.
+---- VXP880 KHVN-KTPA 269.353 353.572 84.2182  exit from sector ZJX67 calculation problem.
+---- VXP880 KHVN-KTPA 33.7798 104.364 70.5842  exit from sector ZJX67 calculation problem.
+---- VXP880 KHVN-KTPA 105.032 189.25 84.2182  exit from sector ZJX67 calculation problem.
+CRD: 550
+	ACCEPT HANDOFF UAL1896 550
+UAL1896 B738 0730 550 ANY104857 0029 300
+KTPA ./. N2945/W08241 SPRNG BAYPO1 CAMJO DBN ./. KORD
+---- SIL175 altitude 37000 above defined AT46 ceiling 23000 KTPA./.MOMIE..SZW036050.RV4.KTLH
+---- SIL175 altitude 37000 above defined AT46 ceiling 23000 KTPA./.MOMIE..SZW036050.RV4.KTLH
+---- SIL175 altitude 37000 above defined AT46 ceiling 23000 MOMIE SZW036050
+---- SIL175 altitude 37000 above defined AT46 ceiling 23000 KTPA./.MOMIE..SZW036050.RV4.KTLH
+---- SIL175 altitude 37000 above defined AT46 ceiling 23000 KTPA./.MOMIE..SZW036050.RV4.KTLH
+CRD: QU 550
+	ACCEPT ROUTE DISPLAY UAL1896
+CRD: QU 5505
+	REJECT UNKNOWN AID 5505
+---- Airline VXP not defined in Airlines file
+---- non-EXT route never in defined ZJX airspace 967 UCA4794 350 KIAH./.HRV..LOXLY.RV2.KPNS
+CRD: QU 1104
+	ACCEPT ROUTE DISPLAY DAL871
+CRD: QU 1104
+	ACCEPT ROUTE DISPLAY DAL871
+---- Airline VXP not defined in Airlines file
+---- VXP1210 KHVN-KMLB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- VXP1210 KHVN-KMLB 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- VXP1210 KHVN-KMLB 211.146 332.832 121.686  exit from sector ZJX66 calculation problem.
+---- VXP1210 KHVN-KMLB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- VXP1210 KHVN-KMLB 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- VXP1210 KHVN-KMLB 211.146 332.832 121.686  exit from sector ZJX66 calculation problem.
+---- ROU341 CYUL-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- ROU341 CYUL-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- ROU341 CYUL-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
+---- ROU341 CYUL-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- ROU341 CYUL-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- ROU341 CYUL-KFLL 268.909 270.157 1.24776  exit from sector ZJX35 calculation problem.
+(1)RECV: JACKSONVILLE CENTER, UNITED 1896 LEVEL AT FL300
+CRD: QU 0773
+	ACCEPT ROUTE DISPLAY DAL590
+CRD: QU 0773
+	ACCEPT ROUTE DISPLAY DAL590
+---- Airline VXP not defined in Airlines file
+---- TSC1533 CYYZ-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- TSC1533 CYYZ-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- TSC1533 CYYZ-KMCO 211.146 318.916 107.77  exit from sector ZJX66 calculation problem.
+---- TSC1533 CYYZ-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- TSC1533 CYYZ-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- TSC1533 CYYZ-KMCO 211.146 318.916 107.77  exit from sector ZJX66 calculation problem.
+**** Departure MIT but no runway in route DAL681 KDAB ROYES
+**** Departure MIT but no runway in route DAL681 KDAB ROYES
+XMIT: UAL1896 CM310
+---- Airline VXP not defined in Airlines file
+(1)RECV: UNITED 1896  WE'RE ONLY REQUESTING FL300, CLIMB AND MAINTAIN FL310
+CRD: QU 550
+	ACCEPT ROUTE DISPLAY UAL1896
+CRD: QU 463
+	ACCEPT ROUTE DISPLAY SWA1976
+---- MXY582 KORF-KTPA 198.101 268.685 70.5842  exit from sector ZJX68 calculation problem.
+---- MXY582 KORF-KTPA 269.353 353.572 84.2182  exit from sector ZJX68 calculation problem.
+---- MXY582 KORF-KTPA 12.6355 83.2197 70.5842  exit from sector ZJX68 calculation problem.
+---- MXY582 KORF-KTPA 83.8877 168.106 84.2182  exit from sector ZJX68 calculation problem.
+---- UAL1430 KCLE-KFLL 48.5247 49.9764 1.45173  exit from sector ZJX66 calculation problem.
+---- UAL1430 KCLE-KFLL 155.319 272.262 116.943  exit from sector ZJX66 calculation problem.
+---- UAL1430 KCLE-KFLL 48.5124 49.9633 1.45088  exit from sector ZJX66 calculation problem.
+---- UAL1430 KCLE-KFLL 155.307 272.25 116.943  exit from sector ZJX66 calculation problem.
+---- Airline VXP not defined in Airlines file
+---- VXP839 KBGM-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- VXP839 KBGM-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- VXP839 KBGM-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
+---- VXP839 KBGM-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- VXP839 KBGM-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- VXP839 KBGM-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
+---- Airline VXP not defined in Airlines file
+---- VXP191 KILG-KTPA 198.101 268.685 70.5842  exit from sector ZJX67 calculation problem.
+---- VXP191 KILG-KTPA 269.353 353.572 84.2182  exit from sector ZJX67 calculation problem.
+---- VXP191 KILG-KTPA 0 63.3697 63.3697  exit from sector ZJX67 calculation problem.
+---- VXP191 KILG-KTPA 64.0376 148.256 84.2182  exit from sector ZJX67 calculation problem.
+---- Airline VXP not defined in Airlines file
+---- SWA343 KBWI-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- SWA343 KBWI-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- SWA343 KBWI-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
+---- SWA343 KBWI-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- SWA343 KBWI-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- SWA343 KBWI-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
+
+Time is 0026 AC 4
+---- Airline VXP not defined in Airlines file
+---- AAY1121 KBGR-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1121 KBGR-KSFB 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY1121 KBGR-KSFB 211.146 313.92 102.773  exit from sector ZJX66 calculation problem.
+---- AAY1121 KBGR-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1121 KBGR-KSFB 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY1121 KBGR-KSFB 211.146 313.92 102.773  exit from sector ZJX66 calculation problem.
+---- FFT1411 KCLE-KFLL 48.5247 49.9764 1.45173  exit from sector ZJX66 calculation problem.
+---- FFT1411 KCLE-KFLL 155.319 272.262 116.943  exit from sector ZJX66 calculation problem.
+---- FFT1411 KCLE-KFLL 48.5124 49.9633 1.45088  exit from sector ZJX66 calculation problem.
+---- FFT1411 KCLE-KFLL 155.307 272.25 116.943  exit from sector ZJX66 calculation problem.
+---- Airline VXP not defined in Airlines file
+**** RPA3876 can't make top of climb 39000 Start 1 nLegs 8  KCHS.SWPFX2.FILLI..SARKY..FAY./.KIAD
+**** RPA3876 can't make top of climb 39000 Start 1 nLegs 8  KCHS.SWPFX2.FILLI..SARKY..FAY./.KIAD
+**** Departure MIT but no runway in route AAY740 KJAX CROSB
+---- AAY884 KTRI-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY884 KTRI-KSFB 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY884 KTRI-KSFB 211.146 319.114 107.968  exit from sector ZJX66 calculation problem.
+---- AAY884 KTRI-KSFB 80.7033 201.96 121.256  exit from sector ZJX66 calculation problem.
+---- AAY884 KTRI-KSFB 201.96 203.072 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY884 KTRI-KSFB 203.072 311.04 107.968  exit from sector ZJX66 calculation problem.
+---- DAL116 KRDU-KFLL 261.665 358.932 97.2671  exit from sector ZJX52 calculation problem.
+---- DAL116 KRDU-KFLL 358.932 361.556 2.62431  exit from sector ZJX35 calculation problem.
+---- FFT1400 KCLE-KMCO 48.5247 49.9764 1.45173  exit from sector ZJX66 calculation problem.
+---- FFT1400 KCLE-KMCO 155.319 258.858 103.539  exit from sector ZJX66 calculation problem.
+---- FFT1400 KCLE-KMCO 48.5124 49.9633 1.45088  exit from sector ZJX66 calculation problem.
+---- FFT1400 KCLE-KMCO 155.307 258.846 103.539  exit from sector ZJX66 calculation problem.
+---- FFT1481 KBUF-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- FFT1481 KBUF-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- FFT1481 KBUF-KMCO 211.146 318.875 107.729  exit from sector ZJX66 calculation problem.
+---- FFT1481 KBUF-KMCO 83.4416 204.674 121.232  exit from sector ZJX66 calculation problem.
+---- FFT1481 KBUF-KMCO 204.674 205.785 1.11189  exit from sector ZJX67 calculation problem.
+---- FFT1481 KBUF-KMCO 205.785 313.514 107.729  exit from sector ZJX66 calculation problem.
+---- Airline VXP not defined in Airlines file
+**** Departure MIT but no runway in route SWA632 KJAX JETIN
+---- NKS753 KBWI-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- NKS753 KBWI-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- NKS753 KBWI-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
+---- NKS753 KBWI-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- NKS753 KBWI-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- NKS753 KBWI-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
+---- NKS1198 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- NKS1198 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- NKS1198 KPIT-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+---- NKS1198 KPIT-KFLL 72.1949 193.436 121.241  exit from sector ZJX66 calculation problem.
+---- NKS1198 KPIT-KFLL 193.436 194.548 1.11189  exit from sector ZJX67 calculation problem.
+---- NKS1198 KPIT-KFLL 194.548 321.843 127.295  exit from sector ZJX66 calculation problem.
+**** Departure MIT but no runway in route MXY522 KJAX CROSB
+
+Time is 0027 AC 4
+---- Airline VXP not defined in Airlines file
+---- SWA220 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWA220 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- SWA220 KPIT-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
+---- SWA220 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWA220 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- SWA220 KPIT-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
+---- NKS211 KBOS-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- NKS211 KBOS-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- NKS211 KBOS-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
+---- NKS211 KBOS-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- NKS211 KBOS-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- NKS211 KBOS-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
+---- N7616J KPNS-KTPA 210.33 275.093 64.7636  exit from sector ZJX13 calculation problem.
+---- N7616J KPNS-KTPA 76.6922 141.456 64.7636  exit from sector ZJX13 calculation problem.
+---- DAL390 KRDU-KFLL 261.665 358.932 97.2671  exit from sector ZJX52 calculation problem.
+---- DAL390 KRDU-KFLL 358.932 361.556 2.62431  exit from sector ZJX35 calculation problem.
+---- SWA1861 KCMH-KFLL 48.5247 49.9764 1.45173  exit from sector ZJX66 calculation problem.
+---- SWA1861 KCMH-KFLL 155.319 272.262 116.943  exit from sector ZJX66 calculation problem.
+---- SWA1861 KCMH-KFLL 48.5124 49.9633 1.45088  exit from sector ZJX66 calculation problem.
+---- SWA1861 KCMH-KFLL 155.307 272.25 116.943  exit from sector ZJX66 calculation problem.
+**** Departure MIT but no runway in route MXY440 KJAX CROSB
+---- JBU961 KDCA-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU961 KDCA-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU961 KDCA-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+---- JBU961 KDCA-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU961 KDCA-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU961 KDCA-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+TB: SWA251
+	ACCEPT HANDOFF SWA251 873
+SWA251 B738 2003 554 DUCHY 0030 270
+KATL ./. KMCN DUCHY OHDEA1 KJAX
+TB: SWA251
+	(QN) full data block SWA251 now visible
+CRD: QU SWA251
+	ACCEPT ROUTE DISPLAY SWA251
+---- HPJ516 KRDU-KFLL 261.665 358.932 97.2671  exit from sector ZJX52 calculation problem.
+---- HPJ516 KRDU-KFLL 358.932 361.556 2.62431  exit from sector ZJX35 calculation problem.
+---- Airline VXP not defined in Airlines file
+---- NKS1510 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- NKS1510 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- NKS1510 KPIT-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+---- NKS1510 KPIT-KFLL 74.4138 195.656 121.242  exit from sector ZJX66 calculation problem.
+---- NKS1510 KPIT-KFLL 195.656 196.768 1.11189  exit from sector ZJX67 calculation problem.
+---- NKS1510 KPIT-KFLL 196.768 324.063 127.295  exit from sector ZJX66 calculation problem.
+---- MXY528 KORF-KTPA 198.101 268.685 70.5842  exit from sector ZJX68 calculation problem.
+---- MXY528 KORF-KTPA 269.353 353.572 84.2182  exit from sector ZJX68 calculation problem.
+---- MXY528 KORF-KTPA 11.3311 81.9153 70.5842  exit from sector ZJX68 calculation problem.
+---- MXY528 KORF-KTPA 82.5833 166.801 84.2182  exit from sector ZJX68 calculation problem.
+---- SIL78 KMCO-KPNS 48.7439 57.9533 9.20937  exit from sector ZJX15 calculation problem.
+---- SIL78 KMCO-KPNS 71.4664 74.7662 3.29983  exit from sector ZJX14 calculation problem.
+---- SIL78 KMCO-KPNS 74.7662 101.179 26.4129  exit from sector ZJX15 calculation problem.
+---- SIL78 KMCO-KPNS 101.179 105.966 4.78688  exit from sector ZJX14 calculation problem.
+---- SWA1886 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWA1886 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- SWA1886 KPIT-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+---- SWA1886 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWA1886 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- SWA1886 KPIT-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+---- JBU1289 KJFK-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- JBU1289 KJFK-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- JBU1289 KJFK-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
+---- JBU1289 KJFK-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- JBU1289 KJFK-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- JBU1289 KJFK-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
+TB: DAL871
+	ACCEPT HANDOFF DAL871 731
+DAL871 A319 1104 521 LAIRI 0037 340
+KEYW ./. N2940/W08239 CAMJO LAIRI LARZZ JJEDI3 KATL
+TB: DAL871
+	(QN) full data block DAL871 now visible
+TB: DAL871
+	(QN) full data block DAL871 now visible
+TB: DAL590
+	ACCEPT HANDOFF DAL590 643
+DAL590 A319 0773 527 HEPAR 0032 390
+KTPA ./. N2941/W08241 SPRNG BAYPO1 CAMJO Q99 TEEEM SHRIL JURDI DMSTR1 KRDU
+TB: SWA820
+	ACCEPT HANDOFF SWA820 707
+SWA820 B38M 1007 534 HEPAR 0032 370
+KTPA ./. N2939/W08242 SPRNG BAYPO1 CAMJO Q99 OGRAE ./. KDCA
+TB: SWA820
+	(QN) full data block SWA820 now visible
+TB: SWA820
+	(QN) full data block SWA820 now visible
+TB: SWA820
+	(QN) full data block SWA820 now visible
+TB: SWA1843
+	ACCEPT HANDOFF SWA1843 524
+SWA1843 B38M 0734 535 HEPAR 0032 350
+KTPA ./. N2929/W08242 SPRNG BAYPO1 CAMJO Q99 OGRAE ./. KBWI
+TB: SWA1843
+	(QN) full data block SWA1843 now visible
+TB: SWA1843
+	(QN) full data block SWA1843 now visible
+TB: SWA1843
+	(QN) full data block SWA1843 now visible
+TB: SWA1843
+	(QN) full data block SWA1843 now visible
+TB: SWA1843
+	(QN) full data block SWA1843 now visible
+TB: SWA1843
+	(QN) full data block SWA1843 now visible
+(1)RECV: JACKSONVILLE CENTER, SOUTHWEST 251 LEVEL AT FL270
+---- Airline VXP not defined in Airlines file
+**** Departure MIT but no runway in route AAL673 KDAB ROYES
+---- AAY277 KPIT-KMLB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY277 KPIT-KMLB 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY277 KPIT-KMLB 211.146 317.258 106.112  exit from sector ZJX66 calculation problem.
+---- AAY277 KPIT-KMLB 70.8621 192.112 121.25  exit from sector ZJX66 calculation problem.
+---- AAY277 KPIT-KMLB 192.112 193.224 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY277 KPIT-KMLB 193.224 299.336 106.112  exit from sector ZJX66 calculation problem.
+---- UAL1168 KCLE-KFLL 48.5247 49.9764 1.45173  exit from sector ZJX66 calculation problem.
+---- UAL1168 KCLE-KFLL 155.319 272.262 116.943  exit from sector ZJX66 calculation problem.
+---- UAL1168 KCLE-KFLL 48.5124 49.9633 1.45088  exit from sector ZJX66 calculation problem.
+---- UAL1168 KCLE-KFLL 155.307 272.25 116.943  exit from sector ZJX66 calculation problem.
+TB: 4 SWA1843
+	ACCEPT DB DIRECTION
+TB: 7 UAL1896
+	ACCEPT DB DIRECTION
+---- NKS151 KBOS-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- NKS151 KBOS-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- NKS151 KBOS-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
+---- NKS151 KBOS-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
+---- NKS151 KBOS-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
+---- NKS151 KBOS-KFLL 268.909 271.534 2.62431  exit from sector ZJX35 calculation problem.
+TB: 9 DAL871
+	ACCEPT DB DIRECTION
+---- AAY1333 KBGR-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1333 KBGR-KSFB 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY1333 KBGR-KSFB 211.146 313.92 102.773  exit from sector ZJX66 calculation problem.
+---- AAY1333 KBGR-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1333 KBGR-KSFB 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY1333 KBGR-KSFB 211.146 313.92 102.773  exit from sector ZJX66 calculation problem.
+TB: 6 DAL590
+	ACCEPT DB DIRECTION
+(1)RECV: JACKSONVILLE CENTER, SOUTHWEST 1843 MAINTAINING FL350
+
+Time is 0028 AC 9
+---- JBU991 KBDL-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU991 KBDL-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU991 KBDL-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
+---- JBU991 KBDL-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU991 KBDL-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU991 KBDL-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
+---- EXT departure enters active FAC ZJX airspace 652 SWA724 400 KPNS..KPNS35..PENSI..AEX./.KHOU
+---- MXY1541 KMCO-KCAK 0 91.3387 91.3387  exit from sector ZJX67 calculation problem.
+---- MXY1541 KMCO-KCAK 92.0387 114.278 22.239  exit from sector ZJX67 calculation problem.
+---- MXY1541 KMCO-KCAK 144.711 145.785 1.07345  exit from sector ZJX66 calculation problem.
+---- N8843G KTPA-KPNS 162.436 167.649 5.21327  exit from sector ZJX30 calculation problem.
+(1)RECV: JACKSONVILLE CENTER, SOUTHWEST 820 LEVEL AT FL370
+---- TSC360 CYYZ-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- TSC360 CYYZ-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- TSC360 CYYZ-KMCO 211.146 318.916 107.77  exit from sector ZJX66 calculation problem.
+---- TSC360 CYYZ-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- TSC360 CYYZ-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- TSC360 CYYZ-KMCO 211.146 318.916 107.77  exit from sector ZJX66 calculation problem.
+---- SWA305 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWA305 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- SWA305 KPIT-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
+---- SWA305 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWA305 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- SWA305 KPIT-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
+---- UAL1353 KIAD-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- UAL1353 KIAD-KMCO 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- UAL1353 KIAD-KMCO 211.146 328.947 117.801  exit from sector ZJX66 calculation problem.
+---- UAL1353 KIAD-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- UAL1353 KIAD-KMCO 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- UAL1353 KIAD-KMCO 211.146 328.947 117.801  exit from sector ZJX66 calculation problem.
+TB: AAL1393
+	ACCEPT HANDOFF AAL1393 640
+AAL1393 B738 0504 548 ANY105864 0031 370
+KDFW ./. N3034/W08417 KYLEG TTHOR3 KDAB
+(1)RECV: JACKSONVILLE CENTER, DELTA 871 AT FL340
+TB: AAL1393
+	(QN) full data block AAL1393 now visible
+---- Airline VXP not defined in Airlines file
+XMIT: AAY1288 XKYLEG@280
+(1)RECV: ALLEGIANT 1288  CROSS KYLEG AT FL280
+---- AAY1467 KPBG-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY1467 KPBG-KSFB 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY1467 KPBG-KSFB 211.146 319.342 108.196  exit from sector ZJX66 calculation problem.
+---- AAY1467 KPBG-KSFB 81.1651 202.402 121.236  exit from sector ZJX66 calculation problem.
+---- AAY1467 KPBG-KSFB 202.402 203.513 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY1467 KPBG-KSFB 203.513 311.71 108.196  exit from sector ZJX66 calculation problem.
+---- SWA1848 KRDU-KTPA 0 60.7543 60.7543  exit from sector ZJX67 calculation problem.
+---- SWA1848 KRDU-KTPA 61.4223 145.64 84.2182  exit from sector ZJX67 calculation problem.
+---- AAY938 KALB-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY938 KALB-KSFB 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY938 KALB-KSFB 211.146 313.92 102.773  exit from sector ZJX66 calculation problem.
+---- AAY938 KALB-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY938 KALB-KSFB 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- AAY938 KALB-KSFB 211.146 313.92 102.773  exit from sector ZJX66 calculation problem.
+XMIT: DAL871 DM330
+(1)RECV: DELTA 871  DESCEND AND MAINTAIN FL330
+---- FFT736 KBUF-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- FFT736 KBUF-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- FFT736 KBUF-KMCO 211.146 318.875 107.729  exit from sector ZJX66 calculation problem.
+---- FFT736 KBUF-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- FFT736 KBUF-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- FFT736 KBUF-KMCO 211.146 318.875 107.729  exit from sector ZJX66 calculation problem.
+---- NKS1559 KFLL-KPNS 127.184 240.574 113.39  exit from sector ZJX33 calculation problem.
+---- NKS1559 KFLL-KPNS 240.974 268.674 27.7006  exit from sector ZJX33 calculation problem.
+---- NKS1559 KFLL-KPNS 127.184 240.574 113.39  exit from sector ZJX33 calculation problem.
+---- NKS1559 KFLL-KPNS 240.974 268.674 27.7006  exit from sector ZJX33 calculation problem.
+(1)RECV: JACKSONVILLE CENTER, DELTA 590 AT FL390
+CRD: QQ 550
+	ACCEPT DELETE INTERIM ALTITUDE UAL1896
+CRD: QZ 330 731
+DAL871 reroute due QZ  QU CAMJO 731
+	ACCEPT ASSIGNED ALTITUDE DAL871 330
+---- SWA1740 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWA1740 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- SWA1740 KPIT-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
+---- SWA1740 KPIT-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- SWA1740 KPIT-KFLL 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- SWA1740 KPIT-KFLL 211.146 338.478 127.332  exit from sector ZJX66 calculation problem.
+CRD: VXP982
+	ACCEPT HANDOFF VXP982 118
+VXP982 B738 4104 520 TEUFL 0036 390
+KLAN ./. IRQ TEUFL WHYYT GRNCH4 KMCO
+---- AAY227 KELM-KSFB 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- AAY227 KELM-KSFB 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
+---- AAY227 KELM-KSFB 211.146 324.408 113.262  exit from sector ZJX66 calculation problem.
+---- AAY227 KELM-KSFB 83.4416 204.674 121.232  exit from sector ZJX66 calculation problem.
+---- AAY227 KELM-KSFB 204.674 205.785 1.11189  exit from sector ZJX68 calculation problem.
+---- AAY227 KELM-KSFB 205.785 319.048 113.262  exit from sector ZJX66 calculation problem.
+(1)RECV: JACKSONVILLE CENTER, SOUTHWEST 251 LEVEL AT FL270
+CRD: QQ 550
+	ACCEPT DELETE INTERIM ALTITUDE UAL1896
+---- SWA1705 KCMH-KFLL 48.5247 49.9764 1.45173  exit from sector ZJX66 calculation problem.
+---- SWA1705 KCMH-KFLL 155.319 272.262 116.943  exit from sector ZJX66 calculation problem.
+---- SWA1705 KCMH-KFLL 48.5124 49.9633 1.45088  exit from sector ZJX66 calculation problem.
+---- SWA1705 KCMH-KFLL 155.307 272.25 116.943  exit from sector ZJX66 calculation problem.
+CRD: QZ 310 550
+UAL1896 reroute due QZ  QU DBN 550
+	ACCEPT ASSIGNED ALTITUDE UAL1896 310
+(1)RECV: JACKSONVILLE CENTER, SOUTHWEST 1843 CHECKING ON AT FL350
+---- JBU576 KDCA-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU576 KDCA-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU576 KDCA-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+---- JBU576 KDCA-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU576 KDCA-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU576 KDCA-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+---- JBU1910 KDCA-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU1910 KDCA-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU1910 KDCA-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+---- JBU1910 KDCA-KFLL 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU1910 KDCA-KFLL 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU1910 KDCA-KFLL 211.146 338.441 127.295  exit from sector ZJX66 calculation problem.
+XMIT: FFT175 MM82
+
+Time is 0029 AC 12
+(1)RECV: FRONTIER FLIGHT 175 , OUR MAXIMUM CRUISE MACH IS .81
+---- JBU338 KBDL-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
+---- JBU338 KBDL-KMCO 210.034 211.146 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU338 KBDL-KMCO 211.146 318.957 107.811  exit from sector ZJX66 calculation problem.
+---- JBU338 KBDL-KMCO 71.5948 192.871 121.276  exit from sector ZJX66 calculation problem.
+---- JBU338 KBDL-KMCO 192.871 193.983 1.11189  exit from sector ZJX67 calculation problem.
+---- JBU338 KBDL-KMCO 193.983 301.794 107.811  exit from sector ZJX66 calculation problem.
+---- Airline VXP not defined in Airlines file
+---- VXP1674 KHVN-KTPA 198.101 268.685 70.5842  exit from sector ZJX67 calculation problem.
+---- VXP1674 KHVN-KTPA 269.353 353.572 84.2182  exit from sector ZJX67 calculation problem.
+---- VXP1674 KHVN-KTPA 27.7732 98.3574 70.5842  exit from sector ZJX67 calculation problem.
+---- VXP1674 KHVN-KTPA 99.0254 183.244 84.2182  exit from sector ZJX67 calculation problem.
 Exit check result = 1047
-Aircraft worked 0, time 2111-2107 = 0003
+Aircraft worked 0, time 0029-0022 = 0006
 Exit program
-ExitInstance Sec1970 = 1693602678
-ExitInstance SecUTC  = 1693602678
+Exit check result = -1
+ExitInstance Sec1970 = 1693787350
+ExitInstance SecUTC  = 1693873750
 Removed run file
