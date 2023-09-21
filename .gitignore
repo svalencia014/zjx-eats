@@ -1,7 +1,9 @@
 Aircraft.txt
 Airlines.txt
 eATS-Is-Running.txt
-Log*.txt
+LogFile.txt
+LogFile-Old.txt
+LogDetail.txt
 SnapshotAuto.txt
 AirportAlias.txt
 C90-FlightPlans.txt

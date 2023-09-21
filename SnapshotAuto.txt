@@ -1,7 +1,0 @@
-
-	 SNAPSHOT at 23:11:01  1695251461 sec  paint 26  move 1
- Range 85 Sec1970 (w/bug) 1695251461 SecUTC 1695251461  display H 1916 V 966 DC 1920 1080
-
-
-	0 CIDs
-
