@@ -2,89 +2,85 @@ Nav folder: C:\Users\sam\AppData\Local\ATSim2020\eATS\
 LoadFrame
 Main window create
 ChildView Create
-MainFrame 008BFBB0  ChildView 008C0748
+MainFrame 00C504D0  ChildView 00C51068
 Fix font is Arial, requested Arial.
 Data Block font is Consolas, requested Consolas.
 On-screen List font is Consolas, requested Consolas.
 Clock font is Arial, requested Arial.
-QNH (if no *WX defined) 30.06
-Surface wind 298.088T 280M at 6
-Upper Winds:   500-302/37   450-277/58   400-255/77   350-233/96   300-211/115
-               250-209/95   200-210/70   150-211/48   100-212/29    50-213/13     0-214/0  
+QNH (if no *WX defined) 29.51
+Surface wind 148.088T 130M at 8
+Upper Winds:   500-246/58   450-260/61   400-274/64   350-288/67   300-302/70 
+               250-295/56   200-290/40   150-285/27   100-280/17    50-275/10     0-270/6  
 Airplanes turned off by file menu item.
 Main window create complete
 LoadFrame complete
-Time is 0019
+Time is 2125
 Registry ActiveTimeBias (seconds) = 14400
-Start read 00:19:58
+Start read 21:25:43
 Software unplug, now NOT PLUGGED IN
 DB Font Small request ERAMv110 ... OK
 DB Font Large request ERAMv110 ... OK
 On-screen List Font Small request ERAMv110 ... OK
 On-screen List Font Large request ERAMv110 ... OK
 StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24979, Runway number not digits: 7L
 Stats - FPAs 0  boundary segments 0
 0 flight plans (FPX) now available.
 00 Map set center N4500.00/W12100.00 range 200
-End read   00:20:21
-Move0 time max 0.001
-
-Time is 0021 AC 0
+End read   21:26:12
 CRD: XX FAC ZJX
 	ACCEPT - LOADING FACILITY DATA ...
 
 
     -------- LOAD FACILITY --------
-Upper Winds:   500-279/32   450-282/46   400-283/57   350-284/68   300-285/79 
-               250-272/68   200-262/51   150-252/37   100-242/26    50-232/18     0-222/13 
-Start read 00:21:28
+Upper Winds:   500-238/40   450-247/62   400-255/83   350-263/104  300-271/125
+               250-264/103  200-262/78   150-260/56   100-258/37    50-256/21     0-254/8  
+Start read 21:26:59
 Software unplug, now NOT PLUGGED IN
 DB Font Small request ERAMv110 ... OK
 DB Font Large request ERAMv110 ... OK
 On-screen List Font Small request ERAMv110 ... OK
 On-screen List Font Large request ERAMv110 ... OK
 StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24979, Runway number not digits: 7L
 (3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
 Pending active facility ID: ZJX
 (4) Opening FAC-ZJX-BDRY.TXT
-**** FAC-ZJX-BDRY.TXT, line 596, Can't convert to lat/lng:  N20947.40/W08232.15
+**** FAC-ZJX-BDRY.TXT, line 639, Mismatched FPA boundary end points, FPA OCF
+N2952.43/W08232.36
+N2915.44/W08230.21
 1 1 1 0
-**** FAC-ZJX-BDRY.TXT, line 618, Previous *SECTOR definition missing STRATUM/SEC_FL/SEC_CR/SEC_BDRY
-FAC-ZJX-BDRY.TXT, line 670, ---- Boundary - duplicate point: N2848.54/W08249.10
+**** FAC-ZJX-BDRY.TXT, line 728, Previous *SECTOR definition missing STRATUM/SEC_FL/SEC_CR/SEC_BDRY
 1 1 1 0
-**** FAC-ZJX-BDRY.TXT, line 672, Previous *SECTOR definition missing STRATUM/SEC_FL/SEC_CR/SEC_BDRY
+**** FAC-ZJX-BDRY.TXT, line 833, Previous *SECTOR definition missing STRATUM/SEC_FL/SEC_CR/SEC_BDRY
 1 1 1 0
-**** FAC-ZJX-BDRY.TXT, line 777, Previous *SECTOR definition missing STRATUM/SEC_FL/SEC_CR/SEC_BDRY
-1 1 1 0
-**** FAC-ZJX-BDRY.TXT, line 837, Previous *SECTOR definition missing STRATUM/SEC_FL/SEC_CR/SEC_BDRY
+**** FAC-ZJX-BDRY.TXT, line 893, Previous *SECTOR definition missing STRATUM/SEC_FL/SEC_CR/SEC_BDRY
 (4) Opening FAC-ZJX-DATA.TXT
 **** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
 **** Undefined DV BY sector in Star MARQO2 ZJX77
 **** Undefined DV BY sector in Star OHDEA1 ZJX79
 **** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
+**** FAC-ZJX-DATA.TXT, line 109, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V537
 **** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MCN
 **** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V51
 (4) Opening FAC-ZTL-MIA.TXT
 (4) Opening FAC-ZDC-MIA.TXT
 (4) Opening FAC-ZHU-MIA.TXT
@@ -112,17 +108,18 @@ FAC-ZJX-BDRY.TXT, line 670, ---- Boundary - duplicate point: N2848.54/W08249.10
 (4) Opening FAC-VLD-BDRY.TXT
 (4) Opening FAC-VPS-BDRY.TXT
 (4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 133  boundary segments 1592
+Stats - FPAs 169  boundary segments 1948
 Active facility set to ZJX, no active sectors.
 0 flight plans (FPX) now available.
-**** Not yet valid ZJX 15
 **** Not yet valid ZJX 14
 **** Not yet valid ZJX 53
 **** Not yet valid ZJX 57
 **** Not yet valid ZJX 74
 **** Not yet valid FPA: ZJX_15_OCF_100_269
-**** Not yet valid FPA: ZJX_15_OCF_160_269
-**** Not yet valid FPA: ZJX_14_ANY_000_269
+**** Not yet valid FPA: ZJX_15_ORL_160_269
+**** Not yet valid FPA: ZJX_15_TPA_120_269
+**** Not yet valid FPA: ZJX_14_OCF_100_269
+**** Not yet valid FPA: ZJX_14_TPA_120_269
 **** Not yet valid FPA: ZJX_53_ANY_101_240
 **** Not yet valid FPA: ZJX_53_ANY_101_240
 **** Not yet valid FPA: ZJX_53_ANY_101_240
@@ -139,78 +136,150 @@ Active facility set to ZJX, no active sectors.
 **** Not yet valid FPA: ZJX_74_ANY_101_240
 **** Not yet valid FPA: ZJX_74_ANY_101_240
 **** Not yet valid FPA: ZJX_74_ANY_000_240
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
 00 Map set center N3116.00/W08149.00 range 250
-End read   00:21:47
+End read   21:27:37
 Active facility set to ZJX, no active sectors.
 02 Map set center N3116.00/W08149.00 range 250
-QNH (if no *WX defined) 29.79
-Surface wind 295.596T 300M at 16
-PFinit Orig N3116.00/W08149.00 Range 250 Dir 273 Altim 2986 Grad 15
+QNH (if no *WX defined) 29.85
+Surface wind 225.596T 230M at 5
+PFinit Orig N3116.00/W08149.00 Range 250 Dir 20 Altim 3017 Grad 15
 Software unplug, now NOT PLUGGED IN
 	ACCEPT XX FAC ZJX (VERIFY PLUG IN STATUS)
+Move0 time max 0.001
+CRD: XX RELOAD
+Not plugged in at reload.
+Aircraft worked 0, time 2128-2127 = 0000
 
-Time is 0022 AC 0
+
+    -------- RELOAD DATA --------
+	ACCEPT - RELOAD FILES/RESTARTING ...
+Start read 21:28:01
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24979, Runway number not digits: 7L
+(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
+Pending active facility ID: ZJX
+(4) Opening FAC-ZJX-BDRY.TXT
+(4) Opening FAC-ZJX-DATA.TXT
+**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** FAC-ZJX-DATA.TXT, line 109, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V537
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MCN
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V51
+(4) Opening FAC-ZTL-MIA.TXT
+(4) Opening FAC-ZDC-MIA.TXT
+(4) Opening FAC-ZHU-MIA.TXT
+(4) Opening FAC-ZTL-BDRY.TXT
+(4) Opening FAC-ZDC-BDRY.TXT
+(4) Opening FAC-ZHU-BDRY.TXT
+(4) Opening FAC-ZMA-BDRY.TXT
+(4) Opening FAC-ZNY-BDRY.TXT
+(4) Opening FAC-ZWY-BDRY.TXT
+(4) Opening FAC-CAE-BDRY.TXT
+(4) Opening FAC-SSC-BDRY.TXT
+(4) Opening FAC-CHS-BDRY.TXT
+(4) Opening FAC-DAB-BDRY.TXT
+(4) Opening FAC-FLO-BDRY.TXT
+(4) Opening FAC-JAX-BDRY.TXT
+(4) Opening FAC-MCO-BDRY.TXT
+(4) Opening FAC-TPA-BDRY.TXT
+(4) Opening FAC-MYR-BDRY.TXT
+(4) Opening FAC-NBC-BDRY.TXT
+(4) Opening FAC-OZR-BDRY.TXT
+(4) Opening FAC-PAM-BDRY.TXT
+(4) Opening FAC-PNS-BDRY.TXT
+(4) Opening FAC-SAV-BDRY.TXT
+(4) Opening FAC-TLH-BDRY.TXT
+(4) Opening FAC-VLD-BDRY.TXT
+(4) Opening FAC-VPS-BDRY.TXT
+(4) Opening FAC-CLT-BDRY.TXT
+Stats - FPAs 169  boundary segments 2263
+Active facility set to ZJX, no active sectors.
+0 flight plans (FPX) now available.
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
+00 Map set center N3116.00/W08149.00 range 250
+End read   21:28:31
+	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
 CRD: XX SEC 15
 Active facility/sector(s) now ZJX 15
 03 Map set center N2929.00/W08239.00 range 85
 Software unplug, now NOT PLUGGED IN
 	ACCEPT XX SEC 15 (VERIFY PLUG IN STATUS)
+
+Time is 2129 AC 0
 CRD: XX RELOAD
 Not plugged in at reload.
-Aircraft worked 0, time 0022-0022 = 0000
+Aircraft worked 0, time 2129-2128 = 0000
 
 
     -------- RELOAD DATA --------
 	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 00:22:25
+Start read 21:29:31
 Software unplug, now NOT PLUGGED IN
 DB Font Small request ERAMv110 ... OK
 DB Font Large request ERAMv110 ... OK
 On-screen List Font Small request ERAMv110 ... OK
 On-screen List Font Large request ERAMv110 ... OK
 StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24979, Runway number not digits: 7L
 (3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
 Pending active facility ID: ZJX
 (4) Opening FAC-ZJX-BDRY.TXT
-**** FAC-ZJX-BDRY.TXT, line 597, Mismatched boundary end points, sector 15
-N2952.34/W08232.52
-N2947.40/W08232.15
-1 1 1 0
-**** FAC-ZJX-BDRY.TXT, line 618, Previous *SECTOR definition missing STRATUM/SEC_FL/SEC_CR/SEC_BDRY
-FAC-ZJX-BDRY.TXT, line 670, ---- Boundary - duplicate point: N2848.54/W08249.10
-1 1 1 0
-**** FAC-ZJX-BDRY.TXT, line 672, Previous *SECTOR definition missing STRATUM/SEC_FL/SEC_CR/SEC_BDRY
-1 1 1 0
-**** FAC-ZJX-BDRY.TXT, line 777, Previous *SECTOR definition missing STRATUM/SEC_FL/SEC_CR/SEC_BDRY
-1 1 1 0
-**** FAC-ZJX-BDRY.TXT, line 837, Previous *SECTOR definition missing STRATUM/SEC_FL/SEC_CR/SEC_BDRY
 (4) Opening FAC-ZJX-DATA.TXT
 **** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
 **** Undefined DV BY sector in Star MARQO2 ZJX77
 **** Undefined DV BY sector in Star OHDEA1 ZJX79
 **** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
+**** FAC-ZJX-DATA.TXT, line 109, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V537
 **** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MCN
 **** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V51
 (4) Opening FAC-ZTL-MIA.TXT
 (4) Opening FAC-ZDC-MIA.TXT
 (4) Opening FAC-ZHU-MIA.TXT
@@ -238,200 +307,112 @@ FAC-ZJX-BDRY.TXT, line 670, ---- Boundary - duplicate point: N2848.54/W08249.10
 (4) Opening FAC-VLD-BDRY.TXT
 (4) Opening FAC-VPS-BDRY.TXT
 (4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 133  boundary segments 1592
+Stats - FPAs 169  boundary segments 2247
 Active facility set to ZJX, no active sectors.
 Active facility/sector(s) now ZJX 15
 0 flight plans (FPX) now available.
-**** Not yet valid ZJX 15
-**** Not yet valid ZJX 14
-**** Not yet valid ZJX 53
-**** Not yet valid ZJX 57
-**** Not yet valid ZJX 74
-**** Not yet valid FPA: ZJX_15_OCF_100_269
-**** Not yet valid FPA: ZJX_15_OCF_160_269
-**** Not yet valid FPA: ZJX_14_ANY_000_269
-**** Not yet valid FPA: ZJX_53_ANY_101_240
-**** Not yet valid FPA: ZJX_53_ANY_101_240
-**** Not yet valid FPA: ZJX_53_ANY_101_240
-**** Not yet valid FPA: ZJX_53_ANY_000_240
-**** Not yet valid FPA: ZJX_53_ANY_000_030
-**** Not yet valid FPA: ZJX_53_ANY_151_240
-**** Not yet valid FPA: ZJX_53_ANY_000_240
-**** Not yet valid FPA: ZJX_57_ANY_161_240
-**** Not yet valid FPA: ZJX_57_ANY_101_240
-**** Not yet valid FPA: ZJX_57_ANY_111_240
-**** Not yet valid FPA: ZJX_57_ANY_151_240
-**** Not yet valid FPA: ZJX_57_ANY_000_240
-**** Not yet valid FPA: ZJX_74_ANY_101_240
-**** Not yet valid FPA: ZJX_74_ANY_101_240
-**** Not yet valid FPA: ZJX_74_ANY_101_240
-**** Not yet valid FPA: ZJX_74_ANY_000_240
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
 00 Map set center N2929.00/W08239.00 range 85
-End read   00:22:45
+End read   21:30:05
 Reload - stratum set to L
 	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
 
-Time is 0023 AC 0
+Time is 2131 AC 0
 
-Time is 0024 AC 0
-CRD: XX RELOAD
-Not plugged in at reload.
-Aircraft worked 0, time 0024-0022 = 0001
+Time is 2132 AC 0
 
+Time is 2133 AC 0
 
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 00:24:13
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 671, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 133  boundary segments 1970
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 15
-0 flight plans (FPX) now available.
-00 Map set center N2929.00/W08239.00 range 85
-End read   00:24:36
-Reload - stratum set to L
-	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
+Time is 2134 AC 0
 
-Time is 0025 AC 0
+Time is 2135 AC 0
 
-Time is 0026 AC 0
+Time is 2136 AC 0
 
-Time is 0027 AC 0
+Time is 2137 AC 0
 
-Time is 0028 AC 0
+Time is 2138 AC 0
 
-Time is 0029 AC 0
+Time is 2139 AC 0
 
-Time is 0030 AC 0
+Time is 2140 AC 0
+
+Time is 2141 AC 0
+
+Time is 2142 AC 0
+
+Time is 2143 AC 0
+
+Time is 2144 AC 0
+
+Time is 2145 AC 0
 
 0 active airplanes
-         0028 0032 0036 0040 0044 0048 0052 0056 0100 0104 0108 0112 0116 0120 0124 0128 0132 0136 0140 0144 0148 0152 0156 0200 0204 0208 0212 0216 0220 0224 0228
+         2144 2148 2152 2156 2200 2204 2208 2212 2216 2220 2224 2228 2232 2236 2240 2244 2248 2252 2256 2300 2304 2308 2312 2316 2320 2324 2328 2332 2336 2340 2344
             0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
 
 
-Time is 0031 AC 0
+Time is 2146 AC 0
 
-Time is 0032 AC 0
+Time is 2147 AC 0
 
-Time is 0033 AC 0
+Time is 2148 AC 0
 
-Time is 0034 AC 0
+Time is 2149 AC 0
 
-Time is 0035 AC 0
+Time is 2150 AC 0
 
-Time is 0036 AC 0
+Time is 2151 AC 0
 
-Time is 0037 AC 0
+Time is 2152 AC 0
 
-Time is 0038 AC 0
+Time is 2153 AC 0
 CRD: XX RELOAD
 Not plugged in at reload.
-Aircraft worked 0, time 0038-0024 = 0013
+Aircraft worked 0, time 2153-2130 = 0022
 
 
     -------- RELOAD DATA --------
 	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 00:38:33
+Start read 21:53:04
 Software unplug, now NOT PLUGGED IN
 DB Font Small request ERAMv110 ... OK
 DB Font Large request ERAMv110 ... OK
 On-screen List Font Small request ERAMv110 ... OK
 On-screen List Font Large request ERAMv110 ... OK
 StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24979, Runway number not digits: 7L
 (3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
 Pending active facility ID: ZJX
 (4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 680, ---- Boundary - duplicate point: N2848.54/W08249.10
 (4) Opening FAC-ZJX-DATA.TXT
 **** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
 **** Undefined DV BY sector in Star MARQO2 ZJX77
 **** Undefined DV BY sector in Star OHDEA1 ZJX79
 **** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
+**** FAC-ZJX-DATA.TXT, line 109, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V537
 **** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MCN
 **** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V51
 (4) Opening FAC-ZTL-MIA.TXT
 (4) Opening FAC-ZDC-MIA.TXT
 (4) Opening FAC-ZHU-MIA.TXT
@@ -459,1385 +440,70 @@ FAC-ZJX-BDRY.TXT, line 680, ---- Boundary - duplicate point: N2848.54/W08249.10
 (4) Opening FAC-VLD-BDRY.TXT
 (4) Opening FAC-VPS-BDRY.TXT
 (4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 133  boundary segments 1970
+Stats - FPAs 169  boundary segments 2247
 Active facility set to ZJX, no active sectors.
 Active facility/sector(s) now ZJX 15
 0 flight plans (FPX) now available.
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
 00 Map set center N2929.00/W08239.00 range 85
-End read   00:38:52
+End read   21:53:36
 Reload - stratum set to L
 	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
-
-Time is 0039 AC 0
-
-Time is 0040 AC 0
-
-Time is 0041 AC 0
-
-Time is 0042 AC 0
-
-Time is 0043 AC 0
-
-Time is 0044 AC 0
-
-Time is 0045 AC 0
-
-0 active airplanes
-         0044 0048 0052 0056 0100 0104 0108 0112 0116 0120 0124 0128 0132 0136 0140 0144 0148 0152 0156 0200 0204 0208 0212 0216 0220 0224 0228 0232 0236 0240 0244
-            0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
-
-CRD: XX FAC ZOA SEC 33
-	ACCEPT - LOADING FACILITY DATA ...
-
-
-    -------- LOAD FACILITY --------
-Upper Winds:   500-275/40   450-265/57   400-258/71   350-251/85   300-244/99 
-               250-250/82   200-258/60   150-266/41   100-274/25    50-282/12     0-290/2  
-Start read 00:45:46
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZOA.TXT
-Pending active facility ID: ZOA
-(4) Opening FAC-ZOA-BDRY.TXT
-(4) Opening FAC-ZOA-DATA.TXT
-(4) Opening FAC-ZOA-MIA.TXT
-(4) Opening FAC-ZSE-MIA.TXT
-(4) Opening FAC-ZLC-MIA.TXT
-(4) Opening FAC-ZLA-MIA.TXT
-(4) Opening FAC-ZOA-COAST.TXT
-(4) Opening FAC-ZLA-BDRY.TXT
-(4) Opening FAC-ZSE-BDRY.TXT
-(4) Opening FAC-ZLC-BDRY.TXT
-(4) Opening FAC-NFL-BDRY.TXT
-(4) Opening FAC-BFL-BDRY.TXT
-(4) Opening FAC-FAT-BDRY.TXT
-(4) Opening FAC-HDT-BDRY.TXT
-(4) Opening FAC-NLC-BDRY.TXT
-(4) Opening FAC-NCT-BDRY.TXT
-(4) Opening FAC-SBA-BDRY.TXT
-(4) Opening FAC-LSV-BDRY.TXT
-(4) Opening FAC-ZZZ-BDRY.TXT
-Stats - FPAs 185  boundary segments 2182
-Active facility set to ZOA, no active sectors.
-0 flight plans (FPX) now available.
-00 Map set center N3825.00/W12200.00 range 200
-End read   00:46:16
-Active facility set to ZOA, no active sectors.
-02 Map set center N3825.00/W12200.00 range 200
-QNH (if no *WX defined) 29.77
-Surface wind 305.866T 290M at 12
-PFinit Orig N3825.00/W12200.00 Range 200 Dir 28 Altim 2986 Grad 15
-Software unplug, now NOT PLUGGED IN
-Active facility/sector(s) now ZOA 33
-03 Map set center N3748.00/W11822.00 range 65
-Software unplug, now NOT PLUGGED IN
-	ACCEPT XX FAC ZOA SEC 33 (VERIFY PLUG IN STATUS)
-
-Time is 0047 AC 0
-1st time OnWindowPosChanged Main Map, .Dump:
-N3748.00/W11822.00 R 65 PT LAMBERT S1 N3000.00/E00000.00 S2 N4500.00/E00000.00
- R 1 W 1134 H 619 HO 567 VO 309 Scale 15236 L 0 T 0 R 1134 B 619
- map_n 0.610516 F 1.98371 rho0 1.28316 phi0 0.659734 lambda0 -2.06589
-BackColor (BBGGRR) 190000
-
-Time is 0048 AC 0
-CRD: XX SEC 22
-Active facility/sector(s) now ZOA 22
-03 Map set center N3730.00/W11950.00 range 60
-Software unplug, now NOT PLUGGED IN
-	ACCEPT XX SEC 22 (VERIFY PLUG IN STATUS)
-
-Time is 0049 AC 0
-CRD: .FIND JOFAY
-	REJECT UNKNOWN FLID JOFAY
-CRD: XX FIND
-	REJECT - UNKNOWN COMMAND: XX FIND
-CRD: XX SHOW
-	REJECT - UNKNOWN COMMAND: XX SHOW
-
-Time is 0050 AC 0
-
-Time is 0051 AC 0
-
-Time is 0052 AC 0
-33 Map set center N3639.16/W12108.06 range 60
-29 Map set center N3730.65/W12002.37 range 35
-
-Time is 0053 AC 0
-CRD: XX FAC ZJX SEC 15
-	ACCEPT - LOADING FACILITY DATA ...
-
-
-    -------- LOAD FACILITY --------
-Upper Winds:   500-296/53   450-283/63   400-273/72   350-263/81   300-253/90 
-               250-259/72   200-267/53   150-275/37   100-283/24    50-291/14     0-299/7  
-Start read 00:53:05
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 680, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 133  boundary segments 1970
-Active facility set to ZJX, no active sectors.
-0 flight plans (FPX) now available.
-00 Map set center N3116.00/W08149.00 range 250
-End read   00:53:29
-Active facility set to ZJX, no active sectors.
-02 Map set center N3116.00/W08149.00 range 250
-QNH (if no *WX defined) 29.59
-Surface wind 235.596T 240M at 11
-PFinit Orig N3116.00/W08149.00 Range 250 Dir 166 Altim 2979 Grad 17
-Software unplug, now NOT PLUGGED IN
-Active facility/sector(s) now ZJX 15
-03 Map set center N2929.00/W08239.00 range 85
-Software unplug, now NOT PLUGGED IN
-	ACCEPT XX FAC ZJX SEC 15 (VERIFY PLUG IN STATUS)
-
-Time is 0054 AC 0
-
-Time is 0055 AC 0
-
-Time is 0056 AC 0
-CRD: XX RELOAD
-Not plugged in at reload.
-Aircraft worked 0, time 0056-0053 = 0002
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 00:56:19
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 687, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 133  boundary segments 1969
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 15
-0 flight plans (FPX) now available.
-00 Map set center N2929.00/W08239.00 range 85
-End read   00:56:33
-Reload - stratum set to L
-	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
-
-Time is 0057 AC 0
-
-Time is 0058 AC 0
-
-Time is 0059 AC 0
-
-Time is 0100 AC 0
-
-0 active airplanes
-         0100 0104 0108 0112 0116 0120 0124 0128 0132 0136 0140 0144 0148 0152 0156 0200 0204 0208 0212 0216 0220 0224 0228 0232 0236 0240 0244 0248 0252 0256 0300
-            0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
-
-
-Time is 0101 AC 0
-CRD: XX RELOAD
-Not plugged in at reload.
-Aircraft worked 0, time 0101-0056 = 0004
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:01:05
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 700, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 134  boundary segments 1973
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 15
-0 flight plans (FPX) now available.
-00 Map set center N2929.00/W08239.00 range 85
-End read   01:01:27
-Reload - stratum set to L
-	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
-
-Time is 0102 AC 0
-
-Time is 0103 AC 0
-
-Time is 0104 AC 0
-CRD: XX SEC 14
-Active facility/sector(s) now ZJX 14
-03 Map set center N2854.00/W08221.00 range 90
-Software unplug, now NOT PLUGGED IN
-	ACCEPT XX SEC 14 (VERIFY PLUG IN STATUS)
-CRD: XX RELOAD
-Not plugged in at reload.
-Aircraft worked 0, time 0104-0104 = 0000
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:04:33
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 705, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 134  boundary segments 1973
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:04:50
-Reload - stratum set to L
-	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
-
-Time is 0105 AC 0
-CRD: XX RELOAD
-Not plugged in at reload.
-Aircraft worked 0, time 0105-0104 = 0000
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:05:11
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 706, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 134  boundary segments 1973
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:05:26
-Reload - stratum set to L
-	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
-CRD: XX RELOAD
-Not plugged in at reload.
-Aircraft worked 0, time 0105-0105 = 0000
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:05:43
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 707, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 134  boundary segments 1974
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:06:01
-Reload - stratum set to L
-	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
-
-Time is 0106 AC 0
-
-Time is 0107 AC 0
-CRD: XX RELOAD
-Not plugged in at reload.
-Aircraft worked 0, time 0107-0106 = 0001
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:07:19
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 707, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 134  boundary segments 1973
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:07:33
-Reload - stratum set to L
-	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
-
-Time is 0108 AC 0
-
-Time is 0109 AC 0
-
-Time is 0110 AC 0
-
-Time is 0111 AC 0
-CRD: XX RELOAD
-Not plugged in at reload.
-Aircraft worked 0, time 0111-0107 = 0003
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:11:03
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 715, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 134  boundary segments 1973
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:11:19
-Reload - stratum set to L
-	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
-
-Time is 0112 AC 0
-CRD: XX RELOAD
-Not plugged in at reload.
-Aircraft worked 0, time 0112-0111 = 0001
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:12:43
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 711, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 134  boundary segments 1973
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:13:00
-Reload - stratum set to L
-	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
-
-Time is 0113 AC 0
-
-Time is 0114 AC 0
-CRD: XX RELOAD
-Not plugged in at reload.
-Aircraft worked 0, time 0114-0113 = 0001
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:14:48
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 712, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 134  boundary segments 1973
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:15:04
-Reload - stratum set to L
-	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
-CRD: XX RELOAD
-Not plugged in at reload.
-Aircraft worked 0, time 0115-0115 = 0000
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:15:54
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 712, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 134  boundary segments 1973
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:16:11
-Reload - stratum set to L
-	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
-CRD: XX RELOAD
-Not plugged in at reload.
-Aircraft worked 0, time 0116-0116 = 0000
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:16:41
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 713, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 134  boundary segments 1973
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:17:00
-Reload - stratum set to L
-	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
-
-Time is 0117 AC 0
-
-Time is 0117 AC 0
-CRD: XX RELOAD
-Not plugged in at reload.
-Aircraft worked 0, time 0117-0117 = 0000
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:17:30
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 714, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 134  boundary segments 1973
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:17:50
-Reload - stratum set to L
-	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
-CRD: XX WORK
-Software plug in, now PLUGGED IN
-Software D-SIDE, now D-SIDE
-	AIRPLANES ON - RELOAD FILES/RESTARTING ...
-Start read 01:18:00
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-FAC-ZJX-BDRY.TXT, line 714, ---- Boundary - duplicate point: N2848.54/W08249.10
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 134  boundary segments 1973
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-Try open C:\Users\sam\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt
-**** Airway/Procedure substitution failed: KCHS MLTRE2 VANNC
-**** Fix List/Mod Legs init failed, SWA0
-**** FPX CHS-MDW invalid flight plan elements: KCHS.MLTRE0.VANNC..BURGG./.KMDW
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 982, FP format:  FPX ZJX CHS MDW 01 0001 1111 1.0 1234567 SWA 0 B737 526 400 KCHS.MLTRE0.VANNC..BURGG./.KMDW 
-**** FPX type not defined: AT42
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 988, FP format:  FPX ZJX CHS TPA 01 0001 1111 1.0 1234567 MXY 0 AT42 335 180 KCHS.LGRHD0.GIPPL..BAAMF.DADES0.KTPA 
-**** FPX type not defined: E195
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\ZJX-FlightPlans.txt, line 989, FP format:  FPX ZJX CHS MCO 01 0001 1111 1.0 1234567 MXY 0 E195 504 260 KCHS.LGRHD0.GIPPL.Q85.LPERD.GTOUT0.KMCO 
-**** JIA0 can't make top of climb 37000 Start 1 nLegs 4  KPNS..CEW..PIGON..MGM./.KPHL
-1066 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:18:16
-Software plug in, now PLUGGED IN
-User click PLUG IN, now PLUGGED IN
-	RELOAD COMPLETE (PLUGGED IN)
-	ACCEPT XX WORK
----- NKS702 KBOS-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS702 KBOS-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
----- NKS702 KBOS-KFLL 50.5733 171.422 120.849  exit from sector ZJX52 calculation problem.
----- NKS702 KBOS-KFLL 171.642 268.909 97.2671  exit from sector ZJX52 calculation problem.
-**** Departure MIT but no runway in route JBU1767 KJAX EXBOX
-**** Departure MIT but no runway in route JBU1767 KJAX EXBOX
----- UAL60 KCLE-KMCO 48.5247 49.9764 1.45173  exit from sector ZJX66 calculation problem.
----- UAL60 KCLE-KMCO 155.319 258.511 103.192  exit from sector ZJX66 calculation problem.
----- UAL60 KCLE-KMCO 48.5124 49.9633 1.45088  exit from sector ZJX66 calculation problem.
----- UAL60 KCLE-KMCO 155.307 258.499 103.192  exit from sector ZJX66 calculation problem.
----- non-EXT route never in defined ZJX airspace 233 SWA959 390 KDAL./.MCB..SJI..LOXLY.RV2.KPNS
 Move0 time max 0.002
----- SWA1994 KROC-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- SWA1994 KROC-KMCO 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
----- SWA1994 KROC-KMCO 211.146 334.38 123.234  exit from sector ZJX66 calculation problem.
----- SWA1994 KROC-KMCO 88.7961 210.034 121.238  exit from sector ZJX66 calculation problem.
----- SWA1994 KROC-KMCO 210.034 211.146 1.11189  exit from sector ZJX68 calculation problem.
----- SWA1994 KROC-KMCO 211.146 334.38 123.234  exit from sector ZJX66 calculation problem.
-Airplanes turned off by file menu item.
 
+Time is 2154 AC 0
 
-Time is 0119 AC 0
+Time is 2155 AC 0
 
-Time is 0120 AC 0
+Time is 2156 AC 0
 
-Time is 0121 AC 0
+Time is 2157 AC 0
 CRD: XX RELOAD
-Aircraft worked 0, time 0121-0118 = 0003
+Not plugged in at reload.
+Aircraft worked 0, time 2157-2153 = 0004
 
 
     -------- RELOAD DATA --------
 	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:21:20
+Start read 21:57:38
 Software unplug, now NOT PLUGGED IN
 DB Font Small request ERAMv110 ... OK
 DB Font Large request ERAMv110 ... OK
 On-screen List Font Small request ERAMv110 ... OK
 On-screen List Font Large request ERAMv110 ... OK
 StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24979, Runway number not digits: 7L
 (3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
 Pending active facility ID: ZJX
 (4) Opening FAC-ZJX-BDRY.TXT
-**** Invalid FPF NIT, ZJX 14
-**** Invalid FPF location ID in *FPA definition: NIT, ZJX 14
-**** FAC-ZJX-BDRY.TXT, line 675, FPF unknown in  ZJX 14: NIT
-**** FPF unknown in ZJX 14: NIT
 (4) Opening FAC-ZJX-DATA.TXT
 **** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
 **** Undefined DV BY sector in Star MARQO2 ZJX77
 **** Undefined DV BY sector in Star OHDEA1 ZJX79
 **** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
+**** FAC-ZJX-DATA.TXT, line 109, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V537
 **** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MCN
 **** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 148, *MAP sector base data not defined: ZJX57
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-**** FAC-ZJX-DATA.TXT, line 155, Unknown sector at *LIBRARY command: ZJX57
-**** FAC-ZJX-DATA.TXT, line 155, Unknown sector at *SHOW_PROC command: ZJX57
-**** FAC-ZJX-DATA.TXT, line 156, *WX sector base data not defined: ZJX57
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V51
 (4) Opening FAC-ZTL-MIA.TXT
 (4) Opening FAC-ZDC-MIA.TXT
 (4) Opening FAC-ZHU-MIA.TXT
@@ -1865,303 +531,67 @@ Pending active facility ID: ZJX
 (4) Opening FAC-VLD-BDRY.TXT
 (4) Opening FAC-VPS-BDRY.TXT
 (4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 117  boundary segments 1630
+Stats - FPAs 169  boundary segments 2260
 Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-**** *ARR_MIT sector undefined: 53
-**** *ARR_MIT sector undefined: 57
-**** *ARR_MIT sector undefined: 74
-**** *ARR_MIT sector undefined: 57
-**** *ARR_MIT sector undefined: 57
-**** *ARR_MIT sector undefined: 57
-**** *ARR_MIT sector undefined: 74
+Active facility/sector(s) now ZJX 15
 0 flight plans (FPX) now available.
-**** Sector 8E CLOSE target unknown: ZJX 74
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:21:41
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
+00 Map set center N2929.00/W08239.00 range 85
+End read   21:58:09
 Reload - stratum set to L
-Software plug in, now PLUGGED IN
-User click PLUG IN, now PLUGGED IN
-	ACCEPT - RELOAD COMPLETE (PLUGGED IN)
+	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
 
-Time is 0122 AC 0
-CRD: XX RELAOD
-	REJECT - UNKNOWN COMMAND: XX RELAOD
+Time is 2159 AC 0
 
-Time is 0123 AC 0
-CRD: XX RELOAD
-Aircraft worked 0, time 0123-0121 = 0001
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:23:03
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 134  boundary segments 1876
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:23:17
-Reload - stratum set to L
-Software plug in, now PLUGGED IN
-User click PLUG IN, now PLUGGED IN
-	ACCEPT - RELOAD COMPLETE (PLUGGED IN)
-
-Time is 0124 AC 0
-
-Time is 0125 AC 0
-
-Time is 0126 AC 0
-
-Time is 0127 AC 0
-CRD: XX RELOAD
-Aircraft worked 0, time 0127-0123 = 0004
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:27:22
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 135  boundary segments 1880
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:27:36
-Reload - stratum set to L
-Software plug in, now PLUGGED IN
-User click PLUG IN, now PLUGGED IN
-	ACCEPT - RELOAD COMPLETE (PLUGGED IN)
-
-Time is 0128 AC 0
-
-Time is 0129 AC 0
-CRD: XX RELOAD
-Aircraft worked 0, time 0129-0127 = 0001
-
-
-    -------- RELOAD DATA --------
-	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:29:10
-Software unplug, now NOT PLUGGED IN
-DB Font Small request ERAMv110 ... OK
-DB Font Large request ERAMv110 ... OK
-On-screen List Font Small request ERAMv110 ... OK
-On-screen List Font Large request ERAMv110 ... OK
-StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
-(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
-Pending active facility ID: ZJX
-(4) Opening FAC-ZJX-BDRY.TXT
-(4) Opening FAC-ZJX-DATA.TXT
-**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
-**** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
-(4) Opening FAC-ZTL-MIA.TXT
-(4) Opening FAC-ZDC-MIA.TXT
-(4) Opening FAC-ZHU-MIA.TXT
-(4) Opening FAC-ZTL-BDRY.TXT
-(4) Opening FAC-ZDC-BDRY.TXT
-(4) Opening FAC-ZHU-BDRY.TXT
-(4) Opening FAC-ZMA-BDRY.TXT
-(4) Opening FAC-ZNY-BDRY.TXT
-(4) Opening FAC-ZWY-BDRY.TXT
-(4) Opening FAC-CAE-BDRY.TXT
-(4) Opening FAC-SSC-BDRY.TXT
-(4) Opening FAC-CHS-BDRY.TXT
-(4) Opening FAC-DAB-BDRY.TXT
-(4) Opening FAC-FLO-BDRY.TXT
-(4) Opening FAC-JAX-BDRY.TXT
-(4) Opening FAC-MCO-BDRY.TXT
-(4) Opening FAC-TPA-BDRY.TXT
-(4) Opening FAC-MYR-BDRY.TXT
-(4) Opening FAC-NBC-BDRY.TXT
-(4) Opening FAC-OZR-BDRY.TXT
-(4) Opening FAC-PAM-BDRY.TXT
-(4) Opening FAC-PNS-BDRY.TXT
-(4) Opening FAC-SAV-BDRY.TXT
-(4) Opening FAC-TLH-BDRY.TXT
-(4) Opening FAC-VLD-BDRY.TXT
-(4) Opening FAC-VPS-BDRY.TXT
-(4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 135  boundary segments 1880
-Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
-0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:29:25
-Reload - stratum set to L
-Software plug in, now PLUGGED IN
-User click PLUG IN, now PLUGGED IN
-	ACCEPT - RELOAD COMPLETE (PLUGGED IN)
-
-Time is 0130 AC 0
+Time is 2200 AC 0
 
 0 active airplanes
-         0128 0132 0136 0140 0144 0148 0152 0156 0200 0204 0208 0212 0216 0220 0224 0228 0232 0236 0240 0244 0248 0252 0256 0300 0304 0308 0312 0316 0320 0324 0328
+         2200 2204 2208 2212 2216 2220 2224 2228 2232 2236 2240 2244 2248 2252 2256 2300 2304 2308 2312 2316 2320 2324 2328 2332 2336 2340 2344 2348 2352 2356 0000
             0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
 
+
+Time is 2201 AC 0
+
+Time is 2202 AC 0
+
+Time is 2203 AC 0
+
+Time is 2204 AC 0
+
+Time is 2205 AC 0
+
+Time is 2206 AC 0
+
+Time is 2207 AC 0
+
+Time is 2208 AC 0
+
+Time is 2209 AC 0
+
+Time is 2210 AC 0
+
+Time is 2211 AC 0
+
+Time is 2212 AC 0
+
+Time is 2213 AC 0
 CRD: XX RELOAD
-Aircraft worked 0, time 0130-0129 = 0000
+Not plugged in at reload.
+Aircraft worked 0, time 2213-2158 = 0015
 
 
     -------- RELOAD DATA --------
 	ACCEPT - RELOAD FILES/RESTARTING ...
-Start read 01:30:08
+Start read 22:13:43
 Software unplug, now NOT PLUGGED IN
 DB Font Small request ERAMv110 ... OK
 DB Font Large request ERAMv110 ... OK
 On-screen List Font Small request ERAMv110 ... OK
 On-screen List Font Large request ERAMv110 ... OK
 StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
-**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24978, Runway number not digits: 7L
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24979, Runway number not digits: 7L
 (3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
 Pending active facility ID: ZJX
 (4) Opening FAC-ZJX-BDRY.TXT
@@ -2170,27 +600,27 @@ Pending active facility ID: ZJX
 **** Undefined DV BY sector in Star MARQO2 ZJX77
 **** Undefined DV BY sector in Star OHDEA1 ZJX79
 **** Undefined DV BY sector in Star OHDEA1 ZJX79
-**** FAC-ZJX-DATA.TXT, line 106, Undefined XN in *MAP_XN GUURR
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V581
-**** FAC-ZJX-DATA.TXT, line 109, Undefined airway in MAP_AW V537
+**** FAC-ZJX-DATA.TXT, line 109, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V537
 **** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 111, Unknown airport ID or procedure ID: KPIE MAATY0
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN ORL
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN PIE
-**** FAC-ZJX-DATA.TXT, line 117, Undefined XN in *MAP_XN LAL
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAYRR
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OTK
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN CTY
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN GNV
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN OCF
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN SZW
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MAI
-**** FAC-ZJX-DATA.TXT, line 134, Undefined XN in *MAP_XN MCN
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MCN
 **** Undefined DV BY sector in Star MARQO2 ZJX77
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V533
-**** FAC-ZJX-DATA.TXT, line 153, Undefined airway in MAP_AW V51
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V51
 (4) Opening FAC-ZTL-MIA.TXT
 (4) Opening FAC-ZDC-MIA.TXT
 (4) Opening FAC-ZHU-MIA.TXT
@@ -2218,21 +648,472 @@ Pending active facility ID: ZJX
 (4) Opening FAC-VLD-BDRY.TXT
 (4) Opening FAC-VPS-BDRY.TXT
 (4) Opening FAC-CLT-BDRY.TXT
-Stats - FPAs 135  boundary segments 1881
+Stats - FPAs 169  boundary segments 2260
 Active facility set to ZJX, no active sectors.
-Active facility/sector(s) now ZJX 14
+Active facility/sector(s) now ZJX 15
 0 flight plans (FPX) now available.
-00 Map set center N2854.00/W08221.00 range 90
-End read   01:30:22
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
+00 Map set center N2929.00/W08239.00 range 85
+End read   22:14:14
 Reload - stratum set to L
-Software plug in, now PLUGGED IN
-User click PLUG IN, now PLUGGED IN
-	ACCEPT - RELOAD COMPLETE (PLUGGED IN)
+	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
+CRD: XX RELOAD
+Not plugged in at reload.
+Aircraft worked 0, time 2214-2214 = 0000
 
-Time is 0131 AC 0
+
+    -------- RELOAD DATA --------
+	ACCEPT - RELOAD FILES/RESTARTING ...
+Start read 22:14:57
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24979, Runway number not digits: 7L
+(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
+Pending active facility ID: ZJX
+(4) Opening FAC-ZJX-BDRY.TXT
+(4) Opening FAC-ZJX-DATA.TXT
+**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** FAC-ZJX-DATA.TXT, line 109, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V537
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MCN
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V51
+(4) Opening FAC-ZTL-MIA.TXT
+(4) Opening FAC-ZDC-MIA.TXT
+(4) Opening FAC-ZHU-MIA.TXT
+(4) Opening FAC-ZTL-BDRY.TXT
+(4) Opening FAC-ZDC-BDRY.TXT
+(4) Opening FAC-ZHU-BDRY.TXT
+(4) Opening FAC-ZMA-BDRY.TXT
+(4) Opening FAC-ZNY-BDRY.TXT
+(4) Opening FAC-ZWY-BDRY.TXT
+(4) Opening FAC-CAE-BDRY.TXT
+(4) Opening FAC-SSC-BDRY.TXT
+(4) Opening FAC-CHS-BDRY.TXT
+(4) Opening FAC-DAB-BDRY.TXT
+(4) Opening FAC-FLO-BDRY.TXT
+(4) Opening FAC-JAX-BDRY.TXT
+(4) Opening FAC-MCO-BDRY.TXT
+(4) Opening FAC-TPA-BDRY.TXT
+(4) Opening FAC-MYR-BDRY.TXT
+(4) Opening FAC-NBC-BDRY.TXT
+(4) Opening FAC-OZR-BDRY.TXT
+(4) Opening FAC-PAM-BDRY.TXT
+(4) Opening FAC-PNS-BDRY.TXT
+(4) Opening FAC-SAV-BDRY.TXT
+(4) Opening FAC-TLH-BDRY.TXT
+(4) Opening FAC-VLD-BDRY.TXT
+(4) Opening FAC-VPS-BDRY.TXT
+(4) Opening FAC-CLT-BDRY.TXT
+Stats - FPAs 169  boundary segments 2260
+Active facility set to ZJX, no active sectors.
+Active facility/sector(s) now ZJX 15
+0 flight plans (FPX) now available.
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
+00 Map set center N2929.00/W08239.00 range 85
+End read   22:15:23
+Reload - stratum set to L
+	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
+CRD: XX RELOAD
+Not plugged in at reload.
+Aircraft worked 0, time 2215-2215 = 0000
+
+
+    -------- RELOAD DATA --------
+	ACCEPT - RELOAD FILES/RESTARTING ...
+Start read 22:15:48
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24979, Runway number not digits: 7L
+(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
+Pending active facility ID: ZJX
+(4) Opening FAC-ZJX-BDRY.TXT
+(4) Opening FAC-ZJX-DATA.TXT
+**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** FAC-ZJX-DATA.TXT, line 109, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V537
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MCN
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V51
+(4) Opening FAC-ZTL-MIA.TXT
+(4) Opening FAC-ZDC-MIA.TXT
+(4) Opening FAC-ZHU-MIA.TXT
+(4) Opening FAC-ZTL-BDRY.TXT
+(4) Opening FAC-ZDC-BDRY.TXT
+(4) Opening FAC-ZHU-BDRY.TXT
+(4) Opening FAC-ZMA-BDRY.TXT
+(4) Opening FAC-ZNY-BDRY.TXT
+(4) Opening FAC-ZWY-BDRY.TXT
+(4) Opening FAC-CAE-BDRY.TXT
+(4) Opening FAC-SSC-BDRY.TXT
+(4) Opening FAC-CHS-BDRY.TXT
+(4) Opening FAC-DAB-BDRY.TXT
+(4) Opening FAC-FLO-BDRY.TXT
+(4) Opening FAC-JAX-BDRY.TXT
+(4) Opening FAC-MCO-BDRY.TXT
+(4) Opening FAC-TPA-BDRY.TXT
+(4) Opening FAC-MYR-BDRY.TXT
+(4) Opening FAC-NBC-BDRY.TXT
+(4) Opening FAC-OZR-BDRY.TXT
+(4) Opening FAC-PAM-BDRY.TXT
+(4) Opening FAC-PNS-BDRY.TXT
+(4) Opening FAC-SAV-BDRY.TXT
+(4) Opening FAC-TLH-BDRY.TXT
+(4) Opening FAC-VLD-BDRY.TXT
+(4) Opening FAC-VPS-BDRY.TXT
+(4) Opening FAC-CLT-BDRY.TXT
+Stats - FPAs 169  boundary segments 2260
+Active facility set to ZJX, no active sectors.
+Active facility/sector(s) now ZJX 15
+0 flight plans (FPX) now available.
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
+00 Map set center N2929.00/W08239.00 range 85
+End read   22:16:16
+Reload - stratum set to L
+	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
+
+Time is 2217 AC 0
+
+Time is 2218 AC 0
+
+Time is 2219 AC 0
+
+Time is 2220 AC 0
+
+Time is 2221 AC 0
+
+Time is 2222 AC 0
+
+Time is 2223 AC 0
+
+Time is 2224 AC 0
+
+Time is 2225 AC 0
+
+Time is 2226 AC 0
+
+Time is 2227 AC 0
+
+Time is 2228 AC 0
+
+Time is 2229 AC 0
+
+Time is 2230 AC 0
+
+0 active airplanes
+         2228 2232 2236 2240 2244 2248 2252 2256 2300 2304 2308 2312 2316 2320 2324 2328 2332 2336 2340 2344 2348 2352 2356 0000 0004 0008 0012 0016 0020 0024 0028
+            0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+
+
+Time is 2231 AC 0
+
+Time is 2232 AC 0
+
+Time is 2233 AC 0
+
+Time is 2234 AC 0
+
+Time is 2235 AC 0
+
+Time is 2236 AC 0
+
+Time is 2237 AC 0
+
+Time is 2238 AC 0
+
+Time is 2239 AC 0
+
+Time is 2240 AC 0
+
+Time is 2241 AC 0
+
+Time is 2242 AC 0
+
+Time is 2243 AC 0
+
+Time is 2244 AC 0
+
+Time is 2245 AC 0
+
+0 active airplanes
+         2244 2248 2252 2256 2300 2304 2308 2312 2316 2320 2324 2328 2332 2336 2340 2344 2348 2352 2356 0000 0004 0008 0012 0016 0020 0024 0028 0032 0036 0040 0044
+            0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+
+
+Time is 2246 AC 0
+
+Time is 2247 AC 0
+
+Time is 2248 AC 0
+
+Time is 2249 AC 0
+
+Time is 2250 AC 0
+CRD: XX RELOAD
+Not plugged in at reload.
+Aircraft worked 0, time 2250-2216 = 0033
+
+
+    -------- RELOAD DATA --------
+	ACCEPT - RELOAD FILES/RESTARTING ...
+Start read 22:50:09
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24979, Runway number not digits: 7L
+(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
+Pending active facility ID: ZJX
+(4) Opening FAC-ZJX-BDRY.TXT
+(4) Opening FAC-ZJX-DATA.TXT
+**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** FAC-ZJX-DATA.TXT, line 109, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V537
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MCN
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V51
+(4) Opening FAC-ZTL-MIA.TXT
+(4) Opening FAC-ZDC-MIA.TXT
+(4) Opening FAC-ZHU-MIA.TXT
+(4) Opening FAC-ZTL-BDRY.TXT
+(4) Opening FAC-ZDC-BDRY.TXT
+(4) Opening FAC-ZHU-BDRY.TXT
+(4) Opening FAC-ZMA-BDRY.TXT
+(4) Opening FAC-ZNY-BDRY.TXT
+(4) Opening FAC-ZWY-BDRY.TXT
+(4) Opening FAC-CAE-BDRY.TXT
+(4) Opening FAC-SSC-BDRY.TXT
+(4) Opening FAC-CHS-BDRY.TXT
+(4) Opening FAC-DAB-BDRY.TXT
+(4) Opening FAC-FLO-BDRY.TXT
+(4) Opening FAC-JAX-BDRY.TXT
+(4) Opening FAC-MCO-BDRY.TXT
+(4) Opening FAC-TPA-BDRY.TXT
+(4) Opening FAC-MYR-BDRY.TXT
+(4) Opening FAC-NBC-BDRY.TXT
+(4) Opening FAC-OZR-BDRY.TXT
+(4) Opening FAC-PAM-BDRY.TXT
+(4) Opening FAC-PNS-BDRY.TXT
+(4) Opening FAC-SAV-BDRY.TXT
+(4) Opening FAC-TLH-BDRY.TXT
+(4) Opening FAC-VLD-BDRY.TXT
+(4) Opening FAC-VPS-BDRY.TXT
+(4) Opening FAC-CLT-BDRY.TXT
+Stats - FPAs 169  boundary segments 2274
+Active facility set to ZJX, no active sectors.
+Active facility/sector(s) now ZJX 15
+0 flight plans (FPX) now available.
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
+00 Map set center N2929.00/W08239.00 range 85
+End read   22:50:39
+Reload - stratum set to L
+	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
+
+Time is 2251 AC 0
+
+Time is 2252 AC 0
+CRD: XX RELOAD
+Not plugged in at reload.
+Aircraft worked 0, time 2252-2250 = 0001
+
+
+    -------- RELOAD DATA --------
+	ACCEPT - RELOAD FILES/RESTARTING ...
+Start read 22:52:23
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24979, Runway number not digits: 7L
+(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
+Pending active facility ID: ZJX
+(4) Opening FAC-ZJX-BDRY.TXT
+(4) Opening FAC-ZJX-DATA.TXT
+**** FAC-ZJX-DATA.TXT, line 49, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** FAC-ZJX-DATA.TXT, line 109, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 112, Undefined airway in MAP_AW V537
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 114, Unknown airport ID or procedure ID: KPIE MAATY0
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 120, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 137, Undefined XN in *MAP_XN MCN
+**** Undefined DV BY sector in Star MARQO2 ZJX77
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 156, Undefined airway in MAP_AW V51
+(4) Opening FAC-ZTL-MIA.TXT
+(4) Opening FAC-ZDC-MIA.TXT
+(4) Opening FAC-ZHU-MIA.TXT
+(4) Opening FAC-ZTL-BDRY.TXT
+(4) Opening FAC-ZDC-BDRY.TXT
+(4) Opening FAC-ZHU-BDRY.TXT
+(4) Opening FAC-ZMA-BDRY.TXT
+(4) Opening FAC-ZNY-BDRY.TXT
+(4) Opening FAC-ZWY-BDRY.TXT
+(4) Opening FAC-CAE-BDRY.TXT
+(4) Opening FAC-SSC-BDRY.TXT
+(4) Opening FAC-CHS-BDRY.TXT
+(4) Opening FAC-DAB-BDRY.TXT
+(4) Opening FAC-FLO-BDRY.TXT
+(4) Opening FAC-JAX-BDRY.TXT
+(4) Opening FAC-MCO-BDRY.TXT
+(4) Opening FAC-TPA-BDRY.TXT
+(4) Opening FAC-MYR-BDRY.TXT
+(4) Opening FAC-NBC-BDRY.TXT
+(4) Opening FAC-OZR-BDRY.TXT
+(4) Opening FAC-PAM-BDRY.TXT
+(4) Opening FAC-PNS-BDRY.TXT
+(4) Opening FAC-SAV-BDRY.TXT
+(4) Opening FAC-TLH-BDRY.TXT
+(4) Opening FAC-VLD-BDRY.TXT
+(4) Opening FAC-VPS-BDRY.TXT
+(4) Opening FAC-CLT-BDRY.TXT
+Stats - FPAs 169  boundary segments 2274
+Active facility set to ZJX, no active sectors.
+Active facility/sector(s) now ZJX 15
+0 flight plans (FPX) now available.
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
+00 Map set center N2929.00/W08239.00 range 85
+End read   22:53:05
+Reload - stratum set to L
+	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
+
+Time is 2254 AC 0
+
+Time is 2255 AC 0
+
+Time is 2256 AC 0
+
+Time is 2257 AC 0
+
+Time is 2258 AC 0
+
+Time is 2259 AC 0
+
+Time is 2300 AC 0
+
+0 active airplanes
+         2300 2304 2308 2312 2316 2320 2324 2328 2332 2336 2340 2344 2348 2352 2356 0000 0004 0008 0012 0016 0020 0024 0028 0032 0036 0040 0044 0048 0052 0056 0100
+            0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+
+
+Time is 2301 AC 0
+
+Time is 2302 AC 0
+
+Time is 2303 AC 0
+
+Time is 2304 AC 0
+
+Time is 2305 AC 0
+
+Time is 2306 AC 0
+
+Time is 2307 AC 0
+
+Time is 2308 AC 0
+
+Time is 2309 AC 0
+
+Time is 2310 AC 0
+
+Time is 2311 AC 0
 Exit check result = 1047
-Aircraft worked 0, time 0131-0130 = 0000
+Not plugged in at exit.
+Aircraft worked 0, time 2311-2253 = 0018
 Exit program
-ExitInstance Sec1970 = 1693013473
-ExitInstance SecUTC  = 1693099873
+ExitInstance Sec1970 = 1695251498
+ExitInstance SecUTC  = 1695251498
 Removed run file
