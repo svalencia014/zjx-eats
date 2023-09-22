@@ -46,7 +46,7 @@
 *ARR_MIT    50    PONZE NTRST     J   35 CLT 
 *ARR_MIT    74    FLLGG FFNSH     J   50 CLT 
 *ARR_MIT    74    YELLS MLLET     J   100 CLT 
-*ARR_MIT    49    BAAMF CORYY     J   75 TPA 
+*ARR_MIT    49    BAAMF CORYY     J   35 TPA 
 *ARR_MIT    16    CLEOO FEDRR     J   50  FLL 
 *ARR_MIT    11    CEW   PENSI     J   100 PNS 
 *ARR_MIT    11    LOXLY PENSI     J   100 PNS 
