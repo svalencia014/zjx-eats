@@ -1,12 +1,4 @@
-eATS-Is-Running.txt
-LogFile.txt
-LogFile-Last.txt
-LogDetail.txt
-SnapshotAuto.txt
-AirportAlias.txt
-C90-FlightPlans.txt
-FAC-ZAB-MIA.txt
-FAC-ZAN-ELONG-COAST.txt
-FAC-ZAN-MIA.txt
-FAC-ZAN-WLONG-COAST.txt
-FAC-ZAU-COAST.txt
+*
+!Aircraft.txt
+!Airlines.txt
+!AirportAlias.txt
