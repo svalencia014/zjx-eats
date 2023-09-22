@@ -179,7 +179,17 @@ V3 V437 V267 V159 V295 V152
 *END 
 *SHOW_PROC KDAB-TTHOR0 KJAX-POGIE0 KORL-TTHOR0 KSFB-TTHOR0 
 *WX KJAX KDAB KORL KSFB 
-*NOTES Busy F11 climb corridor, also sequences tthor arrival
+*NOTES Busy F11 climb corridor, also sequences TTHOR arrival
+;----------------------------------------------------------
+*MAP 58 
+*MAP_XN 
+GTOUT SNFLD TIMIE ALYNA 
+*END 
+*MAP_AW 
+V152 V437 V3 V533 V51 V437 V267 
+*END 
+*SHOW-PROC KMCO-GTOUT0 
+*NOTES Busy overflight for ZMA flights, and MCO arrivals 
 ;----------------------------------------------------------
 *MAP 77 
 *MAP_XN  
