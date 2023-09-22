@@ -1,0 +1,586 @@
+Nav folder: C:\Users\sam\AppData\Local\ATSim2020\eATS\
+LoadFrame
+Main window create
+ChildView Create
+MainFrame 014721D8  ChildView 01472D70
+Fix font is Arial, requested Arial.
+Data Block font is Consolas, requested Consolas.
+On-screen List font is Consolas, requested Consolas.
+Clock font is Arial, requested Arial.
+QNH (if no *WX defined) 30.18
+Surface wind 238.088T 220M at 9
+Upper Winds:   500-227/49   450-228/63   400-228/75   350-228/87   300-228/99 
+               250-229/82   200-234/61   150-239/43   100-244/28    50-249/16     0-254/7  
+Airplanes turned off by file menu item.
+Main window create complete
+LoadFrame complete
+Time is 1955
+Registry ActiveTimeBias (seconds) = 14400
+Start read 19:55:18
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Expecting 6 or 7 characer runway ID (e.g. KPDX28L): KDAB7
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Runway number not 01 to 36: 
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+**** Can't open aircraft file: C:\Users\sam\AppData\Local\ATSim2020\eATS\Aircraft.txt
+0 flight plans (FPX) now available.
+00 Map set center N4500.00/W12100.00 range 200
+End read   19:56:17
+Move0 time max 0.001
+
+Time is 1957 AC 0
+Exit check result = 2
+
+Time is 1958 AC 0
+
+Time is 1959 AC 0
+
+Time is 2000 AC 0
+
+0 active airplanes
+         2000 2004 2008 2012 2016 2020 2024 2028 2032 2036 2040 2044 2048 2052 2056 2100 2104 2108 2112 2116 2120 2124 2128 2132 2136 2140 2144 2148 2152 2156 2200
+            0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+
+
+Time is 2001 AC 0
+
+Time is 2002 AC 0
+
+Time is 2003 AC 0
+
+Time is 2004 AC 0
+
+Time is 2005 AC 0
+
+Time is 2006 AC 0
+
+Time is 2007 AC 0
+
+Time is 2008 AC 0
+
+Time is 2009 AC 0
+
+Time is 2010 AC 0
+
+Time is 2011 AC 0
+
+Time is 2012 AC 0
+CRD: XX FAC ZJX SEC 15
+	ACCEPT - LOADING FACILITY DATA ...
+
+
+    -------- LOAD FACILITY --------
+Upper Winds:   500-272/50   450-278/68   400-283/84   350-288/100  300-293/116
+               250-285/98   200-277/75   150-269/55   100-261/38    50-253/24     0-245/13 
+Start read 20:12:57
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Expecting 6 or 7 characer runway ID (e.g. KPDX28L): KDAB7
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Runway number not 01 to 36: 
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+**** Can't open aircraft file: C:\Users\sam\AppData\Local\ATSim2020\eATS\Aircraft.txt
+0 flight plans (FPX) now available.
+00 Map set center N4500.00/W12100.00 range 200
+End read   20:13:35
+**** Requested facility ZJX, currently reading *FACILITY 
+	REJECT - FACILITY NOT DEFINED ZJX
+
+Time is 2014 AC 0
+
+Time is 2015 AC 0
+
+0 active airplanes
+         2012 2016 2020 2024 2028 2032 2036 2040 2044 2048 2052 2056 2100 2104 2108 2112 2116 2120 2124 2128 2132 2136 2140 2144 2148 2152 2156 2200 2204 2208 2212
+            0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+
+
+Time is 2016 AC 0
+
+Time is 2017 AC 0
+
+Time is 2018 AC 0
+
+Time is 2019 AC 0
+
+Time is 2020 AC 0
+
+Time is 2021 AC 0
+
+Time is 2022 AC 0
+CRD: XX FAC ZJX
+	ACCEPT - LOADING FACILITY DATA ...
+
+
+    -------- LOAD FACILITY --------
+Upper Winds:   500-285/47   450-290/66   400-292/84   350-294/102  300-296/120
+               250-289/99   200-285/74   150-281/52   100-277/33    50-273/17     0-269/4  
+Start read 20:22:48
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Expecting 6 or 7 characer runway ID (e.g. KPDX28L): KDAB7
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Runway number not 01 to 36: 
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+**** Can't open aircraft file: C:\Users\sam\AppData\Local\ATSim2020\eATS\Aircraft.txt
+0 flight plans (FPX) now available.
+00 Map set center N4500.00/W12100.00 range 200
+End read   20:23:32
+**** Requested facility ZJX, currently reading *FACILITY 
+	REJECT - FACILITY NOT DEFINED ZJX
+
+Time is 2024 AC 0
+
+Time is 2025 AC 0
+
+Time is 2026 AC 0
+
+Time is 2027 AC 0
+CRD: XX FAC ZJX
+	ACCEPT - LOADING FACILITY DATA ...
+
+
+    -------- LOAD FACILITY --------
+Upper Winds:   500-293/43   450-283/64   400-275/84   350-267/104  300-259/124
+               250-262/100  200-268/74   150-274/51   100-280/31    50-286/14     0-292/0  
+Start read 20:27:47
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Expecting 6 or 7 characer runway ID (e.g. KPDX28L): KDAB7
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Runway number not 01 to 36: 
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
+Pending active facility ID: ZJX
+(4) Opening FAC-ZJX-BDRY.TXT
+FAC-ZJX-BDRY.TXT, line 1012, ---- Boundary - duplicate point: N3036.15/W08155.00
+(4) Opening FAC-ZJX-DATA.TXT
+**** FAC-ZJX-DATA.TXT, line 50, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** FAC-ZJX-DATA.TXT, line 59, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** FAC-ZJX-DATA.TXT, line 60, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** FAC-ZJX-DATA.TXT, line 115, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 118, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 118, Undefined airway in MAP_AW V537
+**** FAC-ZJX-DATA.TXT, line 120, Unknown airport ID or procedure ID: KSFB LEESE0
+**** FAC-ZJX-DATA.TXT, line 120, Unknown airport ID or procedure ID: KSFB LEESE0
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW *NOTES
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW KMSY
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW AOB
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW FL320
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MCN
+**** FAC-ZJX-DATA.TXT, line 163, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 163, Undefined airway in MAP_AW V51
+(4) Opening FAC-ZTL-MIA.TXT
+(4) Opening FAC-ZDC-MIA.TXT
+(4) Opening FAC-ZHU-MIA.TXT
+(4) Opening FAC-ZTL-BDRY.TXT
+(4) Opening FAC-ZDC-BDRY.TXT
+(4) Opening FAC-ZHU-BDRY.TXT
+(4) Opening FAC-ZMA-BDRY.TXT
+(4) Opening FAC-ZNY-BDRY.TXT
+(4) Opening FAC-ZWY-BDRY.TXT
+(4) Opening FAC-CAE-BDRY.TXT
+(4) Opening FAC-SSC-BDRY.TXT
+(4) Opening FAC-CHS-BDRY.TXT
+(4) Opening FAC-DAB-BDRY.TXT
+(4) Opening FAC-FLO-BDRY.TXT
+(4) Opening FAC-JAX-BDRY.TXT
+(4) Opening FAC-MCO-BDRY.TXT
+(4) Opening FAC-TPA-BDRY.TXT
+(4) Opening FAC-MYR-BDRY.TXT
+(4) Opening FAC-NBC-BDRY.TXT
+(4) Opening FAC-OZR-BDRY.TXT
+(4) Opening FAC-PAM-BDRY.TXT
+(4) Opening FAC-PNS-BDRY.TXT
+(4) Opening FAC-SAV-BDRY.TXT
+(4) Opening FAC-TLH-BDRY.TXT
+(4) Opening FAC-VLD-BDRY.TXT
+(4) Opening FAC-VPS-BDRY.TXT
+(4) Opening FAC-CLT-BDRY.TXT
+Stats - FPAs 173  boundary segments 2325
+Active facility set to ZJX, no active sectors.
+0 flight plans (FPX) now available.
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
+---- ARR_MIT fixes SZW036050 and MOGPE are 69.6279 miles apart
+00 Map set center N3116.00/W08149.00 range 250
+End read   20:28:42
+Active facility set to ZJX, no active sectors.
+02 Map set center N3116.00/W08149.00 range 250
+QNH (if no *WX defined) 30.51
+Surface wind 325.596T 330M at 5
+PFinit Orig N3116.00/W08149.00 Range 250 Dir 123 Altim 3009 Grad 8
+Software unplug, now NOT PLUGGED IN
+	ACCEPT XX FAC ZJX (VERIFY PLUG IN STATUS)
+CRD: XX SEC 15
+Active facility/sector(s) now ZJX 15
+03 Map set center N2929.00/W08239.00 range 85
+Software unplug, now NOT PLUGGED IN
+	ACCEPT XX SEC 15 (VERIFY PLUG IN STATUS)
+
+Time is 2029 AC 0
+
+Time is 2030 AC 0
+
+0 active airplanes
+         2028 2032 2036 2040 2044 2048 2052 2056 2100 2104 2108 2112 2116 2120 2124 2128 2132 2136 2140 2144 2148 2152 2156 2200 2204 2208 2212 2216 2220 2224 2228
+            0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+
+CRD: XX RELOAD
+Not plugged in at reload.
+Aircraft worked 0, time 2030-2028 = 0001
+
+
+    -------- RELOAD DATA --------
+	ACCEPT - RELOAD FILES/RESTARTING ...
+Start read 20:30:51
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Expecting 6 or 7 characer runway ID (e.g. KPDX28L): KDAB7
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Runway number not 01 to 36: 
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
+Pending active facility ID: ZJX
+(4) Opening FAC-ZJX-BDRY.TXT
+FAC-ZJX-BDRY.TXT, line 1019, ---- Boundary - duplicate point: N3036.15/W08155.00
+(4) Opening FAC-ZJX-DATA.TXT
+**** FAC-ZJX-DATA.TXT, line 50, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** FAC-ZJX-DATA.TXT, line 59, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** FAC-ZJX-DATA.TXT, line 60, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** FAC-ZJX-DATA.TXT, line 115, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 118, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 118, Undefined airway in MAP_AW V537
+**** FAC-ZJX-DATA.TXT, line 120, Unknown airport ID or procedure ID: KSFB LEESE0
+**** FAC-ZJX-DATA.TXT, line 120, Unknown airport ID or procedure ID: KSFB LEESE0
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW *NOTES
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW KMSY
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW AOB
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW FL320
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MCN
+**** FAC-ZJX-DATA.TXT, line 163, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 163, Undefined airway in MAP_AW V51
+(4) Opening FAC-ZTL-MIA.TXT
+(4) Opening FAC-ZDC-MIA.TXT
+(4) Opening FAC-ZHU-MIA.TXT
+(4) Opening FAC-ZTL-BDRY.TXT
+(4) Opening FAC-ZDC-BDRY.TXT
+(4) Opening FAC-ZHU-BDRY.TXT
+(4) Opening FAC-ZMA-BDRY.TXT
+(4) Opening FAC-ZNY-BDRY.TXT
+(4) Opening FAC-ZWY-BDRY.TXT
+(4) Opening FAC-CAE-BDRY.TXT
+(4) Opening FAC-SSC-BDRY.TXT
+(4) Opening FAC-CHS-BDRY.TXT
+(4) Opening FAC-DAB-BDRY.TXT
+(4) Opening FAC-FLO-BDRY.TXT
+(4) Opening FAC-JAX-BDRY.TXT
+(4) Opening FAC-MCO-BDRY.TXT
+(4) Opening FAC-TPA-BDRY.TXT
+(4) Opening FAC-MYR-BDRY.TXT
+(4) Opening FAC-NBC-BDRY.TXT
+(4) Opening FAC-OZR-BDRY.TXT
+(4) Opening FAC-PAM-BDRY.TXT
+(4) Opening FAC-PNS-BDRY.TXT
+(4) Opening FAC-SAV-BDRY.TXT
+(4) Opening FAC-TLH-BDRY.TXT
+(4) Opening FAC-VLD-BDRY.TXT
+(4) Opening FAC-VPS-BDRY.TXT
+(4) Opening FAC-CLT-BDRY.TXT
+Stats - FPAs 173  boundary segments 2325
+Active facility set to ZJX, no active sectors.
+Active facility/sector(s) now ZJX 15
+0 flight plans (FPX) now available.
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
+---- ARR_MIT fixes SZW036050 and MOGPE are 69.6279 miles apart
+00 Map set center N2929.00/W08239.00 range 85
+End read   20:31:52
+Reload - stratum set to L
+	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
+
+Time is 2032 AC 0
+
+Time is 2033 AC 0
+
+Time is 2034 AC 0
+
+Time is 2035 AC 0
+
+Time is 2036 AC 0
+CRD: XX RELOAD
+Not plugged in at reload.
+Aircraft worked 0, time 2036-2031 = 0004
+
+
+    -------- RELOAD DATA --------
+	ACCEPT - RELOAD FILES/RESTARTING ...
+Start read 20:36:47
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Expecting 6 or 7 characer runway ID (e.g. KPDX28L): KDAB7
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Runway number not 01 to 36: 
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
+Pending active facility ID: ZJX
+(4) Opening FAC-ZJX-BDRY.TXT
+FAC-ZJX-BDRY.TXT, line 1020, ---- Boundary - duplicate point: N3036.15/W08155.00
+(4) Opening FAC-ZJX-DATA.TXT
+**** FAC-ZJX-DATA.TXT, line 50, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** FAC-ZJX-DATA.TXT, line 59, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** FAC-ZJX-DATA.TXT, line 60, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** FAC-ZJX-DATA.TXT, line 115, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 118, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 118, Undefined airway in MAP_AW V537
+**** FAC-ZJX-DATA.TXT, line 120, Unknown airport ID or procedure ID: KSFB LEESE0
+**** FAC-ZJX-DATA.TXT, line 120, Unknown airport ID or procedure ID: KSFB LEESE0
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW *NOTES
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW KMSY
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW AOB
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW FL320
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MCN
+**** FAC-ZJX-DATA.TXT, line 163, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 163, Undefined airway in MAP_AW V51
+(4) Opening FAC-ZTL-MIA.TXT
+(4) Opening FAC-ZDC-MIA.TXT
+(4) Opening FAC-ZHU-MIA.TXT
+(4) Opening FAC-ZTL-BDRY.TXT
+(4) Opening FAC-ZDC-BDRY.TXT
+(4) Opening FAC-ZHU-BDRY.TXT
+(4) Opening FAC-ZMA-BDRY.TXT
+(4) Opening FAC-ZNY-BDRY.TXT
+(4) Opening FAC-ZWY-BDRY.TXT
+(4) Opening FAC-CAE-BDRY.TXT
+(4) Opening FAC-SSC-BDRY.TXT
+(4) Opening FAC-CHS-BDRY.TXT
+(4) Opening FAC-DAB-BDRY.TXT
+(4) Opening FAC-FLO-BDRY.TXT
+(4) Opening FAC-JAX-BDRY.TXT
+(4) Opening FAC-MCO-BDRY.TXT
+(4) Opening FAC-TPA-BDRY.TXT
+(4) Opening FAC-MYR-BDRY.TXT
+(4) Opening FAC-NBC-BDRY.TXT
+(4) Opening FAC-OZR-BDRY.TXT
+(4) Opening FAC-PAM-BDRY.TXT
+(4) Opening FAC-PNS-BDRY.TXT
+(4) Opening FAC-SAV-BDRY.TXT
+(4) Opening FAC-TLH-BDRY.TXT
+(4) Opening FAC-VLD-BDRY.TXT
+(4) Opening FAC-VPS-BDRY.TXT
+(4) Opening FAC-CLT-BDRY.TXT
+Stats - FPAs 173  boundary segments 2329
+Active facility set to ZJX, no active sectors.
+Active facility/sector(s) now ZJX 15
+0 flight plans (FPX) now available.
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
+---- ARR_MIT fixes SZW036050 and MOGPE are 69.6279 miles apart
+00 Map set center N2929.00/W08239.00 range 85
+End read   20:37:53
+Reload - stratum set to L
+	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
+
+Time is 2038 AC 0
+
+Time is 2039 AC 0
+
+Time is 2040 AC 0
+
+Time is 2041 AC 0
+
+Time is 2042 AC 0
+
+Time is 2043 AC 0
+CRD: XX RELOAD
+Not plugged in at reload.
+Aircraft worked 0, time 2043-2037 = 0005
+
+
+    -------- RELOAD DATA --------
+	ACCEPT - RELOAD FILES/RESTARTING ...
+Start read 20:43:38
+Software unplug, now NOT PLUGGED IN
+DB Font Small request ERAMv110 ... OK
+DB Font Large request ERAMv110 ... OK
+On-screen List Font Small request ERAMv110 ... OK
+On-screen List Font Large request ERAMv110 ... OK
+StripWin font request using *OSL_LARGE_FONT ERAMv110, fixed size 90 ... OK
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Expecting 6 or 7 characer runway ID (e.g. KPDX28L): KDAB7
+**** C:\Users\sam\AppData\Local\ATSim2020\eATS\Fixes.txt, line 24997, Runway number not 01 to 36: 
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+**** Unknown fix in airway/procedure: KDAB TTHOR3, Fix:  KDAB7
+---- STAR KDAB TTHOR3 transition fixes TIGAE and KDAB7 are 4213.82 miles apart
+---- STAR KDAB TTHOR3 transition fixes KDAB7 and KDAB are 4224.22 miles apart
+(3) Opening C:\Users\sam\AppData\Local\ATSim2020\eATS\FAC-ZJX.TXT
+Pending active facility ID: ZJX
+(4) Opening FAC-ZJX-BDRY.TXT
+FAC-ZJX-BDRY.TXT, line 1028, ---- Boundary - duplicate point: N3036.15/W08155.00
+(4) Opening FAC-ZJX-DATA.TXT
+**** FAC-ZJX-DATA.TXT, line 50, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** FAC-ZJX-DATA.TXT, line 59, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** FAC-ZJX-DATA.TXT, line 60, *DEP_MIT/*ARR_MIT ignoring equivalent entry
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** Undefined DV BY sector in Star OHDEA1 ZJX79
+**** FAC-ZJX-DATA.TXT, line 115, Undefined XN in *MAP_XN GUURR
+**** FAC-ZJX-DATA.TXT, line 118, Undefined airway in MAP_AW V581
+**** FAC-ZJX-DATA.TXT, line 118, Undefined airway in MAP_AW V537
+**** FAC-ZJX-DATA.TXT, line 120, Unknown airport ID or procedure ID: KSFB LEESE0
+**** FAC-ZJX-DATA.TXT, line 120, Unknown airport ID or procedure ID: KSFB LEESE0
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN ORL
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN PIE
+**** FAC-ZJX-DATA.TXT, line 126, Undefined XN in *MAP_XN LAL
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW *NOTES
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW KMSY
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW AOB
+**** FAC-ZJX-DATA.TXT, line 139, Undefined airway in MAP_AW FL320
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MAYRR
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN OTK
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN CTY
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN GNV
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN OCF
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN SZW
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MAI
+**** FAC-ZJX-DATA.TXT, line 144, Undefined XN in *MAP_XN MCN
+**** FAC-ZJX-DATA.TXT, line 163, Undefined airway in MAP_AW V533
+**** FAC-ZJX-DATA.TXT, line 163, Undefined airway in MAP_AW V51
+(4) Opening FAC-ZTL-MIA.TXT
+(4) Opening FAC-ZDC-MIA.TXT
+(4) Opening FAC-ZHU-MIA.TXT
+(4) Opening FAC-ZTL-BDRY.TXT
+(4) Opening FAC-ZDC-BDRY.TXT
+(4) Opening FAC-ZHU-BDRY.TXT
+(4) Opening FAC-ZMA-BDRY.TXT
+(4) Opening FAC-ZNY-BDRY.TXT
+(4) Opening FAC-ZWY-BDRY.TXT
+(4) Opening FAC-CAE-BDRY.TXT
+(4) Opening FAC-SSC-BDRY.TXT
+(4) Opening FAC-CHS-BDRY.TXT
+(4) Opening FAC-DAB-BDRY.TXT
+(4) Opening FAC-FLO-BDRY.TXT
+(4) Opening FAC-JAX-BDRY.TXT
+(4) Opening FAC-MCO-BDRY.TXT
+(4) Opening FAC-TPA-BDRY.TXT
+(4) Opening FAC-MYR-BDRY.TXT
+(4) Opening FAC-NBC-BDRY.TXT
+(4) Opening FAC-OZR-BDRY.TXT
+(4) Opening FAC-PAM-BDRY.TXT
+(4) Opening FAC-PNS-BDRY.TXT
+(4) Opening FAC-SAV-BDRY.TXT
+(4) Opening FAC-TLH-BDRY.TXT
+(4) Opening FAC-VLD-BDRY.TXT
+(4) Opening FAC-VPS-BDRY.TXT
+(4) Opening FAC-CLT-BDRY.TXT
+Stats - FPAs 173  boundary segments 2341
+Active facility set to ZJX, no active sectors.
+Active facility/sector(s) now ZJX 15
+0 flight plans (FPX) now available.
+---- ARR_MIT fixes BLVNS and BUNNZ are 71.0007 miles apart
+---- ARR_MIT fixes CHRGE and PRICY are 153.004 miles apart
+---- ARR_MIT fixes NAITE and ROZZI are 76.6068 miles apart
+---- ARR_MIT fixes SZW036050 and MOGPE are 69.6279 miles apart
+00 Map set center N2929.00/W08239.00 range 85
+End read   20:44:33
+Reload - stratum set to L
+	ACCEPT - RELOAD COMPLETE (NOT PLUGGED IN)
+Exit check result = 1047
+Not plugged in at exit.
+Aircraft worked 0, time 2044-2044 = 0000
+Exit program
+ExitInstance Sec1970 = 1695329093
+ExitInstance SecUTC  = 1695329093
+Removed run file
