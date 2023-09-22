@@ -28,7 +28,7 @@
 *ARR_MIT    57    CROPY SHINR     J   75  JAX 
 *ARR_MIT    57    HAINY SHINR     J   75  JAX
 *ARR_MIT    15    MAYYR COAXE     J   20  MCO 
-*ARR_MIT    15    GOJOE MAATY     J   50  TPA
+*ARR_MIT    88    GOJOE MAATY     J   50  TPA
 *ARR_MIT    15    CAPOH EDISN     J   35  TPA
 *ARR_MIT    15    CAPOH OLENE     J   100  PIE 
 *ARR_MIT    15    JAGGZ WEEEK     J   100  DAB 
@@ -64,6 +64,7 @@
 *ARR_MIT    57    WEEEK TTHOR     J   100 KSFB,KDAB,KORL
 *ARR_MIT    15    SHREK STNKY     J   75 KSFB
 *ARR_MIT    15    BATNT LUBBR     J   75 KSRQ 
+*ARR_MIT    88    CORRL BANGZ     J   75 KSRQ 
 
 ;                       from
 ;          REF         FacSec             COMMENTS
@@ -137,6 +138,12 @@ Q116 Q65 Q110 Q118 Q99 Q81 Q87 Q109 Q79
 *END 
 *SHOW_PROC KMIA-FROGZ0 KFLL-TEEKY0 KTPA-MAATY0 KTPA-DADES0 KFLL-FORTL0
 ;----------------------------------------------------------
+* MAP 28 
+*MAP_AW 
+V198 V538 V159 V35 V7 V295 V35 V97 V521 
+*END 
+*SHOW-PROC KTLH-RV1 KTLH-RV2 KTLH-RV3 KTLH-RV4 
+;----------------------------------------------------------
 *MAP 30 
 *MAP_XN 
 BACCA BLVNS REMIS ROZZI BUNNZ NAITE
@@ -170,8 +177,19 @@ TTHOR SNFLD BASSS POGIE QUBEN
 *MAP_AW 
 V3 V437 V267 V159 V295 V152
 *END 
-*SHOW_PROC KDAB-TTHOR0 KJAX-POGIE0 KMCO-GTOUT0 KMCO-BITHO0 KMCO-ALYNA0 KORL-TTHOR0 KSFB-TTHOR0 
-*WX KMCO KJAX KDAB 
+*SHOW_PROC KDAB-TTHOR0 KJAX-POGIE0 KORL-TTHOR0 KSFB-TTHOR0 
+*WX KJAX KDAB KORL KSFB 
+*NOTES Busy F11 climb corridor, also sequences tthor arrival
+;----------------------------------------------------------
+*MAP 77 
+*MAP_XN  
+MARQO CAMJO COROE
+*END 
+*MAP_AW 
+V198 V157 V537 V441 
+*END 
+*SHOW_PROC KJAX-MARQO0 KGNV-RV1 KGNV-RV2 KGNV-RV3
+*WX KJAX KGNV  
 ;----------------------------------------------------------
 *MAP 88 
 *MAP_XN 
