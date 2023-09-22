@@ -62,7 +62,8 @@
 *ARR_MIT    11    MAI    RAGKO    J   200 KTLH 
 *ARR_MIT    57    OMN   LAMMA     J   150 KMLB 
 *ARR_MIT    57    WEEEK TTHOR     J   100 KSFB,KDAB,KORL
-
+*ARR_MIT    15    SHREK STNKY     J   75 KSFB
+*ARR_MIT    15    BATNT LUBBR     J   75 KSRQ 
 
 ;                       from
 ;          REF         FacSec             COMMENTS
