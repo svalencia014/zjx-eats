@@ -114,6 +114,7 @@ V7 V295
 *END 
 *SHOW_PROC KTLH-RV4
 *NOTES Busy MCO and TPA climb sector
+*WX KGNV KTLH KOCF KTPA KSRQ 
 ;----------------------------------------------------------
 *MAP 15
 *MAP_XN 
@@ -143,6 +144,7 @@ JAWJA
 V198 V538 V159 V35 V7 V295 V35 V97 V521 
 *END 
 *SHOW_PROC KTLH-RV4 
+*WX KGNV KTLH KOCF KVLD
 ;----------------------------------------------------------
 *MAP 30 
 *MAP_XN 
@@ -188,6 +190,7 @@ GTOUT SNFLD TIMIE ALYNA
 V152 V437 V3 V533 V51 V437 V267 
 *END 
 *SHOW_PROC KMCO-GTOUT0 
+*WX KMCO KSFB KDAB KJAX KMLB 
 *NOTES Busy overflight for ZMA flights, and MCO arrivals 
 ;----------------------------------------------------------
 *MAP 77 
