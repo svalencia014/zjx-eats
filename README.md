@@ -12,8 +12,10 @@ Not affiliated with [eATS](https://groups.io/g/EnrouteATSim) by Bob Raemer
 
 # Completed Sectors
 Here is a list of ZJX Sectors that are completed
-- Ocala 15 (Low; 101-239)
 - Cedar Key 14 (Low; 101-239)
+- Ocala 15 (Low; 101-239)
+- St. Johns (Low; 101-239)
+- Taylor 77 (Low; 041-239)
 - DARBS 88 (Low; 101-239)
 
 # Contributing
