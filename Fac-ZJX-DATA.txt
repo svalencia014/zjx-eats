@@ -88,6 +88,12 @@
 *DEP_MIT    11    CEW   PNS1E     J   100 PNS 
 *DEP_MIT    11    AEX   PNS1E     J   100 PNS 
 
+;        ISSUED 
+;          BY[-INFO]   DEST  CAT    RESTRICTION      COMMENTS
+;        -----------   ---- -----  -------------     --------
+*ARR_HIDE    28         KTLH  J     SZW0144050@110    TLH TRACON BORDER 
+*ARR_HIDE    28         KTLH  A     SZW0144050@110    TLH TRACON BORDER
+
 *MAP 10 
  *MAP_AW 
  J2 J50 Q104 Q116 Q19 Q81 Q56 Q22 Q24
@@ -102,20 +108,11 @@ V70 V20 V222 V198 V231 V454 V11
 *SHOW_PROC KJAX-MARQO0 KATL-HOBTT0 KMSY-SLIDD0 
 *NOTES KATL EVEN AOB 340
 ;----------------------------------------------------------
-*MAP 13 
-*MAP_XN 
-OHDEA MARQO ARNEY BAXLY 
-*END 
-*MAP_AW
-V243 V267 V179 V5 V159 V97 V35 V159 V35 V70 V321 V198 V154 V437 V441 
-*END 
-*SHOW_PROC KJAX-OHDEA0  
-*NOTES Tracon Boundary at 11k (SAV,VLD,JAX,TLH)
-;----------------------------------------------------------
 *MAP 14 
 *MAP_AW
 V7 V295 
 *END 
+*SHOW_PROC KTLH-RV4
 *NOTES Busy MCO and TPA climb sector
 ;----------------------------------------------------------
 *MAP 15
@@ -125,7 +122,7 @@ OLENE MAATY GRNCH MARQO SHREK TEBOW JAFAR SHIMM LUBBR TABIR BANGZ GUURR
 *MAP_AW 
 V581 V441 V7 V521 V157 V159 V295 V537 V97 V35 
 *END 
-*SHOW_PROC KMCO-GRNCH0 KTPA-DADES0 KSFB-SHREK0 KORL-SHREK0 KMCO-SHREK0 KGNV-RV4 KJAX-TEBOW0 KMCO-LEES0 KSRQ-LUBBR0 
+*SHOW_PROC KMCO-GRNCH0 KTPA-DADES0 KSFB-SHREK0 KORL-SHREK0 KMCO-SHREK0 KGNV-RV4 KJAX-TEBOW0 KMCO-LEES0 KSRQ-LUBBR0 KTLH-RV4
 *NOTES  Busy low enroute sector, seuqnecing F11 and TPA terminal arrivals
 *WX KJAX KMCO KGNV KOCF KTPA KSRQ
 ;----------------------------------------------------------
@@ -138,14 +135,14 @@ Q116 Q65 Q110 Q118 Q99 Q81 Q87 Q109 Q79
 *END 
 *SHOW_PROC KMIA-FROGZ0 KFLL-TEEKY0 KTPA-MAATY0 KTPA-DADES0 KFLL-FORTL0
 ;----------------------------------------------------------
-* MAP 28 
+*MAP 28 
 *MAP_XN 
 JAWJA 
 *END 
 *MAP_AW 
 V198 V538 V159 V35 V7 V295 V35 V97 V521 
 *END 
-*SHOW-PROC KTLH-RV1 KTLH-RV2 KTLH-RV3 KTLH-RV4 
+*SHOW_PROC KTLH-RV4 
 ;----------------------------------------------------------
 *MAP 30 
 *MAP_XN 
@@ -155,7 +152,6 @@ BACCA BLVNS REMIS ROZZI BUNNZ NAITE
 Y280 Y290
 *END  
 *NOTES KMSY AOB FL320
-*END 
 ;----------------------------------------------------------
 *MAP 33 
 *MAP_XN 
@@ -191,7 +187,7 @@ GTOUT SNFLD TIMIE ALYNA
 *MAP_AW 
 V152 V437 V3 V533 V51 V437 V267 
 *END 
-*SHOW-PROC KMCO-GTOUT0 
+*SHOW_PROC KMCO-GTOUT0 
 *NOTES Busy overflight for ZMA flights, and MCO arrivals 
 ;----------------------------------------------------------
 *MAP 77 
@@ -211,6 +207,6 @@ MAATY BANGZ
 *MAP_AW 
 V97 V35 
 *END 
-*SHOW_PROC KTPA-MAATY0 KSRQ-BANGZ0
+*SHOW_PROC KTPA-MAATY0 KSRQ-BANGZ0 KTLH-RV4
 *WX KTPA KSRQ 
 ;----------------------------------------------------------
