@@ -200,8 +200,19 @@ MARQO CAMJO COROE
 *MAP_AW 
 V198 V157 V537 V441 
 *END 
-*SHOW_PROC KJAX-MARQO0 KGNV-RV1 KGNV-RV2 KGNV-RV3 KSFB-SHREK0 
+*SHOW_PROC KJAX-MARQO0 KGNV-RV1 KGNV-RV2 KGNV-RV3 KSFB-SHREK0 KVLD-RV2 
 *WX KJAX KGNV  
+;----------------------------------------------------------
+;MAP 79 
+*MAP_XN 
+OHDEA DUCHY TEUFL 
+*END 
+*MAP_AW 
+V267 V179 V243 V154 V70 V5 
+*END 
+*SHOW_PROC KJAX-OHDEA0 KSAV-RV1 
+*WX KSAV KSAV KVLD
+*NOTES Sequences Jax arrivals on the OHDEA arrival 
 ;----------------------------------------------------------
 *MAP 88 
 *MAP_XN 
