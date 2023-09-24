@@ -212,7 +212,7 @@ OHDEA DUCHY TEUFL
 V267 V179 V243 V154 V70 V5 
 *END 
 *SHOW_PROC KJAX-OHDEA0 KSAV-RV1 
-*WX KSAV KSAV KVLD
+*WX KSAV KJAV KVLD
 *NOTES Sequences Jax arrivals on the OHDEA arrival 
 ;----------------------------------------------------------
 *MAP 88 
