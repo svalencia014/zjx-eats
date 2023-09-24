@@ -203,7 +203,7 @@ V198 V157 V537 V441
 *SHOW_PROC KJAX-MARQO0 KGNV-RV1 KGNV-RV2 KGNV-RV3 KSFB-SHREK0 KVLD-RV2 
 *WX KJAX KGNV  
 ;----------------------------------------------------------
-;MAP 79 
+*MAP 79 
 *MAP_XN 
 OHDEA DUCHY TEUFL 
 *END 
