@@ -65,6 +65,7 @@
 *ARR_MIT    15    SHREK STNKY     J   75 KSFB
 *ARR_MIT    15    BATNT LUBBR     J   75 KSRQ 
 *ARR_MIT    88    CORRL BANGZ     J   75 KSRQ 
+*ARR_MIT    79    ILTAC FORMB     J   35 KJAX  
 
 ;                       from
 ;          REF         FacSec             COMMENTS
