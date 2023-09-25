@@ -16,6 +16,7 @@ Here is a list of ZJX Sectors that are completed
 - St. Johns 57 (Low; 101-239)
 - Taylor 77 (Low; 041-239)
 - DARBS 88 (Low; 101-239)
+- BAXLY 79 (Low; 101-239)
 
 # Contributing
 If you'd like to contribute, please fill out the form on [my website](https://svalencia.me/contact) and I'll help you set everything up, including joining our developers only discord.
