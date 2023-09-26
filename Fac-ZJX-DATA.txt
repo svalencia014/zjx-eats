@@ -153,6 +153,7 @@ V154 V179 V267 V243 V70 V5 V185
 *END 
 *SHOW_PROC KAYS-RNAV19 KAMG-RNAV16 KBHC-RNAV26 
 *WX KAYS KAMG KBHC KSAV KVLD KJAX 
+*NOTES Commonly combined with 79 when 79 is not busy
 ;----------------------------------------------------------
 *MAP 30 
 *MAP_XN 
@@ -200,6 +201,17 @@ V152 V437 V3 V533 V51 V437 V267
 *SHOW_PROC KMCO-GTOUT0 
 *WX KMCO KSFB KDAB KJAX KMLB 
 *NOTES Busy overflight for ZMA flights, and MCO arrivals 
+;----------------------------------------------------------
+*MAP 71 
+*MAP_XN 
+STOCR 
+*END 
+*MAP_AW 
+V155 V37 V259 V53 V296 V409 
+*END 
+*SHOW_PROC KCLT-STOCR0 KCLT-MLLET0 KRDU-DMSTR0
+*WX KCLT KFLO KCAE KMYR 
+*NOTES Busy CLT decent sector
 ;----------------------------------------------------------
 *MAP 77 
 *MAP_XN  
