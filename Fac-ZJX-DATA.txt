@@ -94,6 +94,7 @@
 ;        -----------   ---- -----  -------------     --------
 *ARR_HIDE    28         KTLH  J     SZW0144050@110    TLH TRACON BORDER 
 *ARR_HIDE    28         KTLH  A     SZW0144050@110    TLH TRACON BORDER
+*ARR_HIDE    50         KATL  J     LARZZ@330         ZTL BORDER AOB FL330 
 
 *MAP 10 
  *MAP_AW 
@@ -244,6 +245,7 @@ MAATY BANGZ
 *MAP_AW 
 V97 V35 
 *END 
+*ZOOM PLYER PLYER 50
 *SHOW_PROC KTPA-MAATY0 KSRQ-BANGZ0 KTLH-RV4
 *WX KTPA KSRQ 
 ;----------------------------------------------------------
