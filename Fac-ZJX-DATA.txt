@@ -199,11 +199,13 @@ V3 V437 V267 V159 V295 V152
 GTOUT SNFLD TIMIE ALYNA 
 *END 
 *MAP_AW 
-V152 V437 V3 V533 V51 V437 V267 
+V152 V437 V3 V533 V51 V437 V267 Q77 Q87 
 *END 
-*SHOW_PROC KMCO-GTOUT0 KPBI-CPTAN0 
+*SHOW_PROC KMCO-GTOUT0 KPBI-CPTAN0 KSFB-TTHOR0 KORL-TTHOR0 KISM-TTHOR0 KMLB-BITHO0 
 *WX KMCO KSFB KDAB KJAX KMLB 
-*NOTES Busy overflight for ZMA flights, and MCO arrivals 
+*NOTES Busy overflight for ZMA flights, and MCO arrivals
+*NOTES Traffic northbound should be odd, traffic southbound should be even. 
+*NOTES Q77 is the split, Traffic east of Q77 should be odd northbound,even southbound
 ;----------------------------------------------------------
 *MAP 71 
 *MAP_XN 
