@@ -201,7 +201,7 @@ GTOUT SNFLD TIMIE ALYNA
 *MAP_AW 
 V152 V437 V3 V533 V51 V437 V267 
 *END 
-*SHOW_PROC KMCO-GTOUT0 
+*SHOW_PROC KMCO-GTOUT0 KPBI-CPTAN0 
 *WX KMCO KSFB KDAB KJAX KMLB 
 *NOTES Busy overflight for ZMA flights, and MCO arrivals 
 ;----------------------------------------------------------
