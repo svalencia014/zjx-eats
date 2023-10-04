@@ -315,9 +315,17 @@ STOCR
 V155 V37 V259 V53 V296 V409 
 *END 
 *ZOOM FLO UMAGE 50
-*SHOW_PROC KCLT-STOCR0 KCLT-MLLET0 KRDU-DMSTR0 KMYR-RV1 KMYR-RV2 
+*SHOW_PROC KCLT-STOCR0 KCLT-MLLET0 KMYR-RV1 KMYR-RV2 
 *WX KCLT KFLO KCAE KMYR 
-*NOTES Busy CLT decent sector, KRDU XJURDI@210
+*NOTES Busy CLT decent sector, also sequences MYR arrivals/departures 
+;----------------------------------------------------------
+*MAP 72 
+*MAP_AW 
+*END 
+*ZOOM CAE CAE 50 
+*SHOW_PROC KCHS-OSPRI0 
+*WX KCAE KFLO KCHS 
+*NOTES Primarily works traffic on the OSPRI arrival
 ;----------------------------------------------------------
 *MAP 77 
 *MAP_XN  
