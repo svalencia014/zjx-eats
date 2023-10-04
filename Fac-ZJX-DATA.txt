@@ -15,7 +15,8 @@
 *METER_APT  KDAB 200 15 LPERD KYLEG TTHOR 
 *METER_APT  KTPA 200 43 NICCK BAAMMF KRUVR BADDD HONID ACORI DEFUN CHRGE CIGAR 
 *METER_APT  KSRQ 200 35 HONID BADDD ACORI DEFUN 
-*METER_APT  KMIA 200 72 ZPLEN AOCRI DEFUN ENEME VNECK CLEOO DOFFY FETAL ISSLY BULZI CABLO SNAPY NICKI FEDRR 
+*METER_APT  KFLL 200 47 ZPLEN AOCRI DEFUN ENEME VNECK BROMO SCURF DOFFY FETAL ISSLY BULZI CABLO SNAPY NICKI FEDRR 
+*METER_APT  KFLL 200 47 ZPLEN ACORI DEFUN ENEME VNECK CLEOO 
 
 *METER_FIX ZJX14 OSPRY RDSOX 
 *METER_FIX ZJX58 LPERD 
@@ -32,6 +33,8 @@
 *METER_FIX ZJX30 CIGAR
 *METER_FIX ZJX17 HONID BADDD ACORI DEFUN 
 *METER_FIX ZJX34 ACORI HONID 
+*METER_FIX ZJX16 CLEOO 
+*METER_FIX ZJX16 BROMO 
 
 
 ;            NAME               AIRPORTS
@@ -157,21 +160,53 @@
 *DOF_A  ZJX76 ZJX58  KPBI-CPTAN0    J   *   *  EVEN
 *DOF_A  ZJX86 ZJX16  KFLL-TEEKY0    J  *    *  ODD 
 *DOF_A  ZJX86 ZJX16  KMIA-FROGZ0    J  *    *  EVEN
+*DOF_A  ZJX68 ZJX58  KMCO-GTOUT0    J  *    *  EVEN 
+*DOF_A  ZJX68 ZJX58  KISM-SNFLD0    J  *    *  EVEN  
+*DOF_A  ZJX68 ZJX58  KSFB-TTHOR0    J  *    *  EVEN  
+*DOF_A  ZJX68 ZJX58  KDAB-TTHOR0    J  *    *  EVEN  
+*DOF_A  ZJX68 ZJX58  KORL-TTHOR0    J  *    *  EVEN  
+*DOF_A  ZJX68 ZJX58  KMLB-BITHO0    J  *    *  EVEN  
+*DOF_A  ZJX68 ZJX58  KPBI-CPTAN0    J  *    *  EVEN  
+*DOF_A  ZJX68 ZJX58  KFLL-CUUDA0    J  *    *  EVEN  
+*DOF_A  ZJX68 ZJX58  KMIA-CSTAL0    J  *    *  EVEN  
 
 
+*MAP 9 
+*MAW_AW  
+V20 V77 V222 V115 V70 V454 V522 
+*END
+*ZOOM NMOA KGZH 30 
+*SHOW_PROC KGZH-RNAV28 
+*NOTES Primarily ensures separation within North Moa
+*NOTES Works traffic into KGZH 
+*NOTES Typically combined with Sector 10 unless North MOA is activated
+*NOTES North Moa is assumed as not activated in this simulaton
+;----------------------------------------------------------
 *MAP 10 
  *MAP_AW 
  J2 J50 Q104 Q116 Q19 Q81 Q56 Q22 Q24
   *END
 *LIBRARY KPNS-RV1 KPNS-RV2 KPNS-RV3 KPNS-RV4
 *NOTES PNS BORDER AT 11K
+*NOTES Primarily sequences aircraft into Panhandle aircraft
+*NOTES Also works overflights from lower cruising aircraft over pandhnadle
+*NOTES Typically combined with Sector 9 unless North MOA is activated 
+*NOTES North Moa is assumed as not activated in this simulaton
 ;----------------------------------------------------------
 *MAP 11 
 *MAP_AW 
-V70 V20 V222 V198 V231 V454 V11 
+J2 
 *END 
 *SHOW_PROC KJAX-MARQO0 KATL-HOBTT0 KMSY-SLIDD0 
-*NOTES KATL EVEN AOB 340
+*NOTES KATL EVEN AOB 340 KMSY AOB FL320
+*NOTES Hot spot over the Crestview VOR (CEW) and DEFUN 
+*NOTES The primary purpose of this sector is to sequence aircraft landing the FL penisula
+;----------------------------------------------------------
+*MAP 12 
+*MAP_AW 
+V70 V159 V321 V35 V97 V5 V323 
+*END 
+*SHOW_PROC KABY 
 ;----------------------------------------------------------
 *MAP 14 
 *MAP_AW
