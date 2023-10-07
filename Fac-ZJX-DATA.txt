@@ -45,7 +45,6 @@
 *METER_FIX ZJX16 CLEOO 
 *METER_FIX ZJX16 BROMO 
 
-*METER_RWY  KMCO 17L 25 
 
 
 ;            NAME               AIRPORTS
