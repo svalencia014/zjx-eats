@@ -382,6 +382,10 @@ V152 V437 V3 V533 V51 V437 V267 Q77 Q87 Q93 Q97 AR15 Q89
 *NOTES Q77 is the split, Traffic east of Q77 should be odd northbound,even southbound
 *NOTES KFLL AOB FL300
 ;----------------------------------------------------------
+*MAP 66 
+*ZOOM CAE CAE 075 
+*SHOW_PROC KRDU-DMSTR0
+;----------------------------------------------------------
 *MAP 71 
 *MAP_XN 
 STOCR 
