@@ -213,8 +213,9 @@ V70 V159 V321 V35 V97 V5 V323
 V7 V295 
 *END 
 *ZOOM CDK BAYPO 50
-*SHOW_PROC KTLH-RV4
+*SHOW_PROC KTLH-RV4 KMCO-SHREK0 KISM-SHREK0 KORL-SHREK0
 *NOTES Busy MCO and TPA climb sector
+*NOTES Like-type aircraft landing F11 between 11,000 and 17,000 must have mandatory in-trail spacing, regardless of altitude
 *WX KGNV KTLH KOCF KTPA KSRQ 
 ;----------------------------------------------------------
 *MAP 15
