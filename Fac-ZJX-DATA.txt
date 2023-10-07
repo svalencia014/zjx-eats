@@ -208,7 +208,11 @@
 *DOF_S  ZJX68 ZJX66  J     240 *   ODD 
 *DOF_S  ZJX68 ZJX47  J     240 *   ODD 
 *DOF_S  ZJX47 ZJX68  J     240 *   EVEN
-
+;LOW SECTORS
+*DOF_S  ZJX14 ZJX77  J     000 269 EVEN
+*DOF_S  ZJX15 ZJX77  J     000 269 EVEN
+*DOF_S  ZJX77 ZJX14  J     000 269 ODD
+*DOF_S  ZJX77 ZJX15  J     000 269 ODD
 
 ;     A.I. direction of flight altitude assignment, by airway/procedure
 ;
@@ -276,7 +280,7 @@ V7 V295
 *SHOW_PROC KTLH-RV4 KMCO-SHREK0 KISM-SHREK0 KORL-SHREK0 KPGD-LUBBR0 KGNV-RV4 KMCO-LEESE0 KISM-LEESE0 KORL-LEESE0
 *NOTES Busy MCO and TPA climb sector
 *NOTES KGNV ARRIVAL PD210
-*NOTES F11 prop arrivals should be routed via CTY..OCF.LEESE and BITTE.SHREK and cross BITTE/CTY AOB FL170
+*NOTES MCO/ORL/ISM prop arrivals should be routed via CTY..OCF.LEESE and BITTE.SHREK and cross BITTE/CTY AOB 17000
 *WX KGNV KTLH KOCF KTPA KSRQ 
 ;----------------------------------------------------------
 *MAP 15
