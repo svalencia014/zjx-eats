@@ -24,9 +24,9 @@
 *METER_APT  KPNS 200 4 CEW LOXLY CANUE DESTN 
 *METER_APT  KRSW 200 14 JOSFF SHFTY TYNEE 
 *METER_APT  KPGD 200 2 LUBBR PIKKR 
-;*METER_APT  KATL 200 45 JJEDI HOBBT LARZZ GNDLF LAIRI 
+*METER_APT  KATL 200 45 JJEDI HOBBT LARZZ GNDLF LAIRI 
 
-*METER_FIX ZJX68 LPERD 
+*METER_FIX ZJX68 LPERD ROYCO WURFL VIYAP ESENT 
 *METER_FIX ZJX14 OSPRY RDSOX 
 *METER_FIX ZJX58 LPERD KYLEG PRMUS NICCK WEEEK
 *METER_FIX ZJX15 GRNCH 
@@ -214,6 +214,7 @@
 *DOF_S  ZJX15 ZJX77  J     000 269 EVEN
 *DOF_S  ZJX77 ZJX14  J     000 269 ODD
 *DOF_S  ZJX77 ZJX15  J     000 269 ODD
+*DOF_S  ZJX75 ZJX68  J     240 349 ODD 
 
 ;     A.I. direction of flight altitude assignment, by airway/procedure
 ;
@@ -365,8 +366,27 @@ V152 V437 V3 V533 V51 V437 V267 Q77 Q87 Q93 Q97 AR15 Q89
 *NOTES KFLL AOB FL300
 ;----------------------------------------------------------
 *MAP 66 
-*ZOOM CAE CAE 075 
+*ZOOM CAE CAE 75 
 *SHOW_PROC KRDU-DMSTR0
+;----------------------------------------------------------
+*MAP 68 
+*MAP_XN 
+LPERD VIYAP ROYCO GIPPL 
+*END 
+*MAP_AW 
+Q99 Q109 Q75 Q409 Q89 Q77 Q87 Q85 Q93 Q97 Q69 
+*END 
+*ZOOM SSI SSI 75 
+*SHOW_PROC KDAB-TTHOR0 KMCO-GTOUT0 KISM-SNFLD0 KMLB-BITHO0 KORL-TTHOR0 KSFB-TTHOR0  KCHS-BAGGY0 KMYR-RV3 
+*NOTES Sector 68 must ensure that aircraft landing MCO have a mandatory 8 miles in trail. 
+*NOTES Aircraft established on or east of Q85 are released to 58 for descent 10nm from the boundary.
+*NOTES Aircraft landing SFB, DAB, ORL should be routed no further than JAGGZ AOB FL 300 descending to 260
+*NOTES and are released to sector 58 10nm from the boundary for descent. 
+*NOTES Traffic landing CHS must be routed via SAV.BAGGY3 and cross SAV@240 and handed off to 73. 
+*NOTES Sector 68 has control for turns from sectors 47 & 48 south of CHS.
+*NOTES Sector 68 must ensure that aircraft routed via the DADES STAR is delivered to sector 50/49 depending on ALT. 
+*NOTES Sector 68 must ensure that aircraft routed via the LUBBR STAR is delivered to sector 50/49 depending on ALT.
+*NOTES Sector 68 has control for turns from sectors 65/66 sectors 20 NM north of the sector boundary.  
 ;----------------------------------------------------------
 *MAP 71 
 *MAP_XN 
