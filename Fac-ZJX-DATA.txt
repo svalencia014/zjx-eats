@@ -420,9 +420,39 @@ V152 V437 V3 V533 V51 V437 V267 Q77 Q87 Q93 Q97 AR15 Q89
 *NOTES Aircraft inbound to MCO, establihsed on or east or Q85 are released to sector 58 for descent 10nm from the boundary with 68. 
 *NOTES Aircraft landing SFB, ORL, DAB will be cleared no fruther than JAGGZ AOB FL300 descending to FL260 at the 68/58 border. 
 ;----------------------------------------------------------
-*MAP 66 
+*MAP 65
+*MAP_AW 
+Q64 Q54 Q58 Q56 Q93 Q75 Q22 Q52 Q60 Q97 Q87 Q99 Q103 Q99 Q77 Q83 Q65 Q109  
+*END 
 *ZOOM CAE CAE 75 
-*SHOW_PROC KRDU-DMSTR0
+*ZOOM SAV SAV 75 
+*SHOW_PROC KRDU-DMSTR0 KJAX-LUNNI0 
+*NOTES Sector 65 is a ultra high sector working with sector 66 on the initial sequence for MCO/RDU/MIA/FLL/TPA arrivals. 
+*NOTES Aircraft landing RDU should be descending to FL350 and handed off to 66 asap in order to cross 20 NM S of JURDI at FL240. 
+*NOTES Aircraft landing ATL should be descended to FL350 and handed off to 66 in order to cross the border between ZJX/ZTL AOB FL340.
+*NOTES Sector 68/67 has control for turns from sector 66/65 sectors 20 NM north of the boundary. 
+*NOTES Aircraft operating between 65/66 and 49/50 must be cleared northbound at odd altitudes, and southbound at even altitudes. 
+*SECTOR 65/66 may be combined if traffic level allows normally during night time periods. 
+;----------------------------------------------------------
+*MAP 66 
+*MAP_XN 
+JURDI TENNI CANTR PLZZZ OGRAE 
+*END 
+*MAP_AW 
+Q64 Q54 Q58 Q56 Q93 Q75 Q22 Q52 Q60 Q97 Q87 Q99 Q103 Q99 Q77 Q83 Q65 Q109  
+*END 
+*ZOOM CAE CAE 75 
+*ZOOM SAV SAV 75 
+*SHOW_PROC KRDU-DMSTR0 KSAV-RV4 KJAX-LUNNI0 KMYR-RV1 KMYR-RV2
+*NOTES Trafic landing RDU 20NM S of JURDI/TENNI and handed off to 71 for further descent. 
+*NOTES Aircraft landing KSAV should be routed via CANTR..PLZZZ (RV4( and should cross CANTR@240
+*NOTES Aircraft landing ATL should cross the border at a even Altitude AOB FL340. 
+*NOTES Myrtle Beach arrivals need to be descended to FL240 and handed off to low. 
+*NOTES Aircraft landing JAX should cross the border with sector 68 AOB FL300 and shortcut no further than BENTZ on the LUNNI STAR.
+*NOTES Sector 66 has control for turns direct MAVRC from sector 72 on CLT departure aircraft on the BEAVY SID
+*NOTES Sector 66 has control for speed increase from sector 72 on CLT departure aircraft esablished on SIDs.(Limited to 280).
+*NOTES Sector 68/67 has control for turns from sector 66/65 sectors 20 NM north of the boundary. 
+*Aircraft operating between 65/66 and 49/50 must be cleared northbound at odd altitudes, and southbound at even altitudes. 
 ;----------------------------------------------------------
 *MAP 68 
 *MAP_XN 
