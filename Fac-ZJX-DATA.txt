@@ -209,6 +209,7 @@
 *DOF_S  ZJX68 ZJX66  J     240 *   ODD 
 *DOF_S  ZJX68 ZJX47  J     240 *   ODD 
 *DOF_S  ZJX47 ZJX68  J     240 *   EVEN
+*DOF_S  ZJX50 ZJX58  J     240 349 EVEN 
 ;LOW SECTORS
 *DOF_S  ZJX14 ZJX77  J     000 269 EVEN
 *DOF_S  ZJX15 ZJX77  J     000 269 EVEN
@@ -235,6 +236,7 @@
 *DOF_A  ZJX68 ZJX58  KPBI-CPTAN0    J  *    *  EVEN  
 *DOF_A  ZJX68 ZJX58  KFLL-CUUDA0    J  *    *  EVEN  
 *DOF_A  ZJX68 ZJX58  KMIA-CSTAL0    J  *    *  EVEN  
+*DOF_A  ZJX50 ZJX58  KSFB-TTHOR0    J  *    *  EVEN
 
 *MAP 10 
  *MAP_AW 
@@ -360,10 +362,10 @@ V152 V437 V3 V533 V51 V437 V267 Q77 Q87 Q93 Q97 AR15 Q89
 *SHOW_BDRY_A 
 *SHOW_PROC KMCO-GTOUT0 KPBI-CPTAN0 KSFB-TTHOR0 KORL-TTHOR0 KISM-SNFLD0 KMLB-BITHO0 KMIA-CSTAL0 KMIA-CUUDA0 
 *WX KMCO KSFB KDAB KJAX KMLB 
-*NOTES Busy overflight for ZMA flights, and MCO arrivals
-*NOTES Traffic northbound should be odd, traffic southbound should be even. 
-*NOTES Q77 is the split, Traffic east of Q77 should be odd northbound,even southbound
-*NOTES KFLL AOB FL300
+*NOTES Aircraft operating between sector 58/57/54/68/75 must be cleared northbound at ODD alttiudes/southbound at EVEN altitudes. 
+*NOTES Aircraft will be delivered on the GTOUT/BITHO STAR AOB FL340 with mandatory in trail separation. 
+*NOTES Aircraft inbound to MCO, establihsed on or east or Q85 are released to sector 58 for descent 10nm from the boundary with 68. 
+*NOTES Aircraft landing SFB, ORL, DAB will be cleared no fruther than JAGGZ AOB FL300 descending to FL260 at the 68/58 border. 
 ;----------------------------------------------------------
 *MAP 66 
 *ZOOM CAE CAE 75 
