@@ -238,13 +238,23 @@
 *DOF_A  ZJX68 ZJX58  KMIA-CSTAL0    J  *    *  EVEN  
 *DOF_A  ZJX50 ZJX58  KSFB-TTHOR0    J  *    *  EVEN
 
+
+*MAP 9 
+*MAP_AW 
+V113 
+*END 
+*SHOW_PROC KGZH-RNAV28 
+*NOTES Sector 9's whole purpose is to ensure separation within the North Moa. 
+*NOTES In this simulation north moa is not activate. 
+*NOTES Sector 9 is typically combined with 10 when North Moa is combined. 
+*NOTES Sector 9 is this simulation services one airport Evergreen KGZH which is uncontrolled. 
+;----------------------------------------------------------
 *MAP 10 
  *MAP_AW 
- J2 J50 Q104 Q116 Q19 Q81 Q56 Q22 Q24
+ V198 V241 
   *END
 *LIBRARY KPNS-RV1 KPNS-RV2 KPNS-RV3 KPNS-RV4
-*NOTES PNS BORDER AT 11K
-*NOTES Primarily sequences aircraft into Panhandle aircraft
+*NOTES Sector 10 primaril sequences aircraft into Panhandle airports. 
 *NOTES Also works overflights from lower cruising aircraft over pandhnadle
 *NOTES Typically combined with Sector 9 unless North MOA is activated 
 *NOTES North Moa is assumed as not activated in this simulaton
@@ -253,10 +263,12 @@
 *MAP_AW 
 J2 
 *END 
-*SHOW_PROC KJAX-MARQO0 KATL-HOBTT0 KMSY-SLIDD0 
-*NOTES KATL EVEN AOB 340 KMSY AOB FL320
-*NOTES Hot spot over the Crestview VOR (CEW) and DEFUN 
-*NOTES The primary purpose of this sector is to sequence aircraft landing the FL penisula
+*SHOW_PROC KTPA-MAATY0 
+*NOTES Sectot 11 is a busy overflight sector and builds in the inital sequence for MCO/TPA/JAX/MIA/FLL/SRQ 
+*NOTES Traffic bound for JAX and DAB shoould enter Sector 34/17 AOB FL350. 
+*NOTES Traffic landing GNV/SFB entering SECTOR 34 should be AOB FL350 and they have control for turns/descents 20NM from the bdry.
+*NOTES Traffic landing GNV/SFB entering SECTOR 17 should be AOB FL290 and they have control for turns/descents 20NM from the bdry.
+*NOTES Traffic landing TPA/SRQ entering SECTOR 17 should be AOB FL330 and they have control for turns/descents. 
 ;----------------------------------------------------------
 *MAP 14 
 *MAP_AW
