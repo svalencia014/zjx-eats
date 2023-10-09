@@ -522,7 +522,9 @@ V155 V37 V259 V53 V296 V409
 *ZOOM CAE CAE 50 
 *SHOW_PROC KCHS-OSPRI0 
 *WX KCAE KFLO KCHS 
-*NOTES Primarily works traffic on the OSPRI arrival
+*NOTES Sector 72 primarily sequences aircraft on the OSPRI arrival into KCHS. 
+*NOTES Sector 66 can increase the speed on CLT departures established on CLT SIDs. 
+*NOTES Sector 66 has control for turns direct MAVRC on CLT departure aircraft on the BEAVY SID> 
 ;----------------------------------------------------------
 *MAP 75 
 *MAP_AW
