@@ -399,6 +399,30 @@ Y289 Y291 Y299 Y313 Y309 Y319 Y307 Y323 Y493 Y494 Y436 Y327 Q131 Q129 Q107 Y438 
 *NOTES Overflight sector over the Atlantic primarily sequencing Arrivals bound for the MIA/FLL area. 
 *NOTES Also can mix with traffic further bound up the east coast of the U.S. and down further the U.S. east coast into latin America.
 ;----------------------------------------------------------
+*MAP 53 
+*MAP_AW 
+V267 V179 V154 V70 V185 V37 V3 V447 V441 V1 V18 V417 
+*END 
+*SHOW_PROC KSSI-RV1 KSSI-RNAV22 KSSI-RNAV4 
+*NOTES Sector 53 is a low sector responsible for handling low overglight aircraft AOB 10k along the east coast of Florida.
+*NOTES Its primary responsiblity is KSSI Airport.
+*NOTES Sector 53 is normally combined with 54 unless sector 54 becomes overloaded with traffic. 
+*NOTES Sector 53 should be careful vectoring aircraft for the RNAV4 because aircraft may potentially bust JAX Approach airspace. 
+*NOTES Traffic between sectors 73/53/54 must be northbound at ODD altitudes and southbound at even Altitudes 
+*NOTES Traffic between sectors 79/29/53/54 west of the eastern edge of V267 must be cleared northbound at ODD altitudes and southbound at even altitudes.
+*NOTES Aircraft opeating between sectors 57/58/54 must be cleared northbound at odd altitudes and southbound at EVEN altitudes. 
+;----------------------------------------------------------
+*MAP 54 
+*MAP_AW 
+V267 V179 V154 V70 V185 V37 V3 V447 V441 V1 V18 V417 
+*END 
+*SHOW_PROC KSSI-RV1 KJAX-LUNNI0 KSAV-RV2 
+*NOTES Sector 54 is the primarily responsible for the JAX sequence on the LUNNI arrival as well as airraft landing SAV from the south. 
+*NOTES Sector 54 is typically combined with 53 unless traffic level does not allow. 
+*NOTES Traffic between sectors 73/53/54 must be northbound at ODD altitudes and southbound at even Altitudes 
+*NOTES Traffic between sectors 79/29/53/54 west of the eastern edge of V267 must be cleared northbound at ODD altitudes and southbound at even altitudes.
+*NOTES Aircraft opeating between sectors 57/58/54 must be cleared northbound at odd altitudes and southbound at EVEN altitudes. 
+;----------------------------------------------------------
 *MAP 57 
 *MAP_XN 
 TTHOR SNFLD BASSS POGIE QUBEN 
