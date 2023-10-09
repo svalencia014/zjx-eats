@@ -289,6 +289,8 @@ V5 V159 V70 V35
 *MAP_AW 
 V97 V5 V159 V70 V35 V243 V198 V521 V198 V27 V295 
 *END 
+*ZOOM SZW SZW 50 
+*ZOOM MAI MAI 50
 *SHOW_PROC KVLD-RV1 KTLH-RV1 KTLH-RV2 KTLH-RV3 KTLH-RV4 
 *NOTES Sector 13's primary purpose is to sequences TLH/VLD arrivals. Also it works overflights from/to the florida peninsula at lower alts.
 *NOTES Typically combined with sector 12 unless split due to traffic level. 
@@ -324,12 +326,18 @@ CLEOO LEGGT CAPOH
 *MAP_AW 
 Q116 Q65 Q110 Q118 Q99 Q81 Q87 Q109 Q79
 *END 
+*ZOOM PATOY PATOY 50
+*ZOOM JFRYS JFRYS 50
+*ZOOM PIE PIE 50
+*ZOOM OCF OCF 50 
 *SHOW_PROC KJAX-TEBOW0 KPBI-VUUDU0 KPGD-LUBBR0 KRSW-SFHTY0 KRSW-JOSFF0 KRSW-TYNEE0
 ;----------------------------------------------------------
 *MAP 17 
 *MAP_AW 
 Q99 Q65 Q79 Q118 Q1110 Q116 Q65 Q109 Q81 Q19
 *END 
+*ZOOM JAWJA JAWJA 50
+*ZOOM CTY CTY 50 
 *SHOW_PROC KTPA-MAATY0 KSRQ-BANGZ0 KPIE-BANGZ0 KPGD-PIKKR0 KTLH-RV4 KMCO-GRNCH0 
 ;----------------------------------------------------------
 *MAP 28 
@@ -339,6 +347,8 @@ JAWJA
 *MAP_AW 
 V198 V538 V159 V35 V7 V295 V35 V97 V521 
 *END 
+*ZOOM SZW SZW 50 
+*ZOOM JAWJA JAWJA 50
 *SHOW_PROC KTLH-RV4 KGNV-RV3 
 *WX KGNV KTLH KOCF KVLD
 ;----------------------------------------------------------
@@ -347,6 +357,8 @@ V198 V538 V159 V35 V7 V295 V35 V97 V521
 V154 V179 V267 V243 V70 V5 V185 
 *END 
 *SHOW_PROC KAYS-RNAV19 KAMG-RNAV16 KBHC-RNAV26 
+*ZOOM AMG AMG 50
+*ZOOM AYS AYS 50 
 *WX KAYS KAMG KBHC KSAV KVLD KJAX 
 *NOTES Commonly combined with 79 when 79 is not busy
 ;----------------------------------------------------------
@@ -357,6 +369,10 @@ BACCA BLVNS REMIS ROZZI BUNNZ NAITE
 *MAP_AW 
 Y280 Y290
 *END  
+*ZOOM REMIS REMIS 50
+*ZOOM NAITE NAITRE 50 
+*ZOOM ROZZI ROZZI 50
+*ZOOM BUNNZ BUNNZ 50
 *NOTES KMSY AOB FL320
 *NOTES Sector 30 is a busy overlight sector over the gulf of  Mexico. 
 *NOTES It primarily serves traffic on Y280 & Y290.
@@ -368,6 +384,8 @@ CAPOH LEGGT ZOOSS LALAA WHITL BATTN
 *MAP_AW 
 Q104 Q116 Q19 Q81 Q118 Q79 Q65 Q99 Q109 Q89 
 *END 
+*ZOOM WYATT WYATT 50
+*ZOOM SZW SZW 50
 *SHOW_PROC KJAX-MARQO0 KMCO-GRNCH0 
 *NOTES KATL AOB FL340, Geneva is a very busy high enroute sector sequencing arrivals for KATL, KTPA, KMCO, KJAX, KMIA, KFLL
 ;----------------------------------------------------------
@@ -375,6 +393,8 @@ Q104 Q116 Q19 Q81 Q118 Q79 Q65 Q99 Q109 Q89
 *MAP_AW
 Y289 Y291 Y299 Y313 Y309 Y319 Y307 Y323 Y493 Y494 Y436 Y327 Q131 Q129 Q107 Y438 M202 AR15 AR17 
 *END 
+*ZOOM GRUBR GRUBR 50 
+*ZOOM MAJIK MAJIK 50
 *NOTES Sector over the Atlantic which sequences MIA/FLL arrivals also deals with overflights up the eastcoast of the U.S. and Caribbean.
 *NOTES The main goal of this sector is to ensure atleast 8 miles in trail between MIA arrivals 10 miles in trail in FLL. 
 ;---------------------------------------------------
@@ -382,12 +402,19 @@ Y289 Y291 Y299 Y313 Y309 Y319 Y307 Y323 Y493 Y494 Y436 Y327 Q131 Q129 Q107 Y438 
 *MAP_AW 
 Q89 Q65 Q77 Q75 Q99 
 *END 
+*ZOOM AYS AYS 50
+*ZOOM AMG AMG 50
 *NOTES KATL AOB FL350, ZTL BOUND ODD ALT
 ;----------------------------------------------------------
 *MAP 51 
 *MAP_AW 
 Y289 Y291 Y299 Y313 Y309 Y319 Y307 Y323 Y493 Y494 Y436 Y327 Q131 Q129 Q107 Y438 M202 AR15 AR17 
 *END 
+*ZOOM FLRDA FLRDA 50
+*ZOOM SEELO SEELO 50
+*ZOOM ROWSY ROWSY 50
+*ZOOM GRUBR GRUBR 50 
+*ZOOM MAJIK MAJIK 50
 *NOTES PD to 380 for CLT arrivals routed via PITRW, aircraft should be deliverd to cross PITRW@310 by 52. 
 *NOTES Overflight sector above FL380 typicall for flights destinned for the Northeast U.S., Europe, Latin America and the Carribbean 
 ;----------------------------------------------------------
@@ -395,6 +422,9 @@ Y289 Y291 Y299 Y313 Y309 Y319 Y307 Y323 Y493 Y494 Y436 Y327 Q131 Q129 Q107 Y438 
 *MAP_AW
 Y289 Y291 Y299 Y313 Y309 Y319 Y307 Y323 Y493 Y494 Y436 Y327 Q131 Q129 Q107 Y438 M202 AR15 AR17 
 *END 
+*ZOOM FLRDA FLRDA 50
+*ZOOM SEELO SEELO 50
+*ZOOM ROWSY ROWSY 50
 *SHOW_PROC KCLT-STOCR0 
 *NOTES Overflight sector over the Atlantic primarily sequencing Arrivals bound for the MIA/FLL area. 
 *NOTES Also can mix with traffic further bound up the east coast of the U.S. and down further the U.S. east coast into latin America.
@@ -403,6 +433,7 @@ Y289 Y291 Y299 Y313 Y309 Y319 Y307 Y323 Y493 Y494 Y436 Y327 Q131 Q129 Q107 Y438 
 *MAP_AW 
 V267 V179 V154 V70 V185 V37 V3 V447 V441 V1 V18 V417 
 *END 
+*ZOOM SSI SSI 50
 *SHOW_PROC KSSI-RV1 KSSI-RNAV22 KSSI-RNAV4 
 *NOTES Sector 53 is a low sector responsible for handling low overglight aircraft AOB 10k along the east coast of Florida.
 *NOTES Its primary responsiblity is KSSI Airport.
@@ -416,6 +447,8 @@ V267 V179 V154 V70 V185 V37 V3 V447 V441 V1 V18 V417
 *MAP_AW 
 V267 V179 V154 V70 V185 V37 V3 V447 V441 V1 V18 V417 
 *END 
+*ZOOM SSI SSI 50
+*ZOOM SAV SAV 50
 *SHOW_PROC KSSI-RV1 KJAX-LUNNI0 KSAV-RV2 
 *NOTES Sector 54 is the primarily responsible for the JAX sequence on the LUNNI arrival as well as airraft landing SAV from the south. 
 *NOTES Sector 54 is typically combined with 53 unless traffic level does not allow. 
@@ -430,6 +463,8 @@ TTHOR SNFLD BASSS POGIE QUBEN
 *MAP_AW 
 V3 V437 V267 V159 V295 V152
 *END 
+*ZOOM OMN OMN 50
+*ZOOM CRG CRG 50
 *SHOW_PROC KDAB-TTHOR0 KJAX-POGIE0 KORL-TTHOR0 KSFB-TTHOR0 
 *WX KJAX KDAB KORL KSFB 
 *NOTES Busy F11 climb corridor, also sequences TTHOR arrival
@@ -493,6 +528,7 @@ LPERD VIYAP ROYCO GIPPL
 Q99 Q109 Q75 Q409 Q89 Q77 Q87 Q85 Q93 Q97 Q69 
 *END 
 *ZOOM SSI SSI 75 
+*ZOOM SAV SAV 50
 *SHOW_PROC KDAB-TTHOR0 KMCO-GTOUT0 KISM-SNFLD0 KMLB-BITHO0 KORL-TTHOR0 KSFB-TTHOR0  KCHS-BAGGY0 KMYR-RV3 
 *NOTES Sector 68 must ensure that aircraft landing MCO have a mandatory 8 miles in trail. 
 *NOTES Aircraft established on or east of Q85 are released to 58 for descent 10nm from the boundary.
@@ -520,11 +556,33 @@ V155 V37 V259 V53 V296 V409
 *MAP_AW 
 *END 
 *ZOOM CAE CAE 50 
-*SHOW_PROC KCHS-OSPRI0 
 *WX KCAE KFLO KCHS 
-*NOTES Sector 72 primarily sequences aircraft on the OSPRI arrival into KCHS. 
 *NOTES Sector 66 can increase the speed on CLT departures established on CLT SIDs. 
-*NOTES Sector 66 has control for turns direct MAVRC on CLT departure aircraft on the BEAVY SID> 
+*NOTES Sector 66 has control for turns direct MAVRC on CLT departure aircraft on the BEAVY SID.
+;----------------------------------------------------------
+*MAP 73 
+*MAP_AW 
+V3 V417 V185 V437 V1 V18 V417 V53 V56 
+*END 
+*ZOOM ALD ALD 50 
+*ZOOM CHS CHS 50 
+*SHOW_PROC KCHS-OSPRI0 KSAV-RV3 KSAV-RV4 KSAV-RV5 
+*NOTES Sector 73 primarily sequences CHS arrivals on the OSPRI arrival, it also handles SAV arrivals from the north. 
+*NOTES Traffic between sector 73 and 53/54 should cleared northbound at ODD altitudes and southbound at EVEN altitudes. 
+*NOTES Traffic on V37 should be northbound at ODD altitudes and southbound at EVEN altitudes. 
+*NOTES Savannah arrivals will enter the Sector @240 and should cross the TRACON boundary at 11k via SOOOP/PLZZZ as filed.
+*NOTES Sector 68 should deliver aircraft via SAV.BAGGY3 descending to 240. 
+*NTOES Traffic on the OSPRI7 will be descending to FL240 to enter the sector. 
+;----------------------------------------------------------
+*MAP 74 
+*MAP_AW 
+V437 V56 V259 V1 V139 V70 V213 V3 
+*END 
+*ZOOM CRE CRE 50 
+*ZOOM CHS CHS 50 
+*SHOW_PROC KCHS-AMYLU0 KMYR-RV1 KMYR-RV2 KMYR-RV3 KCLT-MLLET0 
+*NOTES Sector 74 main purpose to sequence CHS arrival via the AMYLU arrival and some MYR and CLT arrivals. 
+*NOTES Aircraft landing CLT area should be entering the sector @FL240.
 ;----------------------------------------------------------
 *MAP 75 
 *MAP_AW
@@ -548,6 +606,8 @@ Q87 Q77
 *MAP_AW
 Q87 Q77 V152 V437 V3 V533 V51 V437 V267 Q77 Q87 Q93 Q97 AR15 Q89 
 *END 
+*ZOOM OMN OMN 75
+*ZOOM CRG CRG 75
 *Sector 76 is a busy ultra high enroute sector over eastern coast of Florida over Daytona. 
 *NOTES Aircraft landing FLL should be descended to FL350 and handed off to 58. 
 *NOTES Aircraft landing SAV should be descended to FL350 and handed off to 75. 
@@ -563,6 +623,7 @@ MARQO CAMJO COROE
 *MAP_AW 
 V198 V157 V537 V441 
 *END 
+*ZOOM TAY TAY 65
 *SHOW_PROC KJAX-MARQO0 KGNV-RV1 KGNV-RV2 KGNV-RV3 KSFB-SHREK0 KVLD-RV2 
 *WX KJAX KGNV  
 *NOTES Sector 77 sequences JAX arrival on the MARQO, SFB arrivals on the SHREK, and GNV arrivals from the north.
@@ -578,6 +639,8 @@ OHDEA DUCHY TEUFL
 *MAP_AW 
 V267 V179 V243 V154 V70 V5 
 *END 
+*ZOOM AMG AMG 50
+*ZOOM AYS AYS 50
 *SHOW_PROC KJAX-OHDEA0 KSAV-RV1 
 *WX KSAV KJAX KVLD
 *NOTES Sequences Jax arrivals on the OHDEA arrival 
