@@ -341,6 +341,21 @@ Q89 Q65 Q77 Q75 Q99
 *END 
 *NOTES KATL AOB FL350, ZTL BOUND ODD ALT
 ;----------------------------------------------------------
+*MAP 51 
+*MAP_AW 
+Y289 Y291 Y299 Y313 Y309 Y319 Y307 Y323 Y493 Y494 Y436 Y327 Q131 Q129 Q107 Y438 M202 AR15 AR17 
+*END 
+*NOTES PD to 380 for CLT arrivals routed via PITRW, aircraft should be deliverd to cross PITRW@310 by 52. 
+*NOTES Overflight sector above FL380 typicall for flights destinned for the Northeast U.S., Europe, Latin America and the Carribbean 
+;----------------------------------------------------------
+*MAP 52
+*MAP_AW
+Y289 Y291 Y299 Y313 Y309 Y319 Y307 Y323 Y493 Y494 Y436 Y327 Q131 Q129 Q107 Y438 M202 AR15 AR17 
+*END 
+*SHOW_PROC KCLT-STOCR0 
+*NOTES Overflight sector over the Atlantic primarily sequencing Arrivals bound for the MIA/FLL area. 
+*NOTES Also can mix with traffic further bound up the east coast of the U.S. and down further the U.S. east coast into latin America.
+;----------------------------------------------------------
 *MAP 57 
 *MAP_XN 
 TTHOR SNFLD BASSS POGIE QUBEN 
