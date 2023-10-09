@@ -528,8 +528,9 @@ LPERD VIYAP ROYCO GIPPL
 Q99 Q109 Q75 Q409 Q89 Q77 Q87 Q85 Q93 Q97 Q69 
 *END 
 *ZOOM SSI SSI 75 
+*ZOOM CHS CHS 50
 *ZOOM SAV SAV 50
-*SHOW_PROC KDAB-TTHOR0 KMCO-GTOUT0 KISM-SNFLD0 KMLB-BITHO0 KORL-TTHOR0 KSFB-TTHOR0  KCHS-BAGGY0 KMYR-RV3 
+*SHOW_PROC KDAB-TTHOR0 KMCO-GTOUT0 KISM-SNFLD0 KMLB-BITHO0 KORL-TTHOR0 KSFB-TTHOR0 KJAX-LUNNI0 KCHS-BAGGY0 KMYR-RV3 
 *NOTES Sector 68 must ensure that aircraft landing MCO have a mandatory 8 miles in trail. 
 *NOTES Aircraft established on or east of Q85 are released to 58 for descent 10nm from the boundary.
 *NOTES Aircraft landing SFB, DAB, ORL should be routed no further than JAGGZ AOB FL 300 descending to 260
