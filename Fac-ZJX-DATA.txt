@@ -322,6 +322,8 @@ BACCA BLVNS REMIS ROZZI BUNNZ NAITE
 Y280 Y290
 *END  
 *NOTES KMSY AOB FL320
+*NOTES Sector 30 is a busy overlight sector over the gulf of  Mexico. 
+*NOTES It primarily serves traffic on Y280 & Y290.
 ;----------------------------------------------------------
 *MAP 33 
 *MAP_XN 
@@ -330,7 +332,7 @@ CAPOH LEGGT ZOOSS LALAA WHITL BATTN
 *MAP_AW 
 Q104 Q116 Q19 Q81 Q118 Q79 Q65 Q99 Q109 Q89 
 *END 
-*SHOW_PROC KMCO-GRNCH0 KTPA-DADES0 KTPA-MAATY0 KJAX-MARQO0
+*SHOW_PROC KJAX-MARQO0 KMCO-GRNCH0 
 *NOTES KATL AOB FL340, Geneva is a very busy high enroute sector sequencing arrivals for KATL, KTPA, KMCO, KJAX, KMIA, KFLL
 ;----------------------------------------------------------
 *MAP 49
