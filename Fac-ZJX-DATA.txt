@@ -371,6 +371,13 @@ Q104 Q116 Q19 Q81 Q118 Q79 Q65 Q99 Q109 Q89
 *SHOW_PROC KJAX-MARQO0 KMCO-GRNCH0 
 *NOTES KATL AOB FL340, Geneva is a very busy high enroute sector sequencing arrivals for KATL, KTPA, KMCO, KJAX, KMIA, KFLL
 ;----------------------------------------------------------
+*MAP 35 
+*MAP_AW
+Y289 Y291 Y299 Y313 Y309 Y319 Y307 Y323 Y493 Y494 Y436 Y327 Q131 Q129 Q107 Y438 M202 AR15 AR17 
+*END 
+*NOTES Sector over the Atlantic which sequences MIA/FLL arrivals also deals with overflights up the eastcoast of the U.S. and Caribbean.
+*NOTES The main goal of this sector is to ensure atleast 8 miles in trail between MIA arrivals 10 miles in trail in FLL. 
+;---------------------------------------------------
 *MAP 49
 *MAP_AW 
 Q89 Q65 Q77 Q75 Q99 
@@ -493,6 +500,36 @@ V155 V37 V259 V53 V296 V409
 *WX KCAE KFLO KCHS 
 *NOTES Primarily works traffic on the OSPRI arrival
 ;----------------------------------------------------------
+*MAP 75 
+*MAP_AW
+Q87 Q77 
+*END
+*ZOOM OMN OMN 75
+*SHOW_PROC KJAX-POGIE0 KJAX-QUBEN0 
+*NOTES Sector 75 is a busy sequencing corridor, attempt to climb aircraft out of the F11/DAB complex and merging with traffic from the south. 
+*NOTES Sector 75 also is an initial sequencer for ATL sector and should proivde atleast 5 miles in trail to sector 49/59.
+*NOTES Aircraft departing airports in the F11/DAB complex and landing at airports in the ATL complex must be capped at FL330. 
+*NOTES Aircraft bound for sector 49/50 from 75/76 should be AOB FL350 via SHRKS, then flight plan route. 
+*NOTES Northbound aircraft from sector 57 and 75 should be routed to remain clear of the Ocala sector. 
+*NOTES Aircraft landing SAV must be descended to FL240 by 75 and handed to sector 54. 
+*NOTES Sector 16/86 must deliver aircraft to 75/76 at an event altitude. 16.86 has control for right turns on these aircraft 20 NM from the bdry. 
+*NOTES Aircraft landing SFB/ORL/DAB via KYLEG.TTHOR will enter the sector crossing KYLEG@240 and will be handed off to 58. 
+*NOTES Aircraft landing MLB should be routed via SHRKS.Q89.PRMUS..OMN.BITHO and handed off AOB FL340 to be handed off to 58. 
+*NOTES Aircraft filed through sector 75 AOB FL340 will enter routed via SHRKS.Q89 then as filed. 
+*NOTES Aircraft operating between sector 75/50/49/68/67/78/87 must be cleared northbound at ODD alts and southbound at EVEN alts. 
+;----------------------------------------------------------
+*MAP 76 
+*MAP_AW
+Q87 Q77 V152 V437 V3 V533 V51 V437 V267 Q77 Q87 Q93 Q97 AR15 Q89 
+*END 
+*Sector 76 is a busy ultra high enroute sector over eastern coast of Florida over Daytona. 
+*NOTES Aircraft landing FLL should be descended to FL350 and handed off to 58. 
+*NOTES Aircraft landing SAV should be descended to FL350 and handed off to 75. 
+*NOTES Aircraft landing MIA should be AOB FL360. 
+*NOTES Aircraft operating between sector 75/50/49/68/67/78/87 must be cleared northbound at ODD alts and southbound at EVEN alts. 
+*NOTES Sector 76 might also be building the initial sequence into ATL and requires atleast 8 miles in trail in sector 49/50. 
+*NOTES Sector 16/86 must deliver aircraft to 75/76 at an event altitude. 16.86 has control for right turns on these aircraft 20 NM from the bdry. 
+;----------------------------------------------------------
 *MAP 77 
 *MAP_XN  
 MARQO CAMJO COROE
@@ -502,6 +539,11 @@ V198 V157 V537 V441
 *END 
 *SHOW_PROC KJAX-MARQO0 KGNV-RV1 KGNV-RV2 KGNV-RV3 KSFB-SHREK0 KVLD-RV2 
 *WX KJAX KGNV  
+*NOTES Sector 77 sequences JAX arrival on the MARQO, SFB arrivals on the SHREK, and GNV arrivals from the north.
+*NOTES Aircraft on the MARQO arrival should enter the sector crossing ZOOSS@240 and needs to be atleast 12 miles in trail by JAX TRACON.
+*NOTES Aircraft landing GNV will enter around 240 and should cross the northbound of JAX TRACON by atleast 7k descending to 5k. 
+*NOTES Taylor almost must ensure atleast 10 miles in trail between SFB arrivals on the SHREK arrival. 
+*NOTES Aircraft between sector 77/29/79/28/14/15 must be cleared northbound at an EVEN alt, and southvound at an ODD altitude. 
 ;----------------------------------------------------------
 *MAP 79 
 *MAP_XN 
