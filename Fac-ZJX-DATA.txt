@@ -241,18 +241,19 @@
 *MAP 10 
  *MAP_AW 
  V198 V241 
-  *END
-  SHOW_PROC KPNS-RV1 KPNS-RV2 KPNS-RV3 KPNS-RV4 KECP-RV1 KECP-RV2 
+*END
+  SHOW_PROC KPNS-RV1 KPNS-RV2 KPNS-RV3 KPNS-RV4 KECP-RV1 KECP-RV2 KGZH-RNAV28 
 *ZOOM CEW CEW 55 
 *ZOOM RRS RRS 55 
 *WX KPNS KVPS KTLH KECP KPAM 
+
 *LIBRARY KPNS-RV1 KPNS-RV2 KPNS-RV3 KPNS-RV4 KECP-RV1 KECP-RV2 
 *NOTES Sector 10 primarily sequences aircraft into Panhandle airports. 
 *NOTES Also works overflights from lower cruising aircraft over pandhnadle
 *NOTES North Moa is assumed as not activated in this simulaton
 *NOTES Aircraft landing TLH should cross the border with 13 AOB FL190. 
 *NOTES Aircraft landing ECP should be descend to 11k and handed off to the TRACON border. 
-*NOTES Aircraft landing PNS should cross the TRACON border At 11k using CEWx@110. 
+*NOTES Aircraft landing PNS should cross the TRACON border At 11k using XCEW@110. 
 ;----------------------------------------------------------
 *MAP 11 
 *MAP_AW 
@@ -330,6 +331,18 @@ Q116 Q65 Q110 Q118 Q99 Q81 Q87 Q109 Q79
 *NOTES Aircraft landing KRSW on the TYNEE arrival should cross the ZJX/ZMA bdry AOB FL270. 
 *NOTES Aircraft should be deliverd from 78/17 will mandatory in trail requirements (8). 
 *NOTES Aircraft should be delivered from sector 86 descending to FL350. 
+;----------------------------------------------------------
+*MAP 17 
+*MAP_XN 
+LEGGT 
+*END 
+*MAP_AW 
+
+*END 
+*ZOOM SZW SZW 50 
+*ZOOM LEGGT LEGGT 50
+*SHOW_PROC KTPA-MAATY0 KSRQ-BANGZ0 KPGD-PIKKR0 KRSW-TYNEE0 
+*NOTES 
 ;----------------------------------------------------------
 *MAP 17 
 *MAP_AW 
