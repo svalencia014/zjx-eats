@@ -337,12 +337,19 @@ Q116 Q65 Q110 Q118 Q99 Q81 Q87 Q109 Q79
 LEGGT 
 *END 
 *MAP_AW 
-
+Q118 Q110 Q116 Q104 Q81 Q99 Q79 Q65 Q109 
 *END 
 *ZOOM SZW SZW 50 
 *ZOOM LEGGT LEGGT 50
 *SHOW_PROC KTPA-MAATY0 KSRQ-BANGZ0 KPGD-PIKKR0 KRSW-TYNEE0 
-*NOTES 
+*NOTES Sector 17 is a busy high enroute sector sequencing TPA arrivals via the MAATY arrival and SRQ arrivals via the BANGZ arrival. Also works overflights to MIA/FLL. 
+*NOTES Aircraft at FL240 that are filed for higher altitudes are relased for climb from Sector 88 within the climb corridor. 
+*NOTES Tampa arrival must cross or abeam LEGGT AOB FL270, SRQ arrivals must cross over or abeam LALAA AOB FL270. 
+*NOTES Turbojet MCO/ORL/ISM via the GRNCH STAR should cross the 17/78 boundary AOB F270 south of the Sectgor 33/17 boundary. 
+*NOTES Aircraft landing PGD must be routed via PLYER.PIKKR arrival and handed off to sector 88 descending to FL270. 
+*NOTES Sector 11 must ensure trafic landing SFB, GNV, and OCF enter sector 17 AOB FL290 and have control for turns and descent on the aircraft 20 NM from the common boundary. 
+*NOTES Aircraft must be cleared northbound at EVEN altitudes and southbound at ODD altitudes. 
+*NOTES Sector 
 ;----------------------------------------------------------
 *MAP 17 
 *MAP_AW 
