@@ -246,6 +246,7 @@
 *ZOOM CEW CEW 55 
 *ZOOM RRS RRS 55 
 *WX KPNS KVPS KTLH KECP KPAM 
+*LIBRARY KPNS-RV1 KPNS-RV2 KPNS-RV3 KPNS-RV4 KECP-RV1 KECP-RV2 
 *NOTES Sector 10 primarily sequences aircraft into Panhandle airports. 
 *NOTES Also works overflights from lower cruising aircraft over pandhnadle
 *NOTES North Moa is assumed as not activated in this simulaton
@@ -259,6 +260,7 @@ J2
 *END 
 *ZOOM CEW CEW 50 
 *ZOOM DEF DEFUN 50 
+*LIBRARY KPNS-RV1 KPNS-RV2 KPNS-RV3 KPNS-RV4 KECP-RV1 KECP-RV2 
 *SHOW_PROC KTPA-MAATY0 KPNS-RV1 KPNS-RV2 KPNS-RV3 KPNS-RV4 KECP-RV1 KECP-RV2 
 *NOTES Sectot 11 is a busy overflight sector and builds in the inital sequence for MCO/TPA/JAX/MIA/FLL/SRQ 
 *NOTES Traffic bound for JAX and DAB shoould enter Sector 34/17 AOB FL350. 
