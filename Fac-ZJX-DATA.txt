@@ -238,25 +238,14 @@
 *DOF_A  ZJX68 ZJX58  KMIA-CSTAL0    J  *    *  EVEN  
 *DOF_A  ZJX50 ZJX58  KSFB-TTHOR0    J  *    *  EVEN
 
-
-*MAP 09 
-*MAP_AW 
-V113 
-*END 
-*ZOOM GZH KGZH 25 
-*SHOW_PROC KGZH-RNAV28 
-*NOTES Sector 9's whole purpose is to ensure separation within the North Moa.
-*NOTES Sector 9 is not able to be worked due to the North Moa being inactive.
-;----------------------------------------------------------
 *MAP 10 
  *MAP_AW 
  V198 V241 
   *END
 *ZOOM CEW CEW 55 
 *ZOOM RRS RRS 55 
-*NOTES Sector 10 primaril sequences aircraft into Panhandle airports. 
+*NOTES Sector 10 primarily sequences aircraft into Panhandle airports. 
 *NOTES Also works overflights from lower cruising aircraft over pandhnadle
-*NOTES Typically combined with Sector 9 unless North MOA is activated 
 *NOTES North Moa is assumed as not activated in this simulaton
 ;----------------------------------------------------------
 *MAP 11 
@@ -382,15 +371,41 @@ Y280 Y290
 ;----------------------------------------------------------
 *MAP 33 
 *MAP_XN 
-CAPOH LEGGT ZOOSS LALAA WHITL BATTN 
+CAPOH LEGGT ZOOSS LALAA WHITL BATTN DOFFY 
 *END 
 *MAP_AW 
 Q104 Q116 Q19 Q81 Q118 Q79 Q65 Q99 Q109 Q89 
 *END 
 *ZOOM WYATT WYATT 50
 *ZOOM SZW SZW 50
-*SHOW_PROC KJAX-MARQO0 KMCO-GRNCH0 
-*NOTES KATL AOB FL340, Geneva is a very busy high enroute sector sequencing arrivals for KATL, KTPA, KMCO, KJAX, KMIA, KFLL
+*SHOW_PROC KJAX-MARQO0 KMCO-GRNCH0 KORL-JAFAR0 KORL-LEESE0 KISM-JAFAR0 KISM-LEESE0 KSFB-SHREK0 KTPA-MAATY0 KTPA-DADES0 KSRQ-BANGZ0 KSRQ-LUBBR0 
+*NOTES Sector 33 is a busy high sector sequencing MCO, TPA, and JAX arrivals and starting their initial descent. 
+*NOTES Aircraft on the MARQO arrival should cross ZOOSS @FL240.
+*NOTES Aircraft landing ORL/ISM on the JAFAR/LEESE STAR should cross the border with 78 AOB FL290 and released for turns and descents. 
+*NOTES Aircraft landing TPA/SRQ should cross the border with 17/78 AOB FL310. 
+*NOTES Aircraft landing MCO via the GRNCH arrival should be established prior or by ELITE and should cross the border with sector 78 AOB FL290 and released for turns and descents. 
+*NOTES Aircraft landing SFB must enter sector 78 AOB FL270 routed via BIDGE.SHREK arrival. 
+*NOTES Aircraft landing GNV should be descended to FL240 as soon as possible. 
+*NOTES All aircraft southbound at or below FL330 filed via DOFFY must be delivered over or east of DOFFY.
+*NOTES Aircraft should be cleared northbound at EVEN Altitudes and southbound at ODD altitudes. 
+;----------------------------------------------------------
+*MAP 34 
+*MAP_XN 
+HONID DAWWN ZPLEN GPEEE IPOKE ZOOSS MJKAL THRTL DEFUN 
+*END 
+*MAP_AW 
+J2 Q104 Q116 Q19 Q81 Q118 Q79 Q89 
+*END 
+*ZOOM SZW SZW 50 
+*ZOOM DAWWN DAWWN 50 
+*ZOOM DEFUN DEFUN 75
+*SHOW_PROC KJAX-MARQO 
+*NOTES Sector 34 is a busy high sector which builds the initial sequence for TPA/F11 arrivals. Also works overglight traffic bound for MIA/FLL. 
+*NOTES Aircraft landing JAX must cross ZOOSS@FL240.
+*NOTES Aircraft landing PNS must cross the border with 11 AOB FL300. 
+*NOTES Aircraft landing SFB must cross the border with 17 AOB FL290 and routed via the BITTE.SHREK arrival. 
+*NOTES SRQ must be routed via the BANGZ STAR/ TPA arrivals must be routed with MAATY arrival/F11 via the GRNCH/JAFAR/LEESE/PRICY arrivals. 
+*
 ;----------------------------------------------------------
 *MAP 35 
 *MAP_AW
