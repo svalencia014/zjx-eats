@@ -245,10 +245,8 @@ V113
 *END 
 *ZOOM GZH KGZH 25 
 *SHOW_PROC KGZH-RNAV28 
-*NOTES Sector 9's whole purpose is to ensure separation within the North Moa. 
-*NOTES In this simulation north moa is not activate. 
-*NOTES Sector 9 is typically combined with 10 when North Moa is combined. 
-*NOTES Sector 9 is this simulation services one airport Evergreen KGZH which is uncontrolled. 
+*NOTES Sector 9's whole purpose is to ensure separation within the North Moa.
+*NOTES Sector 9 is not able to be worked due to the North Moa being inactive.
 ;----------------------------------------------------------
 *MAP 10 
  *MAP_AW 
