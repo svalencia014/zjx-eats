@@ -438,6 +438,27 @@ Q89 Q65 Q77 Q75 Q99
 *NOTES Aircraft operating within sectors 49/50/65/66 should be cleared northbound at an ODD altitude and southbound at an EVEN altitude. 
 *NOTES Aircraft departing the DAB/F11 complex landing ATL should be capped at FL350.
 *NOTES Aircraft operating between sectors 75/76/50/49/78/87 must be cleared northbound at an ODD altitude and southbound at an EVEN altitude.
+*NOTES Aircraft landing MLB via the BITHO arrival should be descended to FL350 and handed off to 50 in order to cross the 75/76 border AOB FL340. 
+;---------------------------------------------------
+*MAP 50
+*MAP_AW 
+Q89 Q65 Q77 Q75 Q99 
+*END 
+*ZOOM AYS AYS 50
+*ZOOM AMG AMG 50
+*LIBRARY KMCO-GRNCH0 KSFB-TTHOR0 KSFB-LEESE0 KORL-JAFAR0 KISM-SNFLD0 KORL-LEESE0 KORL-SHREK0 KTPA-DADES0 KSRQ-LUBBR0 KGNV-RV1 KGNV-RV2 KGNV-RV3 KGNV-RV4 KJAX-OHDEA0
+*SHOW_PROC KMCO-GRNCH0 KSFB-TTHOR0 KSFB-LEESE0 KORL-JAFAR0 KISM-SNFLD0 KORL-LEESE0 KORL-SHREK0 KTPA-DADES0 KSRQ-LUBBR0 
+*NOTES Sector 50 is a busy high enroute sector and must provide in trail spacing to sector 78 and control for turns and descents 15 NM from the border. 
+*NOTES Aircraft on the GRNCH arrival should cross the border with sector 78 AOB FL340, aircraft on the JAFAR AOB FL300. 
+*NOTES Aircraft landing SFB should be AOB FL260 by the border. 
+*NOTES Aircraft on the KYLEG.TTHOR arrival should cross KYLEG@240. 
+*NOTES The DADES arrival and LUBBR arrival should be laterally separated by sector 78 border and below or laterally separated from the SHFTY arrival. 
+*NOTES Aircraft landing SRQ/PGD should be routed via the LUBBR arrival. Traffic landing TPA should be routed via the DADES arrival.
+*NOTES Aircraft landing MLB via the BITHO arrival should cross the border with 75/76 AOB FL340. 
+*NOTES GNV arrivals should be desncded before the border with 78 and handed off to 77. 
+*NOTES JAX arrivals on the OHDEA arrival should cross ILTAC@240. 
+*NOTES Aircraft oeprating between sectors 65/66 and 49/50 must be cleared northbound at ODD altitudes and southbound at EVEN altitudes.
+*NOTES Aircraft operating between sectors 49/50/75/76/78/87 must be cleared northbound at ODD altitudes and southbound at EVEN altitudes.
 ;----------------------------------------------------------
 *MAP 51 
 *MAP_AW 
