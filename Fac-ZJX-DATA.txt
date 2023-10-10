@@ -242,11 +242,16 @@
  *MAP_AW 
  V198 V241 
   *END
+  SHOW_PROC KPNS-RV1 KPNS-RV2 KPNS-RV3 KPNS-RV4 KECP-RV1 KECP-RV2 
 *ZOOM CEW CEW 55 
 *ZOOM RRS RRS 55 
+*WX KPNS KVPS KTLH KECP KPAM 
 *NOTES Sector 10 primarily sequences aircraft into Panhandle airports. 
 *NOTES Also works overflights from lower cruising aircraft over pandhnadle
 *NOTES North Moa is assumed as not activated in this simulaton
+*NOTES Aircraft landing TLH should cross the border with 13 AOB FL190. 
+*NOTES Aircraft landing ECP should be descend to 11k and handed off to the TRACON border. 
+*NOTES Aircraft landing PNS should cross the TRACON border At 11k using CEWx@110. 
 ;----------------------------------------------------------
 *MAP 11 
 *MAP_AW 
@@ -254,7 +259,7 @@ J2
 *END 
 *ZOOM CEW CEW 50 
 *ZOOM DEF DEFUN 50 
-*SHOW_PROC KTPA-MAATY0 
+*SHOW_PROC KTPA-MAATY0 KPNS-RV1 KPNS-RV2 KPNS-RV3 KPNS-RV4 KECP-RV1 KECP-RV2 
 *NOTES Sectot 11 is a busy overflight sector and builds in the inital sequence for MCO/TPA/JAX/MIA/FLL/SRQ 
 *NOTES Traffic bound for JAX and DAB shoould enter Sector 34/17 AOB FL350. 
 *NOTES Traffic landing GNV/SFB entering SECTOR 34 should be AOB FL350 and they have control for turns/descents 20NM from the bdry.
@@ -399,13 +404,13 @@ J2 Q104 Q116 Q19 Q81 Q118 Q79 Q89
 *ZOOM SZW SZW 50 
 *ZOOM DAWWN DAWWN 50 
 *ZOOM DEFUN DEFUN 75
-*SHOW_PROC KJAX-MARQO 
+*SHOW_PROC KJAX-MARQO KMCO-GRNCH0 KTPA-MAATY0 KSRQ-BANGZ0 KRSW-PIKKR0 
 *NOTES Sector 34 is a busy high sector which builds the initial sequence for TPA/F11 arrivals. Also works overglight traffic bound for MIA/FLL. 
 *NOTES Aircraft landing JAX must cross ZOOSS@FL240.
 *NOTES Aircraft landing PNS must cross the border with 11 AOB FL300. 
 *NOTES Aircraft landing SFB must cross the border with 17 AOB FL290 and routed via the BITTE.SHREK arrival. 
 *NOTES SRQ must be routed via the BANGZ STAR/ TPA arrivals must be routed with MAATY arrival/F11 via the GRNCH/JAFAR/LEESE/PRICY arrivals. 
-*
+*Aircraft landing MCO/ORL/ISM should cross the 17/78 border AOB FL270. 
 ;----------------------------------------------------------
 *MAP 35 
 *MAP_AW
@@ -679,6 +684,22 @@ V267 V179 V243 V154 V70 V5
 *SHOW_PROC KJAX-OHDEA0 KSAV-RV1 
 *WX KSAV KJAX KVLD
 *NOTES Sequences Jax arrivals on the OHDEA arrival 
+*NOTES Aircraft operating between 77/79 must be cleared northbound at an EVEN altitude and southbound at an ODD altitude. 
+*NOTES Aircraft operating between 79/29/53/54 west of the eastern edge of V267 must be cleared northbound at ODD altitudes and southbound at even altitudes.
+;----------------------------------------------------------
+*MAP 85 
+*MAP_XN 
+HEVVN GULFR JAMIZ
+*END 
+*MAP_AW 
+Q104 Q81 Q116 Q19 Q81 Q118 Q79 Q109 Q99 Q79 Q65 
+*END 
+*ZOOM SZW SZW 50 
+*ZOOM CTY CTY 50 
+*SHOW_PROC KTPA-MAATY0 KSRQ-PIKKR0 
+*NOTES Sector 85 must deliver aircraft on the TYNEE to 86 at FL350. 
+*NOTES RSW arrivals may be routed no fruther south than direct EGAME and must be handed off to sector 16 AOB FL350. 
+*NOTES PDG arrivals must be handed off to MAYO sector AOB FL310. 
 ;----------------------------------------------------------
 *MAP 88 
 *MAP_XN 
@@ -690,4 +711,8 @@ V97 V35
 *ZOOM PLYER PLYER 50
 *SHOW_PROC KTPA-MAATY0 KSRQ-BANGZ0 KTLH-RV4
 *WX KTPA KSRQ 
+*NOTES Climb corridor while handling arrivals on the BANGZ/MAATY arrivals. 
+*NOTES Aircraft at FL240 that are filed for higher altiudes are released for climbs from 88 to 17. 
+*NOTES Sector 28 has a shelf to the north of DARBS airspace which they own sfc-10k. 
+*NOTES Aircraft landing TPA complex, exluding SRQ arrival must be AOB FL260 prior to MAYO sector boundary. 
 ;----------------------------------------------------------
