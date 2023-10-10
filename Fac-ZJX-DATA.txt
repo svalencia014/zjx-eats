@@ -239,7 +239,7 @@
 *DOF_A  ZJX50 ZJX58  KSFB-TTHOR0    J  *    *  EVEN
 
 
-*MAP 9 
+*MAP 09 
 *MAP_AW 
 V113 
 *END 
@@ -519,6 +519,20 @@ Q64 Q54 Q58 Q56 Q93 Q75 Q22 Q52 Q60 Q97 Q87 Q99 Q103 Q99 Q77 Q83 Q65 Q109
 *NOTES Sector 66 has control for speed increase from sector 72 on CLT departure aircraft esablished on SIDs.(Limited to 280).
 *NOTES Sector 68/67 has control for turns from sector 66/65 sectors 20 NM north of the boundary. 
 *Aircraft operating between 65/66 and 49/50 must be cleared northbound at odd altitudes, and southbound at even altitudes. 
+;----------------------------------------------------------
+*MAP 67 
+*MAP_XN 
+LPERD VIYAP ROYCO GIPPL 
+*END 
+*MAP_AW 
+Q99 Q109 Q75 Q409 Q89 Q77 Q87 Q85 Q93 Q97 Q69 
+*END 
+*ZOOM SSI SSI 75 
+*ZOOM CHS CHS 50
+*ZOOM SAV SAV 50
+*SHOW_PROC KDAB-TTHOR0 KMCO-GTOUT0 KISM-SNFLD0 KMLB-BITHO0 KORL-TTHOR0 KSFB-TTHOR0 KJAX-LUNNI0 KCHS-BAGGY0 KMYR-RV3
+*NOTES Aircraft landing MLB should be descended to FL350 and handed off to 68 to cross the border with 58 AOB FL340. 
+*NOTES Sector 68/
 ;----------------------------------------------------------
 *MAP 68 
 *MAP_XN 
