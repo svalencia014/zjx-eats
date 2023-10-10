@@ -331,6 +331,11 @@ Q116 Q65 Q110 Q118 Q99 Q81 Q87 Q109 Q79
 *ZOOM PIE PIE 50
 *ZOOM OCF OCF 50 
 *SHOW_PROC KJAX-TEBOW0 KPBI-VUUDU0 KPGD-LUBBR0 KRSW-SFHTY0 KRSW-JOSFF0 KRSW-TYNEE0
+*NOTES Aircraft landing FLL AOB FL330 
+*NOTES Aircraft landing KRSW on the SHFTY arrival should cross the ZXX/ZMA bdry AOB FL310. 
+*NOTES Aircraft landing KRSW on the TYNEE arrival should cross the ZJX/ZMA bdry AOB FL270. 
+*NOTES Aircraft should be deliverd from 78/17 will mandatory in trail requirements (8). 
+*NOTES Aircraft should be delivered from sector 86 descending to FL350. 
 ;----------------------------------------------------------
 *MAP 17 
 *MAP_AW 
@@ -532,7 +537,9 @@ Q99 Q109 Q75 Q409 Q89 Q77 Q87 Q85 Q93 Q97 Q69
 *ZOOM SAV SAV 50
 *SHOW_PROC KDAB-TTHOR0 KMCO-GTOUT0 KISM-SNFLD0 KMLB-BITHO0 KORL-TTHOR0 KSFB-TTHOR0 KJAX-LUNNI0 KCHS-BAGGY0 KMYR-RV3
 *NOTES Aircraft landing MLB should be descended to FL350 and handed off to 68 to cross the border with 58 AOB FL340. 
-*NOTES Sector 68/
+*NOTES Aircraft routed via the DADES STAR/LUBBR should be delivered to sectors 49/50 over BAAMF. 
+*NOTES Sector 67 has control for turns from 65/66 20 NM north of the boundary. 
+*NOTES Sector 67 has control for turns from 47/48 south of CHS> 
 ;----------------------------------------------------------
 *MAP 68 
 *MAP_XN 
