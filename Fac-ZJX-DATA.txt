@@ -753,7 +753,9 @@ Q116 Q65 Q110 Q118 Q99 Q81 Q87 Q109 Q79
 *ZOOM GNV GNV 50
 *ZOOM TAY TAY 50 
 *SHOW_PROC KMCO-GRNCH0 KTPA-DADES0 KSRQ-LUBBR0 KSFB-SHREK0 KORL-JAFAR0 
-*NOTES Sector 78 is arguably the toughest sector to work in the whole ARTCC requiring mandatory in trail separation to MCO, TPA, SRQ, SFB arrivals. Aircraft will enter the sector and need to be descended to cross fixes at various altitudes in which planes can cross paths and aircraft must be very cautious with separation with aircraft on the LUBBR into SRQ and DADES into TPA>
+*NOTES Sector 78 is arguably the toughest sector to work in the whole ARTCC requiring mandatory in trail separation to MCO, TPA, SRQ, SFB arrivals.
+*NOTES Aircraft will enter the sector and need to be descended to cross fixes at various altitudes in which planes can cross paths and aircraft.
+*NOTES You must be very cautious with separation with aircraft on the LUBBR into SRQ and DADES into TPA.
 *NOTES Aircraft established on the GRNCH/JAFAR/LEESE arrivals should be established prior to or at ELITE/HUNKR/OCF.
 *Aircraft on teh JAFAR arrival must cross the border with sector 15 AOB FL250 and are released for descent. 
 *Aircraft on the GRNCH/LEESE STAR are released for turns/and descents to sector 15.
