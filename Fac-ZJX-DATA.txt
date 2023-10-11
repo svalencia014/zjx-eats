@@ -349,15 +349,7 @@ Q118 Q110 Q116 Q104 Q81 Q99 Q79 Q65 Q109
 *NOTES Aircraft landing PGD must be routed via PLYER.PIKKR arrival and handed off to sector 88 descending to FL270. 
 *NOTES Sector 11 must ensure trafic landing SFB, GNV, and OCF enter sector 17 AOB FL290 and have control for turns and descent on the aircraft 20 NM from the common boundary. 
 *NOTES Aircraft must be cleared northbound at EVEN altitudes and southbound at ODD altitudes. 
-*NOTES Sector 
-;----------------------------------------------------------
-*MAP 17 
-*MAP_AW 
-Q99 Q65 Q79 Q118 Q1110 Q116 Q65 Q109 Q81 Q19
-*END 
-*ZOOM JAWJA JAWJA 50
-*ZOOM CTY CTY 50 
-*SHOW_PROC KTPA-MAATY0 KSRQ-BANGZ0 KPIE-BANGZ0 KPGD-PIKKR0 KTLH-RV4 KMCO-GRNCH0 
+*NOTES Sectors 78/87 must deliver aircraft to 17/85 sectors at even altitudes. Sector 17/85 must deliver aircraft to 78/87 at ODD altitudes.
 ;----------------------------------------------------------
 *MAP 28 
 *MAP_XN 
@@ -442,6 +434,34 @@ Y289 Y291 Y299 Y313 Y309 Y319 Y307 Y323 Y493 Y494 Y436 Y327 Q131 Q129 Q107 Y438 
 *ZOOM MAJIK MAJIK 50
 *NOTES Sector over the Atlantic which sequences MIA/FLL arrivals also deals with overflights up the eastcoast of the U.S. and Caribbean.
 *NOTES The main goal of this sector is to ensure atleast 8 miles in trail between MIA arrivals 10 miles in trail in FLL. 
+;---------------------------------------------------
+*MAP 47 
+*MAP_AW 
+Q172 Q87 Q109 Q113 Q85 Q409 Q97 Q135 Q89 Q103 Q83 
+*END 
+*ZOOM CRE CRE 50
+*ZOOM CHS CHS 50 
+*ZOOM FLO FLO 50
+*SHOW_PROC KCLT-STOCR0 AMYLU0 KSAV-RV1 KSAV-RV2 KSAV-RV3 KSAV-RV4 KSAV-RV5 KMYR-RV1 KMYR-RV2 KMYR-RV3 KMYR-RV4 
+*LIBRARY KCLT-STOCR KCHS-AMYLU0 KMYR-RV1 KMYR-RV2 KMYR-RV3 KMYR-RV4 
+*NOTES Sector 47 is a busy high enroute sector which works the inital stream from DC to overflights from/to southern Florida/Georgia/South Carolina. It needs to provide spacing for arrivals into KCHS/KCLT/KSAV/KMYR.
+*NOTES Aircraft landing CLT should be routed via the STOCR/RASLN arrival and must cross the appropriate fix based on transition at FL240.
+*NOTES Aircraft landing SAV should be cleared via SESUE..SOOOP direct and cross 50 NM north SOOOP at FL240.
+*NOTES Aircraft landing JAX should cross the border with Sector 68 AOB FL300 and routing via the LUNNI arrival. 
+*NOTES Sector 67/68 has control for turns from 47/48 south of CHS.
+;---------------------------------------------------
+*MAP 48
+*MAP_AW 
+Q172 Q87 Q109 Q113 Q85 Q409 Q97 Q135 Q89 Q103 Q83 
+*END 
+*ZOOM CRE CRE 50
+*ZOOM CHS CHS 50 
+*ZOOM FLO FLO 50
+*SHOW_PROC KCLT-STOCR0 AMYLU0 KSAV-RV1 KSAV-RV2 KSAV-RV3 KSAV-RV4 KSAV-RV5 KMYR-RV1 KMYR-RV2 KMYR-RV3 KMYR-RV4 
+*LIBRARY KCLT-STOCR KCHS-AMYLU0 KMYR-RV1 KMYR-RV2 KMYR-RV3 KMYR-RV4 
+*NOTES Sector 48 is a busy ultra high enroute sector which works traffic normally obund for southern florida or flying up to the northeasttern US.
+*NOTES Aircraft landing CLT should be descended to FL350 and handed off to 47 as soon as practical. 
+*NOTES Sectors 67/68 has control for turns from 47/48 south of CHS. 
 ;---------------------------------------------------
 *MAP 49
 *MAP_AW 
@@ -723,6 +743,33 @@ V198 V157 V537 V441
 *NOTES Taylor almost must ensure atleast 10 miles in trail between SFB arrivals on the SHREK arrival. 
 *NOTES Aircraft between sector 77/29/79/28/14/15 must be cleared northbound at an EVEN alt, and southvound at an ODD altitude. 
 ;----------------------------------------------------------
+*MAP 78 
+*MAP_XN 
+CORRY MMOSS BITTE SHRKS 
+*END 
+*MAP_AW 
+Q116 Q65 Q110 Q118 Q99 Q81 Q87 Q109 Q79
+*END 
+*ZOOM GNV GNV 50
+*ZOOM TAY TAY 50 
+*SHOW_PROC KMCO-GRNCH0 KTPA-DADES0 KSRQ-LUBBR0 KSFB-SHREK0 KORL-JAFAR0 
+*NOTES Sector 78 is arguably the toughest sector to work in the whole ARTCC requiring mandatory in trail separation to MCO, TPA, SRQ, SFB arrivals. Aircraft will enter the sector and need to be descended to cross fixes at various altitudes in which planes can cross paths and aircraft must be very cautious with separation with aircraft on the LUBBR into SRQ and DADES into TPA>
+*NOTES Aircraft established on the GRNCH/JAFAR/LEESE arrivals should be established prior to or at ELITE/HUNKR/OCF.
+*Aircraft on teh JAFAR arrival must cross the border with sector 15 AOB FL250 and are released for descent. 
+*Aircraft on the GRNCH/LEESE STAR are released for turns/and descents to sector 15.
+*NOTES Traffic landing TPA must cross over or abeam CAPOH at FL270 and are released for turns and descents to sector 15. 
+*NOTES Aircraft landing SRQ must cross over or abeam SSPAZ at FL270 and are released for turns and descents to sector 15.
+*NOTES All these arrials require atleast 8 miles in trail with Sarasota requiring 10 miles in trail. 
+*NOTES Aircraft landing PGD must cross over or abeam BAATN AOB FL270. 
+*NOTES Northbound traffic from sector 78/87 must go to sectors 49/50 AOB FL370 and must be routed west over CAMJO.
+*NOTES All aircraft filed via DOFFY must be delivered to sector 16 over or east of DOFFY.
+*NOTES Aircraft on routes overlying or west of Q79 are released for turns to the west, 30M north of DOFFY, from sectors 78/87 to 16/86.
+*NOTES Aircraft landing MCO from sector 33 should be AOB FL290 and aircraft via SFB should be AOB FL270 with control for descents. 
+*NOTES aircraft landing GNV should be descended to FL240 as soon as possible and handed to the appropriate low sector. 
+*NOTES Sector 14 must ensure that all aircraft transition to Sector 78 must be on routes or heading to remain over or west of Q99.CAMJO and you have control for turns and climbs.
+*NOTES Aircraft operating between sectors 75/76/49/50/78/87 must be cleared northbound at ODD altitudes and southbound at EVEN altitudes. 
+*NOTES Exception: Sector 78/87 must deliver aircraft to sector 17/85 at even altitudes and vice versa.
+;----------------------------------------------------------
 *MAP 79 
 *MAP_XN 
 OHDEA DUCHY TEUFL 
@@ -748,9 +795,47 @@ Q104 Q81 Q116 Q19 Q81 Q118 Q79 Q109 Q99 Q79 Q65
 *ZOOM SZW SZW 50 
 *ZOOM CTY CTY 50 
 *SHOW_PROC KTPA-MAATY0 KSRQ-PIKKR0 
-*NOTES Sector 85 must deliver aircraft on the TYNEE to 86 at FL350. 
+*NOTES Sector 85 must deliver aircraft on the TYNEE arrival to 86 at FL350. 
 *NOTES RSW arrivals may be routed no fruther south than direct EGAME and must be handed off to sector 16 AOB FL350. 
-*NOTES PDG arrivals must be handed off to MAYO sector AOB FL310. 
+*NOTES PDG arrivals must be descended to FL350 and handed off to Sector 16 in order to cross the border AOB FL310. 
+*NOTES Aircraft must be cleared northbound at EVEN altitudes and southbound at ODD altitudes. 
+*Sector 78/87 should deliver aircraft to sector 17/85 sectors at EVEN altituds. Sector 17/85 must deliver aircraft to Sector 17/78 at ODD altitudes. 
+;----------------------------------------------------------
+*MAP 86 
+*MAP_XN 
+DOFFY CAMJO OBESE GRNCH MAYYR INPIN EGAME
+*END 
+*MAP_AW 
+Q116 Q65 Q110 Q118 Q99 Q81 Q87 Q109 Q79
+*END 
+*ZOOM JFRYS JFRYS 50
+*ZOOM PIE PIE 50
+*SHOW_PROC KPGD-PIKKR0 KRSW-TYNEE0 KRSW-SHFTY0 KPBI-VUUDU0
+*NOTES Sector 86 is an ultra high sector over north central Florida and sequences flights climbing out from Southern Florida to the north and arrivals into south Florida.
+*NOTES Aircraft AOB FL340 must enter sector 78 on or west of Q99.CAMJO. Aircraft at or above FL360 may be on routing east of Q99 direct to CAMJO or anything west of CAMJO.
+*NOTES Aircraft on routes overlying or west of Q79 are released for turns to the west 30 NM north of DOFFY, from sectors 78/87/16/86,
+*NOTES Aircraft landing RSW must be routed via the SHFTY arrival and cleared no further than OBESE and should be descended to FL350 and handed to 16 to cross INPIN AOB FL310/OGGRE AOB FL270
+*NOTES Aircraft landing PGD must be cleared no further than EGAME and must be descended to FL350 as soon as possible and handed to 16 to cross the border with ZMA AOB FL310. 
+*NOTES Aircraft landing PBI via the VUUDU arrival should cross the border with ZMA AOB FL350. 
+;----------------------------------------------------------
+*MAP 87
+*MAP_XN 
+DOFFY CAMJO OBESE GRNCH MAYYR INPIN EGAME CAPOH
+*END 
+*MAP_AW 
+Q116 Q65 Q110 Q118 Q99 Q81 Q87 Q109 Q79
+*END 
+*ZOOM GNV GNV 50
+*ZOOM TAY TAY 50 
+*SHOW_PROC KSRQ-LUBBR0 KRSW-SHFTY0 KPGD-LUBBR0 KPBI-VUUDU0
+*NOTES Sector 87 is a ultra high sector responsible for sequencing aircraft landing/departing south Florida to/from the north.
+*NOTES Northbound traffic from sector 78/87 to 49/50 AOB FL360 must be routed ver or west of CAMJO.
+*NOTES Aircraft on routes overlying or west of Q79 are released for turns to the west,30 NM north of DOFFY.
+*NOTES You must ensure traffic landing RSW is routed via the SHFTY arrival or INPIN..LBV direct.
+*NOTES Tampa arrivals might enter your sector in that case they should be descended to FL350 as soon as possible, and routed via the DADES arrival. 
+*NOTES Sarasota arrivals might enter your sector in that case they should be descended to FL350 as soon as possible, and routed via LUBBR arrival. 
+*NOTES Aircraft must be cleared northbound at EVEN altitudes and southbound at ODD altitudes. 
+*NOTES With the exception between 78/87 must deliver aircraft to 17/85 at sectors at EVEN altitudes. Sector 18/85 should deliver to aircraft to 78/87 at ODD altitudes. 
 ;----------------------------------------------------------
 *MAP 88 
 *MAP_XN 
