@@ -275,7 +275,6 @@ J2
 *ZOOM DEF DEFUN 50 
 *LIBRARY KPNS-RV1 KPNS-RV2 KPNS-RV3 KPNS-RV4 KECP-RV1 KECP-RV2 
 *SHOW_PROC KTPA-MAATY0 KPNS-RV1 KPNS-RV2 KPNS-RV3 KPNS-RV4 KECP-RV1 KECP-RV2 
-*NOTES Sectot 11 is a busy overflight sector and builds in the inital sequence for MCO/TPA/JAX/MIA/FLL/SRQ 
 *NOTES Traffic bound for JAX and DAB shoould enter Sector 34/17 AOB FL350. 
 *NOTES Traffic landing GNV/SFB entering SECTOR 34 should be AOB FL350 and they have control for turns/descents 20NM from the bdry.
 *NOTES Traffic landing GNV/SFB entering SECTOR 17 should be AOB FL290 and they have control for turns/descents 20NM from the bdry.
@@ -286,10 +285,10 @@ J2
 V5 V159 V70 V35 
 *END 
 *ZOOM ABY KABY 35 
-*SHOW_PROC KABY-ILS5 KABY-RNAV17 KABY-RNAV23 
-*NOTES Sector 12's primary purpose is to take workload off Sector 13 if it becomes busy. 
-*NOTES It works traffic departing/arriving Albany (KABY). 
-*NOTES Vectoring is authorized above 800 feet MSL provided that the criteria is concerning vectors below minimum alts.  
+*WX KABY
+*SHOW_PROC KABY-ILS5 KABY-RNAV5 KABY-RNAV17 KABY-RNAV23 KABY-RNAV35
+*SHOW_APCH_FINAL KABY-RNAV35
+*NOTES Vectoring is authorized above 800 feet MSL provided that the criteria for vectoring below the MVA is met.  
 *NOTES Typically combined with sector 13 unless sector 13 becomes busy. 
 ;----------------------------------------------------------
 *MAP 13
@@ -298,9 +297,8 @@ V97 V5 V159 V70 V35 V243 V198 V521 V198 V27 V295
 *END 
 *ZOOM SZW SZW 50 
 *ZOOM MAI MAI 50
-*SHOW_PROC KVLD-RV1 KTLH-RV1 KTLH-RV2 KTLH-RV3 KTLH-RV4 
-*NOTES Sector 13's primary purpose is to sequences TLH/VLD arrivals. Also it works overflights from/to the florida peninsula at lower alts.
-*NOTES Typically combined with sector 12 unless split due to traffic level. 
+*WX KTLH
+*SHOW_PROC KVLD-RV1 KTLH-RV1 KTLH-RV2 KTLH-RV3 KTLH-RV4 KECP-RV1 KECP-RV2
 ;----------------------------------------------------------
 *MAP 14 
 *MAP_AW
