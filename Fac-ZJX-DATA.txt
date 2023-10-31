@@ -364,8 +364,7 @@ Q116 Q65 Q110 Q118 Q99 Q81 Q87 Q109 Q79 Q77
 *ZOOM PIE PIE 50
 *ZOOM OCF OCF 50 
 *SHOW_PROC KJAX-TEBOW0 KPBI-VUUDU0 KPGD-LUBBR0 KRSW-SFHTY0 KRSW-JOSFF0 KRSW-TYNEE0
-*NOTES Aircraft landing FLL AOB FL330 
-*NOTES Aircraft landing KRSW on the SHFTY arrival should cross the ZXX/ZMA bdry AOB FL310. 
+*NOTES Aircraft landing KRSW on the SHFTY arrival should cross the ZJX/ZMA bdry AOB FL310. 
 *NOTES Aircraft landing KRSW on the TYNEE arrival should cross the ZJX/ZMA bdry AOB FL270. 
 *NOTES Aircraft should be deliverd from 78/17 will mandatory in trail requirements (8). 
 *NOTES Aircraft should be delivered from sector 86 descending to FL350. 
