@@ -481,7 +481,7 @@ Q172 Q87 Q109 Q113 Q85 Q409 Q97 Q135 Q89 Q103 Q83
 *ZOOM CHS CHS 50 
 *ZOOM FLO FLO 50
 *SHOW_PROC KCLT-STOCR0 KCHS-AMYLU0 KSAV-RV1 KSAV-RV2 KSAV-RV3 KSAV-RV4 KSAV-RV5 KMYR-RV1 KMYR-RV2 KMYR-RV3 KMYR-RV4 
-*LIBRARY KCLT-STOCR KCHS-AMYLU0 KMYR-RV1 KMYR-RV2 KMYR-RV3 KMYR-RV4 
+*LIBRARY KCLT-STOCR KCHS-AMYLU0 KMYR-RV1 KMYR-RV2 KMYR-RV3 KMYR-RV4 KSAV-RV3
 *NOTES Sector 47 is a busy high enroute sector which works the inital stream from DC to overflights from/to southern Florida/Georgia/South Carolina. It needs to provide spacing for arrivals into KCHS/KCLT/KSAV/KMYR.
 *NOTES Aircraft landing CLT should be routed via the STOCR/RASLN arrival and must cross the appropriate fix based on transition at FL240.
 *NOTES Aircraft landing SAV should be cleared via SESUE..SOOOP direct and cross 50 NM north SOOOP at FL240.
