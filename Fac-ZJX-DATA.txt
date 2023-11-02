@@ -557,6 +557,7 @@ Y289 Y291 Y299 Y313 Y309 Y319 Y307 Y323 Y493 Y494 Y436 Y327 Q131 Q129 Q107 Y438 
 *ZOOM FLRDA FLRDA 50
 *ZOOM SEELO SEELO 50
 *ZOOM ROWSY ROWSY 50
+*LIBRARY KCLT-STOCR0
 *SHOW_PROC KCLT-STOCR0 
 *NOTES Overflight sector over the Atlantic primarily sequencing Arrivals bound for the MIA/FLL area. 
 *NOTES Also can mix with traffic further bound up the east coast of the U.S. and down further the U.S. east coast into latin America.
