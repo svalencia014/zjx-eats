@@ -5,7 +5,7 @@
 *FACILITY F11 
 *FAC_CR N2827/W08108  75 
 *FAC_TZ  -5 D
-*FAC_CS  Orlando Approach 
+*FAC_CS  Orlando_Approach 
 *SFCWIND 240 12 4 6 
 *INCLUDE Fac-F11-BDRY.txt 
 *INCLUDE FAC-F11-DATA.txt 
