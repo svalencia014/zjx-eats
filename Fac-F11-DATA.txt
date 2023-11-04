@@ -2,5 +2,32 @@
 
 *AUTO_RLS KMCO
 
-*TOWER     KMCO/70 KORL/15 KSFB/30 KMLB/20 KISM/15 KLEE/20 KTIX/20 KCOF/20
+*TOWER     KMCO/70 KORL/15 KSFB/20 KMLB/20 KISM/15 KLEE/20 KTIX/20 KCOF/20
 
+; Tracon Final       Dash  from last fix
+;          Proc       Len   Start   End
+;       -----------   ---   ----- -----
+*TFINAL KMCO-ILS17L   0.5     0.5  17.5
+*TFINAL KMCO-ILS17R   0.5     0.5  18.5
+*TFINAL KMCO-ILS18R   0.5     0.5  17.5 
+*TFINAL KSFB-ILS27R   0.5     0.5  15 
+*TFINAL KSFB-RNAV27L  0.5     4.4 10
+
+
+
+; Arrival Radar Bitho 
+*MAP 1B 
+*MAP_XN 
+BANYA GTOUT ALYNA WORMS GUANO CUBAL RIDES
+*END 
+*MAP_AW 
+*END 
+*RINGS KMCO 0 360 5 50 5 
+*ZOOM BANYA BANYA 12 
+*ZOOM RIDES RIDES 12 
+*ZOOM ONNER ONNER 12
+*SHOW_TFINAL KMCO-ILS17L KMCO-ILS17R KMCO-ILS18R KSFB-ILS27R KSFB-RNAV27L
+*WX KMCO KSFB KORL KISM KMLB KDAB KTIX KLEE KOCF
+*NOTES East Feeder sector, works aircraft on GTOUT arrival and RIDES arrival
+*NOTES Aircraft will enter sector descending via, or crossing LAMMA at 12,000 ft for MCO
+*NOTES Aircraft bound for Melbourne will enter sector crossing LAMMA at 15,000 ft. 
