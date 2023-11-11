@@ -1,0 +1,130 @@
+;  TRAFFIC.TXT   30 JAN 23
+
+; FAC file is read to get Local to Z conversion.
+; FAC does not have to be the active facility.
+
+;                        FACILITY
+;      APT  FAC            LOCAL  RATE  COMMENTS
+;      ---  ---  ---  ---  -----  ----  --------
+
+*HUB   DAL  ZFW  SWA  DEP   1200   4.0
+*HUB   DAL  ZFW  SWA  ARR   1300   4.0
+*HUB   DAL  ZFW  SWA  ARR   1900   4.0
+
+*HUB   DEN  ZDV  SKW  ARR   0800   4.0
+*HUB   DEN  ZDV  UAL  ARR   0820   4.0
+*HUB   DEN  ZDV  UAL  ARR   0930   4.0
+*HUB   DEN  ZDV  SWA  ARR   1130   4.0
+*HUB   DEN  ZDV  UAL  ARR   1200   4.0
+*HUB   DEN  ZDV  SWA  ARR   1545   4.0
+*HUB   DEN  ZDV  UAL  ARR   1615   4.0
+*HUB   DEN  ZDV  SWA  DEP   1700   4.0
+*HUB   DEN  ZDV  SKW  DEP   1745   4.0
+*HUB   DEN  ZDV  UAL  DEP   1800   4.0
+
+*HUB   DFW  ZFW  AAL  ARR   0900   4.0
+*HUB   DFW  ZFW  AAL  DEP   1200   4.0
+*HUB   DFW  ZFW  AAL  ARR   1300   4.0
+*HUB   DFW  ZFW  AAL  DEP   1700   4.0
+*HUB   DFW  ZFW  AAL  ARR   1815   4.0
+*HUB   DFW  ZFW  AAL  DEP   1915   4.0
+*HUB   DFW  ZFW  AAL  ARR   2000   4.0
+
+*HUB   DTW  ZOB  DAL  ARR   0730   4.0
+*HUB   DTW  ZOB  DAL  ARR   1100   4.0
+*HUB   DTW  ZOB  DAL  ARR   1230   4.0
+*HUB   DTW  ZOB  DAL  DEP   1245   4.0
+*HUB   DTW  ZOB  DAL  ARR   1400   4.0
+*HUB   DTW  ZOB  DAL  DEP   1615   4.0
+*HUB   DTW  ZOB  DAL  ARR   1900   4.0
+
+*HUB   LAS  ZLA  SWA  ARR   1630   4.0
+
+*HUB   LAX  ZLA  AAL  ARR   1100   4.0
+*HUB   LAX  ZLA  UAL  ARR   1100   4.0
+*HUB   LAX  ZLA  DAL  ARR   1600   4.0
+*HUB   LAX  ZLA  UAL  ARR   1700   4.0
+*HUB   LAX  ZLA  AAL  ARR   1900   4.0
+*HUB   LAX  ZLA   *   ARR   2100   4.0  See if Hawaii bump in 14/21/28
+
+*HUB   MDW  ZAU  SWA  DEP   0840   4.0
+*HUB   MDW  ZAU  SWA  ARR   1230   4.0
+*HUB   MDW  ZAU  SWA  ARR   1615   4.0
+*HUB   MDW  ZAU  SWA  ARR   1930   4.0
+
+*HUB  MEM  ZME  FDX  DEP  0315    4.0
+*HUB  MEM  ZME  FDX  DEP  0400    4.0
+*HUB  MEM  ZME  FDX  ARR  0930    4.0
+*HUB  MEM  ZME  FDX  DEP  1500    4.0
+*HUB  MEM  ZME  FDX  ARR  2215    4.0
+*HUB  MEM  ZME  FDX  ARR  2300    4.0
+*HUB  MEM  ZME  FDX  ARR  2345    4.0
+
+*HUB   MSP  ZMP  DAL  DEP   0815   4.0
+*HUB   MSP  ZMP  DAL  ARR   1130   4.0
+*HUB   MSP  ZMP  DAL  ARR   1400   4.0
+*HUB   MSP  ZMP  DAL  ARR   1645   4.0
+*HUB   MSP  ZMP  DAL  DEP   1830   4.0
+*HUB   MSP  ZMP  DAL  ARR   1900   4.0
+
+*HUB   ORD  ZAU  AAL  DEP   0800   4.0
+*HUB   ORD  ZAU  AAL  ARR   1000   4.0
+*HUB   ORD  ZAU  UAL  ARR   1130   4.0
+*HUB   ORD  ZAU  AAL  ARR   1200   4.0
+*HUB   ORD  ZAU  AAL  ARR   1400   4.0
+*HUB   ORD  ZAU   *   ARR   1545   4.0
+*HUB   ORD  ZAU  UAL  ARR   1800   4.0
+*HUB   ORD  ZAU  AAL  ARR   1915   4.0
+            
+*HUB   PDX  ZSE   *   ARR   1000   4.0
+*HUB   PDX  ZSE   *   ARR   1700   4.0
+
+*HUB   PHX  ZAB  SWA  ARR   0815   4.0  ZAB TIME
+*HUB   PHX  ZAB  AAL  DEP   1030   4.0  ZAB TIME
+*HUB   PHX  ZAB  SWA  ARR   1200   4.0  ZAB TIME
+*HUB   PHX  ZAB  AAL  DEP   1500   4.0  ZAB TIME
+*HUB   PHX  ZAB  AAL  ARR   1545   4.0  ZAB TIME
+*HUB   PHX  ZAB  AAL  ARR   1800   4.0  ZAB TIME
+*HUB   PHX  ZAB  AAL  ARR   2030   4.0  ZAB TIME
+            
+*HUB   SEA  ZSE  ASA  DEP   0800   4.0
+*HUB   SEA  ZSE  DAL  ARR   0800   4.0
+*HUB   SEA  ZSE  DAL  ARR   0930   4.0
+*HUB   SEA  ZSE  ASA  DEP   1000   4.0
+*HUB   SEA  ZSE  ASA  ARR   1015   4.0
+*HUB   SEA  ZSE  ASA  ARR   1130   4.0
+*HUB   SEA  ZSE  ASA  DEP   1245   4.0
+*HUB   SEA  ZSE  ASA  ARR   1345   4.0
+*HUB   SEA  ZSE  DAL  ARR   1500   4.0
+*HUB   SEA  ZSE  ASA  ARR   1600   4.0
+*HUB   SEA  ZSE  ASA  ARR   1930   4.0
+*HUB   SEA  ZSE  DAL  ARR   2100   4.0
+            
+*HUB   SFO  ZOA  UAL  ARR   0900   4.0
+*HUB   SFO  ZOA  UAL  ARR   1200   4.0
+*HUB   SFO  ZOA  UAL  DEP   1330   4.0
+*HUB   SFO  ZOA  UAL  ARR   1630   4.0
+*HUB   SFO  ZOA  UAL  ARR   2030   4.0
+
+*HUB   SLC  ZLC  DAL  ARR   0800   4.0
+*HUB   SLC  ZLC  SKW  ARR   0800   4.0
+*HUB   SLC  ZLC  DAL  DEP   1000   4.0
+*HUB   SLC  ZLC  DAL  ARR   1030   4.0
+*HUB   SLC  ZLC  SKW  DEP   1130   4.0
+*HUB   SLC  ZLC  DAL  ARR   1230   4.0
+*HUB   SLC  ZLC  SKW  DEP   1545   4.0
+*HUB   SLC  ZLC  DAL  ARR   1600   4.0
+*HUB   SLC  ZLC  SKW  ARR   1900   4.0
+*HUB   SLC  ZLC  DAL  ARR   1900   4.0
+
+*HUB   MCO  ZJX  SWA  ARR   1600   4.0
+*HUB   MCO  ZJX  JBU  AAR   1200   4.0 
+*HUB   MCO  ZJX  FFT  AAR   1800   4.0 
+*HUB   MCO  ZJX  NKS  AAR   2000   4.0 
+*HUB   MCO  ZJX  SWA  DEP   0800   4.0 
+*HUB   MCO  ZJX  JBU  DEP   1000   4.0
+*HUB   MCO  ZJX  FFT  DEP   1400   4.0
+*HUB   MCO  ZJX  NKS  DEP   1600   4.0
+
+*HUB  ATL  ZJX  DAL   AAR   1200   4.0 
+*HUB  ATL  ZJX  DAL   AAR   1600   4.0

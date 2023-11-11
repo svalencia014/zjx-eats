@@ -1,0 +1,12 @@
+;   eATS.TXT   25 AUG 20
+
+; Program checks that this file exists to know it is looking in the correct place.
+
+; Will have other uses.  Check documentation PDFs.
+
+; The distribution version of this file will not be changed.
+; Changes you make to this file should remain after distrubtion updates.
+*DB_SMALL_FONT 75 400 ERAMv110
+*DB_LARGE_FONT 95 400 ERAMv110
+*OSL_SMALL_FONT 75 400 ERAMv110
+*OSL_LARGE_FONT 95 400 ERAMv110

@@ -1,0 +1,156 @@
+; FAC-ZJX-DATA.TXT 9 AUG 23
+
+; MCO VFR AAR = 86
+; TPA VFR AAR = 65
+; CLT VFR AAR = 92
+; JAX VFR AAR = 40
+; MYR VFR AAR = 23
+; SAV VFR AAR = 17
+; CHS VFR AAR = 23
+
+;            NAME               AIRPORTS
+;            --------------     -----------------------------------------
+*DEST_GROUP  MCO4L         KORL KMCO KSFB KLEE KISM KMLB KTIX
+*DEST_GROUP  TPA2E         KPIE KTPA KSRQ
+*DEST_GROUP  CLTAA         KJQF KCLT
+*DEST_GROUP  JAX3N         KJAX KGNV KOCF KSGJ KVQQ KCRG 
+*DEST_GROUP  SAVAA         KSVN KSAV KHXD
+*DEST_GROUP  CHSAA         KCHS KJZI
+*DEST_GROUP  MYRAA         KMYR KCRE
+*DEST_GROUP  DABAA         KDAB KOMN KEVB
+
+
+;         ACTIVE
+;         SECTOR   FIX   FIX    CAT  MIT  COMMENTS
+;         ------  ----- ----- -----  ---  --------
+*ARR_MIT    57    NOOMN FORYU     J   35  MCO
+*ARR_MIT    57    CROPY SHINR     J   75  JAX 
+*ARR_MIT    57    HAINY SHINR     J   75  JAX
+*ARR_MIT    15    MAYYR COAXE     J   35  MCO 
+*ARR_MIT    15    GOJOE MAATY     J   50  TPA
+*ARR_MIT    15    CAPOH EDISN     J   50  TPA
+*ARR_MIT    15    CAPOH OLENE     J   100  PIE 
+*ARR_MIT    15    JAGGZ WEEEK     J   100  DAB 
+*ARR_MIT    16    BROMO SCURF     J   50  MIA 
+*ARR_MIT    16    CLEOO FEDRR     J   50  FLL
+*ARR_MIT    16    EGAME OGGER     J   50  SRQ
+*ARR_MIT    53    BENTZ GOTBE     J   75  JAX 
+*ARR_MIT    15    WALOP CAMJO     J   75  JAX 
+*ARR_MIT    13    ILTAC FORMB     J   100  JAX  
+*ARR_MIT    13    CROPY SHINR     P   100 JAX
+*ARR_MIT    13    CROPY SHINR     J   100 JAX
+*ARR_MIT    13    HAINY SHINR     J   100 JAX
+*ARR_MIT    13    TEBOW GRRAS     J   100 JAX
+*ARR_MIT    57    TTHOR BIKEZ     J   100 DAB
+*ARR_MIT    50    PONZE NTRST     J   35 CLT 
+*ARR_MIT    74    FLLGG FFNSH     J   50 CLT 
+*ARR_MIT    74    YELLS MLLET     J   100 CLT 
+*ARR_MIT    49    BAAMF CORRY     J   75 TPA 
+*ARR_MIT    16    CLEOO FEDRR     J   50  FLL 
+*ARR_MIT    58    COLAT HIKTO     J   50  FLL
+*ARR_MIT    11    CEW   PENSI     J   100 PNS 
+*ARR_MIT    11    LOXLY PENSI     J   100 PNS 
+*ARR_MIT    11    DESTN PENSI     J   100 PNS 
+*ARR_MIT    11    CANUE PENSI     J   100 KPNS
+
+
+;                       from
+;          REF         FacSec             COMMENTS
+;          ---          -----             --------
+*DEP_MIT    57    JEEMY MCO4E     J   75  MCO 
+*DEP_MIT    57    FATHE MCO4E     J   75  MCO
+*DEP_MIT    57    ROYES DAB5H     J   150  DAB
+*DEP_MIT    15    BAYPO TPA2E     J   75  TPA
+*DEP_MIT    15    OSPRY MCO4E     J   100  MCO
+*DEP_MIT    15    RDSOX MCO4E     J   100  MCO 
+*DEP_MIT    15    WORMS MCO4E     J   100  MCO
+*DEP_MIT    15    VIZTA MCO4E     J   100  MCO
+*DEP_MIT    13    ARNEY JAX3N     J   100 JAX 
+*DEP_MIT    53    CROSB JAX3N     J   100 JAX 
+*DEP_MIT    57    EXBOX JAX3N     J   100 JAX 
+*DEP_MIT    15    JETIN JAX3N     J   100 JAX 
+*DEP_MIT    57    SAWGY JAX3N     P   100 JAX
+*DEP_MIT    66    BEAVY CLTCW     J   50  CLT 
+*DEP_MIT    66    ICONS CLTCW     J   50  CLT 
+*DEP_MIT    66    KWEEN CLTCW     J   100 CLT 
+*DEP_MIT    11    CEW   PNS1E     J   100 PNS 
+*DEP_MIT    11    AEX   PNS1E     J   100 PNS 
+
+*MAP 10 
+ *MAP_AW 
+ J2 J50 Q104 Q116 Q19 Q81 Q56 Q22 Q24
+  *END
+*LIBRARY KPNS-RV1 KPNS-RV2 KPNS-RV3 KPNS-RV4
+*NOTES PNS BORDER AT 11K
+;----------------------------------------------------------
+*MAP 11 
+*MAP_AW 
+V70 V20 V222 V198 V231 V454 V11 
+*END 
+*SHOW_PROC KJAX-MARQO0 KATL-HOBTT0 KMSY-SLIDD0 
+*NOTES KATL EVEN AOB 340
+;----------------------------------------------------------
+*MAP 13 
+*MAP_XN 
+OHDEA AMG SAV TLH VLD LCQ CTY MARQO ARNEY BAXLY 
+*END 
+*MAP_AW
+V243 V267 V179 V5 V159 V97 V35 V159 V35 V70 V321 V198 V154 V437 V441 
+*END 
+*SHOW_PROC KJAX-OHDEA0  
+*NOTES Tracon Boundary at 11k (SAV,VLD,JAX,TLH)
+;----------------------------------------------------------
+*MAP 15
+*MAP_XN 
+OLENE MAATY GRNCH MARQO SHREK TEBOW JAFAR SHIMM LUBBR TABIR BANGZ GUURR 
+*END 
+*MAP_AW 
+V581 V441 V7 V521 V157 V159 V295 V537 V97 V35 
+*END 
+*SHOW_PROC KMCO-GRNCH0 KTPA-DADES0 KTPA-MAATY0 KJAX-MARQO0 KSFB-SHEK0 KJAX-TEBOW0 KMCO-JAFAR0 KMCO-LEESE0 KPGD-LUBBR0 KPIE-DADES0 KPIE-MAATY0 KSRQ-BANGZ0 KSRQ-LUBBR0
+*NOTES  Busy Low Enroute Sector, sequences MCO/TPA/JAX arrivals and departures
+*WX KJAX KMCO KGNV KOCF KTPA KSRQ
+;----------------------------------------------------------
+*MAP 16 
+*MAP_XN 
+CLEOO LEGGT CAPOH ORL SZW PIE LAL 
+*END 
+*MAP_AW 
+Q116 Q65 Q110 Q118 Q99 Q81 Q87 Q109 Q79
+*END 
+*SHOW_PROC KMIA-FROGZ0 KFLL-TEEKY0 KTPA-MAATY0 KTPA-DADES0 KFLL-FORTL0
+;----------------------------------------------------------
+*MAP 30 
+*MAP_XN 
+BACCA BLVNS REMIS ROZZI BUNNZ NAITE
+*END 
+*MAP_AW 
+Y280 Y290 
+*END 
+;----------------------------------------------------------
+*MAP 33 
+*MAP_XN 
+CAPOH LEGGT ZOOSS MAYRR OTK CTY GNV OCF SZW MAI MCN LALAA WHITL BATTN 
+*END 
+*MAP_AW 
+Q104 Q116 Q19 Q81 Q118 Q79 Q65 Q99 Q109 Q89 
+*END 
+*SHOW_PROC KMCO-GRNCH0 KTPA-DADES0 KTPA-MAATY0 KJAX-MARQO0
+*NOTES KATL AOB FL340, Geneva is a very busy high enroute sector sequencing arrivals for KATL, KTPA, KMCO, KJAX, KMIA, KFLL
+;----------------------------------------------------------
+*MAP 49
+*MAP_AW 
+Q89 Q65 Q77 Q75 Q99 
+*END 
+*NOTES KATL AOB FL350, ZTL BOUND ODD ALT
+;----------------------------------------------------------
+*MAP 57 
+*MAP_XN 
+TTHOR SNFLD BASSS POGIE QUBEN 
+*END
+*MAP_AW 
+V3 V533 AR15 V437 V267 V51 V159 V295 V152
+*END 
+*SHOW_PROC KDAB-TTHOR0 KJAX-POGIE0 KMCO-SNFLD0 KMCO-BITHO0 KMCO-ALYNA0 KORL-TTHOR0 KSFB-TTHOR0 
+*WX KMCO KJAX KDAB 
+;----------------------------------------------------------
