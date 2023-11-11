@@ -513,6 +513,7 @@ Q89 Q65 Q77 Q75 Q99
 *END 
 *ZOOM AYS AYS 50
 *ZOOM AMG AMG 50
+*SHOW_PROC KTPA-DADES0 KDAB-TTHOR0 KSFB-TTHOR KMLB-BTIHO0 KSRQ-LUBBR0 
 *NOTES Traffic landing ATL/PDK should be cleared AOB FL350 prior to crossing the ZJX/ZTL high border. 
 *NOTES Sector 49 is an ultra high sector working an initial sequence for some Tampa arrivals via the DADES and Atlanta Arrivals. 
 *NOTES Aircraft landing TPA should be routed via the DADES arrival and should enter sector 78/87 AOB FL400 with in trail spacing. 
