@@ -280,8 +280,10 @@
 *TMU_QL 58 KMCO KMIA KFLL 
 
 *MID C 16 17 33 34 85 86
-*MID E 47 48 49 50 65
-*MID G 14 15 
+*MID E 47 48 49 50 65 
+*MID G 14 15 78 87
+*MID N 35 
+*MID S
 *MID W 09 10 11 12 13 28
 
 *MAP 10 
@@ -488,11 +490,9 @@ Q172 Q87 Q109 Q113 Q85 Q409 Q97 Q135 Q89 Q103 Q83
 *ZOOM FLO FLO 50
 *SHOW_PROC KCLT-STOCR0 KCHS-AMYLU0 KSAV-RV1 KSAV-RV2 KSAV-RV3 KSAV-RV4 KSAV-RV5 KMYR-RV1 KMYR-RV2 KMYR-RV3 KMYR-RV4 
 *LIBRARY KCLT-STOCR KCHS-AMYLU0 KMYR-RV1 KMYR-RV2 KMYR-RV3 KMYR-RV4 KSAV-RV3
-*NOTES Sector 47 is a busy high enroute sector which works the inital stream from DC to overflights from/to southern Florida/Georgia/South Carolina. It needs to provide spacing for arrivals into KCHS/KCLT/KSAV/KMYR.
 *NOTES Aircraft landing CLT should be routed via the STOCR/RASLN arrival and must cross the appropriate fix based on transition at FL240.
 *NOTES Aircraft landing SAV should be cleared via SESUE..SOOOP direct and cross 50 NM north SOOOP at FL240.
 *NOTES Aircraft landing JAX should cross the border with Sector 68 AOB FL300 and routing via the LUNNI arrival. 
-*NOTES Sector 67/68 has control for turns from 47/48 south of CHS.
 ;---------------------------------------------------
 *MAP 48
 *MAP_AW 
