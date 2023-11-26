@@ -357,8 +357,6 @@ V581 V441 V7 V521 V157 V159 V295 V537 V97 V35
 *ZOOM GNV GNV 50 
 *ZOOM TAY TAY 50
 *SHOW_PROC KMCO-GRNCH0 KTPA-DADES0 KSFB-SHREK0 KORL-SHREK0 KMCO-SHREK0 KGNV-RV4 KJAX-TEBOW0 KMCO-LEES0 KSRQ-LUBBR0 KTLH-RV4
-*NOTES  Aircraft landing the F11 complex (MCO,ORL,SFB,ISM,MLB) should enter the sector with mandatory in trail requirements (8).
-*NOTES  
 *WX KJAX KMCO KGNV KOCF KTPA KSRQ
 ;----------------------------------------------------------
 *MAP 16 
@@ -375,7 +373,6 @@ Q116 Q65 Q110 Q118 Q99 Q81 Q87 Q109 Q79 Q77
 *SHOW_PROC KJAX-TEBOW0 KPBI-VUUDU0 KPGD-LUBBR0 KRSW-SFHTY0 KRSW-JOSFF0 KRSW-TYNEE0
 *NOTES Aircraft landing KRSW on the SHFTY arrival should cross the ZJX/ZMA bdry AOB FL310. 
 *NOTES Aircraft landing KRSW on the TYNEE arrival should cross the ZJX/ZMA bdry AOB FL270. 
-*NOTES Aircraft should be deliverd from 78/17 will mandatory in trail requirements (8). 
 *NOTES Aircraft should be delivered from sector 86 descending to FL350. 
 ;----------------------------------------------------------
 *MAP 17 
